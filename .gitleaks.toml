@@ -1,0 +1,10 @@
+# Configuración de gitleaks: reglas por defecto + exclusiones justificadas.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Valores de ejemplo y datos ficticios de pruebas"
+paths = [
+  '''\.env\.example$''',
+  '''tests/.*''',
+]

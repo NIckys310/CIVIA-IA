@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Secretos — nunca se commitean
+.env
+.env.*
+!.env.example
+
+# Datasets de planos, modelos entrenados y normas con derechos restringidos
+data/private/
+datasets/
+models/*.pt
+models/*.onnx
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
