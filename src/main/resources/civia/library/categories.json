@@ -1,0 +1,15 @@
+[
+  {"id": "historia", "name": "Historia y estilos", "icon": "columns", "description": "Movimientos, épocas y obras que definen la arquitectura."},
+  {"id": "diseno", "name": "Diseño y composición", "icon": "compass", "description": "Principios, proporción, orden y proceso de diseño."},
+  {"id": "programa", "name": "Espacios y dimensiones", "icon": "ruler", "description": "Programa arquitectónico, ergonomía y medidas de referencia."},
+  {"id": "estructuras", "name": "Sistemas estructurales", "icon": "beam", "description": "Cómo se sostienen los edificios: elementos y sistemas."},
+  {"id": "materiales", "name": "Materiales y construcción", "icon": "brick", "description": "Concreto, acero, madera, mampostería, vidrio y procesos constructivos."},
+  {"id": "instalaciones", "name": "Instalaciones", "icon": "pipe", "description": "Hidrosanitarias, eléctricas, climatización, gas y voz-datos."},
+  {"id": "normativa", "name": "Normativa y seguridad", "icon": "shield", "description": "Accesibilidad, evacuación, incendio y criterios normativos generales."},
+  {"id": "sostenibilidad", "name": "Sostenibilidad y bioclimática", "icon": "leaf", "description": "Diseño pasivo, energía, agua y certificaciones."},
+  {"id": "planos", "name": "Planos y representación", "icon": "blueprint", "description": "Tipos de planos, escalas, cotas, simbología y entregables."},
+  {"id": "bim", "name": "BIM y modelado 3D", "icon": "cube", "description": "Modelado, formatos, niveles de detalle y flujo digital."},
+  {"id": "urbanismo", "name": "Urbanismo y paisaje", "icon": "map", "description": "Ciudad, normas urbanísticas, espacio público y paisaje."},
+  {"id": "gestion", "name": "Gestión, costos y obra", "icon": "clipboard", "description": "Fases del proyecto, presupuesto, cronograma y supervisión."},
+  {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."}
+]
