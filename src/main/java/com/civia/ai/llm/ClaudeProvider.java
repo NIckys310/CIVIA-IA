@@ -33,7 +33,8 @@ import java.util.stream.Collectors;
  * Claude (Anthropic) como proveedor. Lee planos en imagen y PDF directamente.
  *
  * <p>Se activa con la variable de entorno {@code ANTHROPIC_API_KEY}. El modelo se cambia con
- * {@code CIVIA_AI_MODEL} (por defecto {@value #DEFAULT_MODEL}).
+ * {@code CIVIA_AI_MODEL} (por defecto {@value #DEFAULT_MODEL}) y la profundidad de razonamiento con
+ * {@code CIVIA_AI_EFFORT}: {@code low}, {@code medium}, {@code high} (por defecto), {@code xhigh} o {@code max}.
  */
 public final class ClaudeProvider implements LlmProvider {
 
@@ -43,10 +44,12 @@ public final class ClaudeProvider implements LlmProvider {
 
     private final AnthropicClient client;
     private final String model;
+    private final OutputConfig.Effort effort;
 
-    private ClaudeProvider(AnthropicClient client, String model) {
+    private ClaudeProvider(AnthropicClient client, String model, OutputConfig.Effort effort) {
         this.client = client;
         this.model = model;
+        this.effort = effort;
     }
 
     /** Crea el proveedor si hay clave; si no, devuelve vacío y CIVIA usa el motor local. */
@@ -61,7 +64,19 @@ public final class ClaudeProvider implements LlmProvider {
                 .maxRetries(2)
                 .build();
         String chosen = model != null && !model.isBlank() ? model : DEFAULT_MODEL;
-        return Optional.of(new ClaudeProvider(client, chosen));
+        return Optional.of(new ClaudeProvider(client, chosen, effort(System.getenv("CIVIA_AI_EFFORT"))));
+    }
+
+    /** Profundidad de razonamiento; valores desconocidos usan {@code high}. */
+    static OutputConfig.Effort effort(String value) {
+        if (value == null || value.isBlank()) return OutputConfig.Effort.HIGH;
+        return switch (value.strip().toLowerCase()) {
+            case "low" -> OutputConfig.Effort.LOW;
+            case "medium" -> OutputConfig.Effort.MEDIUM;
+            case "xhigh" -> OutputConfig.Effort.XHIGH;
+            case "max" -> OutputConfig.Effort.MAX;
+            default -> OutputConfig.Effort.HIGH;
+        };
     }
 
     @Override
@@ -107,7 +122,7 @@ public final class ClaudeProvider implements LlmProvider {
                 .model(model)
                 .maxTokens(MAX_TOKENS)
                 .system(request.system())
-                .outputConfig(OutputConfig.builder().effort(OutputConfig.Effort.MEDIUM).build())
+                .outputConfig(OutputConfig.builder().effort(effort).build())
                 // Si el modelo declina por política, la API reintenta con un modelo de respaldo.
                 .putAdditionalHeader("anthropic-beta", "server-side-fallback-2026-07-01")
                 .putAdditionalBodyProperty("fallbacks", JsonValue.from("default"));
