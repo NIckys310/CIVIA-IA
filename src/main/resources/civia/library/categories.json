@@ -11,5 +11,6 @@
   {"id": "bim", "name": "BIM y modelado 3D", "icon": "cube", "description": "Modelado, formatos, niveles de detalle y flujo digital."},
   {"id": "urbanismo", "name": "Urbanismo y paisaje", "icon": "map", "description": "Ciudad, normas urbanísticas, espacio público y paisaje."},
   {"id": "gestion", "name": "Gestión, costos y obra", "icon": "clipboard", "description": "Fases del proyecto, presupuesto, cronograma y supervisión."},
-  {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."}
+  {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."},
+  {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."}
 ]
