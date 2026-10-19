@@ -2,6 +2,7 @@ package com.civia.ai.llm;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Consumer;
 
 /** Proveedor de lenguaje intercambiable. Sin proveedor configurado, CIVIA usa su motor local. */
 public interface LlmProvider {
@@ -33,4 +34,14 @@ public interface LlmProvider {
 
     /** Respuesta del modelo, o vacío si no hubo respuesta utilizable (error, rechazo…). */
     Optional<String> complete(Request request);
+
+    /**
+     * Igual que {@link #complete}, pero entrega el texto a medida que se genera. Por defecto
+     * emite la respuesta completa de una vez; los proveedores con streaming lo sobrescriben.
+     */
+    default Optional<String> stream(Request request, Consumer<String> onDelta) {
+        Optional<String> text = complete(request);
+        text.ifPresent(onDelta);
+        return text;
+    }
 }
