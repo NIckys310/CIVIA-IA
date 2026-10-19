@@ -3,10 +3,12 @@ package com.civia.ai.llm;
 import com.anthropic.client.AnthropicClient;
 import com.anthropic.client.okhttp.AnthropicOkHttpClient;
 import com.anthropic.core.JsonValue;
+import com.anthropic.core.http.StreamResponse;
 import com.anthropic.errors.AnthropicIoException;
 import com.anthropic.errors.AnthropicServiceException;
 import com.anthropic.errors.RateLimitException;
 import com.anthropic.errors.UnauthorizedException;
+import com.anthropic.helpers.MessageAccumulator;
 import com.anthropic.models.messages.Base64ImageSource;
 import com.anthropic.models.messages.Base64PdfSource;
 import com.anthropic.models.messages.ContentBlockParam;
@@ -15,12 +17,14 @@ import com.anthropic.models.messages.ImageBlockParam;
 import com.anthropic.models.messages.Message;
 import com.anthropic.models.messages.MessageCreateParams;
 import com.anthropic.models.messages.OutputConfig;
+import com.anthropic.models.messages.RawMessageStreamEvent;
 import com.anthropic.models.messages.TextBlockParam;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Consumer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -74,6 +78,25 @@ public final class ClaudeProvider implements LlmProvider {
     public Optional<String> complete(Request request) {
         try {
             return textOf(client.messages().create(params(request)));
+        } catch (RuntimeException e) {
+            return handle(e);
+        }
+    }
+
+    /** Entrega cada fragmento de texto apenas llega, como en una conversación con Claude. */
+    @Override
+    public Optional<String> stream(Request request, Consumer<String> onDelta) {
+        MessageAccumulator accumulator = MessageAccumulator.create();
+        try (StreamResponse<RawMessageStreamEvent> events = client.messages().createStreaming(params(request))) {
+            events.stream().forEach(event -> {
+                accumulator.accumulate(event);
+                event.contentBlockDelta()
+                        .flatMap(d -> d.delta().text())
+                        .map(t -> t.text())
+                        .filter(t -> !t.isEmpty())
+                        .ifPresent(onDelta);
+            });
+            return textOf(accumulator.message());
         } catch (RuntimeException e) {
             return handle(e);
         }
