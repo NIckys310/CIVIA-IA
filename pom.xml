@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <anthropic.version>2.34.0</anthropic.version>
     <jackson.version>2.19.2</jackson.version>
-    <pdfbox.version>3.0.5</pdfbox.version>
+    <pdfbox.version>3.0.8</pdfbox.version>
     <junit.version>5.12.2</junit.version>
   </properties>
 
