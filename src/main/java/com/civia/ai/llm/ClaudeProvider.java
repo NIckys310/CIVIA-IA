@@ -72,6 +72,14 @@ public final class ClaudeProvider implements LlmProvider {
 
     @Override
     public Optional<String> complete(Request request) {
+        try {
+            return textOf(client.messages().create(params(request)));
+        } catch (RuntimeException e) {
+            return handle(e);
+        }
+    }
+
+    private MessageCreateParams params(Request request) {
         MessageCreateParams.Builder params = MessageCreateParams.builder()
                 .model(model)
                 .maxTokens(MAX_TOKENS)
@@ -105,27 +113,34 @@ public final class ClaudeProvider implements LlmProvider {
         }
         blocks.add(ContentBlockParam.ofText(TextBlockParam.builder().text(request.prompt()).build()));
         params.addUserMessageOfBlockParams(blocks);
+        return params.build();
+    }
 
-        try {
-            Message response = client.messages().create(params.build());
-            if (response.stopReason().map(r -> r.toString().equalsIgnoreCase("refusal")).orElse(false)) {
-                LOG.info("Claude declinó la solicitud; se usa el motor local.");
-                return Optional.empty();
-            }
-            String text = response.content().stream()
-                    .flatMap(block -> block.text().stream())
-                    .map(t -> t.text())
-                    .collect(Collectors.joining("\n"))
-                    .strip();
-            return text.isEmpty() ? Optional.empty() : Optional.of(text);
-        } catch (UnauthorizedException e) {
+    private static Optional<String> textOf(Message response) {
+        if (response.stopReason().map(r -> r.toString().equalsIgnoreCase("refusal")).orElse(false)) {
+            LOG.info("Claude declinó la solicitud; se usa el motor local.");
+            return Optional.empty();
+        }
+        String text = response.content().stream()
+                .flatMap(block -> block.text().stream())
+                .map(t -> t.text())
+                .collect(Collectors.joining("\n"))
+                .strip();
+        return text.isEmpty() ? Optional.empty() : Optional.of(text);
+    }
+
+    /** Errores de la API: se registran y CIVIA cae al motor local. */
+    private static Optional<String> handle(RuntimeException e) {
+        if (e instanceof UnauthorizedException) {
             LOG.warning("ANTHROPIC_API_KEY no es válida; se usa el motor local.");
-        } catch (RateLimitException e) {
+        } else if (e instanceof RateLimitException) {
             LOG.warning("Límite de uso de Claude alcanzado; se usa el motor local.");
-        } catch (AnthropicServiceException e) {
+        } else if (e instanceof AnthropicServiceException) {
             LOG.log(Level.WARNING, "Error de la API de Claude: " + e.getMessage());
-        } catch (AnthropicIoException e) {
+        } else if (e instanceof AnthropicIoException) {
             LOG.log(Level.WARNING, "Sin conexión con Claude: " + e.getMessage());
+        } else {
+            throw e;
         }
         return Optional.empty();
     }
