@@ -12,5 +12,6 @@
   {"id": "urbanismo", "name": "Urbanismo y paisaje", "icon": "map", "description": "Ciudad, normas urbanísticas, espacio público y paisaje."},
   {"id": "gestion", "name": "Gestión, costos y obra", "icon": "clipboard", "description": "Fases del proyecto, presupuesto, cronograma y supervisión."},
   {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."},
-  {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."}
+  {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."},
+  {"id": "hidraulica", "name": "Hidráulica y saneamiento", "icon": "drop", "description": "Acueductos, alcantarillados, drenaje urbano, hidrología y tratamiento de aguas."}
 ]
