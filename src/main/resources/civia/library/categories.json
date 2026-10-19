@@ -14,5 +14,6 @@
   {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."},
   {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."},
   {"id": "hidraulica", "name": "Hidráulica y saneamiento", "icon": "drop", "description": "Acueductos, alcantarillados, drenaje urbano, hidrología y tratamiento de aguas."},
-  {"id": "vias", "name": "Vías y transporte", "icon": "road", "description": "Diseño geométrico, pavimentos, drenaje vial, tránsito y movilidad."}
+  {"id": "vias", "name": "Vías y transporte", "icon": "road", "description": "Diseño geométrico, pavimentos, drenaje vial, tránsito y movilidad."},
+  {"id": "topografia", "name": "Topografía y geomática", "icon": "target", "description": "Levantamientos, nivelación, GNSS, drones, replanteo y cartografía."}
 ]
