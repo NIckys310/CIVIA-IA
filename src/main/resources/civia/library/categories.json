@@ -16,5 +16,6 @@
   {"id": "hidraulica", "name": "Hidráulica y saneamiento", "icon": "drop", "description": "Acueductos, alcantarillados, drenaje urbano, hidrología y tratamiento de aguas."},
   {"id": "vias", "name": "Vías y transporte", "icon": "road", "description": "Diseño geométrico, pavimentos, drenaje vial, tránsito y movilidad."},
   {"id": "topografia", "name": "Topografía y geomática", "icon": "target", "description": "Levantamientos, nivelación, GNSS, drones, replanteo y cartografía."},
-  {"id": "puentes", "name": "Puentes y obras especiales", "icon": "bridge", "description": "Tipologías de puentes, cargas, apoyos, túneles y obras hidráulicas mayores."}
+  {"id": "puentes", "name": "Puentes y obras especiales", "icon": "bridge", "description": "Tipologías de puentes, cargas, apoyos, túneles y obras hidráulicas mayores."},
+  {"id": "seguridad", "name": "Seguridad y salud en obra", "icon": "helmet", "description": "Prevención de riesgos, trabajo en alturas, excavaciones y gestión ambiental de obra."}
 ]
