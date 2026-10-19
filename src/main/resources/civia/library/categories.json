@@ -15,5 +15,6 @@
   {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."},
   {"id": "hidraulica", "name": "Hidráulica y saneamiento", "icon": "drop", "description": "Acueductos, alcantarillados, drenaje urbano, hidrología y tratamiento de aguas."},
   {"id": "vias", "name": "Vías y transporte", "icon": "road", "description": "Diseño geométrico, pavimentos, drenaje vial, tránsito y movilidad."},
-  {"id": "topografia", "name": "Topografía y geomática", "icon": "target", "description": "Levantamientos, nivelación, GNSS, drones, replanteo y cartografía."}
+  {"id": "topografia", "name": "Topografía y geomática", "icon": "target", "description": "Levantamientos, nivelación, GNSS, drones, replanteo y cartografía."},
+  {"id": "puentes", "name": "Puentes y obras especiales", "icon": "bridge", "description": "Tipologías de puentes, cargas, apoyos, túneles y obras hidráulicas mayores."}
 ]
