@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "sistemas-estructurales",
+    "category": "estructuras",
+    "title": "Sistemas estructurales: panorama general",
+    "summary": "Pórticos, muros de carga, sistemas combinados, duales, cáscaras, cerchas y estructuras a tensión.",
+    "tags": ["pórtico", "muros de carga", "sistema dual", "cercha", "cáscara", "membrana", "estructura", "sismo"],
+    "body": "## Principales sistemas\n- **Pórticos (marcos)**: vigas y columnas unidas rígidamente. Dan flexibilidad de planta y son comunes en concreto y acero.\n- **Muros de carga / mampostería confinada o reforzada**: los muros soportan y rigidizan. Son económicos en vivienda de baja altura.\n- **Muros estructurales de concreto**: muy rígidos ante el sismo. Muy usados en vivienda en altura (sistema industrializado).\n- **Sistema dual**: pórticos más muros o arriostramientos que comparten la fuerza sísmica.\n- **Cerchas y armaduras**: triangulación para grandes luces con poco peso.\n- **Cáscaras y bóvedas**: trabajan por forma, sobre todo a compresión.\n- **Estructuras a tensión**: cables y membranas (cubiertas tensadas).\n\n## Criterios de elección\nAltura, luces, uso, amenaza sísmica, suelo, costo, plazo y disponibilidad de mano de obra.\n\n> CIVIA no dimensiona elementos estructurales. El diseño y la verificación los hace un ingeniero estructural con la norma vigente (por ejemplo, NSR-10 en Colombia, ACI 318, Eurocódigos o la normativa local)."
+  },
+  {
+    "slug": "predimensionamiento",
+    "category": "estructuras",
+    "title": "Predimensionamiento orientativo",
+    "summary": "Reglas prácticas de anteproyecto para losas, vigas y columnas (no reemplazan el cálculo).",
+    "tags": ["predimensionamiento", "viga", "losa", "columna", "luz", "peralte", "canto", "anteproyecto"],
+    "body": "Estas reglas sirven **solo para el anteproyecto**: reservar espacio y coordinar arquitectura con estructura. El diseño definitivo lo hace el ingeniero estructural.\n\n## Concreto reforzado (orientativo)\n- **Viga**: peralte ≈ luz/10 a luz/12. Ancho ≈ 1/2 a 2/3 del peralte, con un mínimo práctico de 0,25–0,30 m en zonas sísmicas.\n- **Losa maciza en dos direcciones**: espesor ≈ luz/30 a luz/40.\n- **Losa aligerada (nervada)**: espesor total ≈ luz/18 a luz/25.\n- **Columna**: en zonas sísmicas, lado mínimo práctico de 0,30–0,40 m. Su sección depende de la carga y del número de pisos.\n- **Voladizo**: peralte ≈ luz/5 a luz/8.\n\n## Acero\n- Viga de alma llena: peralte ≈ luz/20 a luz/25.\n- Cercha: peralte ≈ luz/10 a luz/15.\n\n## Madera\nVigas con peralte ≈ luz/15 a luz/20.\n\n## En el plano\nDibuja la retícula de ejes con las columnas a escala y verifica la altura libre bajo las vigas (altura de piso − peralte − cielo raso)."
+  },
+  {
+    "slug": "cimentaciones",
+    "category": "estructuras",
+    "title": "Cimentaciones",
+    "summary": "Zapatas, losas, pilotes y la importancia del estudio de suelos.",
+    "tags": ["cimentación", "zapata", "pilote", "losa de cimentación", "viga de amarre", "estudio de suelos", "geotecnia"],
+    "body": "## Tipos\n- **Superficiales**: zapatas aisladas, zapatas corridas bajo muros y losas de cimentación (placa flotante).\n- **Profundas**: pilotes y caissons, cuando el suelo competente está a gran profundidad.\n- **Vigas de amarre o de cimentación**: unen las zapatas para un comportamiento conjunto ante el sismo.\n\n## Estudio de suelos\nEs **imprescindible**. Define la capacidad portante, los asentamientos esperados, el nivel freático, la expansividad y el tipo de cimentación recomendado. Sin él, el riesgo de asentamientos diferenciales y fisuras es alto.\n\n## Coordinación con arquitectura\n- Sótanos: contención, drenaje e impermeabilización.\n- Linderos: las zapatas excéntricas exigen vigas de contrapeso.\n- Redes enterradas: no deben cruzar bajo las zapatas sin coordinarlo."
+  },
+  {
+    "slug": "diseno-sismorresistente-arquitectonico",
+    "category": "estructuras",
+    "title": "Configuración sismorresistente desde la arquitectura",
+    "summary": "Decisiones de forma que mejoran el comportamiento sísmico: regularidad, simetría y continuidad.",
+    "tags": ["sismo", "irregularidad", "piso blando", "columna corta", "torsión", "junta sísmica", "simetría"],
+    "body": "La arquitectura condiciona el comportamiento sísmico tanto como el cálculo.\n\n## Buenas prácticas\n- **Plantas regulares y simétricas**. Evita formas en L, T o U sin juntas sísmicas.\n- **Rigidez distribuida**. Los muros y núcleos excéntricos producen **torsión**.\n- **Continuidad vertical**. Los elementos deben bajar sin interrupción hasta la cimentación.\n- **Evita el piso blando**: un primer piso abierto (comercio, parqueo) bajo pisos rígidos concentra el daño.\n- **Evita la columna corta**: ventanas altas o muros parciales que confinan una columna la vuelven frágil.\n- **Juntas sísmicas** entre volúmenes de distinta altura o rigidez, y respecto a los vecinos.\n- Diafragmas de piso sin grandes perforaciones cerca de los bordes.\n\n## Elementos no estructurales\nFachadas, antepechos, cielos rasos y tanques deben anclarse; también causan daños y víctimas.\n\n> El análisis y diseño sísmico corresponden al ingeniero estructural según la norma vigente."
+  },
+  {
+    "slug": "concreto",
+    "category": "materiales",
+    "title": "Concreto y concreto reforzado",
+    "summary": "Componentes, resistencia, curado, recubrimientos y patologías frecuentes.",
+    "tags": ["concreto", "hormigón", "cemento", "resistencia", "f'c", "curado", "recubrimiento", "acero de refuerzo", "fisuras"],
+    "body": "## Componentes\nCemento, agua, agregado fino (arena), agregado grueso (grava) y, si se requiere, aditivos. La **relación agua/cemento** controla la resistencia y la durabilidad: a menos agua, más resistencia, siempre que haya buena manejabilidad.\n\n## Resistencia\nSe especifica como f'c a 28 días. En edificación es común 21–28 MPa (3000–4000 psi), y más en elementos especiales.\n\n## Buenas prácticas\n- **Curado** húmedo durante al menos 7 días. Sin curado aparecen fisuras por retracción.\n- **Recubrimientos** del refuerzo según la exposición (orientativo: 2–5 cm en interiores y exteriores, y más en contacto con el suelo).\n- Vibrado para evitar hormigueros. Juntas de construcción planificadas.\n\n## Patologías\nFisuras por retracción, corrosión del acero (manchas de óxido, desprendimientos), hormigueros, eflorescencias y carbonatación.\n\n## Variantes\nConcreto prefabricado, postensado, autocompactante, de alto desempeño y concreto arquitectónico a la vista."
+  },
+  {
+    "slug": "acero-estructural",
+    "category": "materiales",
+    "title": "Acero estructural",
+    "summary": "Perfiles, conexiones, protección contra corrosión y fuego.",
+    "tags": ["acero", "perfil", "ipe", "hea", "conexión", "soldadura", "pernos", "corrosión", "fuego", "steel deck"],
+    "body": "## Ventajas\nAlta resistencia y bajo peso, rapidez de montaje, prefabricación y grandes luces.\n\n## Perfiles comunes\nI/H (IPE, HEA, W), tubulares (cuadrados, rectangulares y circulares), canales (C), ángulos (L) y perfiles de lámina delgada (PHR, *light steel frame*).\n\n## Conexiones\nSoldadas o empernadas. En zonas sísmicas, las conexiones viga-columna se diseñan con criterios de ductilidad.\n\n## Protección\n- **Corrosión**: limpieza con chorro abrasivo, pintura base anticorrosiva y acabado, o galvanizado en caliente.\n- **Fuego**: el acero pierde resistencia a altas temperaturas. Se protege con pintura intumescente, morteros proyectados o encapsulado en placas.\n\n## Losas\n*Steel deck*: lámina colaborante más concreto, con conectores de cortante."
+  },
+  {
+    "slug": "madera-y-guadua",
+    "category": "materiales",
+    "title": "Madera, CLT y guadua",
+    "summary": "Construcción en madera maciza, madera laminada, paneles CLT y bambú-guadua.",
+    "tags": ["madera", "clt", "glulam", "guadua", "bambú", "inmunización", "sostenible"],
+    "body": "## Madera\n- **Aserrada**: requiere secado (contenido de humedad < 19 %) e inmunización contra hongos e insectos.\n- **Laminada encolada (glulam)**: vigas de gran luz y formas curvas.\n- **CLT (madera contralaminada)**: paneles macizos para muros y losas, que permiten edificios de varios pisos.\n\n## Guadua (Guadua angustifolia)\nBambú de gran resistencia a la tracción, muy usado en la región andina. Se usa en estructuras ligeras, cubiertas y bahareque encementado. Necesita preservación, cortes en la época adecuada y uniones especiales (rellenos de mortero, pernos).\n\n## Protección por diseño\n\"Botas y sombrero\": aleja la madera de la humedad del suelo (sobrecimiento) y protégela de la lluvia con aleros generosos.\n\n## Fuego\nLas secciones grandes de madera se carbonizan superficialmente y conservan un núcleo resistente (diseño por carbonización)."
+  },
+  {
+    "slug": "mamposteria",
+    "category": "materiales",
+    "title": "Mampostería: ladrillo y bloque",
+    "summary": "Tipos de unidades, aparejos, mampostería confinada y reforzada.",
+    "tags": ["mampostería", "ladrillo", "bloque", "aparejo", "confinada", "reforzada", "mortero", "tabique"],
+    "body": "## Unidades\n- Ladrillo macizo, perforado o hueco (arcilla cocida).\n- Bloque de concreto.\n- Bloque de suelo-cemento, adobe y BTC (bloque de tierra comprimida).\n\n## Sistemas\n- **Mampostería confinada**: muros enmarcados por columnetas y vigas de amarre de concreto.\n- **Mampostería reforzada**: refuerzo vertical y horizontal dentro de las celdas, con relleno de *grout*.\n- **No estructural (divisoria)**: debe aislarse de la estructura o anclarse adecuadamente.\n\n## Aparejos\nSoga, tizón, inglés, flamenco y palomero. Juntas de mortero de 1–1,5 cm.\n\n## Buenas prácticas\nHumedecer las unidades de arcilla, trabar las hiladas, no abrir regatas horizontales profundas en muros portantes y colocar dinteles sobre los vanos."
+  },
+  {
+    "slug": "vidrio-y-fachadas",
+    "category": "materiales",
+    "title": "Vidrio y sistemas de fachada",
+    "summary": "Vidrio templado, laminado, doble acristalamiento, muro cortina y fachada ventilada.",
+    "tags": ["vidrio", "templado", "laminado", "doble vidrio", "muro cortina", "fachada ventilada", "factor solar", "ventanería"],
+    "body": "## Tipos de vidrio\n- **Flotado**: el básico.\n- **Templado**: unas 4–5 veces más resistente; al romperse se fragmenta en trozos pequeños.\n- **Laminado**: dos o más láminas con PVB que retienen los fragmentos. Es obligatorio en barandas y en vidrios elevados en muchos códigos.\n- **Doble acristalamiento (DVH)**: cámara de aire o gas para aislamiento térmico y acústico.\n- **Bajo emisivo y de control solar**: reducen la ganancia de calor (bajo factor solar SHGC).\n\n## Sistemas\n- **Ventanería** en aluminio, PVC o madera.\n- **Muro cortina**: fachada colgada de la estructura, *stick* o unitizada.\n- **Fachada ventilada**: revestimiento separado del muro por una cámara de aire, que mejora el comportamiento térmico.\n- **Fachada de doble piel** y celosías o quiebrasoles (*brise-soleil*).\n\n## Criterio\nOrienta el vidrio según el asoleamiento y protege las fachadas oriente y occidente con elementos de sombra."
+  },
+  {
+    "slug": "impermeabilizacion-y-cubiertas",
+    "category": "materiales",
+    "title": "Cubiertas e impermeabilización",
+    "summary": "Pendientes, tipos de cubierta, membranas y detalles críticos.",
+    "tags": ["cubierta", "techo", "impermeabilización", "pendiente", "teja", "membrana", "canal", "bajante", "terraza", "cubierta verde"],
+    "body": "## Pendientes orientativas\n- Teja de barro: 30–45 % o más.\n- Teja de fibrocemento o metálica: 5–30 %, según el fabricante.\n- Cubierta plana (terraza): 1–2 % hacia los desagües.\n\n## Impermeabilización\nMembranas asfálticas, mantos de PVC o TPO, poliurea e impermeabilizantes cementicios o acrílicos. Las cubiertas transitables necesitan protección mecánica.\n\n## Detalles críticos\n- Media caña y remate en los encuentros con muros (subida de 15–20 cm o más).\n- Gárgolas o rebosaderos de emergencia.\n- Canales y bajantes dimensionados según la intensidad de lluvia y el área tributaria.\n- Pruebas de estanqueidad (inundación de 24–48 h) antes de cerrar.\n\n## Cubiertas verdes\nCapas: impermeabilización antirraíz, drenaje, filtro, sustrato y vegetación. Aumentan la carga muerta, así que deben coordinarse con estructura."
+  },
+  {
+    "slug": "acabados",
+    "category": "materiales",
+    "title": "Acabados de pisos, muros y cielos",
+    "summary": "Selección de acabados según uso, tráfico, humedad y mantenimiento.",
+    "tags": ["acabados", "porcelanato", "cerámica", "piso", "pintura", "drywall", "cielo raso", "pañete", "estuco"],
+    "body": "## Pisos\n- **Porcelanato**: baja absorción, alta resistencia. En exteriores y baños, que sea antideslizante.\n- **Cerámica**: económica, para tráfico medio.\n- **Madera y laminados**: cálidos. Evítalos en zonas húmedas.\n- **Concreto pulido o microcemento**: continuo y de bajo mantenimiento.\n- **Vinílicos (LVT)**: confortables y resistentes al agua.\n\n## Muros\nRevoque (pañete), estuco y pintura. Enchapes en zonas húmedas. En baños, pintura epóxica o acrílica lavable.\n\n## Cielos\nDrywall (placa de yeso), fibrocemento en exteriores, cielos modulares registrables (60 × 60 cm) para acceder a las instalaciones, o la losa a la vista.\n\n## Criterios de selección\nTráfico (PEI en cerámica), humedad, resistencia al deslizamiento, mantenimiento, costo del ciclo de vida, acústica y estética."
+  },
+  {
+    "slug": "instalaciones-hidrosanitarias",
+    "category": "instalaciones",
+    "title": "Instalaciones hidrosanitarias",
+    "summary": "Agua potable, desagües, ventilación sanitaria, aguas lluvias y tanques.",
+    "tags": ["hidrosanitaria", "agua potable", "desagüe", "ventilación", "tanque", "bajante", "sifón", "aguas lluvias", "pvc"],
+    "body": "## Agua potable\n- Acometida, medidor, red de distribución y, si se requiere, tanque de reserva con equipo de presión.\n- Materiales: PVC presión, CPVC o PEX para agua caliente, y cobre.\n- Registros por zona para el mantenimiento.\n\n## Desagües\n- Pendientes orientativas: 1–2 % en ramales y 2 % o más en tuberías pequeñas.\n- Diámetros típicos: lavamanos de 1½\", ducha y lavaplatos de 2\", inodoro de 4\".\n- **Ventilación sanitaria**: evita que los sifones pierdan su sello y que haya malos olores.\n- Cajas de inspección en los cambios de dirección y en la red exterior.\n\n## Aguas lluvias\nSepáralas de las aguas negras. Considera recolectarlas y reutilizarlas.\n\n## Coordinación\nNúcleos húmedos alineados verticalmente, *shafts* registrables, y nada de perforar vigas sin autorización estructural."
+  },
+  {
+    "slug": "instalaciones-electricas",
+    "category": "instalaciones",
+    "title": "Instalaciones eléctricas e iluminación",
+    "summary": "Acometida, tableros, circuitos, tomas, puesta a tierra y cargas especiales.",
+    "tags": ["eléctrica", "tablero", "circuito", "tomacorriente", "puesta a tierra", "iluminación", "retie", "subestación"],
+    "body": "## Componentes\nAcometida, medidor, tablero general y tableros de distribución, circuitos de iluminación, tomas de uso general, tomas especiales (estufa, calentador, aire acondicionado) y sistema de **puesta a tierra**.\n\n## Criterios generales\n- Separa los circuitos de iluminación y de tomas.\n- Protección diferencial (GFCI/RCD) en baños, cocinas y exteriores.\n- Tomas de cocina sobre el mesón, a unos 1,10–1,20 m.\n- Interruptores a 1,10–1,20 m y tomas a 0,30–0,40 m (en accesibilidad, entre 0,40 y 1,20 m).\n- Cuarto eléctrico o subestación en proyectos grandes, con ventilación y acceso.\n\n## Normativa\nCada país tiene su reglamento (por ejemplo, RETIE en Colombia, NEC/NFPA 70 en EE. UU.). El diseño lo firma un ingeniero electricista."
+  },
+  {
+    "slug": "climatizacion-y-ventilacion",
+    "category": "instalaciones",
+    "title": "Climatización y ventilación",
+    "summary": "Ventilación natural y mecánica, aire acondicionado, extracción y renovaciones de aire.",
+    "tags": ["climatización", "ventilación", "aire acondicionado", "hvac", "extracción", "renovaciones", "split", "vrf"],
+    "body": "## Primero, lo pasivo\nVentilación cruzada, efecto chimenea, protección solar, inercia térmica y aislamiento reducen o eliminan la necesidad de climatización mecánica.\n\n## Ventilación mecánica\n- Extracción en baños sin ventana y en cocinas (campanas).\n- Renovaciones de aire según el uso. Los parqueaderos en sótano necesitan extracción y control de CO.\n\n## Aire acondicionado\n- Equipos *split* (vivienda, oficinas pequeñas), VRF/VRV (multizona) y sistemas centrales con agua helada (grandes edificios).\n- Reserva espacio para condensadoras (cubierta o balcones técnicos), ductos y drenaje de condensados.\n- Cielos rasos con plenum suficiente para los ductos.\n\n## Calidad del aire\nFiltración, control de humedad (40–60 %) y CO₂ por debajo de unas 1000 ppm en espacios ocupados."
+  },
+  {
+    "slug": "proteccion-contra-incendio",
+    "category": "normativa",
+    "title": "Protección contra incendio y evacuación",
+    "summary": "Medios de evacuación, distancias, salidas, compartimentación, detección y extinción.",
+    "tags": ["incendio", "evacuación", "salida de emergencia", "escalera de emergencia", "rociadores", "detección", "nfpa", "carga de ocupación"],
+    "body": "## Medios de evacuación\n- **Carga de ocupación**: personas = área / factor según el uso (por ejemplo, oficinas unos 9–10 m²/persona y reuniones de pie unos 0,5 m²/persona). Define el número y el ancho de las salidas.\n- **Número de salidas**: a partir de cierta ocupación o distancia se exigen dos o más salidas independientes.\n- **Distancia de recorrido** máxima hasta una salida (del orden de 45–60 m, o más con rociadores, según el código).\n- Puertas de evacuación que abran en el sentido de la salida y con barra antipánico en ocupaciones altas.\n- Escaleras protegidas o presurizadas en edificios altos.\n\n## Protección pasiva\nCompartimentación (muros y puertas cortafuego), sellos en pasos de instalaciones y protección de la estructura.\n\n## Protección activa\nDetección y alarma, rociadores automáticos, gabinetes y red contra incendio, extintores, iluminación de emergencia y señalización.\n\n> Valores orientativos. Aplica el código local (por ejemplo, NSR-10 Títulos J y K en Colombia, o NFPA 101)."
+  },
+  {
+    "slug": "accesibilidad-universal",
+    "category": "normativa",
+    "title": "Accesibilidad universal",
+    "summary": "Diseño para todas las personas: recorridos, puertas, baños, señalización y ascensores.",
+    "tags": ["accesibilidad", "diseño universal", "silla de ruedas", "ascensor", "señalización", "podotáctil", "puerta"],
+    "body": "## Principios del diseño universal\nUso equitativo, flexible, simple e intuitivo, con información perceptible, tolerancia al error, poco esfuerzo físico y tamaño y espacio adecuados.\n\n## Referencias generales\n- **Ruta accesible** continua desde la calle hasta los espacios principales, sin escalones (o con rampa o plataforma).\n- **Puertas**: ancho libre ≥ 0,80–0,90 m, manija de palanca y espacio de aproximación.\n- **Giro**: círculo de 1,50 m de diámetro.\n- **Ascensor**: cabina ≥ 1,10 × 1,40 m, botonera a 0,90–1,20 m con braille y aviso sonoro.\n- **Mostradores**: un tramo a 0,75–0,85 m de altura.\n- **Señalización** visual, táctil y sonora. Franjas podotáctiles en los cambios de nivel.\n- **Parqueaderos** accesibles cerca del acceso.\n\nVerifica la norma nacional de accesibilidad vigente; cada país fija sus valores."
+  },
+  {
+    "slug": "normativa-urbanistica",
+    "category": "normativa",
+    "title": "Normativa urbanística: índices y aislamientos",
+    "summary": "Índice de ocupación, índice de construcción, alturas, retiros, cesiones y usos del suelo.",
+    "tags": ["índice de ocupación", "índice de construcción", "retiro", "aislamiento", "altura máxima", "uso del suelo", "pot", "licencia"],
+    "body": "## Conceptos\n- **Índice de ocupación (IO)**: área de primer piso / área del lote. Con IO = 0,6 en un lote de 200 m², el primer piso ocupa como máximo 120 m².\n- **Índice de construcción (IC)**: área total construida / área del lote. Con IC = 2,5 y 200 m², se pueden construir hasta 500 m².\n- **Altura máxima**: en pisos o metros.\n- **Aislamientos o retiros**: frontal, lateral y posterior, que pueden aumentar con la altura.\n- **Antejardín**, **voladizos** permitidos y **empates** con vecinos.\n- **Usos del suelo**: residencial, comercial, dotacional, industrial o mixto.\n- **Cesiones**: suelo para vías, parques y equipamientos en urbanizaciones.\n- **Cupos de parqueo** según el uso y el área.\n\n## Dónde consultar\nEn el plan de ordenamiento territorial (POT, PRG o similar) y en la ficha normativa del predio. El trámite suele ser la licencia de construcción ante la autoridad local (en Colombia, la curaduría urbana)."
+  },
+  {
+    "slug": "licencias-y-tramites",
+    "category": "normativa",
+    "title": "Licencias y trámites de construcción",
+    "summary": "Documentos usuales para solicitar una licencia de construcción.",
+    "tags": ["licencia", "trámite", "curaduría", "permiso", "documentos", "radicación"],
+    "body": "Los requisitos varían según el país y el municipio, pero suelen incluir:\n\n1. Formulario de solicitud y documentos del propietario.\n2. Certificado de tradición o título de propiedad del predio.\n3. Plano de localización y levantamiento topográfico.\n4. **Planos arquitectónicos** firmados por el arquitecto: plantas, cortes, fachadas, cubierta y cuadro de áreas.\n5. **Estudio de suelos** y **diseño estructural** firmados por los profesionales competentes.\n6. Memorias de cálculo y, según el caso, diseños de elementos no estructurales.\n7. Pago de expensas e impuestos.\n8. Constancia de citación a vecinos colindantes.\n\n## Recomendaciones\n- Revisa la ficha normativa antes de diseñar.\n- Incluye el **cuadro de áreas** coherente con los índices.\n- Firma y matrícula profesional en cada plano."
+  },
+  {
+    "slug": "diseno-bioclimatico",
+    "category": "sostenibilidad",
+    "title": "Diseño bioclimático",
+    "summary": "Orientación, asoleamiento, ventilación, masa térmica y protección solar según el clima.",
+    "tags": ["bioclimático", "orientación", "asoleamiento", "ventilación cruzada", "masa térmica", "protección solar", "clima", "confort"],
+    "body": "## Según el clima\n- **Cálido húmedo**: ventilación cruzada, techos altos, aleros amplios, materiales ligeros, elevación del suelo y sombra.\n- **Cálido seco**: masa térmica, patios, poca abertura al sol, colores claros y enfriamiento evaporativo.\n- **Templado**: equilibrio entre ganancia solar en invierno y protección en verano.\n- **Frío**: compacidad, aislamiento, ganancia solar directa e invernaderos adosados.\n\n## Herramientas\n- **Carta solar** y estudio de sombras.\n- **Rosa de vientos** para orientar las aberturas.\n- Diagrama psicrométrico de Givoni.\n\n## Protección solar\nAleros horizontales en fachadas que miran al ecuador y elementos verticales u orientables en oriente y occidente. En el trópico, el sol del oriente y del occidente es el más crítico.\n\n## Ventilación\nEntrada baja y salida alta (efecto chimenea). Para ventilación cruzada, aberturas en fachadas opuestas y profundidades de planta moderadas, de unas 5 veces la altura libre o menos."
+  },
+  {
+    "slug": "eficiencia-energetica-y-certificaciones",
+    "category": "sostenibilidad",
+    "title": "Eficiencia energética y certificaciones",
+    "summary": "Envolvente, renovables, agua, materiales y sellos como LEED, EDGE y Passivhaus.",
+    "tags": ["leed", "edge", "passivhaus", "breeam", "eficiencia energética", "paneles solares", "huella de carbono", "agua"],
+    "body": "## Estrategias\n- **Envolvente**: aislamiento, vidrio de buen desempeño, control de infiltraciones y puentes térmicos.\n- **Iluminación natural** e iluminación LED con sensores.\n- **Renovables**: paneles fotovoltaicos y solar térmica para agua caliente.\n- **Agua**: aparatos de bajo consumo, recolección de lluvia y reúso de aguas grises.\n- **Materiales**: locales, reciclados, de baja energía incorporada y bajos en COV.\n\n## Certificaciones\n- **LEED** (USGBC): puntaje por categorías (sitio, agua, energía, materiales, calidad interior).\n- **EDGE** (IFC): exige un 20 % de ahorro en energía, agua y energía incorporada frente a una línea base. Es muy usada en vivienda en Latinoamérica.\n- **Passivhaus**: demanda de calefacción y refrigeración muy baja, hermeticidad y ventilación con recuperación de calor.\n- **BREEAM**, **WELL** (salud) y CASA Colombia, entre otras.\n\n## Carbono\nReducir la energía incorporada (concreto y acero) importa tanto como reducir la operativa."
+  },
+  {
+    "slug": "agua-y-paisaje-sostenible",
+    "category": "sostenibilidad",
+    "title": "Gestión sostenible del agua (SUDS)",
+    "summary": "Recolección de lluvia, infiltración, techos verdes y paisajismo de bajo consumo.",
+    "tags": ["suds", "agua lluvia", "infiltración", "jardín de lluvia", "xerojardinería", "reúso", "aguas grises"],
+    "body": "## Estrategias\n- **Recolección de lluvia**: volumen ≈ área de cubierta × precipitación × coeficiente de escorrentía (unos 0,8–0,9 en cubiertas duras).\n- **Superficies permeables**: adoquín ecológico, gravas y pavimentos porosos.\n- **Jardines de lluvia** y cunetas verdes que retienen e infiltran el agua.\n- **Techos verdes** que retrasan el pico de escorrentía.\n- **Reúso de aguas grises** (duchas y lavamanos) para sanitarios y riego, con tratamiento.\n- **Xerojardinería**: especies nativas de bajo consumo de agua.\n\n## Beneficios\nMenos inundaciones urbanas, ahorro de agua potable, menor isla de calor y mayor biodiversidad."
+  }
+]

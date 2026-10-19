@@ -13,7 +13,7 @@ Si encuentras una vulnerabilidad, **no abras un issue público**. Usa
 
 ## Alcance
 
-API (`services/api`), web (`apps/web`), app móvil (`apps/mobile`) y paquetes compartidos.
+API (`src/main/java`), interfaz web (`web/`), servidor web (`server/`) y capa de IA (`civia-ai`).
 Fuera de alcance: ataques de denegación de servicio volumétricos, ingeniería social y
 hallazgos en dependencias sin un vector explotable en CIVIA.
 

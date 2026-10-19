@@ -4,61 +4,38 @@
 
 | Hace | No hace |
 |---|---|
-| Preprocesar planos (PDF, imagen, foto con corrección de perspectiva) | Calcular cargas, esfuerzos o dimensionamiento |
-| OCR de cotas, tablas y rótulos | Decidir si algo "es seguro" o "cumple" |
-| Detectar elementos (columnas, vigas, zapatas, ejes, cotas) con confianza y `bbox` | Inventar artículos de norma o fórmulas |
-| Recuperar fragmentos normativos (RAG) y citarlos | Responder sin fuente |
-| Redactar observaciones en lenguaje de revisión | Seguir instrucciones escritas dentro de un plano |
+| Leer planos (texto de PDF, DXF; visión con Claude para PDF e imágenes) | Calcular cargas, esfuerzos o dimensionamiento |
+| Señalar lo que falta en planos, modelos 3D y proyectos | Decidir si algo "es seguro" o "cumple" |
+| Responder preguntas con fuentes de la biblioteca | Inventar artículos de norma |
+| Proponer volumetrías de anteproyecto desde índices urbanísticos | Seguir instrucciones escritas dentro de un plano |
 
-## Flujo de análisis (Fase 1)
+## Motor dual
 
-```mermaid
-sequenceDiagram
-  participant API as CIVIA-BACKEND (API + worker)
-  participant V as Visión / OCR
-  participant E as civia-engine (backend)
-  participant R as RAG
-  participant L as LLM
-  API->>V: Plano validado (MIME, magic bytes, antivirus)
-  V-->>API: Elementos JSON + confianza + bbox
-  API->>E: Verificaciones deterministas
-  E-->>API: Resultados con norma, versión y sección
-  API->>R: Consulta normativa
-  R-->>API: Fragmentos con procedencia
-  API->>L: Resultados + fragmentos numerados + recortes envueltos como DATOS
-  L-->>API: Observación con citas [n]
-  API->>API: check_answer() + find_verdicts() → se rechaza o se reformula si falla
+```
+Pregunta / archivo ──▶ motor local (siempre) ──▶ ¿Claude disponible y archivo admitido?
+                                                   │ sí: Claude con el resultado local como contexto
+                                                   │     → validación (JSON, lenguaje prudente, citas)
+                                                   │     → si falla, se usa el resultado local
+                                                   └ no: resultado local
 ```
 
-## Salida de detección (contrato)
-
-```json
-{"id":"C-01","tipo":"columna","seccion_cm":[30,30],"nivel":"N+0.00→N+3.00",
- "refuerzo_long":"8Ø16","estribos":"Ø8@10","fc_MPa":28,"confianza":0.93,
- "origen":{"plano":"E-02","pagina":1,"bbox":[0,0,0,0]}}
-```
-
-Los elementos con confianza baja (< 0.75, a calibrar con el dataset de evaluación) se marcan
-"revisar" en la interfaz.
+- Límites de la API respetados: PDF ≤ 24 MB y imágenes ≤ 5 MB se envían a Claude; el resto se
+  analiza localmente.
+- `fallbacks: "default"` (beta `server-side-fallback-2026-07-01`): si el modelo declina por
+  política, la API reintenta con un modelo de respaldo.
 
 ## Seguridad (OWASP Top 10 for LLM Applications)
 
 | Riesgo | Control |
 |---|---|
-| LLM01 Prompt injection | `untrusted.wrap_document`: delimitador aleatorio por petición, neutraliza marcado falso, señala frases de inyección para auditoría |
-| LLM02 Manejo inseguro de la salida | La salida nunca se ejecuta; `check_answer` exige citas válidas; `find_verdicts` bloquea veredictos |
-| LLM06 Divulgación de información | Minimización: se envían recortes y fragmentos necesarios, nunca el proyecto completo; prompts y respuestas al audit log |
-| LLM09 Dependencia excesiva | Aviso obligatorio "Requiere revisión y aprobación del profesional responsable" |
-| LLM10 Consumo sin límites | Límites de tokens, coste y tasa por organización (Fase 1) |
+| LLM01 Prompt injection | `UntrustedContent.wrap`: delimitador aleatorio por petición, neutraliza marcado falso, señala frases de inyección |
+| LLM02 Manejo inseguro de la salida | La salida nunca se ejecuta; la interfaz escapa todo el HTML; `Citations.check` valida citas; `PrudentLanguage` suaviza veredictos |
+| LLM06 Divulgación | Solo se envía el proyecto activo y los archivos que el usuario adjunta |
+| LLM09 Dependencia excesiva | Aviso "Requiere revisión y aprobación del profesional responsable" |
+| LLM10 Consumo sin límites | Tamaños máximos por archivo, `max_tokens`, límite de peticiones por IP en la API |
 
-Privacidad: acuerdo de tratamiento de datos con el proveedor, sin entrenamiento con datos de
-clientes, y opción de modelo local para despliegues sensibles.
+## Biblioteca
 
-## Evaluación
-
-- Detección: precisión/recall por tipo de elemento sobre un dataset de planos anotados.
-- OCR: tasa de error por carácter en cotas y refuerzos.
-- RAG: fidelidad de citas (cada cita apoya la afirmación) y tasa de "sin soporte" correcta.
-
-Los datasets de planos de clientes y las normas con derechos restringidos **no** se suben al
-repositorio (ver `.gitignore`).
+Contenido propio en `src/main/resources/civia/library/*.json` (categorías, artículos con secciones
+`##`, glosario). Para ampliarla, agrega artículos al JSON o desde la interfaz ("Aportar un
+artículo"). Los valores son orientativos y siempre remiten a la normativa local.

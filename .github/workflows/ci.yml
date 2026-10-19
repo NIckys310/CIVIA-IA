@@ -1,5 +1,4 @@
-# CI de CIVIA-IA: secretos → lint → tipos → SAST → tests.
-# Las acciones están fijadas por hash de commit (cadena de suministro).
+# CI de CIVIA-IA: secretos → compilación y pruebas (Java 21, Maven).
 name: CI
 
 on:
@@ -9,6 +8,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   secrets:
@@ -22,14 +25,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  python:
-    name: Python
+  java:
+    name: Java 21 (Maven)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-      - run: uv sync --frozen --python 3.12
-      - run: uv run ruff check . && uv run ruff format --check .
-      - run: uv run mypy src
-      - run: uv run bandit -q -r src
-      - run: uv run pytest -q
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: maven
+      - name: Compilar y probar
+        run: ./mvnw -B verify

@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "tipos-de-planos",
+    "category": "planos",
+    "title": "Tipos de planos de un proyecto",
+    "summary": "Juego completo de planos arquitectónicos, técnicos y de detalle, y qué debe contener cada uno.",
+    "tags": ["planos", "planta", "corte", "fachada", "localización", "cubierta", "detalle", "juego de planos"],
+    "body": "## Arquitectónicos\n- **Localización / implantación**: lote, linderos, norte, vías, aislamientos y accesos (1:200–1:500).\n- **Plantas** por nivel: muros, vanos, mobiliario, ejes, cotas, niveles y nombres de espacios con su área (1:50–1:100).\n- **Planta de cubierta**: pendientes, canales, bajantes y materiales.\n- **Cortes o secciones** (mínimo dos, perpendiculares): alturas, niveles, entrepisos y escaleras.\n- **Fachadas o alzados**: materiales, vanos y alturas.\n- **Cuadro de áreas** y de vanos (puertas y ventanas).\n\n## Técnicos (coordinados)\nEstructurales, de cimentación, hidrosanitarios, eléctricos, de gas, de voz y datos, de climatización y de incendio.\n\n## Detalle\nEscaleras, baños, cocinas, carpinterías, fachada, impermeabilización y acabados (1:5–1:25).\n\n## Lista de comprobación de cada plano\nRótulo (proyecto, contenido, escala, fecha, revisión, firma), norte, ejes, cotas, niveles, convenciones y referencias a cortes y detalles."
+  },
+  {
+    "slug": "escalas",
+    "category": "planos",
+    "title": "Escalas de dibujo",
+    "summary": "Qué escala usar según el tipo de plano y cómo convertir medidas.",
+    "tags": ["escala", "1:100", "1:50", "1:20", "escala gráfica", "conversión"],
+    "body": "## Escalas usuales\n| Escala | Uso |\n|---|---|\n| 1:1000 – 1:500 | Urbanismo, localización |\n| 1:200 | Implantación, anteproyecto general |\n| 1:100 | Plantas, cortes y fachadas generales |\n| 1:50 | Plantas de construcción, baños, cocinas |\n| 1:25 – 1:20 | Detalles de muros, escaleras, carpinterías |\n| 1:10 – 1:1 | Detalles constructivos |\n\n## Conversión\nA escala 1:100, 1 cm en el papel equivale a 1 m real. A 1:50, 2 cm equivalen a 1 m.\nMedida real = medida en papel × denominador.\n\n## Escala gráfica\nIncluye siempre una escala gráfica: sigue siendo válida si el plano se imprime o escanea a otro tamaño. Esto es clave cuando CIVIA analiza fotos de planos."
+  },
+  {
+    "slug": "cotas-y-simbologia",
+    "category": "planos",
+    "title": "Acotado, niveles y simbología",
+    "summary": "Cómo acotar correctamente, niveles, ejes, convenciones y rotulado.",
+    "tags": ["cotas", "acotado", "niveles", "ejes", "simbología", "convenciones", "rótulo", "norte", "grosor de línea"],
+    "body": "## Acotado\n- **Cotas en cadena**: vanos y muros. **Cotas totales**: dimensiones exteriores. **Cotas a ejes**: estructura.\n- Mínimo tres líneas de cota en las fachadas de la planta: parciales, a ejes y total.\n- Que las cotas cierren: la suma de las parciales debe igualar la total.\n- Unidades consistentes (normalmente metros con dos decimales, o cm).\n\n## Niveles\nN+0,00 en el piso terminado de referencia. Los niveles van en planta (piso terminado) y en corte (piso, losa, cubierta y cumbrera).\n\n## Ejes\nNumerados en una dirección (1, 2, 3…) y con letras en la otra (A, B, C…), dentro de círculos.\n\n## Grosores de línea\nGrueso para elementos cortados (muros), medio para elementos en vista y fino para cotas, mobiliario y texturas. Las líneas ocultas van discontinuas.\n\n## Simbología\nPuertas con su arco de apertura, ventanas, norte, referencias de corte con flechas, detalles con círculo y número, y desniveles."
+  },
+  {
+    "slug": "checklist-revision-planos",
+    "category": "planos",
+    "title": "Lista de revisión de planos arquitectónicos",
+    "summary": "Elementos que no deben faltar antes de entregar o radicar un plano.",
+    "tags": ["revisión", "checklist", "control de calidad", "entrega", "faltantes", "radicación", "rotulo"],
+    "body": "## Generales\n- [ ] Rótulo completo: proyecto, dirección, propietario, contenido, escala, fecha, número de plano, revisión, profesional y matrícula.\n- [ ] Norte y escala gráfica.\n- [ ] Ejes estructurales coherentes entre las plantas.\n- [ ] Convenciones y notas generales.\n\n## Plantas\n- [ ] Nombre y área de cada espacio.\n- [ ] Cotas parciales, a ejes y totales que cierran.\n- [ ] Niveles de piso terminado y desniveles.\n- [ ] Sentido de apertura de las puertas y cuadro de vanos.\n- [ ] Escaleras con flecha de subida, número de peldaños, huella y contrahuella.\n- [ ] Referencias de cortes y detalles.\n- [ ] Aparatos sanitarios y mobiliario fijo.\n\n## Cortes y fachadas\n- [ ] Al menos dos cortes, uno de ellos por la escalera.\n- [ ] Alturas libres y de piso a piso, y espesores de losa.\n- [ ] Materiales y acabados de fachada.\n\n## Normativa\n- [ ] Cuadro de áreas con los índices de ocupación y construcción.\n- [ ] Aislamientos y alturas según la ficha normativa.\n- [ ] Ruta accesible y medios de evacuación.\n- [ ] Ventilación e iluminación natural de los espacios habitables."
+  },
+  {
+    "slug": "formatos-de-archivo",
+    "category": "bim",
+    "title": "Formatos de archivo en arquitectura",
+    "summary": "DWG, DXF, PDF, IFC, RVT, SKP, OBJ, FBX, GLB/glTF, STL: para qué sirve cada uno.",
+    "tags": ["dwg", "dxf", "pdf", "ifc", "rvt", "skp", "obj", "fbx", "glb", "gltf", "stl", "formato"],
+    "body": "## 2D\n- **DWG**: formato nativo de AutoCAD.\n- **DXF**: intercambio 2D/3D de texto abierto, compatible con casi todos los programas.\n- **PDF**: entrega e impresión. Puede ser vectorial o escaneado.\n- **Imágenes** (PNG/JPG): fotos y escaneos de planos.\n\n## 3D y BIM\n- **IFC**: estándar abierto BIM (ISO 16739) para intercambiar modelos con información.\n- **RVT** (Revit), **PLN** (Archicad) y **SKP** (SketchUp): formatos nativos.\n- **OBJ**: malla con materiales (MTL). Muy compatible.\n- **FBX**: mallas, materiales y animación. Se usa en render y motores de juego.\n- **glTF / GLB**: el \"JPEG del 3D\". Ligero y optimizado para web y realidad aumentada. **Es el recomendado para ver modelos en CIVIA**.\n- **STL**: solo geometría triangulada, para impresión 3D de maquetas.\n\n## En CIVIA\nPuedes subir GLB, glTF, OBJ y STL para verlos en 3D. Los PDF, imágenes, DXF y DWG se guardan en el proyecto y los PDF e imágenes se analizan con la IA."
+  },
+  {
+    "slug": "bim-fundamentos",
+    "category": "bim",
+    "title": "BIM: fundamentos",
+    "summary": "Modelado de información, dimensiones BIM, niveles de desarrollo (LOD) y coordinación.",
+    "tags": ["bim", "lod", "revit", "archicad", "coordinación", "clash detection", "4d", "5d", "gemelo digital"],
+    "body": "## Qué es\nBIM (*Building Information Modeling*) es un modelo 3D cuyos elementos contienen información (materiales, costos, fases, fabricantes). De él salen los planos, las cantidades y las simulaciones.\n\n## Dimensiones\n- **3D**: geometría.\n- **4D**: tiempo (programación de obra).\n- **5D**: costos (cantidades y presupuesto).\n- **6D**: sostenibilidad y energía.\n- **7D**: operación y mantenimiento (gemelo digital).\n\n## LOD (nivel de desarrollo)\nLOD 100 (conceptual), 200 (aproximado), 300 (preciso), 350 (con interfaces), 400 (fabricación) y 500 (como construido).\n\n## Coordinación\nModelos federados de arquitectura, estructura e instalaciones. La **detección de interferencias** (*clash detection*) encuentra choques, por ejemplo un ducto que atraviesa una viga, antes de llegar a obra.\n\n## Buenas prácticas\nPlan de ejecución BIM (BEP), convenciones de nombres, origen y coordenadas compartidas, y entregas en IFC."
+  },
+  {
+    "slug": "modelado-3d-para-arquitectura",
+    "category": "bim",
+    "title": "Modelado 3D para arquitectura",
+    "summary": "Buenas prácticas de modelado, optimización para web y preparación de maquetas virtuales.",
+    "tags": ["modelado 3d", "malla", "polígonos", "texturas", "render", "optimización", "escala", "unidades", "maqueta"],
+    "body": "## Buenas prácticas\n- **Unidades y escala reales**: modela en metros. Un modelo en mm importado como m se verá 1000 veces más grande.\n- **Origen**: coloca el proyecto cerca de (0, 0, 0) para evitar errores de precisión.\n- **Capas o colecciones** por sistema: muros, losas, cubierta, carpinterías, mobiliario y terreno.\n- **Normales** orientadas hacia afuera y sin caras duplicadas.\n- **Nombres claros** de objetos y materiales.\n\n## Optimización para web (glTF/GLB)\n- Para fluidez en el navegador, mejor menos de 1–2 millones de triángulos.\n- Texturas de 1–2K y comprimidas (KTX2 o WebP).\n- Fusiona los objetos repetidos o usa instancias.\n- Compresión Draco o Meshopt para la geometría.\n\n## Contenido mínimo de una maqueta útil\nTerreno o emplazamiento, volumetría por niveles, vanos, cubierta, y escaleras o circulaciones verticales. Si quieres estudiar sombras, incluye la orientación (norte).\n\n## Desde CIVIA\nSube el modelo en GLB/OBJ/STL. El visor calcula dimensiones, número de mallas y triángulos, y la IA sugiere lo que falta."
+  },
+  {
+    "slug": "levantamiento-con-camara",
+    "category": "bim",
+    "title": "Levantamiento y medición con cámara",
+    "summary": "Fotos de obra y planos, medición con referencia, fotogrametría y escaneo.",
+    "tags": ["cámara", "foto", "medición", "fotogrametría", "levantamiento", "escaneo", "lidar", "referencia"],
+    "body": "## Medición con referencia (CIVIA Cámara)\n1. Incluye en la foto un objeto de medida conocida: una hoja carta (21,6 cm), una A4 (21 cm), una puerta estándar de unos 2,10 m de alto o una cinta métrica.\n2. Marca sus dos extremos y escribe su medida real.\n3. Marca cualquier otra distancia **en el mismo plano** que la referencia.\nLa precisión depende de que la cámara esté perpendicular al plano medido. Es una **estimación**; para obra, confírmala con cinta o un distanciómetro láser.\n\n## Fotos de planos\nFotografía el plano de frente, con buena luz y sin sombras, y que incluya la escala gráfica. Así la IA puede leerlo.\n\n## Fotogrametría y escaneo\n- **Fotogrametría**: muchas fotos con traslape del 60–80 % generan una nube de puntos o una malla 3D.\n- **LiDAR / escáner láser**: nubes de puntos precisas para levantamientos *as-built*.\n\n## Registro de obra\nFecha, ubicación (eje o espacio) y descripción en cada foto. Facilita la supervisión y las actas."
+  },
+  {
+    "slug": "espacio-publico",
+    "category": "urbanismo",
+    "title": "Espacio público y diseño urbano",
+    "summary": "Calles, andenes, plazas, parques y criterios de una ciudad caminable.",
+    "tags": ["espacio público", "andén", "acera", "plaza", "parque", "movilidad", "ciclovía", "caminabilidad", "urbanismo"],
+    "body": "## Principios\n- **Ciudad caminable**: andenes continuos y amplios (de 2–3 m o más en vías principales), arborización y mobiliario urbano.\n- **Fachadas activas**: primeros pisos con comercio y accesos hacia la calle, en vez de muros ciegos.\n- **Mezcla de usos** y densidad moderada que acorten los desplazamientos.\n- **Movilidad sostenible**: prioridad al peatón, luego la bicicleta y el transporte público, y al final el automóvil.\n- **Seguridad**: iluminación, vigilancia natural (\"ojos en la calle\", Jane Jacobs) y visibilidad.\n\n## Elementos\nFranja de circulación peatonal, franja de amoblamiento (árboles, luminarias, bancas), ciclorrutas, pasos peatonales a nivel y vados accesibles.\n\n## Parques y plazas\nSombra, agua, bordes activos, variedad de actividades y accesibilidad universal."
+  },
+  {
+    "slug": "paisajismo",
+    "category": "urbanismo",
+    "title": "Paisajismo y arquitectura del paisaje",
+    "summary": "Vegetación, topografía, agua y materiales en el diseño exterior.",
+    "tags": ["paisajismo", "vegetación", "árboles", "topografía", "jardín", "especies nativas", "biofilia"],
+    "body": "## Criterios\n- **Especies nativas** adaptadas al clima: menos agua y mantenimiento, y más biodiversidad.\n- **Estratos**: árboles (sombra), arbustos (límites) y cubresuelos.\n- Considera el tamaño adulto del árbol y sus raíces: distancia a las edificaciones, las redes y los andenes.\n- **Topografía**: terrazas, taludes estables (pendientes suaves o con muros de contención) y drenaje.\n- **Agua**: espejos de agua, canales y jardines de lluvia.\n- **Biofilia**: el contacto con la naturaleza mejora el bienestar y la productividad.\n\n## En el plano\nPlanta de paisajismo con las especies codificadas, un cuadro de vegetación, materiales de superficie, niveles y la iluminación exterior."
+  },
+  {
+    "slug": "fases-de-proyecto",
+    "category": "gestion",
+    "title": "Fases y entregables de un proyecto",
+    "summary": "Desde el encargo hasta la entrega de obra: qué se produce en cada etapa.",
+    "tags": ["fases", "entregables", "encargo", "honorarios", "anteproyecto", "proyecto ejecutivo", "obra", "entrega"],
+    "body": "## Fases típicas\n1. **Encargo y programa**: necesidades, presupuesto, cronograma y contrato de honorarios.\n2. **Estudios previos**: topografía, estudio de suelos, normativa y análisis del lugar.\n3. **Esquema básico / concepto**.\n4. **Anteproyecto**: aprobación del cliente, renders y presupuesto preliminar.\n5. **Proyecto para licencia**: planos y documentos para el trámite.\n6. **Proyecto ejecutivo**: detalles, especificaciones, cantidades, coordinación técnica y pliegos.\n7. **Contratación de obra**: invitación y comparación de propuestas.\n8. **Construcción**: supervisión o interventoría, actas, control de cambios y calidad.\n9. **Entrega y cierre**: planos récord (*as-built*), manuales, garantías y liquidación.\n\n## En CIVIA\nCada proyecto tiene fases, tareas, archivos versionados, presupuesto y bitácora de actividad."
+  },
+  {
+    "slug": "presupuesto-de-obra",
+    "category": "gestion",
+    "title": "Presupuesto de obra",
+    "summary": "Capítulos, análisis de precios unitarios, AIU, imprevistos y control de costos.",
+    "tags": ["presupuesto", "apu", "precio unitario", "aiu", "cantidades", "costo", "capítulos", "imprevistos"],
+    "body": "## Estructura\n- **Capítulos**: preliminares, cimentación, estructura, mampostería, cubierta, instalaciones hidráulicas, eléctricas, pañetes, pisos, carpintería, aparatos, pintura, exteriores y aseo.\n- **Ítems** con unidad (m², m³, ml, und, kg, gl), cantidad, valor unitario y valor total.\n- **APU (análisis de precios unitarios)**: materiales, mano de obra, equipo y transporte por unidad.\n- **AIU**: administración, imprevistos y utilidad, como porcentaje sobre los costos directos (común entre el 20 % y el 30 %, según el contrato).\n\n## Estimación temprana\nCosto por m² de construcción según la tipología y el nivel de acabados, ajustado a la región. Es útil en el anteproyecto con un margen de ±20–30 %.\n\n## Control\nCompara lo presupuestado con lo ejecutado por capítulo, el flujo de caja y las órdenes de cambio documentadas.\n\n## En CIVIA\nEl módulo de presupuesto calcula subtotales por capítulo, el AIU y el total automáticamente."
+  },
+  {
+    "slug": "cronograma-de-obra",
+    "category": "gestion",
+    "title": "Programación y cronograma de obra",
+    "summary": "Diagrama de Gantt, ruta crítica, rendimientos y seguimiento.",
+    "tags": ["cronograma", "gantt", "ruta crítica", "programación", "rendimiento", "avance", "obra"],
+    "body": "## Herramientas\n- **Diagrama de Gantt**: actividades en el tiempo, con dependencias.\n- **Ruta crítica (CPM)**: la secuencia de actividades sin holgura. Si una se retrasa, se retrasa toda la obra.\n- **Rendimientos**: cantidad de obra por cuadrilla y por día, que sirve para estimar duraciones.\n\n## Secuencia típica de una edificación\nPreliminares → excavación → cimentación → estructura por pisos → mampostería → instalaciones embebidas → cubierta e impermeabilización → pañetes → pisos → carpinterías → aparatos → pintura → aseo y entrega.\n\n## Seguimiento\nCurva S (avance físico y financiero), comités semanales, actas y bitácora. En CIVIA, las tareas del proyecto tienen estado, prioridad, responsable y fechas."
+  },
+  {
+    "slug": "supervision-y-calidad",
+    "category": "gestion",
+    "title": "Supervisión técnica y control de calidad",
+    "summary": "Ensayos, inspecciones, bitácora y seguridad en obra.",
+    "tags": ["supervisión", "interventoría", "calidad", "ensayos", "cilindros", "bitácora", "seguridad industrial", "sst"],
+    "body": "## Control de calidad\n- **Concreto**: ensayo de asentamiento (*slump*) y cilindros de resistencia a 7, 14 y 28 días.\n- **Acero**: certificados de calidad y revisión del refuerzo antes de vaciar (diámetros, separaciones, traslapos, recubrimientos).\n- **Mampostería**: plomo, nivel, trabas y juntas.\n- **Instalaciones**: pruebas de presión en tuberías y de continuidad y aislamiento eléctricos.\n- **Impermeabilización**: pruebas de estanqueidad.\n\n## Documentación\nBitácora diaria, registro fotográfico (puedes hacerlo con la cámara de CIVIA), actas de vecindad y entregas parciales.\n\n## Seguridad y salud en el trabajo\nElementos de protección personal, trabajo en alturas (líneas de vida, certificación), excavaciones con entibado, señalización y orden y aseo."
+  },
+  {
+    "slug": "iluminacion-arquitectonica",
+    "category": "interiores",
+    "title": "Iluminación arquitectónica",
+    "summary": "Luz natural y artificial, niveles de iluminancia, temperatura de color y deslumbramiento.",
+    "tags": ["iluminación", "lux", "luz natural", "temperatura de color", "kelvin", "cri", "deslumbramiento", "led"],
+    "body": "## Luz natural\n- Las ventanas deberían sumar al menos un 10–15 % del área del piso como referencia general. Muchos códigos lo exigen en los espacios habitables.\n- La luz cenital o de claraboya rinde unas tres veces más que la lateral, pero hay que controlar el calor.\n- Los estantes de luz y los colores claros llevan la luz a mayor profundidad.\n\n## Niveles orientativos (iluminancia)\n| Espacio | Lux |\n|---|---|\n| Circulaciones | 100–150 |\n| Sala de estar | 150–300 |\n| Cocina (mesón) | 300–500 |\n| Oficina / estudio | 300–500 |\n| Dibujo técnico | 750–1000 |\n\n## Temperatura de color\nCálida (2700–3000 K) para residencial y descanso, neutra (3500–4000 K) para trabajo y fría (5000 K o más) para usos técnicos. Prefiere un **CRI** (índice de reproducción cromática) de 80 o más, y 90 o más en comercio o arte.\n\n## Capas\nGeneral, de tarea, de acento y decorativa. Evita el deslumbramiento con difusores, luminarias apantalladas y una buena ubicación."
+  },
+  {
+    "slug": "acustica-arquitectonica",
+    "category": "interiores",
+    "title": "Acústica arquitectónica",
+    "summary": "Aislamiento entre espacios, acondicionamiento interior y tiempo de reverberación.",
+    "tags": ["acústica", "aislamiento acústico", "reverberación", "ruido", "absorción", "decibeles", "auditorio"],
+    "body": "## Dos problemas distintos\n1. **Aislamiento**: evitar que el sonido pase entre espacios o desde el exterior. Se logra con **masa**, **sistemas masa-resorte-masa** (doble placa con lana mineral en medio) y **hermeticidad**.\n2. **Acondicionamiento**: controlar cómo suena el recinto, es decir la reverberación y los ecos, con materiales absorbentes y difusores.\n\n## Tiempo de reverberación orientativo (500–1000 Hz)\n- Aula y sala de reuniones: unos 0,6–0,8 s.\n- Auditorio para la palabra: unos 0,8–1,2 s.\n- Sala de conciertos: unos 1,6–2,2 s.\n\n## Detalles\n- Las rendijas y las cajas eléctricas espalda con espalda arruinan el aislamiento de un muro.\n- Los pisos flotantes reducen el ruido de impacto.\n- Las ventanas acústicas usan vidrio laminado y cámaras de distinto espesor.\n- Los equipos mecánicos necesitan soportes antivibratorios."
+  },
+  {
+    "slug": "color-y-materialidad-interior",
+    "category": "interiores",
+    "title": "Color, materialidad y mobiliario",
+    "summary": "Psicología del color, paletas, texturas y criterios de mobiliario en interiorismo.",
+    "tags": ["color", "interiorismo", "mobiliario", "textura", "paleta", "materialidad", "decoración"],
+    "body": "## Color\n- **Colores cálidos** (rojos, naranjas, amarillos): activan y acercan visualmente.\n- **Colores fríos** (azules, verdes): calman y alejan, y amplían el espacio.\n- **Neutros** (blancos, grises, tierras): son la base y ayudan a reflejar la luz.\n- Regla **60-30-10**: 60 % color dominante, 30 % secundario y 10 % de acento.\n- La luz cambia el color: prueba las muestras en el sitio y bajo la iluminación real.\n\n## Materialidad\nCombina texturas (madera, piedra, metal, textil) para dar profundidad. Los materiales honestos y durables envejecen bien.\n\n## Mobiliario\n- Respeta las circulaciones: 0,60–0,90 m entre muebles.\n- Escala acorde al espacio.\n- Ergonomía: mesa de 0,75 m de altura, silla de 0,45 m, y sofá de 0,40–0,45 m de asiento y 0,85–1,00 m de fondo.\n\n## Estilo de lujo contemporáneo\nPaletas sobrias (negro, grafito, piedra, bronce), luz indirecta, superficies continuas, pocas piezas de alta calidad y detalles de transición precisos."
+  }
+]

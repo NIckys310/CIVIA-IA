@@ -1,76 +1,41 @@
-# Cómo contribuir a CIVIA
+# Cómo contribuir a CIVIA AI
 
-CIVIA vive en tres repositorios:
+CIVIA AI está dividido en tres repositorios que se clonan lado a lado:
 
-| Repo | Contenido | Stack |
+| Repositorio | Contenido | Tecnología |
 |---|---|---|
-| [CIVIA-FRONTEND](https://github.com/NIckys310/CIVIA-FRONTEND) | Web (PWA) y app móvil | Next.js, Expo, TypeScript |
-| [CIVIA-BACKEND](https://github.com/NIckys310/CIVIA-BACKEND) | API, base de datos, infraestructura, motor de cálculo | FastAPI, PostgreSQL, Python |
-| [CIVIA-IA](https://github.com/NIckys310/CIVIA-IA) | Visión, OCR, RAG con citas, LLM | Python |
+| [CIVIA-FRONTEND](https://github.com/NIckys310/CIVIA-FRONTEND) | Interfaz web (PWA, escritorio y móvil) y su servidor | HTML/CSS/JS + Three.js · servidor Java 21 |
+| [CIVIA-BACKEND](https://github.com/NIckys310/CIVIA-BACKEND) | API, CIVIA Auth, base de datos, archivos | Java 21 · Spring Boot 3.5 · H2/PostgreSQL |
+| [CIVIA-IA](https://github.com/NIckys310/CIVIA-IA) | Copilot, análisis de planos y modelos 3D, biblioteca | Java 21 · Claude (opcional) + motor local |
 
-Somos dos personas. Cada quien hace **sus propios commits desde su cuenta**: el historial de
-Git es la evidencia de quién hizo qué, así que nunca se commitea a nombre de otra persona ni
-se agregan commits vacíos o artificiales.
+## Requisitos
 
-## Primer día (cada integrante, en cada repo)
+- Java 21 (Temurin u Oracle). Cada repositorio Java trae Maven Wrapper (`./mvnw`).
+- Git y, opcionalmente, [pre-commit](https://pre-commit.com) para el análisis de secretos.
 
-```bash
-git clone https://github.com/NIckys310/<REPO>.git
-cd <REPO>
-git config user.name "Tu Nombre"
-git config user.email "el-correo-de-tu-cuenta-de-github@ejemplo.com"
-git switch develop
-```
+## Flujo de trabajo
 
-Comprueba que ese correo está verificado en GitHub (Settings → Emails). Si no coincide con
-`user.email`, tus commits no aparecen en tu perfil ni en las estadísticas del repo.
+1. Crea una rama desde `develop`: `feat/…`, `fix/…`, `docs/…`.
+2. Commits pequeños con [Conventional Commits](https://www.conventionalcommits.org/es/) en español
+   (`feat(api): …`, `fix(web): …`).
+3. Abre un PR hacia `develop` con la plantilla. La CI debe pasar.
+4. `develop` se integra en `main` para publicar.
 
-Dependencias:
+## Cambios entre repositorios
 
-- **CIVIA-FRONTEND:** `npm install`
-- **CIVIA-BACKEND / CIVIA-IA:** `pip install uv` y luego `uv sync --python 3.12`
-- Hooks (todos): `uvx pre-commit install`
+- Si cambias una clase pública de **CIVIA-IA**, instala la librería (`./mvnw install`) y compila
+  **CIVIA-BACKEND** antes de abrir el PR. La CI del backend usa la rama del mismo nombre en
+  CIVIA-IA si existe.
+- Si cambias un endpoint de **CIVIA-BACKEND**, actualiza el cliente en `CIVIA-FRONTEND/web/js`.
+  El contrato vivo está en `http://localhost:8080/api/docs` (OpenAPI).
 
-## Ramas
+## Calidad
 
-```
-main      ← solo versiones estables (tags v0.x.y). Nadie hace push directo.
-develop   ← integración. Entra solo por Pull Request.
-feat/<módulo>-<descripción>   fix/<...>   docs/<...>   security/<...>
-```
+- **IA:** `./mvnw verify` (pruebas de seguridad del LLM, biblioteca, planos y modelos).
+- **BACKEND:** `./mvnw verify` (pruebas de integración: CIVIA Auth, archivos, IA, presupuesto, aislamiento entre usuarios).
+- **FRONTEND:** `javac -d out server/CiviaWeb.java` y revisión manual en el navegador (escritorio y 375 px).
 
-1. `git switch develop && git pull`
-2. `git switch -c feat/web-plan-viewer`
-3. Commits pequeños y atómicos (uno por cambio lógico); cada uno compila y pasa tests.
-4. `git push -u origin feat/web-plan-viewer` y abre un PR hacia `develop`.
-5. La otra persona revisa. Se integra con **merge commit** (el squash está desactivado para
-   conservar los commits individuales de cada autor).
+## Seguridad
 
-## Commits
-
-[Conventional Commits](https://www.conventionalcommits.org/es/): `feat(api): ...`, `fix(web): ...`,
-`test(engine): ...`, `docs(adr): ...`, `security(api): ...`, `refactor`, `perf`, `build`, `ci`, `chore`.
-Imperativo, asunto ≤ 72 caracteres, cuerpo con el *por qué* cuando haga falta.
-
-## Contrato entre repos
-
-- La API publica su contrato en `CIVIA-BACKEND/services/api/openapi.json`.
-- El frontend lo copia y genera tipos con `npm run contract:sync` (en CIVIA-FRONTEND).
-- Un cambio de API = PR en el backend + PR en el frontend que sincroniza el contrato.
-
-## Reparto sugerido por fases
-
-| Área | Integrante A (NIckys310) | Integrante B |
-|---|---|---|
-| Fase 1 | BACKEND: subida segura de planos y versiones · IA: OCR y detección | FRONTEND: visor de planos (PDF.js + superposición), biblioteca técnica, UI de Copilot · IA: RAG con citas |
-| Fase 2 | BACKEND: `civia-engine` (cargas, combinaciones, verificaciones) | FRONTEND: UI de cálculos con trazabilidad y fórmulas (KaTeX) |
-| Fase 3 | BACKEND: reconstrucción 3D, IFC | FRONTEND: visor 3D (React Three Fiber) |
-| Fase 4 | BACKEND: sincronización offline | FRONTEND: app móvil, CIVIA Measure, evidencia |
-
-Cada integrante revisa los PR del otro: los comentarios y aprobaciones también quedan en GitHub.
-
-## Antes de abrir un PR
-
-- **FRONTEND:** `npx turbo run typecheck test` y `npm run lint -w @civia/web`
-- **BACKEND:** `cd services/api && ../../.venv/Scripts/python -m pytest`, `uv run ruff check .`, `uv run mypy services/api/src`
-- **IA:** `uv run pytest`, `uv run ruff check .`, `uv run mypy src`
+Nunca subas secretos (`.env`, claves, datos de clientes). Reporta vulnerabilidades según
+[SECURITY.md](SECURITY.md), no en issues públicos.

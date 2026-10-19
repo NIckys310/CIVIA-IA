@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "arquitectura-clasica",
+    "category": "historia",
+    "title": "Arquitectura clásica: Grecia y Roma",
+    "summary": "Órdenes, proporción y los fundamentos que la arquitectura occidental ha retomado durante siglos.",
+    "tags": ["órdenes", "dórico", "jónico", "corintio", "vitruvio", "templo", "arco", "bóveda"],
+    "body": "## Grecia\nLa arquitectura griega se organiza mediante **órdenes**: sistemas de columna, capitel y entablamento con proporciones definidas.\n- **Dórico**: fuste robusto con estrías, sin basa y con capitel sencillo. Ejemplo: el Partenón.\n- **Jónico**: más esbelto, con basa y capitel de volutas.\n- **Corintio**: capitel con hojas de acanto. Es el más decorado.\nLos templos usaban correcciones ópticas (éntasis, curvatura del estilóbato) para que las líneas se vieran rectas.\n\n## Roma\nRoma añadió el **arco**, la **bóveda** y la **cúpula**, y empleó el *opus caementicium* (un concreto romano). Así pudo cubrir grandes luces: el Panteón tiene una cúpula de unos 43 m de diámetro. Vitruvio resumió las cualidades de la arquitectura en *firmitas* (solidez), *utilitas* (utilidad) y *venustas* (belleza).\n\n## Legado\nRenacimiento, Neoclasicismo y buena parte de la arquitectura institucional retoman el vocabulario clásico: simetría, módulo y jerarquía."
+  },
+  {
+    "slug": "gotico-renacimiento-barroco",
+    "category": "historia",
+    "title": "Del Gótico al Barroco",
+    "summary": "Cómo la técnica estructural y las ideas transformaron catedrales, palacios e iglesias entre los siglos XII y XVIII.",
+    "tags": ["gótico", "arbotante", "renacimiento", "brunelleschi", "barroco", "bernini", "catedral"],
+    "body": "## Gótico (s. XII–XV)\nEl **arco apuntado**, la **bóveda de crucería** y el **arbotante** desvían los empujes hacia el exterior. Así los muros se liberan para grandes vitrales. Se busca altura y luz: Chartres, Notre-Dame, Colonia.\n\n## Renacimiento (s. XV–XVI)\nVuelve la medida clásica y la perspectiva. Brunelleschi construyó la cúpula de Santa María del Fiore sin cimbra completa, con doble cáscara y ladrillo en espina de pez. Alberti y Palladio sistematizan la proporción. La Villa Rotonda es el arquetipo de la planta central simétrica.\n\n## Barroco (s. XVII–XVIII)\nBusca movimiento, teatralidad y luz dirigida: curvas y contracurvas, plantas ovaladas, trampantojos. Bernini y Borromini en Roma. En Latinoamérica derivó en expresiones locales muy ornamentadas, como el churrigueresco."
+  },
+  {
+    "slug": "movimiento-moderno",
+    "category": "historia",
+    "title": "Movimiento Moderno",
+    "summary": "Función, nuevos materiales y planta libre: la ruptura del siglo XX con la tradición ornamental.",
+    "tags": ["le corbusier", "bauhaus", "mies", "planta libre", "cinco puntos", "funcionalismo", "estilo internacional"],
+    "body": "## Contexto\nLa industrialización, el concreto armado y el acero permiten separar estructura y cerramiento. Surgen la Bauhaus (Gropius), Le Corbusier, Mies van der Rohe y Frank Lloyd Wright.\n\n## Los cinco puntos de Le Corbusier\n1. Pilotes que elevan el edificio.\n2. Planta libre (los muros no cargan).\n3. Fachada libre.\n4. Ventana corrida (longitudinal).\n5. Terraza jardín.\nLa Villa Savoye (1929) los resume.\n\n## Ideas clave\n- \"La forma sigue a la función\" (Sullivan).\n- \"Menos es más\" (Mies): pureza, retícula y vidrio. Ejemplos: el Pabellón de Barcelona y la Casa Farnsworth.\n- Arquitectura orgánica (Wright): integración con el paisaje. Ejemplo: la Casa de la Cascada.\n\n## Críticas\nLa estandarización, la pérdida de identidad local y algunos fracasos urbanos dieron paso al posmodernismo y al regionalismo crítico."
+  },
+  {
+    "slug": "arquitectura-contemporanea",
+    "category": "historia",
+    "title": "Arquitectura contemporánea",
+    "summary": "Posmodernismo, high-tech, deconstructivismo, paramétrico y regionalismo crítico.",
+    "tags": ["posmodernismo", "high-tech", "deconstructivismo", "paramétrico", "zaha hadid", "gehry", "regionalismo crítico", "minimalismo"],
+    "body": "## Corrientes\n- **Posmodernismo** (años 70–80): retoma la historia con ironía y símbolos (Venturi, Graves).\n- **High-tech**: expresa la estructura y las instalaciones (Centro Pompidou; Foster, Rogers).\n- **Deconstructivismo**: geometrías fragmentadas (Gehry con el Guggenheim de Bilbao, Libeskind, Hadid).\n- **Arquitectura paramétrica**: formas generadas con algoritmos y fabricación digital.\n- **Regionalismo crítico**: modernidad adaptada al clima, la cultura y los materiales del lugar. Ejemplos: Barragán, Rogelio Salmona, Tadao Ando y Glenn Murcutt.\n- **Minimalismo**: reducción a lo esencial, luz y materia.\n\n## Tendencias actuales\nCarbono neutro, madera en masa (CLT), reutilización adaptativa, diseño biofílico, BIM y gemelos digitales, y vivienda asequible e industrializada."
+  },
+  {
+    "slug": "arquitectura-latinoamericana",
+    "category": "historia",
+    "title": "Arquitectura latinoamericana",
+    "summary": "De lo prehispánico al modernismo tropical: obras y autores referentes de la región.",
+    "tags": ["salmona", "barragán", "niemeyer", "lina bo bardi", "villanueva", "prehispánico", "colonial", "ladrillo"],
+    "body": "## Raíces\nLas culturas prehispánicas (Teotihuacan, Machu Picchu, Ciudad Perdida) adaptaron sus construcciones a la topografía con terrazas, piedra y orientación astronómica. La **arquitectura colonial** introdujo el patio, la plaza fundacional en damero y la iglesia como hito.\n\n## Modernidad\n- **Oscar Niemeyer** (Brasil): curvas libres en concreto, en Brasilia y Pampulha.\n- **Luis Barragán** (México): muros de color, agua, luz y silencio.\n- **Carlos Raúl Villanueva** (Venezuela): la Ciudad Universitaria de Caracas, que integra las artes.\n- **Rogelio Salmona** (Colombia): el ladrillo como lenguaje, recorridos, agua y paisaje. Obras: Torres del Parque y el Archivo General.\n- **Lina Bo Bardi** (Brasil): el MASP y el SESC Pompéia.\n\n## Hoy\nVivienda social de calidad, como la vivienda incremental de Elemental (Aravena), espacio público en laderas, como las bibliotecas parque de Medellín, y el uso de guadua, tierra y ladrillo."
+  },
+  {
+    "slug": "principios-de-composicion",
+    "category": "diseno",
+    "title": "Principios de composición arquitectónica",
+    "summary": "Orden, jerarquía, ritmo, escala, proporción, simetría y contraste aplicados al proyecto.",
+    "tags": ["composición", "jerarquía", "ritmo", "escala", "proporción", "simetría", "eje", "contraste", "unidad"],
+    "body": "## Principios\n- **Eje**: línea que organiza elementos a su alrededor. Da orden y dirección.\n- **Simetría**: equilibrio respecto a un eje. Transmite estabilidad y formalidad.\n- **Jerarquía**: un elemento destaca por tamaño, forma o posición, como el acceso o el espacio principal.\n- **Ritmo y repetición**: modulación de vanos, columnas o volúmenes.\n- **Escala**: relación del edificio con el cuerpo humano (escala humana) y con el entorno (escala urbana).\n- **Proporción**: relación entre partes, por ejemplo la sección áurea (1:1,618) o el Modulor.\n- **Contraste**: lleno/vacío, luz/sombra, pesado/ligero.\n- **Unidad**: que todo responda a una idea rectora (concepto).\n\n## Aplicación\n1. Define un concepto claro.\n2. Elige una retícula o modulación.\n3. Jerarquiza los accesos y los espacios principales.\n4. Revisa la fachada con ritmo y proporción de vanos.\n5. Comprueba la escala humana con figuras en cortes y alzados."
+  },
+  {
+    "slug": "proceso-de-diseno",
+    "category": "diseno",
+    "title": "Proceso de diseño arquitectónico",
+    "summary": "Del análisis del lugar y el programa al anteproyecto y el proyecto ejecutivo.",
+    "tags": ["proceso", "concepto", "anteproyecto", "esquema", "zonificación", "diagrama de burbujas", "partido"],
+    "body": "## Etapas\n1. **Análisis**: lugar (topografía, clima, asoleamiento, vientos, vistas, accesos), normativa urbana, usuario y presupuesto.\n2. **Programa arquitectónico**: lista de espacios con sus áreas, relaciones y requisitos.\n3. **Diagramas**: matriz de relaciones, diagrama de burbujas y zonificación (pública, privada y de servicio).\n4. **Partido o concepto**: idea organizadora del proyecto.\n5. **Esquema básico**: volumetría, plantas a escala 1:200 y estudio de asoleamiento.\n6. **Anteproyecto**: plantas, cortes y fachadas a 1:100, renders y áreas.\n7. **Proyecto ejecutivo**: planos constructivos, detalles, coordinación con estructura e instalaciones, especificaciones y presupuesto.\n\n## Consejos\n- Itera: cada etapa puede devolverte a la anterior.\n- Valida pronto el área total contra lo que permite la normativa (índices de ocupación y construcción).\n- Documenta las decisiones para el cliente."
+  },
+  {
+    "slug": "zonificacion-y-circulaciones",
+    "category": "diseno",
+    "title": "Zonificación y circulaciones",
+    "summary": "Organiza zonas públicas, privadas y de servicio, y diseña recorridos eficientes.",
+    "tags": ["zonificación", "circulación", "pasillo", "vestíbulo", "recorrido", "flujos", "eficiencia"],
+    "body": "## Zonas\n- **Pública / social**: acceso, sala, comedor, recepción.\n- **Privada**: dormitorios, estudios, baños privados.\n- **Servicio**: cocina, lavandería, cuarto técnico, depósito y parqueadero.\n\n## Circulaciones\n- Separa los flujos que no deben cruzarse: público/servicio, limpio/sucio y visitantes/personal.\n- Pasillos de vivienda: ancho mínimo recomendado de unos 0,90 m. Para accesibilidad con silla de ruedas, 1,20 m o más, con zonas de giro de 1,50 m.\n- Mantén la circulación entre el 10 % y el 20 % del área en vivienda. Si supera el 25 %, la planta suele ser ineficiente.\n- Lo ideal es que el vestíbulo distribuya sin atravesar espacios privados.\n\n## Revisión rápida en un plano\n¿Se llega a cada dormitorio sin pasar por otro? ¿La cocina tiene relación directa con el comedor y la salida de servicio? ¿Los baños sociales son accesibles desde la zona pública?"
+  },
+  {
+    "slug": "proporcion-aurea-y-modulor",
+    "category": "diseno",
+    "title": "Proporción áurea, Modulor y sistemas de medida",
+    "summary": "Herramientas de proporción para fachadas, plantas y mobiliario.",
+    "tags": ["proporción áurea", "modulor", "fibonacci", "módulo", "retícula", "le corbusier"],
+    "body": "## Sección áurea\nRelación de aproximadamente 1:1,618. Un rectángulo áureo al que se le resta un cuadrado deja otro rectángulo áureo. La sucesión de Fibonacci (1, 1, 2, 3, 5, 8, 13…) se aproxima a esta razón.\n\n## Modulor (Le Corbusier)\nEscala de medidas basada en una figura humana de 1,83 m con el brazo levantado a 2,26 m, combinada con la sección áurea. Busca armonizar la escala humana con la del edificio.\n\n## Coordinación modular\nTrabajar con múltiplos de un módulo, como 10 cm, 30 cm, 60 cm o 1,20 m, reduce desperdicios en materiales de formato fijo (placas de yeso de 1,22 × 2,44 m, baldosas, bloques).\n\n## Uso práctico\nUsa la proporción para ordenar vanos y paños de fachada, y una retícula estructural modular (por ejemplo, 6 × 6 m o 7,5 × 7,5 m) para la planta."
+  },
+  {
+    "slug": "dimensiones-vivienda",
+    "category": "programa",
+    "title": "Dimensiones de referencia en vivienda",
+    "summary": "Áreas y medidas orientativas para dormitorios, cocina, baños, sala y alturas libres.",
+    "tags": ["dormitorio", "cocina", "baño", "sala", "comedor", "altura libre", "área mínima", "dimensiones", "vivienda"],
+    "body": "Valores **orientativos**. Verifica siempre la norma local, porque cada municipio fija sus propios mínimos.\n\n| Espacio | Lado mínimo aprox. | Área orientativa |\n|---|---|---|\n| Dormitorio principal | 3,00 m | 10–14 m² |\n| Dormitorio secundario | 2,50–2,70 m | 7–10 m² |\n| Sala-comedor | 3,00 m | 15–25 m² |\n| Cocina | 1,50 m (lineal) | 5–9 m² |\n| Baño completo | 1,20 m | 2,5–4,5 m² |\n| Patio de ropas | 1,20 m | 2–4 m² |\n\n## Alturas\n- Altura libre habitable: suele exigirse entre 2,20 y 2,50 m. 2,40–2,60 m es cómodo en climas templados, y más en clima cálido.\n- Altura de piso a piso: 2,70–3,00 m en vivienda.\n\n## Ergonomía\n- Cama doble: 1,40 × 1,90 m. Cama queen: 1,60 × 2,00 m. Deja al menos 0,60–0,70 m de circulación a los lados.\n- Mesón de cocina: 0,60 m de fondo y 0,90 m de altura. Pasillo de cocina: 1,00–1,20 m.\n- Triángulo de trabajo (nevera, lavaplatos, estufa): suma de lados entre 3,6 y 6,6 m."
+  },
+  {
+    "slug": "dimensiones-banos",
+    "category": "programa",
+    "title": "Baños: distribución y medidas",
+    "summary": "Separaciones de aparatos sanitarios, duchas y baño accesible.",
+    "tags": ["baño", "sanitario", "lavamanos", "ducha", "inodoro", "baño accesible", "aparatos"],
+    "body": "## Separaciones recomendadas\n- Del eje del inodoro a un muro lateral: ≥ 0,40 m. Entre ejes de aparatos: ≥ 0,75 m.\n- Espacio libre frente al inodoro: ≥ 0,60 m. Frente al lavamanos: ≥ 0,70 m.\n- Ducha: mínimo 0,80 × 0,80 m. Recomendado 0,90 × 0,90 m o más.\n- Lavamanos a 0,80–0,85 m de altura.\n\n## Baño accesible (referencia general)\n- Círculo de giro libre de 1,50 m de diámetro.\n- Puerta de al menos 0,80–0,90 m libres, que abra hacia afuera o sea corrediza.\n- Barras de apoyo junto al inodoro, a 0,75–0,80 m de altura.\n- Lavamanos sin pedestal, con espacio libre inferior para las rodillas (unos 0,70 m).\n- Ducha a ras de piso, con asiento abatible y piso antideslizante.\n\n## Instalaciones\nAgrupa los baños y la cocina en un mismo núcleo húmedo para acortar las redes. Prevé pendiente de piso hacia los sifones (1–2 %) y ventilación natural o mecánica."
+  },
+  {
+    "slug": "escaleras",
+    "category": "programa",
+    "title": "Escaleras: diseño y cálculo",
+    "summary": "Huella, contrahuella, regla de Blondel, descansos, pasamanos y anchos.",
+    "tags": ["escalera", "huella", "contrahuella", "blondel", "pasamanos", "descanso", "peldaño", "rampa"],
+    "body": "## Regla de Blondel\n**2C + H = 63–64 cm**, donde C es la contrahuella y H la huella.\n- Contrahuella cómoda: 16–18 cm. En edificios públicos no debe superar unos 17–18 cm.\n- Huella: 28–30 cm o más.\nEjemplo: C = 17 cm y H = 29 cm dan 2·17 + 29 = 63 cm ✔\n\n## Cálculo rápido\n1. Divide la altura de piso a piso entre la contrahuella deseada. Por ejemplo, 2,80 m / 0,175 = 16 contrahuellas.\n2. Número de huellas = contrahuellas − 1 (en un tramo recto).\n3. Longitud en planta = huellas × H.\n\n## Otros criterios\n- Ancho mínimo: unos 0,90 m en vivienda. En edificios públicos y de evacuación, 1,10–1,20 m o más, según la ocupación.\n- Descanso cada 16–18 peldaños como máximo, con profundidad ≥ al ancho de la escalera.\n- Pasamanos a 0,85–0,95 m, continuo y preferiblemente a ambos lados.\n- Altura libre sobre la escalera: ≥ 2,10 m.\n- Todos los peldaños de un tramo deben ser iguales (tolerancia de pocos mm)."
+  },
+  {
+    "slug": "rampas-y-accesibilidad",
+    "category": "programa",
+    "title": "Rampas y circulación accesible",
+    "summary": "Pendientes, longitudes, descansos y anchos para personas con movilidad reducida.",
+    "tags": ["rampa", "pendiente", "accesibilidad", "silla de ruedas", "movilidad reducida", "descanso"],
+    "body": "## Pendientes orientativas\n| Longitud del tramo | Pendiente máxima aprox. |\n|---|---|\n| Hasta 3 m | 10–12 % |\n| 3 a 6 m | 8 % |\n| 6 a 9 m | 6 % |\n| Más de 9 m | 6 % con descansos |\nLa pendiente transversal debe ser ≤ 2 %. Consulta la norma de accesibilidad local, porque los valores exactos varían por país.\n\n## Otros criterios\n- Ancho libre ≥ 1,20 m (0,90 m como mínimo absoluto en algunos códigos).\n- Descansos de al menos 1,50 m de largo al inicio, al final y en cada cambio de dirección.\n- Pasamanos doble (0,70 m y 0,90 m) a ambos lados y bordillo de protección.\n- Superficie firme y antideslizante, con señalización podotáctil al inicio y al final.\n\n## Cálculo\nLongitud = desnivel / pendiente. Un desnivel de 0,60 m al 8 % necesita 7,5 m de rampa más los descansos."
+  },
+  {
+    "slug": "estacionamientos",
+    "category": "programa",
+    "title": "Estacionamientos y vías vehiculares",
+    "summary": "Dimensiones de plazas, carriles, rampas vehiculares y radios de giro.",
+    "tags": ["parqueadero", "estacionamiento", "plaza", "rampa vehicular", "radio de giro", "garaje", "sótano"],
+    "body": "## Plazas (orientativo)\n- Automóvil estándar: 2,40–2,50 × 5,00 m.\n- Plaza accesible: 3,60–3,80 × 5,00 m (con franja lateral de 1,20 m o más).\n- Motocicleta: 1,00 × 2,00 m. Bicicleta: 0,60 × 1,80 m.\n\n## Circulación\n- Carril de doble sentido con plazas a 90°: 5,50–6,00 m.\n- Plazas a 45°, con un solo sentido: 3,50–4,00 m.\n- Radio de giro interior ≥ 3,00–4,50 m, según el vehículo.\n\n## Rampas vehiculares\n- Pendiente recta: hasta 15–18 %. En curva: hasta 12–15 %.\n- Con transiciones (unos 8 % en 3–4 m) al inicio y al final, para que el vehículo no roce.\n- Altura libre mínima: unos 2,10–2,30 m bajo vigas y ductos.\n\n## Consejo\nAlinea la retícula estructural con la modulación de las plazas. Por ejemplo, con ejes cada 7,50–8,10 m caben tres plazas entre columnas."
+  },
+  {
+    "slug": "oficinas-y-comercio",
+    "category": "programa",
+    "title": "Oficinas, comercio y espacios de trabajo",
+    "summary": "Áreas por puesto, plantas tipo, núcleos y profundidades recomendadas.",
+    "tags": ["oficina", "comercio", "local", "puesto de trabajo", "núcleo", "planta libre", "coworking"],
+    "body": "## Oficinas\n- Área por persona: 8–12 m² brutos en planta abierta y 10–15 m² con oficinas cerradas.\n- Profundidad útil entre fachada y núcleo: 7–12 m, para tener luz natural.\n- Altura libre: 2,60–2,80 m bajo cielo raso, con plenum de 0,50–0,80 m para instalaciones.\n- Modulación de fachada: 1,20–1,50 m, para dividir con particiones.\n- Núcleo con escaleras, ascensores, baños, ductos y cuartos técnicos.\n\n## Comercio\n- Locales con frente de 4–8 m y fondo de 10–20 m, según el tipo.\n- Vitrina y acceso al nivel de la calle; depósito y zona de cargue y descargue.\n- En centros comerciales, pasillos de 4–6 m.\n\n## Salas de reunión\nCalcula unos 2–2,5 m² por persona, con mesa y circulación."
+  },
+  {
+    "slug": "educacion-y-salud",
+    "category": "programa",
+    "title": "Equipamientos: educación y salud",
+    "summary": "Criterios generales de aulas, bibliotecas, consultorios y áreas clínicas.",
+    "tags": ["colegio", "aula", "biblioteca", "hospital", "consultorio", "salud", "equipamiento"],
+    "body": "## Educación\n- Aula: unos 1,6–2,0 m² por estudiante. Una de 30–40 estudiantes ocupa entre 55 y 70 m².\n- Iluminación natural bilateral si es posible, con luz principal desde la izquierda del alumno diestro y sin deslumbramiento.\n- Altura libre de 3,00 m o más en clima cálido, con ventilación cruzada.\n- Circulaciones anchas (≥ 1,80–2,40 m) y baterías sanitarias por género y edad.\n\n## Bibliotecas\nZonas de colección, lectura individual y grupal, y área infantil. Las estanterías cargadas exigen losas para cargas vivas altas.\n\n## Salud\n- Consultorio: 12–16 m², con lavamanos clínico.\n- Las circulaciones de pacientes, personal, suministros limpios y residuos deben separarse.\n- Pasillos de camillas ≥ 2,20–2,40 m, ascensores para camilla y acabados lavables.\n- Normativa sanitaria específica: consulta siempre el reglamento local de habilitación."
+  }
+]
