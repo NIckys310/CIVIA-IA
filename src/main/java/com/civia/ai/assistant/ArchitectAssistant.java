@@ -14,6 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Consumer;
 import java.util.regex.Pattern;
 
 /**
@@ -59,6 +60,15 @@ public final class ArchitectAssistant {
 
     public Answer ask(String question, List<LlmProvider.Turn> history, ProjectContext project,
                       List<LlmProvider.Attachment> attachments) {
+        return ask(question, history, project, attachments, delta -> { });
+    }
+
+    /**
+     * Igual que {@link #ask(String, List, ProjectContext, List)}, pero entrega el texto de Claude a
+     * medida que se genera. El motor local no emite fragmentos: su respuesta llega completa.
+     */
+    public Answer ask(String question, List<LlmProvider.Turn> history, ProjectContext project,
+                      List<LlmProvider.Attachment> attachments, Consumer<String> onDelta) {
         String q = question == null ? "" : question.strip();
         if (q.isEmpty()) {
             return new Answer("Escribe tu pregunta sobre arquitectura, tu proyecto, un plano o un modelo 3D.", "CIVIA local", List.of(), defaultSuggestions());
@@ -67,7 +77,7 @@ public final class ArchitectAssistant {
         List<Source> sources = toSources(hits);
 
         if (llm.isPresent()) {
-            Optional<Answer> answer = askLlm(q, history, project, attachments, hits, sources);
+            Optional<Answer> answer = askLlm(q, history, project, attachments, hits, sources, onDelta);
             if (answer.isPresent()) return answer.get();
         }
         return answerLocally(q, project, hits, sources);
@@ -85,7 +95,8 @@ public final class ArchitectAssistant {
     // ------------------------------------------------------------------ Claude
 
     private Optional<Answer> askLlm(String q, List<LlmProvider.Turn> history, ProjectContext project,
-                                    List<LlmProvider.Attachment> attachments, List<Hit> hits, List<Source> sources) {
+                                    List<LlmProvider.Attachment> attachments, List<Hit> hits, List<Source> sources,
+                                    Consumer<String> onDelta) {
         List<Citations.SourceChunk> chunks = hits.stream()
                 .map(h -> new Citations.SourceChunk(h.chunk().id(), h.chunk().title(), h.chunk().section(), h.chunk().text()))
                 .toList();
@@ -103,7 +114,7 @@ public final class ArchitectAssistant {
                         .append(r.title()).append(": ").append(r.detail()).append('\n'));
             }
         }
-        return llm.get().complete(new LlmProvider.Request(system.toString(), history, q, attachments)).map(text -> {
+        return llm.get().stream(new LlmProvider.Request(system.toString(), history, q, attachments), onDelta).map(text -> {
             String prudent = PrudentLanguage.isPrudent(text) ? text : PrudentLanguage.soften(text);
             List<Source> cited = new ArrayList<>();
             try {
