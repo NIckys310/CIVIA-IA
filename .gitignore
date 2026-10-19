@@ -1,26 +1,25 @@
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-dist/
-build/
+# Compilación
+target/
+*.class
+*.jar
+!.mvn/wrapper/*.jar
 
-# Secretos — nunca se commitean
+# Datos locales de desarrollo (base H2, archivos subidos y claves generadas)
+data/
+
+# Entorno y secretos
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+*.p12
+*.jks
 
-# Datasets de planos, modelos entrenados y normas con derechos restringidos
-data/private/
-datasets/
-models/*.pt
-models/*.onnx
-
+# IDE / SO
+.idea/
+*.iml
+.vscode/
 .DS_Store
 Thumbs.db
-.idea/
-.vscode/
+*.log

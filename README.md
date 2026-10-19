@@ -1,41 +1,43 @@
 # CIVIA — IA
 
-Capa de inteligencia artificial de **CIVIA AI**, el copiloto digital del ingeniero civil.
+Capa de inteligencia artificial de **CIVIA AI · Arquitectura inteligente**, en Java 21. Se
+publica como librería Maven (`com.civia:civia-ai`) que usa CIVIA-BACKEND.
 
 ```
-IA → interpreta · Motor de ingeniería → calcula · Normativa → establece criterios · Ingeniero → valida
+IA → interpreta · Normativa → establece criterios · Profesional → valida
 ```
 
-**Este repositorio nunca hace cálculos estructurales ni emite veredictos de seguridad.**
-La IA interpreta planos y resultados, redacta observaciones y responde con fuentes citadas;
-los cálculos los hace el motor determinista de [CIVIA-BACKEND](https://github.com/NIckys310/CIVIA-BACKEND).
+**La IA nunca emite veredictos de seguridad estructural ni de cumplimiento normativo.**
 
-| Repositorio | Contenido |
+| Repositorio | Contenido | Tecnología |
+|---|---|---|
+| [CIVIA-FRONTEND](https://github.com/NIckys310/CIVIA-FRONTEND) | Interfaz web (PWA, escritorio y móvil) y su servidor | HTML/CSS/JS + Three.js · servidor Java 21 |
+| [CIVIA-BACKEND](https://github.com/NIckys310/CIVIA-BACKEND) | API, CIVIA Auth, base de datos, archivos | Java 21 · Spring Boot 3.5 · H2/PostgreSQL |
+| [CIVIA-IA](https://github.com/NIckys310/CIVIA-IA) | Copilot, análisis de planos y modelos 3D, biblioteca | Java 21 · Claude (opcional) + motor local |
+
+## Módulos
+
+| Paquete | Qué hace |
 |---|---|
-| [CIVIA-FRONTEND](https://github.com/NIckys310/CIVIA-FRONTEND) | Web (PWA) y app móvil |
-| [CIVIA-BACKEND](https://github.com/NIckys310/CIVIA-BACKEND) | API, base de datos, motor de cálculo |
-| **CIVIA-IA** (este) | Visión, OCR, RAG con citas, LLM |
+| `llm` | `ClaudeProvider` (SDK oficial de Anthropic para Java, modelo `claude-opus-5-5`, PDF e imágenes, respaldo automático ante rechazos). Se activa con `ANTHROPIC_API_KEY`. |
+| `assistant` | **CIVIA Copilot** (`ArchitectAssistant`): responde con citas de la biblioteca, usa el contexto del proyecto y cae al motor local si Claude no está disponible. `ProjectAdvisor`: qué le falta al proyecto. |
+| `plans` | `PlanAnalyzer`: PDF (PDFBox: texto, páginas, formato de papel), imágenes (resolución, contraste), DXF (entidades, capas, unidades) y DWG. 8–16 verificaciones con recomendaciones; con Claude, lectura visual del plano. |
+| `models` | `ModelAnalyzer`: revisa un modelo 3D a partir de sus estadísticas (unidades, escala, peso, componentes que faltan). `MassingAdvisor`: volumetría máxima según lote, índices y retiros. |
+| `library` | `KnowledgeBase`: 13 categorías, 51 artículos y 130 términos de arquitectura en español, búsqueda BM25 con normalización para español. Admite artículos del estudio. |
+| `safety` | `UntrustedContent` (anti *prompt injection*), `Citations` (citas válidas), `PrudentLanguage` (sin veredictos). |
 
-## Estado
+## Uso
 
-| Módulo | Estado |
-|---|---|
-| `untrusted` — contenido de documentos como datos, no instrucciones (anti *prompt injection*) | ✔ |
-| `citations` — respuestas del Copilot solo con citas a fuentes recuperadas | ✔ |
-| `language` — detecta veredictos ("la estructura es segura") para reformular | ✔ |
-| Preprocesado de planos (OpenCV), OCR (PaddleOCR), detección de elementos (YOLO) | Fase 1 |
-| RAG sobre la biblioteca normativa (pgvector + reranking) | Fase 1 |
-| Cliente LLM (Claude por defecto, proveedor intercambiable) | Fase 1 |
+```java
+CiviaAi ai = CiviaAi.create(System.getenv("ANTHROPIC_API_KEY"), "claude-opus-5-5");
+var answer = ai.assistant().ask("¿Cómo calculo una escalera?", List.of(), null, List.of());
+var report = ai.plans().analyze(new PlanAnalyzer.PlanInput("A-101.pdf", "application/pdf", bytes, null));
+```
 
-Diseño completo: [docs/design.md](docs/design.md).
-
-## Puesta en marcha
+## Calidad
 
 ```bash
-pip install uv
-uv sync --python 3.12
-uv run pytest
-uv run ruff check . && uv run mypy src
+./mvnw verify       # instala con: ./mvnw install
 ```
 
-[Cómo contribuir](CONTRIBUTING.md) · [Seguridad](SECURITY.md)
+Diseño completo: [docs/design.md](docs/design.md) · [Cómo contribuir](CONTRIBUTING.md) · [Seguridad](SECURITY.md)
