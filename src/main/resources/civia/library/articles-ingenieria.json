@@ -190,5 +190,13 @@
     "summary": "Losas de concreto, juntas, pasadores, módulo de rotura y criterios de diseño.",
     "tags": ["pavimento rígido", "concreto hidráulico", "losa", "juntas", "pasadores", "dovelas", "módulo de rotura", "PCA"],
     "body": "## Cómo trabaja\nLa losa de concreto reparte la carga por flexión en un área amplia. La subrasante recibe esfuerzos bajos, pero la losa es sensible a la erosión de la base y al alabeo térmico.\n\n## Elementos\n- **Losa**: espesores habituales de 15–30 cm según el tránsito.\n- **Base o subbase** granular o tratada con cemento, contra el bombeo de finos.\n- **Juntas**: transversales de contracción (cada 3,5–5 m), longitudinales, de construcción y de expansión.\n- **Pasadores (dovelas)** en juntas transversales para transferir carga; **barras de anclaje** en las longitudinales.\n\n## Parámetros de diseño\nMódulo de rotura del concreto (MR ≈ 4,0–5,0 MPa), módulo de reacción de la subrasante k, tránsito y transferencia de carga. Métodos: PCA (fatiga y erosión), AASHTO 93 rígido y métodos mecanicistas.\n\n## Construcción\nCurado temprano, aserrado de juntas a tiempo (antes de que aparezcan fisuras aleatorias) y sellado de juntas."
+  },
+  {
+    "slug": "cbr-y-subrasante",
+    "category": "vias",
+    "title": "CBR y subrasante",
+    "summary": "Ensayo CBR, cómo se interpreta y qué hacer con subrasantes pobres.",
+    "tags": ["CBR", "subrasante", "Proctor", "compactación", "estabilización", "geotextil", "módulo resiliente"],
+    "body": "## Ensayo CBR\nRelación de soporte de California: compara la presión necesaria para penetrar el suelo con la de un material granular de referencia, a 2,5 y 5,0 mm de penetración. Se hace con la muestra compactada y, por lo general, saturada durante 4 días.\n\n## Interpretación orientativa\n| CBR (%) | Calidad como subrasante |\n|---|---|\n| < 3 | Muy pobre: requiere mejoramiento |\n| 3–5 | Pobre |\n| 5–10 | Regular |\n| 10–20 | Buena |\n| > 20 | Muy buena (aptitud de subbase desde ≈ 20–30) |\n\n## Compactación\nSe controla contra el **Proctor modificado**: porcentaje de compactación exigido (≥ 95 % en subrasante y 98–100 % en bases, según la especificación) y humedad cercana a la óptima.\n\n## Subrasantes pobres\nReemplazo con material seleccionado, estabilización con cal (arcillas) o cemento (suelos granulares y limosos), geotextiles de separación, geomallas y subdrenes cuando el nivel freático está alto."
   }
 ]
