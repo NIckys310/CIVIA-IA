@@ -164,5 +164,7 @@
   {"term": "Tiempo de concentración", "category": "hidraulica", "definition": "Tiempo que tarda el agua en llegar desde el punto más alejado de la cuenca hasta su salida."},
   {"term": "Ventosa", "category": "hidraulica", "definition": "Válvula que expulsa o admite aire en los puntos altos de una tubería a presión."},
   {"term": "Abscisa", "category": "vias", "definition": "Distancia acumulada medida a lo largo del eje de una vía desde su origen, por ejemplo K2+350."},
-  {"term": "Berma", "category": "vias", "definition": "Franja lateral pavimentada o afirmada contigua a la calzada."}
+  {"term": "Berma", "category": "vias", "definition": "Franja lateral pavimentada o afirmada contigua a la calzada."},
+  {"term": "Bombeo", "category": "vias", "definition": "Pendiente transversal de la calzada en tangente para evacuar el agua."},
+  {"term": "Calzada", "category": "vias", "definition": "Parte de la vía destinada a la circulación de vehículos."}
 ]
