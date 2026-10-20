@@ -438,5 +438,13 @@
     "summary": "Plan de izaje, capacidad de grúas, aparejos, señalero y zonas de exclusión.",
     "tags": ["izaje", "grúa", "grúa torre", "aparejos", "eslingas", "plan de izaje", "señalero", "carga suspendida"],
     "body": "## Plan de izaje\nPeso de la carga (incluidos los aparejos), radio y altura de trabajo, capacidad de la grúa en esa configuración (tabla de carga), condiciones del terreno, viento máximo admisible y secuencia de maniobra. Los izajes **críticos** (cargas cercanas al límite, dos grúas, sobre personas o instalaciones) requieren un plan firmado.\n\n## Aparejos\nEslingas, grilletes y ganchos certificados con su carga de trabajo marcada; ángulos de eslingado que reduzcan la carga en cada ramal (evitar ángulos muy abiertos); protectores de bordes en las esquinas vivas. Inspección antes de cada uso.\n\n## Operación\n- Operador y **señalero (rigger)** certificados y con un código de señales común.\n- **Zona de exclusión**: nadie bajo la carga suspendida.\n- Vientos guía (manilas) para controlar la carga.\n- Grúas torre con limitadores de carga y de momento, anemómetro y revisión periódica."
+  },
+  {
+    "slug": "plan-de-manejo-ambiental-de-obra",
+    "category": "seguridad",
+    "title": "Manejo ambiental de obra",
+    "summary": "Control de polvo, ruido, residuos de construcción, agua y vecinos durante la obra.",
+    "tags": ["ambiental", "RCD", "residuos de construcción", "polvo", "ruido", "plan de manejo ambiental", "sedimentos", "vecinos"],
+    "body": "## Programas típicos del plan de manejo ambiental (PMA)\n- **Residuos de construcción y demolición (RCD)**: separación en la fuente, aprovechamiento (agregados reciclados), transporte con gestores autorizados y disposición en sitios aprobados.\n- **Material particulado**: humectación de vías y acopios, cubrir volquetas y materiales, lavado de llantas a la salida.\n- **Ruido y vibraciones**: horarios permitidos, equipos con mantenimiento, barreras acústicas y monitoreo.\n- **Aguas**: evitar el aporte de sedimentos al alcantarillado o a cuerpos de agua (sedimentadores, barreras de sedimentos), manejar los vertimientos y el agua de bombeo.\n- **Flora y fauna**: permisos de aprovechamiento forestal y compensaciones.\n- **Gestión social**: información a vecinos, actas de vecindad (estado de las construcciones vecinas antes de empezar), atención de quejas.\n\n## Sustancias peligrosas\nAlmacenamiento de combustibles y químicos en zonas con contención, hojas de seguridad disponibles y kit para derrames."
   }
 ]
