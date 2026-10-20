@@ -132,5 +132,7 @@
   {"term": "Coeficiente de balasto", "category": "geotecnia", "definition": "Relación entre la presión aplicada sobre el suelo y el asentamiento que produce; se usa para modelar losas y vigas sobre terreno."},
   {"term": "Esfuerzo efectivo", "category": "geotecnia", "definition": "Esfuerzo que soporta el esqueleto de partículas del suelo: esfuerzo total menos presión de poros."},
   {"term": "Gavión", "category": "geotecnia", "definition": "Caja de malla metálica rellena de piedra usada en muros, protección de cauces y control de erosión."},
-  {"term": "Geotextil", "category": "geotecnia", "definition": "Tela permeable sintética usada para separar, filtrar, drenar o reforzar suelos."}
+  {"term": "Geotextil", "category": "geotecnia", "definition": "Tela permeable sintética usada para separar, filtrar, drenar o reforzar suelos."},
+  {"term": "Geomalla", "category": "geotecnia", "definition": "Malla polimérica de alta resistencia a tracción que refuerza suelos y capas granulares."},
+  {"term": "Índice de plasticidad", "category": "geotecnia", "definition": "Diferencia entre el límite líquido y el límite plástico de un suelo fino; indica su rango de comportamiento plástico."}
 ]
