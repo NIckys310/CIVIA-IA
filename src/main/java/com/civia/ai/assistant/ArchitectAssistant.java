@@ -180,6 +180,11 @@ public final class ArchitectAssistant {
             if (!"Introducción".equals(c.section())) out.append(" · ").append(c.section());
             out.append('\n').append(c.text()).append(" [").append(markerOf.get(c.id())).append("]\n");
             used.add(sources.get(markerOf.get(c.id()) - 1));
+            // Si lo mejor fue la introducción (a veces solo el resumen), se suman las primeras secciones.
+            if ("Introducción".equals(c.section()) && c.text().length() < 400) {
+                kb.article(c.slug()).map(a -> firstSections(a.body(), 2)).filter(s -> !s.isBlank())
+                        .ifPresent(s -> out.append('\n').append(s.replace("## ", "#### ")).append('\n'));
+            }
 
             // Otra sección relevante de un artículo distinto.
             for (Hit h : hits) {
@@ -195,6 +200,19 @@ public final class ArchitectAssistant {
         }
         out.append("\n_Valores orientativos: verifica la normativa local. ").append(PrudentLanguage.DISCLAIMER).append("_");
         return new Answer(out.toString(), "CIVIA local", used, followUps(sources));
+    }
+
+    /** Las primeras {@code count} secciones {@code ##} del cuerpo de un artículo. */
+    static String firstSections(String body, int count) {
+        int start = body.indexOf("## ");
+        if (start < 0) return "";
+        int end = start;
+        for (int i = 0; i < count; i++) {
+            int next = body.indexOf("\n## ", end + 1);
+            if (next < 0) return body.substring(start).strip();
+            end = next;
+        }
+        return body.substring(start, end).strip();
     }
 
     private List<String> followUps(List<Source> sources) {
