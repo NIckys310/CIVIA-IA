@@ -212,5 +212,7 @@
   {"term": "RCD", "category": "seguridad", "definition": "Residuos de construcción y demolición."},
   {"term": "Rodapié", "category": "seguridad", "definition": "Tabla en la base de una baranda que impide la caída de objetos."},
   {"term": "Cortante basal", "category": "estructuras", "definition": "Fuerza horizontal total que un sismo induce en la base de una estructura."},
-  {"term": "Cuantía", "category": "estructuras", "definition": "Relación entre el área de acero de refuerzo y el área de concreto de una sección."}
+  {"term": "Cuantía", "category": "estructuras", "definition": "Relación entre el área de acero de refuerzo y el área de concreto de una sección."},
+  {"term": "Deriva", "category": "estructuras", "definition": "Desplazamiento horizontal relativo entre dos pisos consecutivos, dividido por la altura de piso."},
+  {"term": "Diagrama de interacción", "category": "estructuras", "definition": "Curva que representa las combinaciones de carga axial y momento que resiste una sección."}
 ]
