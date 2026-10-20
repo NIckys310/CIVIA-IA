@@ -574,5 +574,13 @@
     "summary": "Seguimiento del presupuesto con valor planeado, valor ganado y costo real; índices CPI y SPI.",
     "tags": ["valor ganado", "EVM", "CPI", "SPI", "costo real", "control de costos", "flujo de caja", "curva S"],
     "body": "## Variables\n- **PV (valor planeado)**: costo presupuestado del trabajo programado a la fecha.\n- **EV (valor ganado)**: costo presupuestado del trabajo **realmente ejecutado**.\n- **AC (costo real)**: lo que realmente se ha gastado.\n\n## Índices\n- **CPI** = EV / AC. Menor que 1: se gasta más de lo presupuestado por lo ejecutado.\n- **SPI** = EV / PV. Menor que 1: la obra va atrasada.\n- **Variación de costo** CV = EV − AC; **variación de cronograma** SV = EV − PV.\n\n## Pronóstico\nEstimado al terminar: EAC ≈ BAC / CPI (si la tendencia se mantiene), donde BAC es el presupuesto total.\n\n## Ejemplo\nPV = 500 M, EV = 450 M, AC = 520 M → CPI = 0,87 (sobrecosto) y SPI = 0,90 (atraso). Con BAC = 2000 M, EAC ≈ 2300 M.\n\n## En la práctica\nActualizar cada semana o cada mes con mediciones reales de cantidades, comparar contra la curva S y tomar decisiones a tiempo (recursos, secuencia, alcance)."
+  },
+  {
+    "slug": "contratos-de-obra",
+    "category": "gestion",
+    "title": "Tipos de contratos de obra",
+    "summary": "Precio global, precios unitarios, administración delegada, llave en mano y riesgos de cada modalidad.",
+    "tags": ["contrato", "precio global", "precios unitarios", "administración delegada", "llave en mano", "EPC", "pólizas", "interventoría"],
+    "body": "## Modalidades\n| Tipo | Cómo se paga | Riesgo principal para |\n|---|---|---|\n| Precio global (suma fija) | Valor fijo por el alcance definido | Contratista (cantidades y precios) |\n| Precios unitarios | Cantidad ejecutada × precio unitario | Contratante (cantidades) |\n| Administración delegada | Costos reales + honorario (%) | Contratante |\n| Llave en mano / EPC | Diseño + construcción + puesta en marcha | Contratista |\n| Costo más honorario con precio máximo | Costos reales con un tope | Compartido |\n\n## Documentos clave\nPliego o términos de referencia, planos y especificaciones, presupuesto y cronograma, forma de pago y anticipo, **pólizas** (cumplimiento, buen manejo del anticipo, salarios, estabilidad de la obra, responsabilidad civil), multas y cláusula penal, y mecanismos de solución de controversias.\n\n## Gestión de cambios\nToda obra adicional o cambio de alcance debe quedar documentado (orden de cambio con precio y plazo) antes de ejecutarse."
   }
 ]
