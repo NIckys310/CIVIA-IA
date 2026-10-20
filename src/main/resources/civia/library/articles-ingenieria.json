@@ -686,5 +686,13 @@
     "summary": "LEED, EDGE, CASA Colombia y otras: qué evalúan y cómo empezar desde el diseño.",
     "tags": ["LEED", "EDGE", "CASA Colombia", "BREEAM", "certificación", "construcción sostenible", "eficiencia energética", "agua"],
     "body": "## Principales sistemas\n- **LEED** (USGBC): puntos en sitio, agua, energía, materiales, calidad del ambiente interior e innovación. Niveles: certificado, plata, oro y platino.\n- **EDGE** (IFC, Banco Mundial): exige al menos un 20 % de ahorro en energía, agua y energía incorporada en materiales frente a una línea base. Es más simple y económico, muy usado en vivienda.\n- **CASA Colombia** (Consejo Colombiano de Construcción Sostenible): adaptada a la vivienda en el contexto local.\n- **BREEAM**, **WELL** (salud y bienestar) y otros.\n\n## Cómo empezar\nDefinir la meta en la fase de concepto, hacer simulaciones energéticas tempranas, priorizar estrategias pasivas (orientación, sombreamiento, ventilación), especificar equipos y aparatos eficientes y documentar desde el inicio lo que pide el sistema de certificación."
+  },
+  {
+    "slug": "renovacion-urbana",
+    "category": "urbanismo",
+    "title": "Renovación urbana y densificación",
+    "summary": "Instrumentos de renovación, cargas y beneficios, espacio público y vivienda en procesos de densificación.",
+    "tags": ["renovación urbana", "densificación", "plan parcial", "cargas y beneficios", "espacio público", "plusvalía", "vivienda"],
+    "body": "## Qué es\nTransformar zonas urbanas deterioradas o subutilizadas para aprovechar mejor el suelo servido (con redes, transporte y equipamientos), en lugar de expandir la ciudad.\n\n## Instrumentos frecuentes (en Colombia y en otros países con figuras similares)\n- **Planes parciales** de renovación, con un reparto equitativo de **cargas y beneficios** entre los propietarios.\n- Cesiones obligatorias para espacio público, vías y equipamientos.\n- **Participación en plusvalías** y transferencias de derechos de construcción.\n- Gestión asociada y, cuando procede, adquisición predial por motivos de utilidad pública.\n\n## Claves de diseño\nCapacidad de las redes de acueducto, alcantarillado y energía; movilidad (priorizando transporte público y modos activos); espacio público suficiente y de calidad; mezcla de usos; vivienda para distintos ingresos y protección de los habitantes originales frente al desplazamiento."
   }
 ]
