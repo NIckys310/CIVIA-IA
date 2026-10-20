@@ -454,5 +454,13 @@
     "summary": "Análisis de amenazas, brigadas, primeros auxilios, rutas de evacuación y simulacros.",
     "tags": ["plan de emergencias", "evacuación", "brigada", "primeros auxilios", "punto de encuentro", "simulacro", "incendio"],
     "body": "## Contenido\n- **Análisis de amenazas y vulnerabilidad**: sismo, incendio, inundación, derrumbes, accidentes graves, orden público.\n- **Organización**: coordinador de emergencias, **brigada** (primeros auxilios, contra incendio, evacuación) y cadena de llamadas.\n- **Recursos**: botiquines, camilla, extintores adecuados al tipo de fuego, equipos de comunicación y números de emergencia visibles.\n- **Rutas de evacuación** señalizadas, libres de obstáculos, y **puntos de encuentro** seguros.\n- **Procedimientos operativos** por tipo de emergencia y protocolo de atención de accidentados (incluido el traslado a un centro asistencial).\n\n## Simulacros\nAl menos uno o dos al año, con evaluación y ajustes. Toda persona que ingresa a la obra (incluidos visitantes y proveedores) recibe una inducción sobre qué hacer en caso de emergencia."
+  },
+  {
+    "slug": "control-de-calidad-del-concreto",
+    "category": "seguridad",
+    "title": "Control de calidad del concreto en obra",
+    "summary": "Recepción, asentamiento, toma de cilindros, curado y criterios de aceptación de la resistencia.",
+    "tags": ["concreto", "control de calidad", "slump", "asentamiento", "cilindros", "f'c", "curado", "ensayo de compresión"],
+    "body": "## Recepción\nRevisar la remisión (resistencia, tamaño máximo del agregado, asentamiento, hora de cargue), el tiempo transcurrido desde el mezclado (en general no más de 90 minutos) y no agregar agua en obra sin control.\n\n## Ensayos en estado fresco\n- **Asentamiento (cono de Abrams)**: consistencia según lo especificado.\n- Temperatura y, cuando aplique, contenido de aire.\n\n## Resistencia\n- Se toman **cilindros** (por ejemplo, de 150 × 300 mm o 100 × 200 mm) por cada volumen de concreto o por día de vaciado, según la norma.\n- Ensayos a 7 días (control) y a 28 días (aceptación).\n- Criterio habitual (ACI 318 / NSR-10): el promedio de tres ensayos consecutivos ≥ f'c, y ningún ensayo individual por debajo de f'c − 3,5 MPa (cuando f'c ≤ 35 MPa).\n\n## Colocación y curado\nVibrado adecuado sin segregar, juntas de construcción planeadas y **curado** húmedo al menos 7 días (más en clima seco o con cementos lentos). Un mal curado puede bajar mucho la resistencia y la durabilidad superficial.\n\n## Si los resultados no cumplen\nNúcleos extraídos de la estructura, ensayos no destructivos y evaluación por el ingeniero estructural."
   }
 ]
