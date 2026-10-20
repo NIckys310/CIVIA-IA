@@ -94,5 +94,13 @@
     "summary": "Componentes de un acueducto, población de diseño, dotaciones y caudales medio y máximos.",
     "tags": ["acueducto", "dotación", "caudal de diseño", "población", "captación", "tanque", "red de distribución", "RAS"],
     "body": "## Componentes\nCaptación → aducción → desarenador → conducción → planta de tratamiento → tanque de almacenamiento → red de distribución → acometidas.\n\n## Caudales de diseño\n- **Población futura**: proyección (aritmética, geométrica o exponencial) al horizonte de diseño, típicamente de 25 años.\n- **Dotación neta**: consumo por habitante (por ejemplo, 120–140 L/hab·día según el clima y la altura sobre el nivel del mar). La **dotación bruta** incluye pérdidas: Dbruta = Dneta / (1 − %pérdidas).\n- **Qmd** (caudal medio diario) = población × dotación bruta / 86 400.\n- **QMD** (máximo diario) = k1·Qmd, con k1 ≈ 1,2–1,3.\n- **QMH** (máximo horario) = k2·QMD, con k2 ≈ 1,5–1,8.\n- La captación y la conducción se diseñan con QMD; la red de distribución con QMH (más incendio, si aplica).\n\n## Almacenamiento\nEl tanque regula las variaciones horarias (con frecuencia del orden de un 25–35 % del volumen del día de máximo consumo) más reservas de incendio y emergencia.\n\n> Los parámetros exactos dependen de la norma de cada país."
+  },
+  {
+    "slug": "alcantarillado-sanitario",
+    "category": "hidraulica",
+    "title": "Alcantarillado sanitario",
+    "summary": "Caudales de aguas residuales, diseño por flujo a superficie libre con Manning, pendientes y pozos.",
+    "tags": ["alcantarillado", "aguas residuales", "Manning", "pozo de inspección", "pendiente", "fuerza tractiva", "colector"],
+    "body": "## Caudal de diseño\n- **Aguas domésticas**: coeficiente de retorno (0,7–0,85) × consumo de agua potable.\n- Se suman los aportes **industriales, comerciales e institucionales**, más **infiltración** y **conexiones erradas**.\n- Caudal máximo horario = factor de mayoración (Harmon, Babbitt o Flores) × caudal medio.\n\n## Hidráulica: ecuación de Manning\nV = (1/n)·R^(2/3)·S^(1/2). n ≈ 0,009–0,010 para PVC y 0,013 para concreto.\n- Los colectores trabajan **parcialmente llenos** (relación y/D ≤ 0,7–0,85) para ventilar la red.\n- **Velocidad mínima** de autolimpieza ≈ 0,45–0,6 m/s, o un esfuerzo cortante (fuerza tractiva) mínimo.\n- **Velocidad máxima**: unos 5 m/s en PVC y concreto, según el material.\n\n## Geometría\n- Diámetro mínimo usual: 170–200 mm en redes públicas.\n- Pozos de inspección en cambios de dirección, pendiente o diámetro, en las uniones y cada 80–120 m.\n- Profundidad mínima a la clave (≈ 1,0–1,2 m bajo vías) y bajo la red de agua potable para evitar contaminación."
   }
 ]
