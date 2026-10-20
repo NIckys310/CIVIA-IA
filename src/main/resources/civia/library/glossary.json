@@ -128,5 +128,7 @@
   {"term": "Ángulo de fricción interna", "category": "geotecnia", "definition": "Parámetro de resistencia al corte de un suelo que representa la fricción entre sus partículas; en arenas suele estar entre 28° y 40°."},
   {"term": "Apique", "category": "geotecnia", "definition": "Excavación manual a cielo abierto para observar y muestrear el suelo a poca profundidad."},
   {"term": "Cohesión", "category": "geotecnia", "definition": "Componente de la resistencia al corte de un suelo que no depende del esfuerzo normal; típica de arcillas."},
-  {"term": "Consolidación", "category": "geotecnia", "definition": "Disminución lenta de volumen de un suelo saturado al expulsar agua bajo carga."}
+  {"term": "Consolidación", "category": "geotecnia", "definition": "Disminución lenta de volumen de un suelo saturado al expulsar agua bajo carga."},
+  {"term": "Coeficiente de balasto", "category": "geotecnia", "definition": "Relación entre la presión aplicada sobre el suelo y el asentamiento que produce; se usa para modelar losas y vigas sobre terreno."},
+  {"term": "Esfuerzo efectivo", "category": "geotecnia", "definition": "Esfuerzo que soporta el esqueleto de partículas del suelo: esfuerzo total menos presión de poros."}
 ]
