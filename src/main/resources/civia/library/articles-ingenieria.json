@@ -478,5 +478,13 @@
     "summary": "Cuándo reforzar, técnicas comunes (encamisados, fibras de carbono, muros nuevos) y proceso de evaluación.",
     "tags": ["reforzamiento", "rehabilitación", "vulnerabilidad sísmica", "encamisado", "fibra de carbono", "CFRP", "muros de concreto"],
     "body": "## Cuándo se necesita\nCambio de uso con más carga, ampliaciones en altura, daños por sismo o deterioro, errores de diseño o de construcción, o edificaciones antiguas que no cumplen la norma sismorresistente actual (estudio de **vulnerabilidad sísmica**).\n\n## Proceso\nLevantamiento arquitectónico y estructural, exploración (regatas, núcleos, pachómetro), ensayos de materiales, modelación, evaluación de la vulnerabilidad, alternativas de intervención y diseño del reforzamiento, con licencia cuando aplique.\n\n## Técnicas habituales\n- **Encamisado** de columnas y vigas con concreto o con acero.\n- **Fibras de carbono (CFRP)**: aumentan la resistencia a flexión y cortante y el confinamiento, con poco peso y poco espesor.\n- **Muros de concreto o pórticos metálicos arriostrados** nuevos que rigidizan el conjunto ante el sismo.\n- **Aisladores o disipadores sísmicos** en edificaciones importantes o patrimoniales.\n- Recalce o ampliación de cimentaciones, micropilotes.\n\n> El diseño del reforzamiento lo hace un ingeniero estructural con la norma vigente."
+  },
+  {
+    "slug": "cargas-y-combinaciones",
+    "category": "estructuras",
+    "title": "Cargas y combinaciones de diseño",
+    "summary": "Cargas muertas, vivas, de viento y sismo; combinaciones por resistencia (LRFD) y por servicio.",
+    "tags": ["cargas", "carga muerta", "carga viva", "combinaciones", "LRFD", "factores de carga", "NSR-10", "ASCE 7"],
+    "body": "## Tipos de carga\n- **Muerta (D)**: peso propio, acabados, muros divisorios, instalaciones fijas.\n- **Viva (L)**: uso y ocupación. Valores orientativos de las normas: vivienda ≈ 1,8 kN/m², oficinas ≈ 2,0 kN/m², escaleras y corredores públicos ≈ 3,0–5,0 kN/m², bodegas mayores.\n- **Viva de cubierta (Lr)**, **granizo**, **lluvia**, **viento (W)**, **sismo (E)**, **empuje de tierra (H)**, **temperatura (T)**.\n\n## Combinaciones por resistencia (ejemplos de la familia ACI / ASCE 7 / NSR-10)\n- 1,4D\n- 1,2D + 1,6L + 0,5Lr\n- 1,2D + 1,0E + 1,0L\n- 0,9D + 1,0E (revisión de volcamiento y tracciones)\nLos factores exactos los define la norma aplicable.\n\n## Servicio\nSe combinan cargas sin mayorar para revisar deflexiones, vibraciones, fisuración y asentamientos.\n\n## Avalúo de cargas\nCalcular la carga por metro cuadrado de cada tipo de piso (losa + acabados + cielo + muros) es el primer paso del predimensionamiento y del modelo estructural."
   }
 ]
