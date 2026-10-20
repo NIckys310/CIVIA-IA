@@ -250,5 +250,7 @@
   {"term": "BCF", "category": "bim", "definition": "Formato abierto para comunicar incidencias y comentarios sobre modelos BIM."},
   {"term": "BEP", "category": "bim", "definition": "Plan de ejecución BIM que define usos, roles, entregables y estándares de un proyecto."},
   {"term": "CDE", "category": "bim", "definition": "Entorno común de datos donde se gestionan los modelos y documentos de un proyecto."},
-  {"term": "Clash detection", "category": "bim", "definition": "Detección automática de interferencias entre elementos de distintos modelos."}
+  {"term": "Clash detection", "category": "bim", "definition": "Detección automática de interferencias entre elementos de distintos modelos."},
+  {"term": "COBie", "category": "bim", "definition": "Formato para entregar información de equipos y espacios para la operación y el mantenimiento."},
+  {"term": "Modelo federado", "category": "bim", "definition": "Unión de los modelos de varias disciplinas para revisarlos juntos."}
 ]
