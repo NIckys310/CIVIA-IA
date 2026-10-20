@@ -220,5 +220,7 @@
   {"term": "Longitud de desarrollo", "category": "estructuras", "definition": "Longitud de anclaje que necesita una barra para transmitir su fuerza al concreto."},
   {"term": "Momento flector", "category": "estructuras", "definition": "Esfuerzo interno que tiende a curvar un elemento estructural."},
   {"term": "Nudo", "category": "estructuras", "definition": "Zona de intersección entre vigas y columnas."},
-  {"term": "Pandeo", "category": "estructuras", "definition": "Inestabilidad lateral de un elemento esbelto sometido a compresión."}
+  {"term": "Pandeo", "category": "estructuras", "definition": "Inestabilidad lateral de un elemento esbelto sometido a compresión."},
+  {"term": "Punzonamiento", "category": "estructuras", "definition": "Falla por cortante de una losa alrededor de una columna o carga concentrada."},
+  {"term": "Rótula plástica", "category": "estructuras", "definition": "Zona de un elemento que fluye y gira disipando energía en un sismo."}
 ]
