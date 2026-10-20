@@ -358,5 +358,13 @@
     "summary": "Tipos de inspección, daños frecuentes, calificación de la condición y gestión del inventario.",
     "tags": ["inspección", "mantenimiento", "patología", "corrosión", "fisuras", "SIPUCOL", "gestión de puentes", "monitoreo"],
     "body": "## Tipos de inspección\n- **Rutinaria**: visual y periódica (anual o bienal).\n- **Principal o detallada**: con acceso cercano a todos los elementos, cada pocos años.\n- **Especial**: después de sismos, crecientes, impactos o cuando se detectan daños graves.\n\n## Daños frecuentes\nFisuras y desprendimientos del concreto, corrosión del acero de refuerzo o de los perfiles, socavación, juntas dañadas, apoyos deteriorados, barandas golpeadas, drenajes taponados y deformaciones visibles.\n\n## Calificación y gestión\nCada elemento se califica (por ejemplo, de 0 a 5) y se priorizan las intervenciones en un sistema de gestión (en Colombia, SIPUCOL del INVÍAS). Se registran fotografías, croquis y mediciones.\n\n## Monitoreo\nPara puentes críticos: sensores de deformación, inclinómetros, acelerómetros y medición de vibraciones, que permiten detectar cambios en el comportamiento.\n\n> Las decisiones sobre la capacidad de carga o el cierre de un puente las toma un ingeniero especialista."
+  },
+  {
+    "slug": "tuneles",
+    "category": "puentes",
+    "title": "Túneles: métodos constructivos",
+    "summary": "Excavación por perforación y voladura, NATM, tuneladoras (TBM), sostenimiento y revestimiento.",
+    "tags": ["túnel", "NATM", "TBM", "tuneladora", "sostenimiento", "concreto lanzado", "pernos", "cerchas", "revestimiento"],
+    "body": "## Métodos de excavación\n- **Perforación y voladura**: roca de dureza media a alta; ciclos de perforar, cargar, volar, ventilar y desescombrar.\n- **Excavación mecánica** con rozadoras o excavadoras en rocas blandas y suelos.\n- **Tuneladoras (TBM)**: de roca (abiertas) o de escudo (EPB, hidroescudo) en suelos bajo el nivel freático; colocan anillos de dovelas prefabricadas.\n- **Falso túnel / cut and cover**: excavación a cielo abierto y relleno posterior, en metros urbanos poco profundos.\n\n## Nuevo Método Austriaco (NATM)\nAprovecha la capacidad portante del macizo: sostenimiento flexible inmediato (concreto lanzado, pernos, cerchas) y **instrumentación** (convergencias) para ajustar el diseño durante la obra.\n\n## Clasificación del macizo\nRMR (Bieniawski) y sistema Q (Barton) orientan el tipo de sostenimiento.\n\n## Otros aspectos\nVentilación, drenaje e impermeabilización, revestimiento definitivo, iluminación, sistemas contra incendio y rutas de evacuación en túneles viales."
   }
 ]
