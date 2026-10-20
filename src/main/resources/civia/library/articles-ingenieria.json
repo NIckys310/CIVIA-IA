@@ -550,5 +550,13 @@
     "summary": "Diferencias entre mampostería confinada, reforzada y no reforzada; densidad de muros y buenas prácticas.",
     "tags": ["mampostería confinada", "mampostería reforzada", "bloque", "ladrillo", "densidad de muros", "viga de amarre", "columneta"],
     "body": "## Sistemas\n- **Confinada**: muros de ladrillo o bloque rodeados por columnetas y vigas de amarre de concreto reforzado. Muy usada en vivienda de 1 a 3 pisos.\n- **Reforzada (integral)**: bloques de perforación vertical con barras y grout en las celdas; permite edificios de mayor altura.\n- **No reforzada**: no se permite en zonas de amenaza sísmica intermedia o alta para estructuras nuevas.\n\n## Densidad de muros\nEn cada dirección principal debe haber suficiente longitud de muros estructurales respecto al área de la planta. Las normas para vivienda (por ejemplo, el Título E de la NSR-10) dan reglas simplificadas.\n\n## Buenas prácticas\n- Muros continuos de la cimentación a la cubierta, alineados en planta y en altura.\n- Plantas simples y simétricas; evitar grandes aberturas cerca de las esquinas.\n- Vigas de amarre en cimentación, entrepisos y cubierta; columnetas en los extremos de los muros y en las intersecciones.\n- Morteros con la dosificación especificada y juntas llenas."
+  },
+  {
+    "slug": "vibraciones-y-confort",
+    "category": "estructuras",
+    "title": "Vibraciones en entrepisos y confort",
+    "summary": "Por qué vibran los entrepisos livianos, frecuencias recomendadas y medidas de control.",
+    "tags": ["vibraciones", "entrepiso", "frecuencia natural", "confort", "pasarela", "steel deck", "amortiguamiento"],
+    "body": "## El problema\nEntrepisos largos y livianos (estructuras metálicas, losas postensadas delgadas, pasarelas peatonales, madera) pueden cumplir en resistencia y deflexión, pero vibrar de forma molesta al caminar, saltar o por máquinas.\n\n## Parámetros\n- **Frecuencia natural** del entrepiso: muchas guías recomiendan superar ≈ 3–5 Hz en oficinas y viviendas, y valores mayores en gimnasios o salas de baile.\n- **Aceleración pico** comparada con límites de percepción (guías como AISC Design Guide 11, SCI P354 o las de pasarelas de Sétra).\n- **Amortiguamiento**: aumenta con los muros divisorios, cielos rasos y mobiliario.\n\n## Control\nAumentar la rigidez (más peralte), aumentar la masa, reducir la luz, sumar elementos no estructurales que amortiguan o instalar amortiguadores de masa sintonizada en casos especiales (pasarelas y voladizos).\n\n## Equipos sensibles\nLaboratorios y quirófanos con equipos de precisión tienen criterios mucho más estrictos (curvas VC)."
   }
 ]
