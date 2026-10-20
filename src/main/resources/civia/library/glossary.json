@@ -170,5 +170,7 @@
   {"term": "Carpeta asfáltica", "category": "vias", "definition": "Capa superior de un pavimento flexible hecha con mezcla asfáltica."},
   {"term": "CBR", "category": "vias", "definition": "Relación de soporte de California: ensayo que mide la capacidad de soporte de un suelo o material granular."},
   {"term": "Clotoide", "category": "vias", "definition": "Curva de transición cuyo radio varía gradualmente, usada entre tangentes y curvas circulares."},
-  {"term": "ESAL", "category": "vias", "definition": "Número de ejes equivalentes de 8,2 toneladas usado para expresar el tránsito de diseño de un pavimento."}
+  {"term": "ESAL", "category": "vias", "definition": "Número de ejes equivalentes de 8,2 toneladas usado para expresar el tránsito de diseño de un pavimento."},
+  {"term": "Gálibo", "category": "vias", "definition": "Altura o ancho libre mínimo que debe dejarse para el paso de vehículos."},
+  {"term": "Imprimación", "category": "vias", "definition": "Riego de asfalto líquido sobre una base granular para impermeabilizarla y mejorar la adherencia con la carpeta."}
 ]
