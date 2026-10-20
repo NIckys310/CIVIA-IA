@@ -198,5 +198,13 @@
     "summary": "Ensayo CBR, cómo se interpreta y qué hacer con subrasantes pobres.",
     "tags": ["CBR", "subrasante", "Proctor", "compactación", "estabilización", "geotextil", "módulo resiliente"],
     "body": "## Ensayo CBR\nRelación de soporte de California: compara la presión necesaria para penetrar el suelo con la de un material granular de referencia, a 2,5 y 5,0 mm de penetración. Se hace con la muestra compactada y, por lo general, saturada durante 4 días.\n\n## Interpretación orientativa\n| CBR (%) | Calidad como subrasante |\n|---|---|\n| < 3 | Muy pobre: requiere mejoramiento |\n| 3–5 | Pobre |\n| 5–10 | Regular |\n| 10–20 | Buena |\n| > 20 | Muy buena (aptitud de subbase desde ≈ 20–30) |\n\n## Compactación\nSe controla contra el **Proctor modificado**: porcentaje de compactación exigido (≥ 95 % en subrasante y 98–100 % en bases, según la especificación) y humedad cercana a la óptima.\n\n## Subrasantes pobres\nReemplazo con material seleccionado, estabilización con cal (arcillas) o cemento (suelos granulares y limosos), geotextiles de separación, geomallas y subdrenes cuando el nivel freático está alto."
+  },
+  {
+    "slug": "drenaje-vial",
+    "category": "vias",
+    "title": "Drenaje vial: cunetas, alcantarillas y subdrenes",
+    "summary": "Elementos de drenaje superficial y subterráneo de carreteras y criterios básicos de diseño.",
+    "tags": ["drenaje vial", "cuneta", "alcantarilla", "box culvert", "subdrén", "bombeo", "zanja de coronación", "socavación"],
+    "body": "## Por qué importa\nEl agua es la principal causa de deterioro de las vías: debilita la subrasante, erosiona taludes y produce baches.\n\n## Drenaje superficial\n- **Bombeo y peralte** que sacan el agua de la calzada.\n- **Cunetas** al lado de la vía (triangulares o trapezoidales, revestidas en pendientes fuertes).\n- **Zanjas de coronación** arriba de los taludes de corte.\n- **Bordillos y bajantes** en terraplenes.\n\n## Obras transversales\n- **Alcantarillas** de tubo o de cajón (box culvert) donde la vía cruza drenajes naturales, diseñadas para el caudal del periodo de retorno exigido. Se revisa si trabajan con control a la entrada o a la salida.\n- **Aletas, cabezales y disipadores** para evitar socavación.\n- Diámetro mínimo práctico ≈ 0,9 m para facilitar la limpieza.\n\n## Drenaje subterráneo\n**Subdrenes**: zanja con material filtrante, geotextil y tubería perforada, para bajar el nivel freático bajo la estructura del pavimento."
   }
 ]
