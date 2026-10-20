@@ -62,5 +62,13 @@
     "summary": "Qué es la licuación, qué suelos la sufren, cómo se evalúa y qué medidas la mitigan.",
     "tags": ["licuación", "sismo", "arena suelta", "nivel freático", "SPT", "mejoramiento de suelos", "compactación dinámica"],
     "body": "## Qué es\nDurante un sismo, una arena suelta y saturada tiende a compactarse; el agua no alcanza a salir, la presión de poros sube y el suelo pierde casi toda su resistencia. Se comporta como un líquido: edificios que se inclinan, tuberías que flotan, volcanes de arena.\n\n## Suelos susceptibles\nArenas finas y limosas, sueltas, saturadas, jóvenes (rellenos, depósitos aluviales), con nivel freático a poca profundidad (habitualmente en los primeros 15–20 m).\n\n## Evaluación\nSe compara el esfuerzo cíclico que produce el sismo (CSR) con la resistencia cíclica del suelo (CRR), obtenida de SPT, CPT o velocidad de onda de corte. Factor de seguridad = CRR / CSR.\n\n## Mitigación\n- Densificación: vibrocompactación, compactación dinámica, columnas de grava.\n- Drenaje para disipar la presión de poros (drenes de grava).\n- Inyecciones o mezcla profunda con cemento.\n- Cimentaciones profundas que lleguen por debajo del estrato licuable, considerando la pérdida de soporte lateral."
+  },
+  {
+    "slug": "suelos-expansivos",
+    "category": "geotecnia",
+    "title": "Suelos expansivos y colapsables",
+    "summary": "Arcillas que se hinchan y suelos que colapsan al mojarse: cómo identificarlos y cómo construir sobre ellos.",
+    "tags": ["suelo expansivo", "arcilla expansiva", "montmorillonita", "suelo colapsable", "loess", "humedad", "fisuras"],
+    "body": "## Suelos expansivos\nArcillas con minerales como la montmorillonita que aumentan de volumen al humedecerse y se contraen al secarse. Producen fisuras en muros y pisos, levantamiento de losas y daños en tuberías.\n\n**Indicios**: índice de plasticidad alto (IP > 25–35), límite líquido alto (CH), grietas en época seca, ensayos de expansión libre y de presión de expansión.\n\n## Medidas\n- Mantener la humedad estable: andenes perimetrales, drenaje, evitar jardines con riego pegados a los muros.\n- Cimentar por debajo de la zona activa (pilotes o pilas con fuste aislado).\n- Losas estructurales separadas del suelo o con vacío.\n- Reemplazo parcial o estabilización con cal.\n\n## Suelos colapsables\nSuelos de baja densidad (loess, algunos rellenos y suelos residuales) que pierden volumen bruscamente al saturarse bajo carga. Se evalúan con el ensayo de colapso en el edómetro. Se mitigan con compactación, prehumedecimiento controlado, reemplazo o cimentación profunda."
   }
 ]
