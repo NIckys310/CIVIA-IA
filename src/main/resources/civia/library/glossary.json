@@ -154,5 +154,7 @@
   {"term": "Desarenador", "category": "hidraulica", "definition": "Estructura que retiene las arenas del agua captada por sedimentación."},
   {"term": "Disipador de energía", "category": "hidraulica", "definition": "Estructura que reduce la velocidad del agua para evitar erosión, como los tanques amortiguadores."},
   {"term": "Dotación", "category": "hidraulica", "definition": "Cantidad de agua asignada por habitante y por día para el diseño de un acueducto."},
-  {"term": "Hidrograma", "category": "hidraulica", "definition": "Gráfica del caudal en función del tiempo en un punto de un cauce."}
+  {"term": "Hidrograma", "category": "hidraulica", "definition": "Gráfica del caudal en función del tiempo en un punto de un cauce."},
+  {"term": "Número de Froude", "category": "hidraulica", "definition": "Relación adimensional entre las fuerzas de inercia y las de gravedad que define si el flujo es subcrítico o supercrítico."},
+  {"term": "Número de Reynolds", "category": "hidraulica", "definition": "Relación adimensional entre las fuerzas de inercia y las viscosas que define si el flujo es laminar o turbulento."}
 ]
