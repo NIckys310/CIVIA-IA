@@ -150,5 +150,13 @@
     "summary": "Cálculo de caudales por unidades de consumo, presiones en aparatos, sistemas de bombeo y desagües.",
     "tags": ["red hidráulica interna", "unidades de consumo", "Hunter", "equipo de presión", "tanque elevado", "desagües", "ventilación"],
     "body": "## Agua potable\n- **Caudal probable**: no todos los aparatos se usan a la vez. Se usa el método de **Hunter** (unidades de consumo) o métodos probabilísticos.\n- **Presión mínima** en el aparato más desfavorable: del orden de 2 m.c.a. para grifos y 7–10 m.c.a. o más para fluxómetros y duchas, según la norma y el fabricante.\n- **Velocidad** en tuberías internas: 1,0 a 2,0–2,5 m/s para evitar ruido.\n\n## Suministro\n- **Directo** desde la red cuando la presión alcanza.\n- **Tanque bajo + equipo hidroneumático o de velocidad variable**: lo más común en edificios.\n- **Tanque elevado** por gravedad.\n- Edificios altos: zonificación de presiones con válvulas reductoras.\n\n## Desagües\n- Dimensionados por **unidades de descarga**; pendientes del 1–2 % en ramales horizontales.\n- **Sifones** en todos los aparatos y **ventilación** para que no se pierda el sello de agua.\n- Redes separadas de aguas lluvias y residuales hasta la caja de inspección o lo que exija el operador."
+  },
+  {
+    "slug": "golpe-de-ariete",
+    "category": "hidraulica",
+    "title": "Golpe de ariete",
+    "summary": "Sobrepresiones por el cierre brusco de válvulas o la parada de bombas, fórmula de Joukowsky y protección.",
+    "tags": ["golpe de ariete", "transitorio hidráulico", "Joukowsky", "celeridad", "válvula", "bomba", "cámara de aire"],
+    "body": "## Qué es\nCambio brusco de velocidad en una tubería a presión que genera una onda de sobrepresión y depresión. Puede reventar tuberías, colapsarlas por vacío o dañar bombas y válvulas.\n\n## Magnitud (cierre instantáneo)\nΔH = a·ΔV / g (Joukowsky).\n- **a**: celeridad de la onda; depende del material y de la relación diámetro/espesor. Orientativamente ≈ 300–500 m/s en PVC y PEAD y ≈ 1000–1300 m/s en acero y hierro dúctil.\n- Ejemplo: a = 1000 m/s y ΔV = 1,5 m/s → ΔH ≈ 153 m de sobrepresión.\n\n## Cierre rápido o lento\nTiempo crítico: Tc = 2L/a. Si la válvula cierra en un tiempo menor que Tc, la sobrepresión es la de Joukowsky; si cierra más despacio, se reduce (fórmula de Michaud).\n\n## Protección\nCierre lento de válvulas, volantes de inercia en bombas, cámaras de aire o tanques hidroneumáticos, chimeneas de equilibrio, válvulas de alivio y ventosas, y tuberías con clase de presión suficiente. En conducciones importantes se hace un análisis de transitorios con software."
   }
 ]
