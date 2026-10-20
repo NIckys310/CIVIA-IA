@@ -222,5 +222,13 @@
     "summary": "Tipos de intersección, puntos de conflicto, semaforización básica y diseño de glorietas modernas.",
     "tags": ["intersección", "glorieta", "rotonda", "semáforo", "puntos de conflicto", "canalización", "intercambiador"],
     "body": "## Puntos de conflicto\nUna intersección de cuatro ramales a nivel tiene 32 puntos de conflicto (16 de cruce, 8 de divergencia y 8 de convergencia). Una glorieta moderna los reduce a 8 y elimina los de cruce, los más graves.\n\n## Tipos\n- **A nivel**: simple, canalizada, con carriles de giro, semaforizada.\n- **Glorietas**: de un carril (alta seguridad) o multicarril.\n- **A desnivel**: intercambiadores (trébol, diamante, direccional) cuando el volumen lo justifica.\n\n## Glorieta moderna\nPrioridad para quien circula dentro del anillo, entradas con deflexión para bajar la velocidad, isla central visible, isletas partidoras y pasos peatonales retirados de la línea de ceda el paso.\n\n## Semaforización\nCiclo, fases, verdes efectivos, entreverde (amarillo y todo rojo) y coordinación entre semáforos. El método de Webster da un ciclo óptimo aproximado: C0 = (1,5·L + 5) / (1 − Y)."
+  },
+  {
+    "slug": "movilidad-sostenible",
+    "category": "vias",
+    "title": "Movilidad sostenible y calles completas",
+    "summary": "Jerarquía de movilidad, infraestructura peatonal y ciclista, transporte público y pacificación del tránsito.",
+    "tags": ["movilidad sostenible", "ciclorruta", "peatón", "calles completas", "transporte público", "BRT", "pacificación", "zona 30"],
+    "body": "## Pirámide de movilidad\nPrioridad para el peatón, luego la bicicleta y la micromovilidad, el transporte público, la logística y, por último, el vehículo particular.\n\n## Calles completas\nDiseñadas para todos los usuarios: andenes continuos y accesibles, cruces seguros, ciclorrutas segregadas, carriles para buses, arborización y mobiliario urbano.\n\n## Referencias de diseño (orientativas)\n- Andén con franja de circulación libre ≥ 1,5–2,0 m.\n- Ciclorruta unidireccional ≥ 1,5–2,0 m; bidireccional ≥ 2,5–3,0 m.\n- Pasos peatonales elevados o a nivel de andén en vías locales.\n\n## Pacificación del tránsito\nZonas 30, estrechamientos de calzada, chicanas, reductores de velocidad, extensiones de andén en las esquinas y orejas. La severidad de los siniestros cae mucho cuando la velocidad de impacto baja de 50 a 30 km/h.\n\n## Transporte público\nBRT (buses de tránsito rápido), corredores preferenciales, metro y tranvía, con integración física y tarifaria y desarrollo orientado al transporte (DOT) alrededor de las estaciones."
   }
 ]
