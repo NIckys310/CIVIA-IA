@@ -414,5 +414,13 @@
     "summary": "Medidas de prevención y protección contra caídas, sistemas de detención y plan de rescate.",
     "tags": ["trabajo en alturas", "arnés", "línea de vida", "baranda", "andamio", "anclaje", "caída", "rescate"],
     "body": "## Por qué es crítico\nLas caídas de altura están entre las primeras causas de muerte en la construcción. En muchos países se considera trabajo en alturas a partir de 1,5–2,0 m sobre un nivel inferior.\n\n## Medidas de prevención\n- **Barandas** perimetrales (≈ 1,0 m de altura, con travesaño intermedio y rodapié).\n- Cubrir o proteger **huecos y bordes** de losa, fosos de ascensor y ductos.\n- **Andamios** certificados, armados por personal competente, con plataformas completas y barandas.\n- Plataformas elevadoras en lugar de escaleras cuando sea posible.\n\n## Medidas de protección (detención de caídas)\n**Arnés de cuerpo completo** + **eslinga con absorbedor de energía** o **línea de vida** + **punto de anclaje** certificado (del orden de 5 000 lb / 22 kN por persona). Hay que verificar la **distancia libre de caída** para que la persona no golpee el nivel inferior.\n\n## Requisitos\nPersonal capacitado y certificado, permiso de trabajo, inspección de equipos antes de usarlos y un **plan de rescate**: una persona suspendida del arnés puede sufrir trauma por suspensión en pocos minutos."
+  },
+  {
+    "slug": "excavaciones-seguras",
+    "category": "seguridad",
+    "title": "Excavaciones y zanjas seguras",
+    "summary": "Riesgo de derrumbes, taludes seguros, entibados, accesos y controles en excavaciones.",
+    "tags": ["excavación", "zanja", "entibado", "derrumbe", "talud", "tablestaca", "espacio confinado", "redes enterradas"],
+    "body": "## Riesgos\nDerrumbe de paredes (un metro cúbico de tierra pesa del orden de 1,5–2 toneladas), caída de personas o equipos al interior, inundación, atmósferas peligrosas, daño a redes enterradas e inestabilidad de construcciones vecinas.\n\n## Controles\n- **Antes**: consultar planos de redes, hacer apiques de verificación, estudio de suelos y diseño del sistema de soporte.\n- **Taludes** con inclinación segura según el tipo de suelo, o **entibados** (de madera, metálicos, cajas de zanja, tablestacas, pantallas).\n- Material excavado y equipos a una distancia mínima del borde (con frecuencia ≥ 0,6–1,0 m o la mitad de la profundidad).\n- **Escaleras de acceso** cada cierta distancia en zanjas profundas.\n- **Barreras y señalización** perimetral, iluminación nocturna.\n- **Bombeo** y control del agua.\n- Inspección diaria por una persona competente, y después de lluvias.\n\n## Espacios confinados\nPozos, tanques y zanjas profundas pueden acumular gases o tener poco oxígeno: medir la atmósfera, ventilar, tener vigía y permiso de trabajo."
   }
 ]
