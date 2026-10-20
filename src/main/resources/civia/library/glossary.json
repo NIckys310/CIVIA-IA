@@ -166,5 +166,7 @@
   {"term": "Abscisa", "category": "vias", "definition": "Distancia acumulada medida a lo largo del eje de una vía desde su origen, por ejemplo K2+350."},
   {"term": "Berma", "category": "vias", "definition": "Franja lateral pavimentada o afirmada contigua a la calzada."},
   {"term": "Bombeo", "category": "vias", "definition": "Pendiente transversal de la calzada en tangente para evacuar el agua."},
-  {"term": "Calzada", "category": "vias", "definition": "Parte de la vía destinada a la circulación de vehículos."}
+  {"term": "Calzada", "category": "vias", "definition": "Parte de la vía destinada a la circulación de vehículos."},
+  {"term": "Carpeta asfáltica", "category": "vias", "definition": "Capa superior de un pavimento flexible hecha con mezcla asfáltica."},
+  {"term": "CBR", "category": "vias", "definition": "Relación de soporte de California: ensayo que mide la capacidad de soporte de un suelo o material granular."}
 ]
