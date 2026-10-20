@@ -646,5 +646,13 @@
     "summary": "Relación agua/cemento, resistencia requerida, asentamiento, agregados y ajuste en obra.",
     "tags": ["diseño de mezclas", "relación agua cemento", "ACI 211", "agregados", "asentamiento", "f'cr", "dosificación"],
     "body": "## Pasos (método ACI 211, resumido)\n1. **Resistencia requerida (f'cr)**: mayor que f'c para cubrir la variabilidad (por ejemplo, f'c + 8,3 MPa si no hay historial de ensayos, para f'c entre 21 y 35 MPa).\n2. **Asentamiento** según el elemento y el método de colocación.\n3. **Tamaño máximo del agregado** según las dimensiones del elemento y la separación del refuerzo.\n4. **Agua de mezclado** según el asentamiento y el agregado.\n5. **Relación agua/cemento (a/c)** según la resistencia y la exposición (la durabilidad puede exigir una a/c menor).\n6. **Cemento** = agua / (a/c).\n7. **Agregado grueso** por volumen según el módulo de finura de la arena.\n8. **Agregado fino** por diferencia de volúmenes.\n9. **Corrección por humedad y absorción** de los agregados.\n\n## Mezclas de prueba\nSiempre se validan con mezclas de prueba y ensayos de laboratorio antes de la obra.\n\n## Aditivos\nPlastificantes y superplastificantes (reducen el agua), acelerantes, retardantes, incorporadores de aire y adiciones minerales (ceniza volante, escoria, microsílice)."
+  },
+  {
+    "slug": "acero-de-refuerzo",
+    "category": "materiales",
+    "title": "Acero de refuerzo: grados, figurado y control",
+    "summary": "Barras corrugadas, grados de acero, despiece, ganchos, traslapos y control de recibo en obra.",
+    "tags": ["acero de refuerzo", "varilla", "barra corrugada", "grado 60", "figurado", "despiece", "traslapo", "malla electrosoldada"],
+    "body": "## Material\n- Barras corrugadas de grado 60 (fy ≈ 420 MPa) son las más usadas; existen grados soldables (ASTM A706) para zonas sísmicas exigentes.\n- **Mallas electrosoldadas** para losas, muros y pisos.\n- Diámetros en octavos de pulgada (n.º 3 = 3/8″ ≈ 9,5 mm; n.º 4 = 1/2″ ≈ 12,7 mm; n.º 5 = 5/8″ ≈ 15,9 mm) o en milímetros.\n\n## Despiece y figurado\nCartillas con la forma, la longitud, la cantidad y la ubicación de cada barra; ganchos estándar de 90°, 135° y 180°; diámetros mínimos de doblado para no fisurar la barra.\n\n## Colocación\nSeparadores (\"panelas\") para garantizar el recubrimiento, amarre firme, traslapos en las zonas permitidas y longitud de desarrollo suficiente. No se deben calentar las barras para doblarlas.\n\n## Control de recibo\nCertificados de calidad por colada, ensayos de tracción y doblado cuando lo exija la especificación, almacenamiento elevado y protegido del barro y de la oxidación excesiva."
   }
 ]
