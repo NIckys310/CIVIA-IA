@@ -270,5 +270,13 @@
     "summary": "Métodos de posicionamiento satelital: autónomo, estático, RTK y PPK, y sus precisiones.",
     "tags": ["GNSS", "GPS", "RTK", "PPK", "estático", "base", "rover", "precisión", "geodesia", "CORS"],
     "body": "## Constelaciones\nGPS (EE. UU.), GLONASS (Rusia), Galileo (UE) y BeiDou (China). Los receptores multiconstelación mejoran la disponibilidad.\n\n## Métodos y precisión orientativa\n| Método | Precisión típica | Uso |\n|---|---|---|\n| Autónomo (navegador) | 2–5 m | Ubicación general |\n| DGPS / SBAS | 0,5–1 m | SIG, inventarios |\n| Estático (postproceso) | mm a 1 cm | Puntos de control, redes geodésicas |\n| RTK (tiempo real) | 1–3 cm | Levantamientos y replanteo |\n| PPK (postproceso cinemático) | 1–3 cm | Drones y móviles |\n\n## Buenas prácticas\n- Cielo despejado y evitar multitrayectoria (edificios, árboles, superficies metálicas).\n- Vincular a la red geodésica nacional o a estaciones permanentes (CORS).\n- Revisar PDOP, número de satélites y tiempo de ocupación.\n- Las alturas GNSS son elipsoidales: convertirlas con el modelo de geoide si se necesitan cotas sobre el nivel del mar."
+  },
+  {
+    "slug": "fotogrametria-con-drones",
+    "category": "topografia",
+    "title": "Fotogrametría y LiDAR con drones",
+    "summary": "Planeación de vuelo, puntos de control, productos (ortofoto, nube de puntos, MDT) y precisión.",
+    "tags": ["dron", "fotogrametría", "ortofoto", "nube de puntos", "LiDAR", "GSD", "puntos de control", "modelo digital de terreno"],
+    "body": "## Productos\n- **Ortofotomosaico**: imagen corregida geométricamente, apta para medir.\n- **Nube de puntos** densa.\n- **MDS** (modelo digital de superficie: incluye vegetación y edificaciones) y **MDT** (solo terreno).\n- **Curvas de nivel** y modelos 3D texturizados.\n\n## Planeación del vuelo\n- **GSD** (tamaño del píxel en el terreno): depende de la altura de vuelo, la cámara y la lente. Un GSD de 2–3 cm es habitual en obra.\n- **Traslapo**: ≈ 75–80 % longitudinal y 65–70 % lateral.\n- **Puntos de control (GCP)** medidos con GNSS RTK y **puntos de chequeo** independientes para verificar la precisión.\n\n## LiDAR\nMide distancias con láser y puede atravesar parcialmente la vegetación: es mejor que la fotogrametría para obtener el MDT bajo bosque.\n\n## Usos en ingeniería\nCálculo de volúmenes de corte y relleno, seguimiento del avance de obra, inspección de taludes y estructuras, estudios de rutas y catastro.\n\n> Los vuelos deben cumplir la regulación aeronáutica local."
   }
 ]
