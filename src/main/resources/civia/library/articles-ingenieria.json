@@ -670,5 +670,13 @@
     "summary": "Arena y grava: granulometría, limpieza, desgaste, forma y ensayos de aceptación.",
     "tags": ["agregados", "arena", "grava", "granulometría", "módulo de finura", "desgaste Los Ángeles", "equivalente de arena"],
     "body": "## Funciones\nOcupan cerca del 60–75 % del volumen del concreto y forman el esqueleto de las capas granulares de pavimentos.\n\n## Propiedades y ensayos\n- **Granulometría** (tamizado) y **módulo de finura** de la arena (≈ 2,3–3,1 para concreto).\n- **Limpieza**: contenido de finos (pasa n.º 200), equivalente de arena, impurezas orgánicas, terrones de arcilla.\n- **Resistencia al desgaste**: máquina de Los Ángeles (límite habitual del orden de 40–50 % para concreto y menor para capas de rodadura).\n- **Solidez** frente a sulfatos, forma (índices de aplanamiento y alargamiento) y caras fracturadas en bases.\n- **Densidad y absorción**, para el diseño de mezclas.\n\n## Buenas prácticas\nFuentes con licencia ambiental, acopios separados por tamaño sobre superficie limpia, protección contra la contaminación y control de la humedad para corregir el agua de la mezcla."
+  },
+  {
+    "slug": "economia-circular-construccion",
+    "category": "sostenibilidad",
+    "title": "Economía circular y huella de carbono en construcción",
+    "summary": "Carbono incorporado, análisis de ciclo de vida, reutilización y materiales de menor impacto.",
+    "tags": ["economía circular", "huella de carbono", "carbono incorporado", "ACV", "ciclo de vida", "cemento", "reciclaje", "EPD"],
+    "body": "## Carbono incorporado y operacional\n- **Operacional**: energía usada durante la vida del edificio.\n- **Incorporado**: emisiones de fabricar, transportar, construir, mantener y demoler. En edificios eficientes puede ser la mitad o más del total en su ciclo de vida.\n\n## Dónde está el carbono\nEl cemento (y por tanto el concreto), el acero, el aluminio y el vidrio concentran buena parte de las emisiones.\n\n## Estrategias\n- **Construir menos y mejor**: reutilizar edificaciones existentes, optimizar las estructuras.\n- **Concretos con menos clínker** (adiciones, cementos compuestos) y resistencias ajustadas a lo necesario.\n- **Materiales biobasados**: madera certificada, guadua, tierra.\n- **Diseño para desmontaje** y reutilización de componentes.\n- **Agregados reciclados** de RCD.\n- **Declaraciones ambientales de producto (EPD)** para comparar materiales y **análisis de ciclo de vida (ACV)** del proyecto."
   }
 ]
