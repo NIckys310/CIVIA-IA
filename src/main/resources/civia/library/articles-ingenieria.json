@@ -118,5 +118,13 @@
     "summary": "Ciclo hidrológico, cuencas, tiempo de concentración, hidrogramas y análisis de frecuencias.",
     "tags": ["hidrología", "cuenca", "tiempo de concentración", "hidrograma", "periodo de retorno", "Gumbel", "precipitación"],
     "body": "## Cuenca hidrográfica\nÁrea que drena a un punto. Parámetros: área, perímetro, longitud del cauce principal, pendiente, forma (índice de compacidad) y uso del suelo.\n\n## Tiempo de concentración\nTiempo que tarda el agua en llegar desde el punto más lejano de la cuenca hasta la salida. Fórmulas empíricas: Kirpich, California Culverts Practice, Témez o la del SCS. Conviene comparar varias y justificar la elegida.\n\n## Caudales de crecida\n- **Racional**: cuencas pequeñas.\n- **Número de curva (SCS-CN)**: precipitación efectiva según el tipo de suelo y su cobertura.\n- **Hidrograma unitario** (Snyder, SCS) y modelos lluvia-escorrentía.\n\n## Análisis de frecuencias\nCon series de máximos anuales se ajustan distribuciones (Gumbel, Log-Pearson III, GEV) para estimar el valor de un periodo de retorno T. Probabilidad de que se presente al menos una vez en n años: P = 1 − (1 − 1/T)^n. Ejemplo: T = 100 años y n = 50 años → P ≈ 39,5 %."
+  },
+  {
+    "slug": "canales-abiertos",
+    "category": "hidraulica",
+    "title": "Canales abiertos",
+    "summary": "Flujo uniforme y crítico, número de Froude, secciones óptimas, resalto hidráulico y revestimientos.",
+    "tags": ["canal", "flujo uniforme", "Manning", "número de Froude", "flujo crítico", "resalto hidráulico", "sección hidráulica óptima"],
+    "body": "## Flujo uniforme\nSe calcula con Manning: Q = (1/n)·A·R^(2/3)·S^(1/2). La profundidad que lo cumple es la **profundidad normal**.\n\n## Régimen de flujo\n- **Número de Froude**: Fr = V / √(g·D), con D = A/T (profundidad hidráulica).\n- Fr < 1: subcrítico (lento); Fr = 1: crítico; Fr > 1: supercrítico (rápido).\n- Conviene evitar diseños con Fr entre 0,8 y 1,2: el flujo es inestable y ondulado.\n\n## Resalto hidráulico\nPaso brusco de supercrítico a subcrítico con gran disipación de energía. Relación de profundidades conjugadas: y2/y1 = ½·(√(1 + 8·Fr1²) − 1). Se aprovecha en los disipadores al pie de rápidas y vertederos.\n\n## Diseño\n- Sección óptima: la que conduce el caudal con el menor perímetro mojado (en trapecios, la semi-hexagonal).\n- Borde libre de un 20–30 % de la profundidad o según la norma.\n- Velocidad máxima según el revestimiento (tierra ≈ 0,6–1,0 m/s; concreto ≈ 3–6 m/s)."
   }
 ]
