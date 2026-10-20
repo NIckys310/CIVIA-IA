@@ -40,7 +40,8 @@ public final class KnowledgeBase {
     private static final String[] ARTICLE_FILES = {
             "civia/library/articles-diseno.json",
             "civia/library/articles-tecnica.json",
-            "civia/library/articles-practica.json"
+            "civia/library/articles-practica.json",
+            "civia/library/articles-ingenieria.json"
     };
 
     private final List<Category> categories;

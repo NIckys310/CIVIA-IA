@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "estudio-de-suelos",
+    "category": "geotecnia",
+    "title": "Estudio de suelos: qué incluye y cuándo pedirlo",
+    "summary": "Alcance de un estudio geotécnico, número de sondeos, ensayos y entregables para diseñar cimentaciones.",
+    "tags": ["estudio de suelos", "geotecnia", "sondeo", "perforación", "SPT", "cimentación", "capacidad portante"],
+    "body": "## Para qué sirve\nEl estudio de suelos describe el subsuelo y entrega los parámetros para diseñar la cimentación, las excavaciones y los muros: tipo de suelo, nivel freático, capacidad portante, asentamientos esperados y recomendaciones constructivas.\n\n## Contenido típico\n- **Exploración**: sondeos o apiques con su localización y profundidad.\n- **Ensayos de campo**: SPT, CPT, veleta, densidad in situ.\n- **Ensayos de laboratorio**: humedad, límites de Atterberg, granulometría, peso unitario, compresión inconfinada, consolidación, corte directo o triaxial.\n- **Perfil estratigráfico** y nivel freático.\n- **Parámetros de diseño**: cohesión, ángulo de fricción, módulo de deformación, coeficiente de balasto.\n- **Recomendaciones**: tipo y profundidad de cimentación, capacidad admisible, asentamientos, excavaciones, drenaje, agresividad química y parámetros sísmicos del sitio.\n\n## Número y profundidad de sondeos (orientativo)\nDepende de la norma local y de la categoría de la obra. Como referencia: al menos 3 sondeos por edificación, y que lleguen por debajo del nivel donde la carga ya no afecta al suelo (con frecuencia 1,5 a 2 veces el ancho de la cimentación bajo su base, o hasta roca). Normas como la NSR-10 (Título H) fijan mínimos según la categoría de la unidad de construcción.\n\n> El estudio lo firma un ingeniero geotecnista. No se reemplaza con valores de tablas."
+  },
+  {
+    "slug": "clasificacion-de-suelos-sucs",
+    "category": "geotecnia",
+    "title": "Clasificación de suelos (SUCS y AASHTO)",
+    "summary": "Cómo leer los símbolos GW, SP, CL, MH, etc., y qué dicen sobre el comportamiento del suelo.",
+    "tags": ["SUCS", "USCS", "AASHTO", "granulometría", "límites de Atterberg", "arcilla", "limo", "arena", "grava"],
+    "body": "## Sistema Unificado (SUCS / USCS)\nSe basa en la granulometría y en los límites de Atterberg.\n- **Gruesos** (más del 50 % retenido en el tamiz n.º 200): gravas **G** y arenas **S**.\n  - Segunda letra: **W** bien gradada, **P** mal gradada, **M** con finos limosos, **C** con finos arcillosos.\n- **Finos** (50 % o más pasa el n.º 200): limos **M**, arcillas **C**, orgánicos **O**.\n  - Segunda letra: **L** baja plasticidad (LL < 50), **H** alta plasticidad (LL ≥ 50).\n- **Pt**: turba, inadecuada para cimentar.\n\n## Lectura práctica\n| Símbolo | Comportamiento general |\n|---|---|\n| GW, SW | Buen drenaje y buena capacidad portante |\n| SM, SC | Variable, sensibles al agua |\n| CL | Arcilla de baja plasticidad, compresible |\n| CH | Arcilla expansiva o muy compresible: cuidado con cambios de humedad |\n| MH, OH, Pt | Problemáticos, requieren estudio especial |\n\n## AASHTO\nUsado en vías: grupos A-1 a A-7 y el **índice de grupo**. A-1 y A-2 son buenos para subrasante; A-6 y A-7 son pobres."
+  },
+  {
+    "slug": "capacidad-portante",
+    "category": "geotecnia",
+    "title": "Capacidad portante del suelo",
+    "summary": "Diferencia entre capacidad última y admisible, factor de seguridad y por qué el asentamiento suele mandar.",
+    "tags": ["capacidad portante", "Terzaghi", "Meyerhof", "factor de seguridad", "presión admisible", "zapata"],
+    "body": "## Conceptos\n- **Capacidad última (qu)**: presión que produce la falla por corte del suelo.\n- **Capacidad admisible (qadm)**: qu / FS. El factor de seguridad suele estar entre 2,5 y 3 para cargas de servicio.\n- **Presión de contacto**: carga de la estructura dividida por el área de la cimentación. Debe ser ≤ qadm.\n\n## Expresión de Terzaghi (cimentación corrida)\nqu = c·Nc + q·Nq + 0,5·γ·B·Nγ\n- c: cohesión; q: sobrecarga a nivel de desplante (γ·Df); B: ancho; Nc, Nq, Nγ: factores que dependen del ángulo de fricción φ.\n- Meyerhof y Hansen agregan factores de forma, profundidad e inclinación.\n\n## Ejemplo orientativo\nZapata cuadrada con carga de servicio de 600 kN y qadm = 150 kPa: área = 600 / 150 = 4,0 m² → lado ≈ 2,0 m.\n\n## Ojo\nEn arcillas blandas y suelos sueltos, el **asentamiento** suele limitar antes que la falla por corte. El estudio de suelos debe dar ambos criterios."
+  },
+  {
+    "slug": "asentamientos",
+    "category": "geotecnia",
+    "title": "Asentamientos y consolidación",
+    "summary": "Asentamiento inmediato, por consolidación primaria y secundaria; límites diferenciales tolerables.",
+    "tags": ["asentamiento", "consolidación", "arcilla", "asentamiento diferencial", "distorsión angular", "precarga"],
+    "body": "## Tipos\n- **Inmediato (elástico)**: ocurre al aplicar la carga. Dominante en arenas.\n- **Consolidación primaria**: expulsión lenta del agua en arcillas saturadas; puede tardar meses o años.\n- **Consolidación secundaria (creep)**: reacomodo del esqueleto del suelo después de la primaria.\n\n## Consolidación primaria (arcilla normalmente consolidada)\nS = Cc·H / (1 + e0) · log((σ'0 + Δσ) / σ'0)\n- Cc: índice de compresión; H: espesor del estrato; e0: relación de vacíos inicial; σ'0: esfuerzo efectivo inicial; Δσ: incremento por la carga.\n\n## Asentamiento diferencial\nMás dañino que el total. Se controla con la **distorsión angular** (diferencia de asentamiento / distancia entre apoyos). Valores orientativos: 1/500 para evitar fisuras en muros de mampostería; 1/300 suele ser el límite para daños arquitectónicos; 1/150 se asocia a daño estructural.\n\n## Mitigación\nLosas de cimentación, pilotes, precarga con drenes verticales, mejoramiento del suelo o juntas que separen cuerpos con cargas muy distintas."
+  },
+  {
+    "slug": "cimentaciones-profundas",
+    "category": "geotecnia",
+    "title": "Cimentaciones profundas: pilotes y caissons",
+    "summary": "Cuándo usar pilotes, tipos (hincados, preexcavados), fricción y punta, grupos y pruebas de carga.",
+    "tags": ["pilote", "caisson", "pila", "fricción negativa", "prueba de carga", "PDA", "cimentación profunda"],
+    "body": "## Cuándo se usan\nCuando el suelo superficial es blando o compresible, hay cargas altas, socavación, suelos expansivos o licuables, o cuando se necesitan resistir tracción o cargas laterales importantes.\n\n## Tipos\n- **Hincados**: prefabricados de concreto o acero, desplazan el suelo. Control con fórmulas de hinca y análisis dinámico (PDA).\n- **Preexcavados (fundidos in situ)**: con lodo bentonítico, polímero o camisa. Sin vibraciones fuertes.\n- **Hélice continua (CFA)**: rápidos y con poco ruido.\n- **Caissons / pilas excavadas a mano**: diámetros grandes; requieren estrictas medidas de seguridad por espacio confinado.\n\n## Cómo resisten\nCapacidad = resistencia por **fuste** (fricción lateral) + **punta**. En arcillas domina el fuste; en pilotes apoyados en roca o en arena densa, la punta.\n\n## Puntos de atención\n- **Fricción negativa**: el suelo que se asienta arrastra el pilote hacia abajo y le suma carga.\n- **Efecto de grupo**: separación típica de 2,5 a 3 diámetros entre ejes.\n- **Pruebas de carga** estática o dinámica e **integridad** (PIT, cross-hole) para verificar la ejecución."
+  },
+  {
+    "slug": "estabilidad-de-taludes",
+    "category": "geotecnia",
+    "title": "Estabilidad de taludes",
+    "summary": "Factores que causan deslizamientos, factor de seguridad, métodos de análisis y obras de estabilización.",
+    "tags": ["talud", "deslizamiento", "factor de seguridad", "Bishop", "drenaje", "banqueo", "anclajes", "remoción en masa"],
+    "body": "## Por qué fallan\nPendiente excesiva, agua (lluvia, fugas, nivel freático alto), cortes al pie, sobrecargas en la corona, sismo, deforestación y suelos con baja resistencia o discontinuidades desfavorables.\n\n## Factor de seguridad\nFS = resistencia al corte disponible / esfuerzo cortante actuante a lo largo de la superficie de falla. Valores mínimos orientativos: 1,5 en condición estática y 1,05 a 1,1 con sismo, según la norma local.\n\n## Métodos de análisis\nEquilibrio límite (Fellenius, Bishop simplificado, Janbu, Spencer, Morgenstern-Price) y métodos numéricos (elementos finitos) cuando hay geometrías o materiales complejos.\n\n## Medidas de estabilización\n- **Geometría**: reducir la pendiente, bermas y banqueo, descargar la corona.\n- **Agua**: cunetas de coronación, drenes horizontales, subdrenes, impermeabilizar grietas.\n- **Refuerzo**: anclajes, pernos, soil nailing, pilotes, muros.\n- **Protección superficial**: vegetación, mantos de control de erosión, concreto lanzado.\n- **Instrumentación**: inclinómetros y piezómetros para vigilar movimientos."
+  },
+  {
+    "slug": "muros-de-contencion-diseno",
+    "category": "geotecnia",
+    "title": "Muros de contención: tipos y empujes",
+    "summary": "Muros de gravedad, voladizo, contrafuertes, gaviones y tierra armada; empuje activo, pasivo y verificaciones.",
+    "tags": ["muro de contención", "empuje activo", "Rankine", "Coulomb", "volcamiento", "deslizamiento", "gaviones", "tierra armada"],
+    "body": "## Tipos\n- **Gravedad**: concreto ciclópeo o mampostería; resiste por peso propio. Alturas bajas.\n- **Voladizo (cantiléver)**: concreto reforzado en forma de L o T invertida. Habitual hasta 6–8 m.\n- **Con contrafuertes**: para alturas mayores.\n- **Gaviones**: cajas de malla con piedra; flexibles y drenantes.\n- **Tierra armada / suelo reforzado**: refuerzos (tiras o geomallas) dentro del relleno.\n- **Pantallas y muros anclados**: para excavaciones profundas.\n\n## Empujes\n- **Activo** (Ka): el muro se aleja del suelo. Rankine: Ka = tan²(45° − φ/2).\n- **En reposo** (K0 ≈ 1 − sen φ): el muro no se mueve, por ejemplo en muros de sótano rígidos.\n- **Pasivo** (Kp): el muro empuja contra el suelo; se usa con prudencia.\nEmpuje total activo en suelo granular seco: Ea = ½·Ka·γ·H².\n\n## Verificaciones\nVolcamiento (FS ≥ 2), deslizamiento (FS ≥ 1,5), capacidad portante bajo la zapata, estabilidad global y diseño estructural del muro.\n\n## Drenaje\nEl agua retenida puede duplicar el empuje: llorones (barbacanas), filtro granular o geotextil y tubería perforada en la base."
+  },
+  {
+    "slug": "licuacion-de-suelos",
+    "category": "geotecnia",
+    "title": "Licuación de suelos",
+    "summary": "Qué es la licuación, qué suelos la sufren, cómo se evalúa y qué medidas la mitigan.",
+    "tags": ["licuación", "sismo", "arena suelta", "nivel freático", "SPT", "mejoramiento de suelos", "compactación dinámica"],
+    "body": "## Qué es\nDurante un sismo, una arena suelta y saturada tiende a compactarse; el agua no alcanza a salir, la presión de poros sube y el suelo pierde casi toda su resistencia. Se comporta como un líquido: edificios que se inclinan, tuberías que flotan, volcanes de arena.\n\n## Suelos susceptibles\nArenas finas y limosas, sueltas, saturadas, jóvenes (rellenos, depósitos aluviales), con nivel freático a poca profundidad (habitualmente en los primeros 15–20 m).\n\n## Evaluación\nSe compara el esfuerzo cíclico que produce el sismo (CSR) con la resistencia cíclica del suelo (CRR), obtenida de SPT, CPT o velocidad de onda de corte. Factor de seguridad = CRR / CSR.\n\n## Mitigación\n- Densificación: vibrocompactación, compactación dinámica, columnas de grava.\n- Drenaje para disipar la presión de poros (drenes de grava).\n- Inyecciones o mezcla profunda con cemento.\n- Cimentaciones profundas que lleguen por debajo del estrato licuable, considerando la pérdida de soporte lateral."
+  },
+  {
+    "slug": "suelos-expansivos",
+    "category": "geotecnia",
+    "title": "Suelos expansivos y colapsables",
+    "summary": "Arcillas que se hinchan y suelos que colapsan al mojarse: cómo identificarlos y cómo construir sobre ellos.",
+    "tags": ["suelo expansivo", "arcilla expansiva", "montmorillonita", "suelo colapsable", "loess", "humedad", "fisuras"],
+    "body": "## Suelos expansivos\nArcillas con minerales como la montmorillonita que aumentan de volumen al humedecerse y se contraen al secarse. Producen fisuras en muros y pisos, levantamiento de losas y daños en tuberías.\n\n**Indicios**: índice de plasticidad alto (IP > 25–35), límite líquido alto (CH), grietas en época seca, ensayos de expansión libre y de presión de expansión.\n\n## Medidas\n- Mantener la humedad estable: andenes perimetrales, drenaje, evitar jardines con riego pegados a los muros.\n- Cimentar por debajo de la zona activa (pilotes o pilas con fuste aislado).\n- Losas estructurales separadas del suelo o con vacío.\n- Reemplazo parcial o estabilización con cal.\n\n## Suelos colapsables\nSuelos de baja densidad (loess, algunos rellenos y suelos residuales) que pierden volumen bruscamente al saturarse bajo carga. Se evalúan con el ensayo de colapso en el edómetro. Se mitigan con compactación, prehumedecimiento controlado, reemplazo o cimentación profunda."
+  },
+  {
+    "slug": "exploracion-geotecnica-spt",
+    "category": "geotecnia",
+    "title": "Ensayo SPT y otros ensayos de campo",
+    "summary": "Cómo se hace el ensayo de penetración estándar, cómo se corrige el número N y qué otros ensayos complementan.",
+    "tags": ["SPT", "N60", "CPT", "penetración estándar", "veleta", "presiómetro", "ensayo de campo", "sondeo"],
+    "body": "## SPT (Standard Penetration Test)\nSe hinca un muestreador partido con un martillo de 63,5 kg que cae 76 cm. Se cuentan los golpes en tres tramos de 15 cm; **N** es la suma de los dos últimos.\n- Se corrige por energía del martillo (N60), sobrecarga, longitud de varillas y diámetro del sondeo.\n- Permite estimar densidad relativa y ángulo de fricción en arenas, y consistencia en arcillas, con correlaciones empíricas.\n\n## Lectura orientativa en arenas (N60)\n| N | Compacidad |\n|---|---|\n| 0–4 | Muy suelta |\n| 4–10 | Suelta |\n| 10–30 | Media |\n| 30–50 | Densa |\n| > 50 | Muy densa |\n\n## Otros ensayos\n- **CPT / CPTu**: cono con medición continua de punta, fricción y presión de poros; perfil muy detallado.\n- **Veleta de campo**: resistencia no drenada de arcillas blandas.\n- **Presiómetro y dilatómetro**: parámetros de deformación.\n- **Geofísica** (MASW, refracción sísmica, resistividad): velocidad de onda de corte (Vs30) para la clasificación sísmica del sitio."
+  },
+  {
+    "slug": "hidraulica-de-tuberias",
+    "category": "hidraulica",
+    "title": "Hidráulica de tuberías a presión",
+    "summary": "Ecuación de energía, pérdidas por fricción (Darcy-Weisbach, Hazen-Williams) y pérdidas locales.",
+    "tags": ["tuberías", "presión", "Darcy-Weisbach", "Hazen-Williams", "pérdidas", "Bernoulli", "caudal", "velocidad"],
+    "body": "## Ecuación de energía\nz1 + P1/γ + V1²/2g = z2 + P2/γ + V2²/2g + hf + hm\n- z: cota; P/γ: altura de presión; V²/2g: altura de velocidad; hf: pérdidas por fricción; hm: pérdidas locales.\n\n## Pérdidas por fricción\n- **Darcy-Weisbach**: hf = f·(L/D)·V²/2g. El factor f se obtiene con Colebrook-White o el diagrama de Moody (depende de Reynolds y de la rugosidad relativa).\n- **Hazen-Williams** (agua, flujo turbulento): V = 0,849·C·R^0,63·S^0,54 (SI). C ≈ 150 para PVC y PEAD, 130–140 para hierro dúctil nuevo, 100 para hierro viejo.\n\n## Pérdidas locales\nhm = K·V²/2g. K típicos: codo de 90° ≈ 0,3–0,9; válvula de compuerta abierta ≈ 0,2; entrada ≈ 0,5; salida = 1,0.\n\n## Criterios de diseño (orientativos)\n- Velocidad en redes de distribución: 0,5 a 2,0 m/s (por debajo hay sedimentación y por encima, golpe de ariete y ruido).\n- Presiones de servicio en redes urbanas: usualmente entre 15 y 50–60 m.c.a., según la norma local (en Colombia, la Resolución 0330 de 2017)."
+  },
+  {
+    "slug": "diseno-de-acueductos",
+    "category": "hidraulica",
+    "title": "Sistemas de acueducto",
+    "summary": "Componentes de un acueducto, población de diseño, dotaciones y caudales medio y máximos.",
+    "tags": ["acueducto", "dotación", "caudal de diseño", "población", "captación", "tanque", "red de distribución", "RAS"],
+    "body": "## Componentes\nCaptación → aducción → desarenador → conducción → planta de tratamiento → tanque de almacenamiento → red de distribución → acometidas.\n\n## Caudales de diseño\n- **Población futura**: proyección (aritmética, geométrica o exponencial) al horizonte de diseño, típicamente de 25 años.\n- **Dotación neta**: consumo por habitante (por ejemplo, 120–140 L/hab·día según el clima y la altura sobre el nivel del mar). La **dotación bruta** incluye pérdidas: Dbruta = Dneta / (1 − %pérdidas).\n- **Qmd** (caudal medio diario) = población × dotación bruta / 86 400.\n- **QMD** (máximo diario) = k1·Qmd, con k1 ≈ 1,2–1,3.\n- **QMH** (máximo horario) = k2·QMD, con k2 ≈ 1,5–1,8.\n- La captación y la conducción se diseñan con QMD; la red de distribución con QMH (más incendio, si aplica).\n\n## Almacenamiento\nEl tanque regula las variaciones horarias (con frecuencia del orden de un 25–35 % del volumen del día de máximo consumo) más reservas de incendio y emergencia.\n\n> Los parámetros exactos dependen de la norma de cada país."
+  },
+  {
+    "slug": "alcantarillado-sanitario",
+    "category": "hidraulica",
+    "title": "Alcantarillado sanitario",
+    "summary": "Caudales de aguas residuales, diseño por flujo a superficie libre con Manning, pendientes y pozos.",
+    "tags": ["alcantarillado", "aguas residuales", "Manning", "pozo de inspección", "pendiente", "fuerza tractiva", "colector"],
+    "body": "## Caudal de diseño\n- **Aguas domésticas**: coeficiente de retorno (0,7–0,85) × consumo de agua potable.\n- Se suman los aportes **industriales, comerciales e institucionales**, más **infiltración** y **conexiones erradas**.\n- Caudal máximo horario = factor de mayoración (Harmon, Babbitt o Flores) × caudal medio.\n\n## Hidráulica: ecuación de Manning\nV = (1/n)·R^(2/3)·S^(1/2). n ≈ 0,009–0,010 para PVC y 0,013 para concreto.\n- Los colectores trabajan **parcialmente llenos** (relación y/D ≤ 0,7–0,85) para ventilar la red.\n- **Velocidad mínima** de autolimpieza ≈ 0,45–0,6 m/s, o un esfuerzo cortante (fuerza tractiva) mínimo.\n- **Velocidad máxima**: unos 5 m/s en PVC y concreto, según el material.\n\n## Geometría\n- Diámetro mínimo usual: 170–200 mm en redes públicas.\n- Pozos de inspección en cambios de dirección, pendiente o diámetro, en las uniones y cada 80–120 m.\n- Profundidad mínima a la clave (≈ 1,0–1,2 m bajo vías) y bajo la red de agua potable para evitar contaminación."
+  },
+  {
+    "slug": "drenaje-pluvial-urbano",
+    "category": "hidraulica",
+    "title": "Drenaje pluvial urbano y método racional",
+    "summary": "Caudal pico con el método racional, curvas IDF, coeficientes de escorrentía, sumideros y SUDS.",
+    "tags": ["drenaje pluvial", "método racional", "IDF", "escorrentía", "sumidero", "tiempo de concentración", "SUDS"],
+    "body": "## Método racional\nQ = C·i·A / 360 (Q en m³/s, i en mm/h, A en hectáreas).\n- **C**: coeficiente de escorrentía (cubiertas y pavimentos 0,75–0,95; zonas verdes 0,10–0,35).\n- **i**: intensidad de lluvia para una duración igual al **tiempo de concentración**, tomada de la curva IDF (intensidad-duración-frecuencia) de la estación.\n- Se aplica a cuencas pequeñas (orientativamente menos de 2–3 km²). Para cuencas mayores se usan hidrogramas unitarios o modelos como HEC-HMS o SWMM.\n\n## Periodo de retorno (orientativo)\nRedes menores: 2 a 5 años; colectores principales: 10 a 25 años; canales y estructuras mayores: 50 a 100 años, según el riesgo.\n\n## Elementos\nSumideros (de rejilla o de ventana), cunetas, colectores, canales, estructuras de disipación y descargas.\n\n## Drenaje sostenible (SUDS)\nPavimentos permeables, zanjas de infiltración, cubiertas verdes, jardines de lluvia y tanques de tormenta: reducen el pico de caudal y mejoran la calidad del agua."
+  },
+  {
+    "slug": "hidrologia-basica",
+    "category": "hidraulica",
+    "title": "Hidrología básica para ingenieros",
+    "summary": "Ciclo hidrológico, cuencas, tiempo de concentración, hidrogramas y análisis de frecuencias.",
+    "tags": ["hidrología", "cuenca", "tiempo de concentración", "hidrograma", "periodo de retorno", "Gumbel", "precipitación"],
+    "body": "## Cuenca hidrográfica\nÁrea que drena a un punto. Parámetros: área, perímetro, longitud del cauce principal, pendiente, forma (índice de compacidad) y uso del suelo.\n\n## Tiempo de concentración\nTiempo que tarda el agua en llegar desde el punto más lejano de la cuenca hasta la salida. Fórmulas empíricas: Kirpich, California Culverts Practice, Témez o la del SCS. Conviene comparar varias y justificar la elegida.\n\n## Caudales de crecida\n- **Racional**: cuencas pequeñas.\n- **Número de curva (SCS-CN)**: precipitación efectiva según el tipo de suelo y su cobertura.\n- **Hidrograma unitario** (Snyder, SCS) y modelos lluvia-escorrentía.\n\n## Análisis de frecuencias\nCon series de máximos anuales se ajustan distribuciones (Gumbel, Log-Pearson III, GEV) para estimar el valor de un periodo de retorno T. Probabilidad de que se presente al menos una vez en n años: P = 1 − (1 − 1/T)^n. Ejemplo: T = 100 años y n = 50 años → P ≈ 39,5 %."
+  },
+  {
+    "slug": "canales-abiertos",
+    "category": "hidraulica",
+    "title": "Canales abiertos",
+    "summary": "Flujo uniforme y crítico, número de Froude, secciones óptimas, resalto hidráulico y revestimientos.",
+    "tags": ["canal", "flujo uniforme", "Manning", "número de Froude", "flujo crítico", "resalto hidráulico", "sección hidráulica óptima"],
+    "body": "## Flujo uniforme\nSe calcula con Manning: Q = (1/n)·A·R^(2/3)·S^(1/2). La profundidad que lo cumple es la **profundidad normal**.\n\n## Régimen de flujo\n- **Número de Froude**: Fr = V / √(g·D), con D = A/T (profundidad hidráulica).\n- Fr < 1: subcrítico (lento); Fr = 1: crítico; Fr > 1: supercrítico (rápido).\n- Conviene evitar diseños con Fr entre 0,8 y 1,2: el flujo es inestable y ondulado.\n\n## Resalto hidráulico\nPaso brusco de supercrítico a subcrítico con gran disipación de energía. Relación de profundidades conjugadas: y2/y1 = ½·(√(1 + 8·Fr1²) − 1). Se aprovecha en los disipadores al pie de rápidas y vertederos.\n\n## Diseño\n- Sección óptima: la que conduce el caudal con el menor perímetro mojado (en trapecios, la semi-hexagonal).\n- Borde libre de un 20–30 % de la profundidad o según la norma.\n- Velocidad máxima según el revestimiento (tierra ≈ 0,6–1,0 m/s; concreto ≈ 3–6 m/s)."
+  },
+  {
+    "slug": "tratamiento-de-agua-potable",
+    "category": "hidraulica",
+    "title": "Tratamiento de agua potable",
+    "summary": "Procesos de una planta convencional: coagulación, floculación, sedimentación, filtración y desinfección.",
+    "tags": ["potabilización", "coagulación", "floculación", "sedimentación", "filtración", "desinfección", "cloro", "turbiedad"],
+    "body": "## Tren de tratamiento convencional\n1. **Captación y desarenado**: retira arenas y sólidos gruesos.\n2. **Coagulación (mezcla rápida)**: un coagulante (sulfato de aluminio, cloruro férrico o PAC) desestabiliza las partículas. La dosis se define con el **ensayo de jarras**.\n3. **Floculación (mezcla lenta)**: las partículas se aglomeran en flóculos. Gradientes de velocidad decrecientes.\n4. **Sedimentación**: los flóculos decantan; los sedimentadores de alta tasa usan placas o tubos.\n5. **Filtración**: lechos de arena y antracita. Se lavan a contracorriente.\n6. **Desinfección**: cloro (con un residual en la red), ozono o radiación UV.\n7. Ajuste de pH y, en algunos casos, fluoración.\n\n## Calidad\nSe controlan turbiedad, color, pH, cloro residual, coliformes y los parámetros fisicoquímicos que exige la norma de agua potable de cada país.\n\n## Alternativas\nFiltración en múltiples etapas (FiME) para comunidades pequeñas, membranas (ultrafiltración, ósmosis inversa) para fuentes difíciles o desalinización."
+  },
+  {
+    "slug": "tratamiento-de-aguas-residuales",
+    "category": "hidraulica",
+    "title": "Tratamiento de aguas residuales",
+    "summary": "Niveles de tratamiento, procesos biológicos (lodos activados, UASB, lagunas) y manejo de lodos.",
+    "tags": ["PTAR", "aguas residuales", "DBO", "DQO", "lodos activados", "UASB", "lagunas de estabilización", "tanque séptico"],
+    "body": "## Parámetros clave\nDBO5 (materia orgánica biodegradable), DQO, sólidos suspendidos totales (SST), nitrógeno, fósforo, grasas y coliformes.\n\n## Niveles de tratamiento\n- **Preliminar**: rejillas, desarenadores, trampas de grasa.\n- **Primario**: sedimentación; remueve una parte de los SST y de la DBO.\n- **Secundario (biológico)**: degrada la materia orgánica disuelta.\n- **Terciario**: nutrientes, desinfección y reúso.\n\n## Procesos biológicos comunes\n| Proceso | Ventajas | Limitaciones |\n|---|---|---|\n| Lodos activados | Alta eficiencia, poca área | Consumo de energía, operación exigente |\n| Reactor UASB (anaerobio) | Poca energía, produce biogás | Requiere postratamiento; sensible a la temperatura |\n| Lagunas de estabilización | Operación sencilla | Gran área, olores si se operan mal |\n| Filtros percoladores / biodiscos | Robustos | Eficiencia media |\n| Humedales construidos | Paisajísticos, bajo costo | Mucha área |\n\n## Soluciones individuales\nTanque séptico + filtro anaerobio + campo de infiltración, cuando no hay alcantarillado y el suelo lo permite (prueba de percolación).\n\n## Lodos\nEspesamiento, digestión, deshidratación (lechos de secado, filtros prensa, centrífugas) y disposición o aprovechamiento."
+  },
+  {
+    "slug": "redes-hidrosanitarias-edificios",
+    "category": "hidraulica",
+    "title": "Redes hidrosanitarias en edificios",
+    "summary": "Cálculo de caudales por unidades de consumo, presiones en aparatos, sistemas de bombeo y desagües.",
+    "tags": ["red hidráulica interna", "unidades de consumo", "Hunter", "equipo de presión", "tanque elevado", "desagües", "ventilación"],
+    "body": "## Agua potable\n- **Caudal probable**: no todos los aparatos se usan a la vez. Se usa el método de **Hunter** (unidades de consumo) o métodos probabilísticos.\n- **Presión mínima** en el aparato más desfavorable: del orden de 2 m.c.a. para grifos y 7–10 m.c.a. o más para fluxómetros y duchas, según la norma y el fabricante.\n- **Velocidad** en tuberías internas: 1,0 a 2,0–2,5 m/s para evitar ruido.\n\n## Suministro\n- **Directo** desde la red cuando la presión alcanza.\n- **Tanque bajo + equipo hidroneumático o de velocidad variable**: lo más común en edificios.\n- **Tanque elevado** por gravedad.\n- Edificios altos: zonificación de presiones con válvulas reductoras.\n\n## Desagües\n- Dimensionados por **unidades de descarga**; pendientes del 1–2 % en ramales horizontales.\n- **Sifones** en todos los aparatos y **ventilación** para que no se pierda el sello de agua.\n- Redes separadas de aguas lluvias y residuales hasta la caja de inspección o lo que exija el operador."
+  },
+  {
+    "slug": "golpe-de-ariete",
+    "category": "hidraulica",
+    "title": "Golpe de ariete",
+    "summary": "Sobrepresiones por el cierre brusco de válvulas o la parada de bombas, fórmula de Joukowsky y protección.",
+    "tags": ["golpe de ariete", "transitorio hidráulico", "Joukowsky", "celeridad", "válvula", "bomba", "cámara de aire"],
+    "body": "## Qué es\nCambio brusco de velocidad en una tubería a presión que genera una onda de sobrepresión y depresión. Puede reventar tuberías, colapsarlas por vacío o dañar bombas y válvulas.\n\n## Magnitud (cierre instantáneo)\nΔH = a·ΔV / g (Joukowsky).\n- **a**: celeridad de la onda; depende del material y de la relación diámetro/espesor. Orientativamente ≈ 300–500 m/s en PVC y PEAD y ≈ 1000–1300 m/s en acero y hierro dúctil.\n- Ejemplo: a = 1000 m/s y ΔV = 1,5 m/s → ΔH ≈ 153 m de sobrepresión.\n\n## Cierre rápido o lento\nTiempo crítico: Tc = 2L/a. Si la válvula cierra en un tiempo menor que Tc, la sobrepresión es la de Joukowsky; si cierra más despacio, se reduce (fórmula de Michaud).\n\n## Protección\nCierre lento de válvulas, volantes de inercia en bombas, cámaras de aire o tanques hidroneumáticos, chimeneas de equilibrio, válvulas de alivio y ventosas, y tuberías con clase de presión suficiente. En conducciones importantes se hace un análisis de transitorios con software."
+  },
+  {
+    "slug": "diseno-geometrico-de-vias",
+    "category": "vias",
+    "title": "Diseño geométrico de vías",
+    "summary": "Velocidad de diseño, alineamiento horizontal y vertical, sección transversal y coordinación entre ellos.",
+    "tags": ["diseño geométrico", "velocidad de diseño", "alineamiento", "curva horizontal", "peralte", "rasante", "sección transversal"],
+    "body": "## Velocidad de diseño\nEs el parámetro que gobierna radios, pendientes, distancias de visibilidad y anchos. Se elige según la categoría de la vía (primaria, secundaria, terciaria, urbana) y el tipo de terreno (plano, ondulado, montañoso, escarpado).\n\n## Alineamiento horizontal\nTangentes, curvas circulares y curvas de transición (clotoides). Radio mínimo: R = V² / (127·(e + f)), con V en km/h, e = peralte y f = fricción lateral.\n\n## Alineamiento vertical\nPendientes máximas según la velocidad y el terreno, y curvas verticales parabólicas convexas y cóncavas, dimensionadas por visibilidad y comodidad (parámetro K = L / A).\n\n## Sección transversal\nCalzada (carriles de 3,0–3,65 m), bermas, cunetas, taludes, separadores, andenes y ciclorrutas. Bombeo de la calzada ≈ 2 % para evacuar el agua.\n\n## Coordinación\nConviene evitar curvas horizontales cerradas justo después de una cima y buscar que las curvas horizontales y verticales coincidan. Los manuales nacionales (en Colombia, el Manual de Diseño Geométrico del INVÍAS) fijan los valores."
+  },
+  {
+    "slug": "distancias-de-visibilidad",
+    "category": "vias",
+    "title": "Distancias de visibilidad",
+    "summary": "Distancia de visibilidad de parada y de adelantamiento, y cómo condicionan curvas y cruces.",
+    "tags": ["visibilidad", "distancia de parada", "adelantamiento", "tiempo de reacción", "curva vertical", "intersección"],
+    "body": "## Distancia de visibilidad de parada\nDp = 0,278·V·t + V² / (254·(f ± p))\n- V: velocidad (km/h); t: tiempo de percepción y reacción (≈ 2,5 s); f: coeficiente de fricción longitudinal; p: pendiente (+ en subida, − en bajada).\n- Ejemplo orientativo: a 60 km/h en plano, del orden de 75–85 m.\n\n## Distancia de adelantamiento\nMucho mayor (cientos de metros). En vías de dos carriles se debe garantizar en un porcentaje del tramo y señalizar las zonas donde no se puede adelantar.\n\n## Dónde importa\n- **Curvas verticales convexas**: su longitud debe permitir ver un obstáculo a la distancia de parada.\n- **Curvas horizontales**: el despeje lateral (taludes, vegetación, edificaciones) define la visibilidad interior.\n- **Intersecciones**: triángulos de visibilidad libres de obstáculos."
+  },
+  {
+    "slug": "pavimentos-flexibles",
+    "category": "vias",
+    "title": "Pavimentos flexibles (asfálticos)",
+    "summary": "Capas de un pavimento asfáltico, tránsito de diseño en ejes equivalentes y métodos de diseño.",
+    "tags": ["pavimento flexible", "asfalto", "mezcla asfáltica", "base granular", "subbase", "ESAL", "AASHTO 93", "CBR"],
+    "body": "## Estructura típica\nCarpeta asfáltica → base granular → subbase granular → subrasante (mejorada si hace falta). Las cargas se reparten de forma progresiva hasta llegar a la subrasante con esfuerzos tolerables.\n\n## Datos de diseño\n- **Tránsito**: número de ejes equivalentes de 8,2 t (ESAL) en el periodo de diseño (10–20 años).\n- **Subrasante**: CBR o módulo resiliente (Mr ≈ 10·CBR en MPa como correlación orientativa para suelos finos).\n- **Materiales**: coeficientes estructurales de cada capa.\n- **Drenaje y clima**.\n\n## Métodos\n- **AASHTO 93**: número estructural SN = a1·D1 + a2·m2·D2 + a3·m3·D3.\n- **Mecanístico-empíricos** (MEPDG, métodos racionales): verifican la fatiga de la carpeta y la deformación de la subrasante.\n- Catálogos nacionales para vías de bajo tránsito.\n\n## Fallas comunes\nPiel de cocodrilo (fatiga), ahuellamiento, baches, desprendimientos, exudación y fisuras térmicas o reflejadas. Casi siempre hay detrás un problema de **agua** o de **subdiseño**."
+  },
+  {
+    "slug": "pavimentos-rigidos",
+    "category": "vias",
+    "title": "Pavimentos rígidos (concreto)",
+    "summary": "Losas de concreto, juntas, pasadores, módulo de rotura y criterios de diseño.",
+    "tags": ["pavimento rígido", "concreto hidráulico", "losa", "juntas", "pasadores", "dovelas", "módulo de rotura", "PCA"],
+    "body": "## Cómo trabaja\nLa losa de concreto reparte la carga por flexión en un área amplia. La subrasante recibe esfuerzos bajos, pero la losa es sensible a la erosión de la base y al alabeo térmico.\n\n## Elementos\n- **Losa**: espesores habituales de 15–30 cm según el tránsito.\n- **Base o subbase** granular o tratada con cemento, contra el bombeo de finos.\n- **Juntas**: transversales de contracción (cada 3,5–5 m), longitudinales, de construcción y de expansión.\n- **Pasadores (dovelas)** en juntas transversales para transferir carga; **barras de anclaje** en las longitudinales.\n\n## Parámetros de diseño\nMódulo de rotura del concreto (MR ≈ 4,0–5,0 MPa), módulo de reacción de la subrasante k, tránsito y transferencia de carga. Métodos: PCA (fatiga y erosión), AASHTO 93 rígido y métodos mecanicistas.\n\n## Construcción\nCurado temprano, aserrado de juntas a tiempo (antes de que aparezcan fisuras aleatorias) y sellado de juntas."
+  },
+  {
+    "slug": "cbr-y-subrasante",
+    "category": "vias",
+    "title": "CBR y subrasante",
+    "summary": "Ensayo CBR, cómo se interpreta y qué hacer con subrasantes pobres.",
+    "tags": ["CBR", "subrasante", "Proctor", "compactación", "estabilización", "geotextil", "módulo resiliente"],
+    "body": "## Ensayo CBR\nRelación de soporte de California: compara la presión necesaria para penetrar el suelo con la de un material granular de referencia, a 2,5 y 5,0 mm de penetración. Se hace con la muestra compactada y, por lo general, saturada durante 4 días.\n\n## Interpretación orientativa\n| CBR (%) | Calidad como subrasante |\n|---|---|\n| < 3 | Muy pobre: requiere mejoramiento |\n| 3–5 | Pobre |\n| 5–10 | Regular |\n| 10–20 | Buena |\n| > 20 | Muy buena (aptitud de subbase desde ≈ 20–30) |\n\n## Compactación\nSe controla contra el **Proctor modificado**: porcentaje de compactación exigido (≥ 95 % en subrasante y 98–100 % en bases, según la especificación) y humedad cercana a la óptima.\n\n## Subrasantes pobres\nReemplazo con material seleccionado, estabilización con cal (arcillas) o cemento (suelos granulares y limosos), geotextiles de separación, geomallas y subdrenes cuando el nivel freático está alto."
+  },
+  {
+    "slug": "drenaje-vial",
+    "category": "vias",
+    "title": "Drenaje vial: cunetas, alcantarillas y subdrenes",
+    "summary": "Elementos de drenaje superficial y subterráneo de carreteras y criterios básicos de diseño.",
+    "tags": ["drenaje vial", "cuneta", "alcantarilla", "box culvert", "subdrén", "bombeo", "zanja de coronación", "socavación"],
+    "body": "## Por qué importa\nEl agua es la principal causa de deterioro de las vías: debilita la subrasante, erosiona taludes y produce baches.\n\n## Drenaje superficial\n- **Bombeo y peralte** que sacan el agua de la calzada.\n- **Cunetas** al lado de la vía (triangulares o trapezoidales, revestidas en pendientes fuertes).\n- **Zanjas de coronación** arriba de los taludes de corte.\n- **Bordillos y bajantes** en terraplenes.\n\n## Obras transversales\n- **Alcantarillas** de tubo o de cajón (box culvert) donde la vía cruza drenajes naturales, diseñadas para el caudal del periodo de retorno exigido. Se revisa si trabajan con control a la entrada o a la salida.\n- **Aletas, cabezales y disipadores** para evitar socavación.\n- Diámetro mínimo práctico ≈ 0,9 m para facilitar la limpieza.\n\n## Drenaje subterráneo\n**Subdrenes**: zanja con material filtrante, geotextil y tubería perforada, para bajar el nivel freático bajo la estructura del pavimento."
+  },
+  {
+    "slug": "ingenieria-de-transito",
+    "category": "vias",
+    "title": "Ingeniería de tránsito",
+    "summary": "Volumen, velocidad y densidad; TPD, hora pico, nivel de servicio y capacidad.",
+    "tags": ["tránsito", "TPD", "aforo", "nivel de servicio", "capacidad", "hora pico", "factor de hora pico", "HCM"],
+    "body": "## Variables básicas\n- **Volumen (q)**: vehículos por unidad de tiempo.\n- **Velocidad (v)**: media temporal o espacial.\n- **Densidad (k)**: vehículos por kilómetro. Relación fundamental: q = k·v.\n\n## Volúmenes de diseño\n- **TPD (tránsito promedio diario)**: anual, mensual o semanal, a partir de aforos y factores de expansión.\n- **VHD (volumen horario de diseño)**: suele estar entre la 30.ª hora más cargada del año y un porcentaje del TPD.\n- **Factor de hora pico (FHP)** = volumen horario / (4 × volumen del cuarto de hora máximo).\n- **Composición**: autos, buses, camiones (C2, C3, C3-S2…) y motos, con equivalencias en vehículos ligeros.\n\n## Capacidad y nivel de servicio\nEl Highway Capacity Manual (HCM) define niveles de servicio de **A** (flujo libre) a **F** (congestión) según la densidad, la demora o la velocidad, para autopistas, vías de dos carriles e intersecciones semaforizadas o no semaforizadas."
+  },
+  {
+    "slug": "intersecciones-y-glorietas",
+    "category": "vias",
+    "title": "Intersecciones y glorietas",
+    "summary": "Tipos de intersección, puntos de conflicto, semaforización básica y diseño de glorietas modernas.",
+    "tags": ["intersección", "glorieta", "rotonda", "semáforo", "puntos de conflicto", "canalización", "intercambiador"],
+    "body": "## Puntos de conflicto\nUna intersección de cuatro ramales a nivel tiene 32 puntos de conflicto (16 de cruce, 8 de divergencia y 8 de convergencia). Una glorieta moderna los reduce a 8 y elimina los de cruce, los más graves.\n\n## Tipos\n- **A nivel**: simple, canalizada, con carriles de giro, semaforizada.\n- **Glorietas**: de un carril (alta seguridad) o multicarril.\n- **A desnivel**: intercambiadores (trébol, diamante, direccional) cuando el volumen lo justifica.\n\n## Glorieta moderna\nPrioridad para quien circula dentro del anillo, entradas con deflexión para bajar la velocidad, isla central visible, isletas partidoras y pasos peatonales retirados de la línea de ceda el paso.\n\n## Semaforización\nCiclo, fases, verdes efectivos, entreverde (amarillo y todo rojo) y coordinación entre semáforos. El método de Webster da un ciclo óptimo aproximado: C0 = (1,5·L + 5) / (1 − Y)."
+  },
+  {
+    "slug": "movilidad-sostenible",
+    "category": "vias",
+    "title": "Movilidad sostenible y calles completas",
+    "summary": "Jerarquía de movilidad, infraestructura peatonal y ciclista, transporte público y pacificación del tránsito.",
+    "tags": ["movilidad sostenible", "ciclorruta", "peatón", "calles completas", "transporte público", "BRT", "pacificación", "zona 30"],
+    "body": "## Pirámide de movilidad\nPrioridad para el peatón, luego la bicicleta y la micromovilidad, el transporte público, la logística y, por último, el vehículo particular.\n\n## Calles completas\nDiseñadas para todos los usuarios: andenes continuos y accesibles, cruces seguros, ciclorrutas segregadas, carriles para buses, arborización y mobiliario urbano.\n\n## Referencias de diseño (orientativas)\n- Andén con franja de circulación libre ≥ 1,5–2,0 m.\n- Ciclorruta unidireccional ≥ 1,5–2,0 m; bidireccional ≥ 2,5–3,0 m.\n- Pasos peatonales elevados o a nivel de andén en vías locales.\n\n## Pacificación del tránsito\nZonas 30, estrechamientos de calzada, chicanas, reductores de velocidad, extensiones de andén en las esquinas y orejas. La severidad de los siniestros cae mucho cuando la velocidad de impacto baja de 50 a 30 km/h.\n\n## Transporte público\nBRT (buses de tránsito rápido), corredores preferenciales, metro y tranvía, con integración física y tarifaria y desarrollo orientado al transporte (DOT) alrededor de las estaciones."
+  },
+  {
+    "slug": "senalizacion-vial",
+    "category": "vias",
+    "title": "Señalización y seguridad vial",
+    "summary": "Señales verticales, demarcación horizontal, dispositivos de contención y auditorías de seguridad vial.",
+    "tags": ["señalización", "demarcación", "señal vertical", "barrera de contención", "seguridad vial", "auditoría", "visión cero"],
+    "body": "## Señalización vertical\n- **Reglamentarias**: imponen obligaciones o prohibiciones (PARE, velocidad máxima).\n- **Preventivas**: advierten peligros (curva, cruce, zona escolar).\n- **Informativas**: orientan (destinos, servicios).\nDeben ser visibles, legibles de noche (retrorreflectivas) y ubicarse a distancias coherentes con la velocidad.\n\n## Demarcación horizontal\nLíneas de borde y de carril, línea central continua donde no se puede adelantar, pasos peatonales, flechas y tachas reflectivas.\n\n## Dispositivos de contención\nBarreras metálicas, de concreto (tipo New Jersey) o de cable, terminales absorbentes de energía y atenuadores de impacto, ubicados según la severidad del obstáculo o del desnivel lateral.\n\n## Gestión de la seguridad\n- **Auditorías de seguridad vial** en diseño, construcción y operación.\n- **Enfoque de sistema seguro / Visión cero**: las personas cometen errores; la vía debe perdonarlos.\n- Señalización temporal de obra según el plan de manejo de tránsito.\n\nLos manuales nacionales de señalización definen formas, colores y dimensiones."
+  },
+  {
+    "slug": "fundamentos-de-topografia",
+    "category": "topografia",
+    "title": "Fundamentos de topografía",
+    "summary": "Planimetría y altimetría, sistemas de coordenadas, errores y tolerancias en levantamientos.",
+    "tags": ["topografía", "planimetría", "altimetría", "coordenadas", "levantamiento", "error", "tolerancia", "poligonal"],
+    "body": "## Qué hace la topografía\nMide y representa el terreno: posición horizontal (**planimetría**), alturas (**altimetría**) y su combinación en planos con curvas de nivel y modelos digitales.\n\n## Sistemas de referencia\n- **Coordenadas geográficas** (latitud, longitud) sobre un elipsoide (WGS84, GRS80).\n- **Proyecciones planas**: UTM, Transversa de Mercator local u origen nacional (en Colombia, MAGNA-SIRGAS / Origen Nacional).\n- **Alturas**: elipsoidales (GNSS) y ortométricas (sobre el nivel medio del mar). Se relacionan con el modelo de geoide: H = h − N.\n\n## Errores\n- **Groseros**: equivocaciones; se detectan con comprobaciones.\n- **Sistemáticos**: instrumento descalibrado, temperatura, curvatura; se corrigen.\n- **Aleatorios**: inevitables; se reducen con repetición y se compensan.\n\n## Buenas prácticas\nCerrar las poligonales, partir de puntos de control certificados (vértices geodésicos), materializar mojones y documentar la precisión alcanzada frente a la tolerancia exigida."
+  },
+  {
+    "slug": "nivelacion",
+    "category": "topografia",
+    "title": "Nivelación geométrica y trigonométrica",
+    "summary": "Cómo se determinan diferencias de altura con nivel y con estación total, cierres y tolerancias.",
+    "tags": ["nivelación", "nivel", "mira", "cota", "BM", "cierre altimétrico", "nivelación trigonométrica", "nivel digital"],
+    "body": "## Nivelación geométrica\nCon un nivel y una mira: Δh = lectura atrás − lectura adelante. Se encadenan tramos desde un punto de cota conocida (BM) y se vuelve a él o a otro BM para comprobar el cierre.\n- **Distancias iguales** atrás y adelante para anular el error de colimación y la curvatura.\n- Tolerancia de cierre típica: e = k·√K (K en kilómetros), con k entre 4 y 12 mm según el orden de la nivelación.\n\n## Nivelación trigonométrica\nCon estación total: Δh = D·cos(z) + altura del instrumento − altura del prisma, donde z es el ángulo cenital. Para distancias largas se corrige por curvatura y refracción.\n\n## Aplicaciones\nPerfiles longitudinales y secciones transversales de vías y redes, control de pendientes de alcantarillado, asentamientos de estructuras y replanteo de niveles de piso.\n\n## Niveles digitales y láser\nLos digitales leen miras de código de barras con alta precisión; los láser rotatorios facilitan la nivelación de obra (pisos, excavaciones)."
+  },
+  {
+    "slug": "estacion-total",
+    "category": "topografia",
+    "title": "Estación total y levantamiento planimétrico",
+    "summary": "Medición de ángulos y distancias, radiación, poligonales y control de calidad del levantamiento.",
+    "tags": ["estación total", "poligonal", "radiación", "ángulo horizontal", "distancia", "prisma", "levantamiento", "compensación"],
+    "body": "## Qué mide\nÁngulos horizontales y verticales y distancias electrónicas (con prisma o sin él). Con esas medidas calcula coordenadas X, Y, Z.\n\n## Métodos\n- **Radiación**: desde una estación se miden muchos puntos de detalle.\n- **Poligonal**: secuencia de estaciones enlazadas. Puede ser cerrada o apoyada en dos puntos conocidos. Se calcula el error de cierre angular y lineal y se **compensa** (método de la brújula o de Crandall, o mínimos cuadrados).\n- **Intersección y resección**: ubicar la estación o un punto a partir de puntos conocidos.\n\n## Precisión relativa\nCierre lineal / perímetro. Orientativamente 1:5 000 a 1:10 000 para levantamientos urbanos y 1:20 000 o mejor para control.\n\n## Flujo de trabajo\nReconocimiento → puntos de control → poligonal → detalles (bordes, construcciones, redes, árboles) → cálculo y compensación → dibujo en CAD o BIM con capas y codificación."
+  },
+  {
+    "slug": "gnss-gps",
+    "category": "topografia",
+    "title": "GNSS (GPS) en topografía",
+    "summary": "Métodos de posicionamiento satelital: autónomo, estático, RTK y PPK, y sus precisiones.",
+    "tags": ["GNSS", "GPS", "RTK", "PPK", "estático", "base", "rover", "precisión", "geodesia", "CORS"],
+    "body": "## Constelaciones\nGPS (EE. UU.), GLONASS (Rusia), Galileo (UE) y BeiDou (China). Los receptores multiconstelación mejoran la disponibilidad.\n\n## Métodos y precisión orientativa\n| Método | Precisión típica | Uso |\n|---|---|---|\n| Autónomo (navegador) | 2–5 m | Ubicación general |\n| DGPS / SBAS | 0,5–1 m | SIG, inventarios |\n| Estático (postproceso) | mm a 1 cm | Puntos de control, redes geodésicas |\n| RTK (tiempo real) | 1–3 cm | Levantamientos y replanteo |\n| PPK (postproceso cinemático) | 1–3 cm | Drones y móviles |\n\n## Buenas prácticas\n- Cielo despejado y evitar multitrayectoria (edificios, árboles, superficies metálicas).\n- Vincular a la red geodésica nacional o a estaciones permanentes (CORS).\n- Revisar PDOP, número de satélites y tiempo de ocupación.\n- Las alturas GNSS son elipsoidales: convertirlas con el modelo de geoide si se necesitan cotas sobre el nivel del mar."
+  },
+  {
+    "slug": "fotogrametria-con-drones",
+    "category": "topografia",
+    "title": "Fotogrametría y LiDAR con drones",
+    "summary": "Planeación de vuelo, puntos de control, productos (ortofoto, nube de puntos, MDT) y precisión.",
+    "tags": ["dron", "fotogrametría", "ortofoto", "nube de puntos", "LiDAR", "GSD", "puntos de control", "modelo digital de terreno"],
+    "body": "## Productos\n- **Ortofotomosaico**: imagen corregida geométricamente, apta para medir.\n- **Nube de puntos** densa.\n- **MDS** (modelo digital de superficie: incluye vegetación y edificaciones) y **MDT** (solo terreno).\n- **Curvas de nivel** y modelos 3D texturizados.\n\n## Planeación del vuelo\n- **GSD** (tamaño del píxel en el terreno): depende de la altura de vuelo, la cámara y la lente. Un GSD de 2–3 cm es habitual en obra.\n- **Traslapo**: ≈ 75–80 % longitudinal y 65–70 % lateral.\n- **Puntos de control (GCP)** medidos con GNSS RTK y **puntos de chequeo** independientes para verificar la precisión.\n\n## LiDAR\nMide distancias con láser y puede atravesar parcialmente la vegetación: es mejor que la fotogrametría para obtener el MDT bajo bosque.\n\n## Usos en ingeniería\nCálculo de volúmenes de corte y relleno, seguimiento del avance de obra, inspección de taludes y estructuras, estudios de rutas y catastro.\n\n> Los vuelos deben cumplir la regulación aeronáutica local."
+  },
+  {
+    "slug": "replanteo-de-obra",
+    "category": "topografia",
+    "title": "Replanteo de obra",
+    "summary": "Cómo se trasladan al terreno los ejes, niveles y elementos del proyecto, con controles de precisión.",
+    "tags": ["replanteo", "ejes", "niveletas", "estacas", "cota", "trazado", "control topográfico", "obra"],
+    "body": "## Qué es\nEs lo contrario del levantamiento: llevar al terreno lo que está en los planos (ejes, bordes de excavación, columnas, niveles de piso, rasantes de vías y redes).\n\n## Procedimiento típico en edificación\n1. Verificar linderos y puntos de referencia del lote.\n2. Trazar los **ejes principales** con estación total o GNSS.\n3. Materializar los ejes fuera de la zona de excavación con **niveletas** (caballetes) o referencias en muros vecinos.\n4. Transferir **cotas** desde un BM de obra protegido.\n5. Comprobar diagonales y distancias entre ejes antes de excavar y antes de fundir.\n\n## En obras lineales\nAbscisado, estacas en el eje cada 10–20 m (más densas en las curvas), chaflanes de corte y relleno y control de la rasante por capas.\n\n## Tolerancias\nLas fija la especificación (por ejemplo, ±1 cm en ejes de estructura y ±2 cm en niveles de pavimento). Todo replanteo debe quedar registrado en la bitácora de obra."
+  },
+  {
+    "slug": "movimiento-de-tierras",
+    "category": "topografia",
+    "title": "Movimiento de tierras y cubicación",
+    "summary": "Cálculo de volúmenes de corte y relleno, factores de expansión y diagrama de masas.",
+    "tags": ["movimiento de tierras", "corte", "relleno", "volumen", "cubicación", "diagrama de masas", "abundamiento", "compactación"],
+    "body": "## Cálculo de volúmenes\n- **Secciones transversales**: áreas de corte y relleno cada cierta distancia y volumen por **áreas medias**: V = (A1 + A2)/2 · L (o prismoidal para mayor precisión).\n- **Cuadrícula**: diferencia de cotas en cada celda × área.\n- **Superficies (TIN)**: diferencia entre el modelo del terreno y el del diseño, con software (Civil 3D, por ejemplo) o a partir de nubes de puntos de dron.\n\n## Factores de volumen\n- **Abundamiento (expansión)**: el material excavado ocupa más volumen suelto que en el banco (arcillas ≈ 20–40 %, roca fracturada ≈ 50–70 %). Importa para el transporte.\n- **Compactación (contracción)**: el relleno compactado ocupa menos que en el banco (≈ 5–15 %).\n\n## Diagrama de masas\nCurva de volúmenes acumulados a lo largo de una vía. Permite compensar cortes con rellenos, definir distancias de acarreo y ubicar préstamos y botaderos al menor costo."
+  },
+  {
+    "slug": "curvas-de-nivel-y-mdt",
+    "category": "topografia",
+    "title": "Curvas de nivel y modelos digitales de terreno",
+    "summary": "Cómo leer curvas de nivel, equidistancia, pendientes y uso de TIN y ráster en proyectos.",
+    "tags": ["curvas de nivel", "equidistancia", "pendiente", "MDT", "TIN", "ráster", "perfil", "topografía"],
+    "body": "## Curvas de nivel\nLíneas que unen puntos de igual cota. La **equidistancia** es la diferencia de altura entre curvas consecutivas (0,25–1 m en proyectos urbanos y 2–10 m en estudios regionales).\n- Curvas juntas: pendiente fuerte. Separadas: terreno suave.\n- Curvas en V que apuntan hacia arriba: cauces. En V hacia abajo: filos o divisorias.\n- Nunca se cruzan (salvo en voladizos o cuevas).\n\n## Pendiente\nPendiente (%) = (diferencia de cota / distancia horizontal) × 100.\n\n## Modelos digitales\n- **TIN**: red de triángulos sobre los puntos medidos; respeta las líneas de quiebre (bordes de vía, cauces).\n- **Ráster (grilla)**: celdas con cota, cómodo para análisis SIG (pendientes, cuencas, visibilidad).\n\n## Usos\nImplantación de proyectos, diseño de rasantes y plataformas, delimitación de cuencas, perfiles, cálculo de volúmenes y análisis de amenazas por inundación o remoción en masa."
+  },
+  {
+    "slug": "sig-en-ingenieria",
+    "category": "topografia",
+    "title": "Sistemas de información geográfica (SIG)",
+    "summary": "Datos vectoriales y ráster, capas temáticas y análisis espaciales útiles en proyectos de ingeniería.",
+    "tags": ["SIG", "GIS", "QGIS", "ArcGIS", "ráster", "vector", "análisis espacial", "cartografía", "catastro"],
+    "body": "## Qué es un SIG\nUn sistema que almacena, analiza y representa información georreferenciada. Ejemplos: QGIS (libre) y ArcGIS.\n\n## Tipos de datos\n- **Vectoriales**: puntos (postes, pozos), líneas (redes, vías) y polígonos (predios, cuencas), con su tabla de atributos.\n- **Ráster**: imágenes satelitales, ortofotos, MDT y mapas de amenaza.\n\n## Análisis útiles\n- Áreas de influencia (buffers) alrededor de redes o fuentes de agua.\n- Superposición de capas (amenazas, usos del suelo, restricciones ambientales).\n- Delimitación de cuencas y redes de drenaje a partir del MDT.\n- Rutas óptimas y redes de servicios.\n- Inventario y gestión de activos (pavimentos, redes de acueducto).\n\n## Buenas prácticas\nUsar el mismo sistema de referencia en todas las capas, documentar los metadatos (fuente, fecha, escala) y versionar los datos."
+  },
+  {
+    "slug": "levantamiento-catastral",
+    "category": "topografia",
+    "title": "Levantamiento de predios y linderos",
+    "summary": "Cómo se levanta un predio, cuadro de áreas, linderos, servidumbres y relación con el catastro y la escritura.",
+    "tags": ["predio", "lindero", "catastro", "escritura", "área", "servidumbre", "levantamiento predial", "cabida"],
+    "body": "## Objetivo\nDeterminar la forma, el área y los linderos reales de un lote, y compararlos con lo que dicen la escritura (títulos) y el catastro.\n\n## Procedimiento\n1. Revisar los títulos, el plano catastral y el certificado de tradición.\n2. Ubicar los mojones, cercas, muros y construcciones existentes.\n3. Medir con estación total o GNSS, vinculado al sistema oficial de coordenadas.\n4. Calcular el área (por coordenadas: fórmula del área de Gauss) y elaborar el **cuadro de coordenadas** de los vértices.\n5. Identificar **servidumbres**, afectaciones viales, rondas hídricas y redes que crucen el predio.\n\n## Diferencias de área\nSon frecuentes entre la escritura, el catastro y la realidad. Se resuelven con los procedimientos legales de aclaración o actualización de cabida y linderos, con la firma de un profesional habilitado.\n\n## Por qué importa\nLicencias de construcción, compraventas, englobes y desenglobes, y diseño: el proyecto debe respetar los aislamientos medidos desde los linderos reales."
+  },
+  {
+    "slug": "tipologias-de-puentes",
+    "category": "puentes",
+    "title": "Tipologías de puentes",
+    "summary": "Puentes de vigas, losa, arco, pórtico, atirantados y colgantes; rangos de luz y criterios de elección.",
+    "tags": ["puente", "viga", "arco", "atirantado", "colgante", "voladizos sucesivos", "luz", "tipología"],
+    "body": "## Tipos y rangos de luz orientativos\n| Tipología | Luces habituales |\n|---|---|\n| Losa maciza o aligerada | Hasta 15–20 m |\n| Vigas de concreto reforzado | 10–25 m |\n| Vigas preesforzadas (I, cajón) | 20–50 m |\n| Vigas metálicas / mixtas | 20–100 m |\n| Voladizos sucesivos (cajón) | 60–250 m |\n| Arco | 50–500 m |\n| Atirantado | 150–1100 m |\n| Colgante | 400 m a más de 2000 m |\n\n## Criterios de elección\nLuz y gálibo requeridos, condiciones de cimentación y del cauce, sismicidad, proceso constructivo posible (andamios, lanzamiento, voladizos, izaje), plazo, mantenimiento, costo y estética.\n\n## Partes\n- **Superestructura**: tablero, vigas, diafragmas, barandas.\n- **Apoyos**: elastoméricos, de neopreno zunchado, deslizantes o aisladores sísmicos.\n- **Subestructura**: estribos y pilas.\n- **Cimentación**: zapatas, pilotes o caissons."
+  },
+  {
+    "slug": "cargas-en-puentes",
+    "category": "puentes",
+    "title": "Cargas en puentes",
+    "summary": "Carga muerta, carga viva vehicular, impacto, frenado, viento, sismo, temperatura y combinaciones.",
+    "tags": ["cargas", "carga viva", "camión de diseño", "impacto", "AASHTO LRFD", "CCP-14", "sismo", "combinaciones"],
+    "body": "## Cargas permanentes\nPeso propio de la estructura, superficie de rodadura, barandas, bordillos y redes que cruzan el puente.\n\n## Cargas vehiculares\n- **Camión de diseño** y **carga de carril** según la norma (AASHTO LRFD HL-93; en Colombia, la CCP-14 define el camión CC-14).\n- **Incremento dinámico (impacto)**, típicamente 33 % sobre el camión.\n- **Factor de presencia múltiple** según el número de carriles cargados.\n- **Fuerza de frenado** y **fuerza centrífuga** en puentes curvos.\n- Carga peatonal en andenes.\n\n## Otras acciones\nViento, sismo, temperatura (uniforme y gradiente), retracción y flujo plástico del concreto, asentamientos de apoyos, presión del agua y empuje de palizadas, impacto de embarcaciones o vehículos contra las pilas, y empuje de tierras en los estribos.\n\n## Diseño por estados límite (LRFD)\nResistencia, servicio, fatiga y evento extremo, cada uno con sus factores de carga y de resistencia."
+  },
+  {
+    "slug": "socavacion-en-puentes",
+    "category": "puentes",
+    "title": "Socavación en puentes",
+    "summary": "Socavación general, por contracción y local en pilas y estribos; causas de falla y protección.",
+    "tags": ["socavación", "pila", "estribo", "cauce", "enrocado", "hidráulica de puentes", "falla de puentes", "protección"],
+    "body": "## Por qué importa\nLa socavación es una de las principales causas de colapso de puentes en el mundo: el río remueve el material que soporta las pilas y los estribos durante las crecientes.\n\n## Componentes\n- **Degradación general** del lecho a largo plazo.\n- **Socavación por contracción**: el puente estrecha el cauce y la velocidad aumenta.\n- **Socavación local** alrededor de pilas y estribos por los vórtices de herradura (método HEC-18, Laursen, CSU, entre otros).\n\n## Diseño\n- Estudio hidrológico (crecientes de 100 a 500 años según la importancia) e hidráulico (HEC-RAS).\n- Cimentaciones profundas por debajo de la socavación total esperada, con margen.\n- Pilas alineadas con el flujo y de forma hidrodinámica.\n\n## Protección y mantenimiento\nEnrocados, colchacretos o bolsacretos, gaviones, espigones y control de la extracción de material del río. Inspección después de cada creciente importante."
+  },
+  {
+    "slug": "apoyos-y-juntas-de-puentes",
+    "category": "puentes",
+    "title": "Apoyos y juntas de expansión",
+    "summary": "Función de los apoyos, tipos (elastoméricos, de disco, péndulo), juntas de dilatación y su mantenimiento.",
+    "tags": ["apoyo elastomérico", "neopreno", "junta de expansión", "dilatación", "aislador sísmico", "puente", "mantenimiento"],
+    "body": "## Apoyos\nTransmiten las cargas del tablero a la subestructura y permiten o restringen giros y desplazamientos por temperatura, retracción, frenado y sismo.\n- **Elastoméricos (neopreno zunchado)**: los más comunes en luces cortas y medias.\n- **De disco o de olla (pot)**: cargas altas, con placas deslizantes de PTFE.\n- **Aisladores sísmicos**: elastoméricos con núcleo de plomo o péndulos friccionantes; reducen las fuerzas sísmicas.\n- **Topes sísmicos** y longitudes mínimas de apoyo para evitar que el tablero caiga.\n\n## Juntas de expansión\nAbsorben el movimiento del tablero: de compresión de neopreno, de dientes, modulares (para movimientos grandes) y continuas tipo asfalto modificado.\n\n## Mantenimiento\nLas juntas que filtran agua deterioran los apoyos y los cabezales. Conviene inspeccionarlas, limpiarlas y reemplazar sellos a tiempo; revisar que los apoyos no estén aplastados, desplazados o agrietados."
+  },
+  {
+    "slug": "inspeccion-de-puentes",
+    "category": "puentes",
+    "title": "Inspección y mantenimiento de puentes",
+    "summary": "Tipos de inspección, daños frecuentes, calificación de la condición y gestión del inventario.",
+    "tags": ["inspección", "mantenimiento", "patología", "corrosión", "fisuras", "SIPUCOL", "gestión de puentes", "monitoreo"],
+    "body": "## Tipos de inspección\n- **Rutinaria**: visual y periódica (anual o bienal).\n- **Principal o detallada**: con acceso cercano a todos los elementos, cada pocos años.\n- **Especial**: después de sismos, crecientes, impactos o cuando se detectan daños graves.\n\n## Daños frecuentes\nFisuras y desprendimientos del concreto, corrosión del acero de refuerzo o de los perfiles, socavación, juntas dañadas, apoyos deteriorados, barandas golpeadas, drenajes taponados y deformaciones visibles.\n\n## Calificación y gestión\nCada elemento se califica (por ejemplo, de 0 a 5) y se priorizan las intervenciones en un sistema de gestión (en Colombia, SIPUCOL del INVÍAS). Se registran fotografías, croquis y mediciones.\n\n## Monitoreo\nPara puentes críticos: sensores de deformación, inclinómetros, acelerómetros y medición de vibraciones, que permiten detectar cambios en el comportamiento.\n\n> Las decisiones sobre la capacidad de carga o el cierre de un puente las toma un ingeniero especialista."
+  },
+  {
+    "slug": "tuneles",
+    "category": "puentes",
+    "title": "Túneles: métodos constructivos",
+    "summary": "Excavación por perforación y voladura, NATM, tuneladoras (TBM), sostenimiento y revestimiento.",
+    "tags": ["túnel", "NATM", "TBM", "tuneladora", "sostenimiento", "concreto lanzado", "pernos", "cerchas", "revestimiento"],
+    "body": "## Métodos de excavación\n- **Perforación y voladura**: roca de dureza media a alta; ciclos de perforar, cargar, volar, ventilar y desescombrar.\n- **Excavación mecánica** con rozadoras o excavadoras en rocas blandas y suelos.\n- **Tuneladoras (TBM)**: de roca (abiertas) o de escudo (EPB, hidroescudo) en suelos bajo el nivel freático; colocan anillos de dovelas prefabricadas.\n- **Falso túnel / cut and cover**: excavación a cielo abierto y relleno posterior, en metros urbanos poco profundos.\n\n## Nuevo Método Austriaco (NATM)\nAprovecha la capacidad portante del macizo: sostenimiento flexible inmediato (concreto lanzado, pernos, cerchas) y **instrumentación** (convergencias) para ajustar el diseño durante la obra.\n\n## Clasificación del macizo\nRMR (Bieniawski) y sistema Q (Barton) orientan el tipo de sostenimiento.\n\n## Otros aspectos\nVentilación, drenaje e impermeabilización, revestimiento definitivo, iluminación, sistemas contra incendio y rutas de evacuación en túneles viales."
+  },
+  {
+    "slug": "presas-y-embalses",
+    "category": "puentes",
+    "title": "Presas y embalses",
+    "summary": "Tipos de presas, componentes, cargas, vertederos y seguridad de presas.",
+    "tags": ["presa", "embalse", "vertedero", "presa de gravedad", "presa de tierra", "CFRD", "seguridad de presas", "desarenador"],
+    "body": "## Tipos\n- **De concreto**: gravedad (resiste por peso), arco (transmite el empuje a las laderas), contrafuertes y concreto compactado con rodillo (CCR).\n- **De materiales sueltos**: tierra homogénea o zonificada, enrocado con núcleo impermeable o con cara de concreto (CFRD).\n\n## Componentes\nCuerpo de la presa, **vertedero** (para las crecientes de diseño, incluso la creciente máxima probable en presas de alto riesgo), descarga de fondo, toma, desviación del río durante la construcción y galerías de inspección.\n\n## Cargas y verificaciones\nPresión hidrostática, subpresión, sismo, presión de sedimentos, oleaje. Se verifica la estabilidad al deslizamiento, al volcamiento y a la tubificación (en presas de tierra), y la infiltración a través del cuerpo y de la cimentación.\n\n## Seguridad de presas\nInstrumentación (piezómetros, medidores de filtración, inclinómetros, control topográfico), inspecciones periódicas, planes de acción ante emergencias y estudios de rotura de presa para delimitar zonas de inundación aguas abajo."
+  },
+  {
+    "slug": "estructuras-portuarias-y-costeras",
+    "category": "puentes",
+    "title": "Obras portuarias y costeras",
+    "summary": "Muelles, rompeolas, protección costera y acciones del oleaje y las mareas.",
+    "tags": ["muelle", "rompeolas", "escollera", "oleaje", "marea", "puerto", "protección costera", "erosión costera"],
+    "body": "## Acciones marinas\nOleaje (altura significativa, periodo, dirección), mareas, corrientes, viento, tsunamis, atraque y amarre de buques, y un ambiente muy agresivo con el acero y el concreto (cloruros).\n\n## Obras\n- **Rompeolas y escolleras**: protegen la dársena; de enrocado con mantos de cubos o elementos prefabricados (tetrápodos, Accropode®), o verticales tipo cajón.\n- **Muelles**: sobre pilotes (abiertos), de gravedad (bloques, cajones) o de tablestacas.\n- **Protección costera**: espolones, rompeolas exentos, revestimientos y alimentación artificial de playas.\n\n## Durabilidad\nConcretos de baja relación agua/cemento, recubrimientos mayores, inhibidores o protección catódica del acero y diseño para inspección y reemplazo de defensas.\n\n## Estudios previos\nBatimetría, clima de oleaje, modelación numérica y, en obras importantes, modelos físicos a escala."
+  },
+  {
+    "slug": "prefabricados-y-preesforzado",
+    "category": "puentes",
+    "title": "Concreto preesforzado y prefabricado",
+    "summary": "Pretensado y postensado, pérdidas de preesfuerzo, ventajas y usos en puentes y edificios.",
+    "tags": ["preesforzado", "pretensado", "postensado", "torones", "pérdidas", "viga prefabricada", "losa postensada"],
+    "body": "## Principio\nSe introduce una compresión en el concreto con cables de acero de alta resistencia (torones), de modo que, bajo carga, la tracción se reduzca o desaparezca. Permite luces mayores, secciones más esbeltas y menos fisuración.\n\n## Tipos\n- **Pretensado**: los torones se tensan antes de vaciar el concreto, en planta; se transfiere por adherencia. Típico en vigas prefabricadas de puentes y en losas alveolares.\n- **Postensado**: los cables van en ductos y se tensan después de que el concreto alcanza resistencia; luego se inyecta lechada (adherido) o se usan torones engrasados (no adherido). Usado en losas de edificios, puentes en voladizos sucesivos y tanques.\n\n## Pérdidas de preesfuerzo\nInmediatas (acortamiento elástico, fricción, acuñamiento de anclajes) y diferidas (retracción, flujo plástico del concreto y relajación del acero). En conjunto suelen sumar del orden del 15–25 %.\n\n## Cuidados\nControl de la resistencia del concreto antes del tensado, protocolos de tensionamiento (fuerza y alargamiento medidos), protección contra la corrosión y seguridad del personal durante el tensado."
+  },
+  {
+    "slug": "estructuras-metalicas-conexiones",
+    "category": "puentes",
+    "title": "Estructuras metálicas: conexiones y protección",
+    "summary": "Conexiones pernadas y soldadas, inspección, protección contra corrosión y contra el fuego.",
+    "tags": ["acero estructural", "conexión", "soldadura", "pernos", "galvanizado", "pintura", "protección contra el fuego", "inspección"],
+    "body": "## Conexiones\n- **Pernadas**: pernos de alta resistencia (ASTM A325/F3125, A490) por aplastamiento o deslizamiento crítico, con apriete controlado (giro de tuerca, indicadores de tensión).\n- **Soldadas**: filete o penetración completa, por procedimientos calificados (WPS) y soldadores certificados (AWS D1.1 o equivalente).\n- **Simples** (transmiten cortante) o **rígidas** (momento), según el modelo estructural.\n\n## Inspección\nVisual en el 100 % de las soldaduras y ensayos no destructivos según la criticidad: tintas penetrantes, partículas magnéticas, ultrasonido o radiografía.\n\n## Protección contra la corrosión\nPreparación de superficie (chorro abrasivo), sistemas de pintura (anticorrosivo + intermedio + acabado) o galvanizado en caliente, según la agresividad del ambiente (ISO 12944).\n\n## Protección contra el fuego\nEl acero pierde resistencia rápidamente por encima de unos 500 °C. Se protege con pinturas intumescentes, morteros proyectados o encapsulado, según la resistencia al fuego exigida."
+  },
+  {
+    "slug": "sst-en-construccion",
+    "category": "seguridad",
+    "title": "Seguridad y salud en el trabajo en construcción",
+    "summary": "Sistema de gestión SST, matriz de peligros, jerarquía de controles y responsabilidades en obra.",
+    "tags": ["SST", "seguridad industrial", "matriz de peligros", "jerarquía de controles", "EPP", "accidente de trabajo", "SG-SST"],
+    "body": "## Sistema de gestión\nPolítica, identificación de peligros y valoración de riesgos, plan de trabajo, capacitación, inspecciones, investigación de incidentes, indicadores y mejora continua (por ejemplo, el SG-SST en Colombia o la norma ISO 45001).\n\n## Matriz de peligros\nPor cada actividad se identifican los peligros (caídas, golpes, atrapamiento, eléctrico, químico, ruido, ergonómico, psicosocial…), se valora el riesgo (probabilidad × consecuencia) y se definen controles.\n\n## Jerarquía de controles\n1. **Eliminación** del peligro.\n2. **Sustitución** por algo menos peligroso.\n3. **Controles de ingeniería**: barandas, entibados, guardas, ventilación.\n4. **Controles administrativos**: procedimientos, permisos de trabajo, señalización, rotación.\n5. **Elementos de protección personal (EPP)**: casco, botas, gafas, guantes, arnés. Son la última barrera, no la primera.\n\n## Prácticas diarias\nCharla de cinco minutos, análisis de trabajo seguro (ATS), permisos para tareas de alto riesgo, orden y aseo, y reporte de actos y condiciones inseguras sin represalias."
+  },
+  {
+    "slug": "trabajo-en-alturas",
+    "category": "seguridad",
+    "title": "Trabajo en alturas",
+    "summary": "Medidas de prevención y protección contra caídas, sistemas de detención y plan de rescate.",
+    "tags": ["trabajo en alturas", "arnés", "línea de vida", "baranda", "andamio", "anclaje", "caída", "rescate"],
+    "body": "## Por qué es crítico\nLas caídas de altura están entre las primeras causas de muerte en la construcción. En muchos países se considera trabajo en alturas a partir de 1,5–2,0 m sobre un nivel inferior.\n\n## Medidas de prevención\n- **Barandas** perimetrales (≈ 1,0 m de altura, con travesaño intermedio y rodapié).\n- Cubrir o proteger **huecos y bordes** de losa, fosos de ascensor y ductos.\n- **Andamios** certificados, armados por personal competente, con plataformas completas y barandas.\n- Plataformas elevadoras en lugar de escaleras cuando sea posible.\n\n## Medidas de protección (detención de caídas)\n**Arnés de cuerpo completo** + **eslinga con absorbedor de energía** o **línea de vida** + **punto de anclaje** certificado (del orden de 5 000 lb / 22 kN por persona). Hay que verificar la **distancia libre de caída** para que la persona no golpee el nivel inferior.\n\n## Requisitos\nPersonal capacitado y certificado, permiso de trabajo, inspección de equipos antes de usarlos y un **plan de rescate**: una persona suspendida del arnés puede sufrir trauma por suspensión en pocos minutos."
+  },
+  {
+    "slug": "excavaciones-seguras",
+    "category": "seguridad",
+    "title": "Excavaciones y zanjas seguras",
+    "summary": "Riesgo de derrumbes, taludes seguros, entibados, accesos y controles en excavaciones.",
+    "tags": ["excavación", "zanja", "entibado", "derrumbe", "talud", "tablestaca", "espacio confinado", "redes enterradas"],
+    "body": "## Riesgos\nDerrumbe de paredes (un metro cúbico de tierra pesa del orden de 1,5–2 toneladas), caída de personas o equipos al interior, inundación, atmósferas peligrosas, daño a redes enterradas e inestabilidad de construcciones vecinas.\n\n## Controles\n- **Antes**: consultar planos de redes, hacer apiques de verificación, estudio de suelos y diseño del sistema de soporte.\n- **Taludes** con inclinación segura según el tipo de suelo, o **entibados** (de madera, metálicos, cajas de zanja, tablestacas, pantallas).\n- Material excavado y equipos a una distancia mínima del borde (con frecuencia ≥ 0,6–1,0 m o la mitad de la profundidad).\n- **Escaleras de acceso** cada cierta distancia en zanjas profundas.\n- **Barreras y señalización** perimetral, iluminación nocturna.\n- **Bombeo** y control del agua.\n- Inspección diaria por una persona competente, y después de lluvias.\n\n## Espacios confinados\nPozos, tanques y zanjas profundas pueden acumular gases o tener poco oxígeno: medir la atmósfera, ventilar, tener vigía y permiso de trabajo."
+  },
+  {
+    "slug": "riesgo-electrico-en-obra",
+    "category": "seguridad",
+    "title": "Riesgo eléctrico en obra",
+    "summary": "Instalaciones provisionales seguras, distancias a líneas energizadas y bloqueo y etiquetado.",
+    "tags": ["riesgo eléctrico", "instalación provisional", "puesta a tierra", "diferencial", "líneas de alta tensión", "LOTO", "RETIE"],
+    "body": "## Instalaciones provisionales\n- Tableros con protección contra la intemperie, interruptores diferenciales (≈ 30 mA) y **puesta a tierra**.\n- Cables con aislamiento en buen estado, elevados o protegidos del tránsito de vehículos y del agua.\n- Tomas industriales con clavijas adecuadas; nada de empalmes improvisados.\n\n## Líneas energizadas\nRespetar las **distancias mínimas de seguridad** a las redes aéreas (aumentan con la tensión) al operar grúas, volquetas con platón levantado, andamios o varillas largas. Si no se puede, coordinar con el operador de la red para desenergizar o aislar.\n\n## Bloqueo y etiquetado (LOTO)\nAntes de intervenir equipos: desenergizar, bloquear con candado personal, etiquetar, verificar la ausencia de tensión y poner a tierra cuando aplique.\n\n## Personal\nSolo personal calificado interviene circuitos. Se usan herramientas aisladas y EPP dieléctrico, y se cumple el reglamento eléctrico local (en Colombia, el RETIE)."
+  },
+  {
+    "slug": "izaje-de-cargas",
+    "category": "seguridad",
+    "title": "Izaje de cargas y grúas",
+    "summary": "Plan de izaje, capacidad de grúas, aparejos, señalero y zonas de exclusión.",
+    "tags": ["izaje", "grúa", "grúa torre", "aparejos", "eslingas", "plan de izaje", "señalero", "carga suspendida"],
+    "body": "## Plan de izaje\nPeso de la carga (incluidos los aparejos), radio y altura de trabajo, capacidad de la grúa en esa configuración (tabla de carga), condiciones del terreno, viento máximo admisible y secuencia de maniobra. Los izajes **críticos** (cargas cercanas al límite, dos grúas, sobre personas o instalaciones) requieren un plan firmado.\n\n## Aparejos\nEslingas, grilletes y ganchos certificados con su carga de trabajo marcada; ángulos de eslingado que reduzcan la carga en cada ramal (evitar ángulos muy abiertos); protectores de bordes en las esquinas vivas. Inspección antes de cada uso.\n\n## Operación\n- Operador y **señalero (rigger)** certificados y con un código de señales común.\n- **Zona de exclusión**: nadie bajo la carga suspendida.\n- Vientos guía (manilas) para controlar la carga.\n- Grúas torre con limitadores de carga y de momento, anemómetro y revisión periódica."
+  },
+  {
+    "slug": "plan-de-manejo-ambiental-de-obra",
+    "category": "seguridad",
+    "title": "Manejo ambiental de obra",
+    "summary": "Control de polvo, ruido, residuos de construcción, agua y vecinos durante la obra.",
+    "tags": ["ambiental", "RCD", "residuos de construcción", "polvo", "ruido", "plan de manejo ambiental", "sedimentos", "vecinos"],
+    "body": "## Programas típicos del plan de manejo ambiental (PMA)\n- **Residuos de construcción y demolición (RCD)**: separación en la fuente, aprovechamiento (agregados reciclados), transporte con gestores autorizados y disposición en sitios aprobados.\n- **Material particulado**: humectación de vías y acopios, cubrir volquetas y materiales, lavado de llantas a la salida.\n- **Ruido y vibraciones**: horarios permitidos, equipos con mantenimiento, barreras acústicas y monitoreo.\n- **Aguas**: evitar el aporte de sedimentos al alcantarillado o a cuerpos de agua (sedimentadores, barreras de sedimentos), manejar los vertimientos y el agua de bombeo.\n- **Flora y fauna**: permisos de aprovechamiento forestal y compensaciones.\n- **Gestión social**: información a vecinos, actas de vecindad (estado de las construcciones vecinas antes de empezar), atención de quejas.\n\n## Sustancias peligrosas\nAlmacenamiento de combustibles y químicos en zonas con contención, hojas de seguridad disponibles y kit para derrames."
+  },
+  {
+    "slug": "emergencias-en-obra",
+    "category": "seguridad",
+    "title": "Plan de emergencias en obra",
+    "summary": "Análisis de amenazas, brigadas, primeros auxilios, rutas de evacuación y simulacros.",
+    "tags": ["plan de emergencias", "evacuación", "brigada", "primeros auxilios", "punto de encuentro", "simulacro", "incendio"],
+    "body": "## Contenido\n- **Análisis de amenazas y vulnerabilidad**: sismo, incendio, inundación, derrumbes, accidentes graves, orden público.\n- **Organización**: coordinador de emergencias, **brigada** (primeros auxilios, contra incendio, evacuación) y cadena de llamadas.\n- **Recursos**: botiquines, camilla, extintores adecuados al tipo de fuego, equipos de comunicación y números de emergencia visibles.\n- **Rutas de evacuación** señalizadas, libres de obstáculos, y **puntos de encuentro** seguros.\n- **Procedimientos operativos** por tipo de emergencia y protocolo de atención de accidentados (incluido el traslado a un centro asistencial).\n\n## Simulacros\nAl menos uno o dos al año, con evaluación y ajustes. Toda persona que ingresa a la obra (incluidos visitantes y proveedores) recibe una inducción sobre qué hacer en caso de emergencia."
+  },
+  {
+    "slug": "control-de-calidad-del-concreto",
+    "category": "seguridad",
+    "title": "Control de calidad del concreto en obra",
+    "summary": "Recepción, asentamiento, toma de cilindros, curado y criterios de aceptación de la resistencia.",
+    "tags": ["concreto", "control de calidad", "slump", "asentamiento", "cilindros", "f'c", "curado", "ensayo de compresión"],
+    "body": "## Recepción\nRevisar la remisión (resistencia, tamaño máximo del agregado, asentamiento, hora de cargue), el tiempo transcurrido desde el mezclado (en general no más de 90 minutos) y no agregar agua en obra sin control.\n\n## Ensayos en estado fresco\n- **Asentamiento (cono de Abrams)**: consistencia según lo especificado.\n- Temperatura y, cuando aplique, contenido de aire.\n\n## Resistencia\n- Se toman **cilindros** (por ejemplo, de 150 × 300 mm o 100 × 200 mm) por cada volumen de concreto o por día de vaciado, según la norma.\n- Ensayos a 7 días (control) y a 28 días (aceptación).\n- Criterio habitual (ACI 318 / NSR-10): el promedio de tres ensayos consecutivos ≥ f'c, y ningún ensayo individual por debajo de f'c − 3,5 MPa (cuando f'c ≤ 35 MPa).\n\n## Colocación y curado\nVibrado adecuado sin segregar, juntas de construcción planeadas y **curado** húmedo al menos 7 días (más en clima seco o con cementos lentos). Un mal curado puede bajar mucho la resistencia y la durabilidad superficial.\n\n## Si los resultados no cumplen\nNúcleos extraídos de la estructura, ensayos no destructivos y evaluación por el ingeniero estructural."
+  },
+  {
+    "slug": "patologia-de-la-construccion",
+    "category": "seguridad",
+    "title": "Patología de la construcción",
+    "summary": "Fisuras, humedades, corrosión y eflorescencias: cómo diagnosticar sus causas antes de reparar.",
+    "tags": ["patología", "fisuras", "humedad", "corrosión", "eflorescencia", "diagnóstico", "reparación", "durabilidad"],
+    "body": "## Método\n1. **Inspección**: levantar las lesiones con fotografías, croquis y mediciones (ancho y longitud de fisuras, mapas de humedad).\n2. **Historia**: edad de la obra, cambios de uso, reformas, sismos, fugas.\n3. **Ensayos**: fisurómetros y testigos para ver si una fisura está activa, profundidad de carbonatación, contenido de cloruros, esclerómetro, núcleos, ultrasonido, pachómetro.\n4. **Diagnóstico** de la causa; luego la reparación. Reparar sin conocer la causa suele fallar.\n\n## Lesiones frecuentes\n- **Fisuras**: por retracción, asentamientos diferenciales, sobrecarga, temperatura, corrosión del refuerzo o sismo. La orientación y el patrón ayudan a identificar la causa (por ejemplo, fisuras a 45° cerca de las esquinas de los vanos, asociadas a asentamientos).\n- **Humedades**: por capilaridad (desde el suelo), filtración (lluvia, cubiertas, fachadas), condensación (falta de ventilación o puentes térmicos) o fugas de tuberías.\n- **Corrosión del acero**: manchas de óxido, fisuras paralelas al refuerzo, desprendimiento del recubrimiento.\n- **Eflorescencias**: sales que el agua lleva a la superficie.\n\n> Las lesiones estructurales las evalúa un ingeniero estructural."
+  },
+  {
+    "slug": "reforzamiento-estructural",
+    "category": "seguridad",
+    "title": "Reforzamiento y rehabilitación estructural",
+    "summary": "Cuándo reforzar, técnicas comunes (encamisados, fibras de carbono, muros nuevos) y proceso de evaluación.",
+    "tags": ["reforzamiento", "rehabilitación", "vulnerabilidad sísmica", "encamisado", "fibra de carbono", "CFRP", "muros de concreto"],
+    "body": "## Cuándo se necesita\nCambio de uso con más carga, ampliaciones en altura, daños por sismo o deterioro, errores de diseño o de construcción, o edificaciones antiguas que no cumplen la norma sismorresistente actual (estudio de **vulnerabilidad sísmica**).\n\n## Proceso\nLevantamiento arquitectónico y estructural, exploración (regatas, núcleos, pachómetro), ensayos de materiales, modelación, evaluación de la vulnerabilidad, alternativas de intervención y diseño del reforzamiento, con licencia cuando aplique.\n\n## Técnicas habituales\n- **Encamisado** de columnas y vigas con concreto o con acero.\n- **Fibras de carbono (CFRP)**: aumentan la resistencia a flexión y cortante y el confinamiento, con poco peso y poco espesor.\n- **Muros de concreto o pórticos metálicos arriostrados** nuevos que rigidizan el conjunto ante el sismo.\n- **Aisladores o disipadores sísmicos** en edificaciones importantes o patrimoniales.\n- Recalce o ampliación de cimentaciones, micropilotes.\n\n> El diseño del reforzamiento lo hace un ingeniero estructural con la norma vigente."
+  },
+  {
+    "slug": "cargas-y-combinaciones",
+    "category": "estructuras",
+    "title": "Cargas y combinaciones de diseño",
+    "summary": "Cargas muertas, vivas, de viento y sismo; combinaciones por resistencia (LRFD) y por servicio.",
+    "tags": ["cargas", "carga muerta", "carga viva", "combinaciones", "LRFD", "factores de carga", "NSR-10", "ASCE 7"],
+    "body": "## Tipos de carga\n- **Muerta (D)**: peso propio, acabados, muros divisorios, instalaciones fijas.\n- **Viva (L)**: uso y ocupación. Valores orientativos de las normas: vivienda ≈ 1,8 kN/m², oficinas ≈ 2,0 kN/m², escaleras y corredores públicos ≈ 3,0–5,0 kN/m², bodegas mayores.\n- **Viva de cubierta (Lr)**, **granizo**, **lluvia**, **viento (W)**, **sismo (E)**, **empuje de tierra (H)**, **temperatura (T)**.\n\n## Combinaciones por resistencia (ejemplos de la familia ACI / ASCE 7 / NSR-10)\n- 1,4D\n- 1,2D + 1,6L + 0,5Lr\n- 1,2D + 1,0E + 1,0L\n- 0,9D + 1,0E (revisión de volcamiento y tracciones)\nLos factores exactos los define la norma aplicable.\n\n## Servicio\nSe combinan cargas sin mayorar para revisar deflexiones, vibraciones, fisuración y asentamientos.\n\n## Avalúo de cargas\nCalcular la carga por metro cuadrado de cada tipo de piso (losa + acabados + cielo + muros) es el primer paso del predimensionamiento y del modelo estructural."
+  },
+  {
+    "slug": "analisis-sismico-basico",
+    "category": "estructuras",
+    "title": "Análisis sísmico: conceptos básicos",
+    "summary": "Espectro de diseño, cortante basal, periodo, deriva, coeficiente de capacidad de disipación y métodos de análisis.",
+    "tags": ["sismo", "espectro", "cortante basal", "deriva", "periodo fundamental", "R", "análisis modal", "fuerza horizontal equivalente"],
+    "body": "## Espectro de diseño\nDa la aceleración espectral Sa en función del periodo de la estructura, según la amenaza sísmica de la zona, el tipo de suelo (perfiles A–F, según Vs30) y la importancia de la edificación.\n\n## Cortante basal (fuerza horizontal equivalente)\nVs = Sa·g·M, distribuido en altura según la masa y la altura de cada piso. El **periodo aproximado** depende del sistema y la altura (por ejemplo, Ta = Ct·h^α).\n\n## Capacidad de disipación de energía\nLas fuerzas elásticas se reducen con el coeficiente **R** según el sistema estructural y el nivel de detallado (DES, DMO, DMI en la NSR-10). A mayor R, más exigente es el detallado dúctil.\n\n## Derivas\nDesplazamiento relativo entre pisos dividido por la altura de piso. Límite típico ≈ 1 % de la altura (en NSR-10 para concreto y acero). Si no se cumple, hay que rigidizar.\n\n## Métodos\nFuerza horizontal equivalente (estructuras regulares), análisis modal espectral (lo habitual con software) y análisis no lineales (pushover, tiempo-historia) en casos especiales."
+  },
+  {
+    "slug": "diseno-de-vigas-de-concreto",
+    "category": "estructuras",
+    "title": "Vigas de concreto reforzado: conceptos de diseño",
+    "summary": "Flexión, cortante, cuantías mínimas y máximas, recubrimientos y detallado sísmico de vigas.",
+    "tags": ["viga", "concreto reforzado", "flexión", "cortante", "estribos", "cuantía", "recubrimiento", "detallado"],
+    "body": "## Flexión\nEl acero longitudinal toma la tracción y el concreto la compresión. Momento resistente aproximado: φMn = φ·As·fy·(d − a/2), con a = As·fy / (0,85·f'c·b) y φ = 0,9 en secciones controladas por tracción.\n- **Cuantía mínima**: evita la falla frágil al fisurarse (del orden de 1,4/fy o 0,25√f'c/fy).\n- **Cuantía máxima**: garantiza la ductilidad (sección controlada por tracción).\n\n## Cortante\nLo resisten el concreto (Vc) y los **estribos** (Vs). En zonas sísmicas, los estribos van cerrados con ganchos de 135° y más juntos cerca de los apoyos (zonas de confinamiento).\n\n## Detallado\n- Recubrimiento libre ≈ 40 mm en vigas interiores (mayor en contacto con el suelo o en ambientes agresivos).\n- Traslapos fuera de las zonas de máximo momento y de confinamiento.\n- Separación mínima entre barras para que pase el agregado.\n\n## Deflexiones\nSe controlan con un peralte suficiente (ver tablas de espesores mínimos) o con el cálculo de la inercia efectiva.\n\n> Este resumen es conceptual. El diseño lo hace un ingeniero estructural con la norma vigente."
+  },
+  {
+    "slug": "diseno-de-columnas",
+    "category": "estructuras",
+    "title": "Columnas: carga axial, flexocompresión y confinamiento",
+    "summary": "Diagrama de interacción, esbeltez, cuantías y confinamiento en columnas de concreto.",
+    "tags": ["columna", "flexocompresión", "diagrama de interacción", "esbeltez", "confinamiento", "cuantía", "columna fuerte viga débil"],
+    "body": "## Comportamiento\nLas columnas soportan carga axial combinada con momentos (flexocompresión). Su capacidad se representa con el **diagrama de interacción** P–M: cualquier combinación de cargas dentro de la curva es resistida.\n\n## Cuantía de acero longitudinal\nHabitualmente entre el 1 % y el 4 % del área (las normas permiten hasta 6–8 %, pero por encima de 4 % se dificulta el vaciado).\n\n## Esbeltez\nColumnas altas y delgadas sufren efectos de segundo orden (P-Δ): se amplifican los momentos o se hace un análisis no lineal.\n\n## Confinamiento\nEstribos y ganchos cerrados con poca separación en los extremos de la columna y en los nudos; dan ductilidad y evitan el pandeo de las barras longitudinales. En zonas de alta sismicidad el detallado es muy exigente.\n\n## Columna fuerte – viga débil\nLa suma de capacidades a flexión de las columnas en un nudo debe superar la de las vigas (por ejemplo, ≥ 1,2 veces en ACI 318), para que las rótulas plásticas se formen en las vigas y no en las columnas.\n\n## Columna corta\nMuros de relleno parciales o ventanas altas pueden acortar la longitud libre y producir fallas por cortante frágiles: hay que aislar la mampostería o diseñar para ese efecto."
+  },
+  {
+    "slug": "losas-de-entrepiso",
+    "category": "estructuras",
+    "title": "Sistemas de losas de entrepiso",
+    "summary": "Losas macizas, aligeradas, reticulares, postensadas, steel deck y prefabricadas: ventajas y luces.",
+    "tags": ["losa", "entrepiso", "losa aligerada", "losa reticular", "steel deck", "losa postensada", "placa fácil", "luces"],
+    "body": "## Comparación orientativa\n| Sistema | Luces típicas | Notas |\n|---|---|---|\n| Losa maciza en una dirección | 3–5 m | Sencilla, pesada |\n| Losa maciza en dos direcciones | 4–7 m | Paneles casi cuadrados |\n| Aligerada (nervada) en una dirección | 4–8 m | Con casetones o bloques, muy común |\n| Reticular (casetones en dos direcciones) | 7–12 m | Plafón con retícula vista o cielo raso |\n| Losa plana con ábacos | 6–9 m | Sin vigas descolgadas; revisar punzonamiento |\n| Postensada | 8–12 m o más | Espesores menores y menos deflexión |\n| Steel deck (lámina colaborante) | 2–4 m entre vigas metálicas | Rápida, sin formaleta |\n| Prefabricada (alveolar, viguetas) | 4–15 m | Velocidad de obra |\n\n## Criterios\nLuz y modulación, cargas, altura libre disponible, instalaciones que deben pasar, sistema sismorresistente (diafragma rígido), velocidad de obra, peso y costo.\n\n## Atención\nEl punzonamiento en losas planas sin vigas, las aberturas grandes cerca de columnas y las vibraciones en luces largas con poca masa."
+  },
+  {
+    "slug": "muros-de-concreto-vivienda",
+    "category": "estructuras",
+    "title": "Sistema de muros de concreto vaciados (industrializado)",
+    "summary": "Vivienda en altura con muros vaciados en formaleta metálica o de aluminio: ventajas, límites y cuidados.",
+    "tags": ["muros de concreto", "sistema industrializado", "formaleta de aluminio", "vivienda", "muros estructurales", "malla electrosoldada"],
+    "body": "## En qué consiste\nMuros y losas de concreto vaciados de forma monolítica con formaletas metálicas o de aluminio. Es muy usado en vivienda de interés social y en vivienda media en altura.\n\n## Ventajas\nVelocidad (un piso cada pocos días por frente de obra), alta rigidez lateral ante el sismo, poco desperdicio y acabados que requieren poca preparación.\n\n## Limitaciones\n- **Poca flexibilidad**: los muros no se pueden demoler en reformas; conviene que el propietario lo sepa.\n- Espesores delgados (≈ 10–15 cm): exigen un buen control del vaciado y del vibrado.\n- Desempeño térmico y acústico que puede requerir mejoras.\n- Las normas recientes han endurecido los requisitos de espesor, de cuantía y de elementos de borde en edificios altos.\n\n## Cuidados constructivos\nConcreto fluido o autocompactante con la resistencia temprana adecuada para desencofrar, recubrimientos, ubicación de las instalaciones embebidas sin debilitar el muro, curado y control de la fisuración por retracción."
+  },
+  {
+    "slug": "madera-estructural-clt",
+    "category": "estructuras",
+    "title": "Construcción en madera: CLT y madera laminada",
+    "summary": "Madera contralaminada (CLT), madera laminada encolada (glulam), protección contra fuego y humedad.",
+    "tags": ["madera", "CLT", "glulam", "madera laminada", "madera contralaminada", "construcción en madera", "fuego", "humedad"],
+    "body": "## Productos de ingeniería\n- **Glulam (madera laminada encolada)**: vigas y columnas de grandes luces y formas curvas.\n- **CLT (madera contralaminada)**: paneles de capas cruzadas, para muros y losas de edificios de varios pisos.\n- **LVL** y otros tableros estructurales.\n\n## Ventajas\nLiviana (reduce cimentación y fuerzas sísmicas), prefabricada y precisa, rápida de montar, con carbono almacenado en la estructura.\n\n## Fuego\nLa madera maciza se carboniza a una velocidad conocida (del orden de 0,6–0,8 mm/min) y la capa carbonizada protege el núcleo. Se diseña con secciones sobredimensionadas o con encapsulado (placas de yeso) para alcanzar la resistencia al fuego exigida.\n\n## Humedad y durabilidad\nProteger durante el montaje, mantener la madera seca en servicio, separar del suelo, buenos detalles de fachada y cubierta, y tratamientos cuando haya riesgo biológico.\n\n## Conexiones\nTornillos autoperforantes, placas metálicas y herrajes; su diseño define buena parte del comportamiento sísmico."
+  },
+  {
+    "slug": "guadua-estructural",
+    "category": "estructuras",
+    "title": "Guadua y bambú estructural",
+    "summary": "Propiedades de la guadua, preservación, uniones y normativa para construir con bambú.",
+    "tags": ["guadua", "bambú", "construcción sostenible", "uniones", "preservación", "NSR-10 título G", "bahareque"],
+    "body": "## Material\nLa *Guadua angustifolia* es un bambú de rápido crecimiento (madura en 4–6 años), con buena relación resistencia/peso. Se usa en vivienda, cubiertas, puentes peatonales y estructuras de grandes luces.\n\n## Selección y preservación\n- Culmos maduros, rectos, sin fisuras ni ataque de insectos.\n- **Preservación** (inmersión en sales de boro, por ejemplo) y secado controlado.\n- Protección por diseño: aleros amplios, sobrecimientos que la separen del suelo y nada de contacto con el agua.\n\n## Uniones\nEs el punto crítico: los entrenudos huecos no aguantan aplastamiento. Se usan pernos con relleno de mortero en el canuto, abrazaderas, pasadores y uniones de boca de pescado.\n\n## Normativa\nEn Colombia, la NSR-10 (Título G) y la NTC 5525 regulan el diseño con guadua; existen normas ISO para bambú estructural (ISO 22156).\n\n## Bahareque encementado\nSistema de muros con estructura de guadua o madera, malla y mortero; es tradicional en la región cafetera y está reconocido en la normativa sismorresistente colombiana para viviendas de uno y dos pisos."
+  },
+  {
+    "slug": "mamposteria-estructural-diseno",
+    "category": "estructuras",
+    "title": "Mampostería estructural y confinada",
+    "summary": "Diferencias entre mampostería confinada, reforzada y no reforzada; densidad de muros y buenas prácticas.",
+    "tags": ["mampostería confinada", "mampostería reforzada", "bloque", "ladrillo", "densidad de muros", "viga de amarre", "columneta"],
+    "body": "## Sistemas\n- **Confinada**: muros de ladrillo o bloque rodeados por columnetas y vigas de amarre de concreto reforzado. Muy usada en vivienda de 1 a 3 pisos.\n- **Reforzada (integral)**: bloques de perforación vertical con barras y grout en las celdas; permite edificios de mayor altura.\n- **No reforzada**: no se permite en zonas de amenaza sísmica intermedia o alta para estructuras nuevas.\n\n## Densidad de muros\nEn cada dirección principal debe haber suficiente longitud de muros estructurales respecto al área de la planta. Las normas para vivienda (por ejemplo, el Título E de la NSR-10) dan reglas simplificadas.\n\n## Buenas prácticas\n- Muros continuos de la cimentación a la cubierta, alineados en planta y en altura.\n- Plantas simples y simétricas; evitar grandes aberturas cerca de las esquinas.\n- Vigas de amarre en cimentación, entrepisos y cubierta; columnetas en los extremos de los muros y en las intersecciones.\n- Morteros con la dosificación especificada y juntas llenas."
+  },
+  {
+    "slug": "vibraciones-y-confort",
+    "category": "estructuras",
+    "title": "Vibraciones en entrepisos y confort",
+    "summary": "Por qué vibran los entrepisos livianos, frecuencias recomendadas y medidas de control.",
+    "tags": ["vibraciones", "entrepiso", "frecuencia natural", "confort", "pasarela", "steel deck", "amortiguamiento"],
+    "body": "## El problema\nEntrepisos largos y livianos (estructuras metálicas, losas postensadas delgadas, pasarelas peatonales, madera) pueden cumplir en resistencia y deflexión, pero vibrar de forma molesta al caminar, saltar o por máquinas.\n\n## Parámetros\n- **Frecuencia natural** del entrepiso: muchas guías recomiendan superar ≈ 3–5 Hz en oficinas y viviendas, y valores mayores en gimnasios o salas de baile.\n- **Aceleración pico** comparada con límites de percepción (guías como AISC Design Guide 11, SCI P354 o las de pasarelas de Sétra).\n- **Amortiguamiento**: aumenta con los muros divisorios, cielos rasos y mobiliario.\n\n## Control\nAumentar la rigidez (más peralte), aumentar la masa, reducir la luz, sumar elementos no estructurales que amortiguan o instalar amortiguadores de masa sintonizada en casos especiales (pasarelas y voladizos).\n\n## Equipos sensibles\nLaboratorios y quirófanos con equipos de precisión tienen criterios mucho más estrictos (curvas VC)."
+  },
+  {
+    "slug": "analisis-de-precios-unitarios",
+    "category": "gestion",
+    "title": "Análisis de precios unitarios (APU)",
+    "summary": "Cómo se arma un APU: materiales, mano de obra, equipo, transporte, desperdicios y AIU.",
+    "tags": ["APU", "precio unitario", "presupuesto", "rendimiento", "mano de obra", "AIU", "desperdicio", "cantidades de obra"],
+    "body": "## Estructura de un APU\nPara cada actividad (por ejemplo, \"m² de muro en bloque de 15 cm\"):\n1. **Materiales**: cantidad por unidad × precio, más **desperdicio** (3–10 % según el material).\n2. **Mano de obra**: costo de la cuadrilla por día (con prestaciones sociales) / **rendimiento** (unidades por día).\n3. **Equipo y herramienta**: alquiler o depreciación; la herramienta menor suele tomarse como un % de la mano de obra.\n4. **Transporte**, cuando no está incluido en el precio de los materiales.\nCosto directo = suma de los anteriores.\n\n## AIU\n- **Administración**: personal de dirección, oficina, pólizas, servicios.\n- **Imprevistos**: riesgo no previsto.\n- **Utilidad**: ganancia del constructor.\nEl AIU se aplica sobre el costo directo total (con frecuencia entre 20 % y 35 % en conjunto, según el tipo de contrato y de obra).\n\n## Buenas prácticas\nUsar rendimientos medidos en obras propias, cotizaciones actualizadas, especificar con precisión qué incluye cada ítem y revisar las cantidades contra los planos (o extraerlas del modelo BIM)."
+  },
+  {
+    "slug": "control-de-costos-y-valor-ganado",
+    "category": "gestion",
+    "title": "Control de costos y valor ganado",
+    "summary": "Seguimiento del presupuesto con valor planeado, valor ganado y costo real; índices CPI y SPI.",
+    "tags": ["valor ganado", "EVM", "CPI", "SPI", "costo real", "control de costos", "flujo de caja", "curva S"],
+    "body": "## Variables\n- **PV (valor planeado)**: costo presupuestado del trabajo programado a la fecha.\n- **EV (valor ganado)**: costo presupuestado del trabajo **realmente ejecutado**.\n- **AC (costo real)**: lo que realmente se ha gastado.\n\n## Índices\n- **CPI** = EV / AC. Menor que 1: se gasta más de lo presupuestado por lo ejecutado.\n- **SPI** = EV / PV. Menor que 1: la obra va atrasada.\n- **Variación de costo** CV = EV − AC; **variación de cronograma** SV = EV − PV.\n\n## Pronóstico\nEstimado al terminar: EAC ≈ BAC / CPI (si la tendencia se mantiene), donde BAC es el presupuesto total.\n\n## Ejemplo\nPV = 500 M, EV = 450 M, AC = 520 M → CPI = 0,87 (sobrecosto) y SPI = 0,90 (atraso). Con BAC = 2000 M, EAC ≈ 2300 M.\n\n## En la práctica\nActualizar cada semana o cada mes con mediciones reales de cantidades, comparar contra la curva S y tomar decisiones a tiempo (recursos, secuencia, alcance)."
+  },
+  {
+    "slug": "contratos-de-obra",
+    "category": "gestion",
+    "title": "Tipos de contratos de obra",
+    "summary": "Precio global, precios unitarios, administración delegada, llave en mano y riesgos de cada modalidad.",
+    "tags": ["contrato", "precio global", "precios unitarios", "administración delegada", "llave en mano", "EPC", "pólizas", "interventoría"],
+    "body": "## Modalidades\n| Tipo | Cómo se paga | Riesgo principal para |\n|---|---|---|\n| Precio global (suma fija) | Valor fijo por el alcance definido | Contratista (cantidades y precios) |\n| Precios unitarios | Cantidad ejecutada × precio unitario | Contratante (cantidades) |\n| Administración delegada | Costos reales + honorario (%) | Contratante |\n| Llave en mano / EPC | Diseño + construcción + puesta en marcha | Contratista |\n| Costo más honorario con precio máximo | Costos reales con un tope | Compartido |\n\n## Documentos clave\nPliego o términos de referencia, planos y especificaciones, presupuesto y cronograma, forma de pago y anticipo, **pólizas** (cumplimiento, buen manejo del anticipo, salarios, estabilidad de la obra, responsabilidad civil), multas y cláusula penal, y mecanismos de solución de controversias.\n\n## Gestión de cambios\nToda obra adicional o cambio de alcance debe quedar documentado (orden de cambio con precio y plazo) antes de ejecutarse."
+  },
+  {
+    "slug": "bitacora-y-actas-de-obra",
+    "category": "gestion",
+    "title": "Bitácora, informes y actas de obra",
+    "summary": "Registro diario de obra, actas de inicio, de recibo parcial y de liquidación, e informes de avance.",
+    "tags": ["bitácora", "libro de obra", "acta de inicio", "acta de recibo", "liquidación", "informe de avance", "interventoría"],
+    "body": "## Bitácora (libro de obra)\nRegistro diario y cronológico: clima, personal y equipos, actividades ejecutadas, ensayos, instrucciones de la interventoría, novedades, accidentes y visitas. Es la memoria oficial de la obra y es útil ante reclamaciones.\n\n## Actas\n- **Acta de inicio**: fecha de comienzo y estado del sitio.\n- **Actas de vecindad**: estado de las construcciones vecinas antes de empezar.\n- **Actas de comité**: compromisos con responsables y fechas.\n- **Actas parciales de obra**: cantidades ejecutadas para el pago.\n- **Acta de recibo final** y **acta de liquidación**: balance final del contrato.\n\n## Informes de avance\nAvance físico y financiero frente a lo programado, curva S, registro fotográfico, ensayos de calidad, SST y ambiental, riesgos y acciones.\n\nEn CIVIA, la bitácora del proyecto y la cámara de obra con metadatos ayudan a mantener este registro organizado."
+  },
+  {
+    "slug": "planificacion-lean-construction",
+    "category": "gestion",
+    "title": "Lean Construction y Last Planner",
+    "summary": "Principios de la construcción sin pérdidas y el sistema del Último Planificador para cumplir compromisos.",
+    "tags": ["lean construction", "last planner", "último planificador", "PPC", "restricciones", "planificación", "productividad"],
+    "body": "## Idea central\nReducir pérdidas (esperas, reprocesos, transporte innecesario, inventarios) y hacer que el trabajo fluya de forma confiable.\n\n## Sistema del Último Planificador (Last Planner System)\n1. **Plan maestro**: hitos generales.\n2. **Planificación por fases (pull)**: se planea hacia atrás desde cada hito con los equipos que ejecutan.\n3. **Planificación intermedia (lookahead)** de 4–6 semanas: se identifican y liberan **restricciones** (diseños, materiales, permisos, equipos, frentes de trabajo).\n4. **Plan semanal**: solo tareas sin restricciones, comprometidas por quienes las ejecutan.\n5. **Aprendizaje**: se mide el **PPC** (porcentaje de plan cumplido) y se analizan las causas de no cumplimiento.\n\n## Otras herramientas\nTrenes de actividades (sectorización), 5S, gestión visual, primera ejecución controlada y mejora continua."
+  },
+  {
+    "slug": "bim-modelado-por-disciplinas",
+    "category": "bim",
+    "title": "Modelado BIM por disciplinas y coordinación",
+    "summary": "Modelos de arquitectura, estructura y MEP, detección de interferencias y flujo de coordinación.",
+    "tags": ["BIM", "coordinación", "interferencias", "clash detection", "MEP", "Navisworks", "modelo federado", "BCF"],
+    "body": "## Modelos por disciplina\nArquitectura, estructura, hidrosanitario, eléctrico, mecánico (HVAC), red contra incendio y urbanismo. Cada equipo trabaja su modelo con el mismo origen de coordenadas y los mismos niveles.\n\n## Modelo federado\nSe reúnen los modelos (en IFC o en formatos nativos) para revisarlos juntos en herramientas como Navisworks, Solibri, BIMcollab o visores web.\n\n## Detección de interferencias\n- **Duras**: elementos que ocupan el mismo espacio (un tubo que atraviesa una viga).\n- **Blandas**: incumplimientos de holguras de mantenimiento o de aislamiento.\n- **De flujo de trabajo**: secuencias constructivas imposibles.\n\n## Flujo de coordinación\nReuniones periódicas, asignación de cada interferencia a un responsable mediante incidencias **BCF**, actualización de los modelos y verificación. El resultado: menos sorpresas y reprocesos en obra."
+  },
+  {
+    "slug": "bim-4d-5d",
+    "category": "bim",
+    "title": "BIM 4D y 5D: tiempo y costo",
+    "summary": "Vinculación del modelo con el cronograma y el presupuesto; simulaciones constructivas y cantidades.",
+    "tags": ["BIM 4D", "BIM 5D", "cronograma", "simulación constructiva", "cantidades", "presupuesto", "Synchro", "Navisworks"],
+    "body": "## BIM 4D (tiempo)\nCada elemento del modelo se vincula con una actividad del cronograma. Permite simular la secuencia constructiva, detectar conflictos de espacio y logística (grúas, acopios, accesos) y comunicar el plan de obra.\n\n## BIM 5D (costo)\nLas cantidades se extraen del modelo (m³ de concreto, m² de muro, kg de acero, unidades) y se asocian a precios unitarios para obtener el presupuesto, que se actualiza cuando cambia el diseño.\n\n## Requisitos\n- Modelos con el **nivel de información** adecuado (LOD/LOI) y una clasificación consistente (por ejemplo, Uniformat, OmniClass o una propia).\n- Reglas de modelado: un muro por material y por nivel, elementos separados por etapa constructiva.\n\n## Beneficios\nCantidades trazables, menos errores de medición y mejores decisiones al comparar alternativas de diseño por su costo y su plazo."
+  },
+  {
+    "slug": "plan-de-ejecucion-bim",
+    "category": "bim",
+    "title": "Plan de ejecución BIM (BEP)",
+    "summary": "Qué define un BEP: usos BIM, roles, niveles de información, entregables, software y entorno común de datos.",
+    "tags": ["BEP", "plan de ejecución BIM", "ISO 19650", "CDE", "entorno común de datos", "LOD", "roles", "nomenclatura"],
+    "body": "## Contenido de un BEP\n- **Objetivos y usos BIM**: coordinación, cantidades, 4D, operación y mantenimiento.\n- **Roles y responsabilidades**: coordinador BIM, modeladores por disciplina, gestor de información.\n- **Niveles de información** requeridos en cada fase.\n- **Software, versiones y formatos** de intercambio (IFC, BCF).\n- **Entorno común de datos (CDE)**: dónde viven los modelos y los documentos, y con qué estados (en progreso, compartido, publicado, archivado).\n- **Nomenclatura** de archivos, sistema de coordenadas y unidades.\n- **Calendario de entregas** y procedimiento de control de calidad de los modelos.\n\n## Marco de referencia\nLa serie **ISO 19650** organiza la gestión de la información en el ciclo de vida del activo. Varios países tienen estrategias BIM nacionales para la obra pública."
+  },
+  {
+    "slug": "gemelos-digitales",
+    "category": "bim",
+    "title": "Gemelos digitales y operación de activos",
+    "summary": "Del modelo BIM al gemelo digital: datos de sensores, mantenimiento y gestión del activo construido.",
+    "tags": ["gemelo digital", "operación y mantenimiento", "facility management", "sensores", "IoT", "COBie", "gestión de activos"],
+    "body": "## Qué es\nUna réplica digital de un activo construido que se mantiene **actualizada con datos reales** (sensores, inspecciones, órdenes de trabajo) y sirve para tomar decisiones.\n\n## Del BIM al gemelo\n1. Modelo **as-built** fiel a lo construido.\n2. Información de los equipos para operación (fabricante, garantías, manuales, frecuencias de mantenimiento), por ejemplo con **COBie**.\n3. Conexión con sistemas de gestión del edificio (BMS), sensores IoT y software de mantenimiento.\n\n## Usos\nMantenimiento preventivo y predictivo, eficiencia energética, gestión de espacios, monitoreo estructural de puentes y presas, simulaciones de emergencia y planeación de reformas.\n\n## Clave\nDefinir desde el diseño qué información necesita quien va a operar el activo: un gemelo con datos que nadie usa no aporta valor."
+  },
+  {
+    "slug": "levantamiento-scan-to-bim",
+    "category": "bim",
+    "title": "Escaneo láser y Scan-to-BIM",
+    "summary": "Captura de edificaciones existentes con escáner láser o fotogrametría y modelado BIM a partir de nubes de puntos.",
+    "tags": ["escáner láser", "nube de puntos", "Scan to BIM", "levantamiento", "as-built", "LiDAR", "rehabilitación", "patrimonio"],
+    "body": "## Captura\n- **Escáner láser terrestre (TLS)**: millones de puntos con precisión milimétrica desde varias estaciones que luego se registran (unen).\n- **Escáneres móviles o de mano (SLAM)**: más rápidos, algo menos precisos.\n- **Fotogrametría** con cámara o con dron para fachadas y cubiertas.\n\n## Scan-to-BIM\n1. Registro y limpieza de la nube de puntos.\n2. Definición del **nivel de detalle** necesario (no todo hay que modelarlo).\n3. Modelado de muros, losas, vanos, estructura e instalaciones visibles sobre la nube.\n4. Control de la desviación entre el modelo y la nube.\n\n## Usos\nRehabilitación y reforzamiento de edificaciones existentes, patrimonio, verificación de lo construido contra el diseño, control de deformaciones y planeación de ampliaciones.\n\nEn CIVIA, el modelo resultante se puede exportar a glTF/GLB y revisar en el visor 3D del proyecto."
+  },
+  {
+    "slug": "diseno-de-mezclas-de-concreto",
+    "category": "materiales",
+    "title": "Diseño de mezclas de concreto",
+    "summary": "Relación agua/cemento, resistencia requerida, asentamiento, agregados y ajuste en obra.",
+    "tags": ["diseño de mezclas", "relación agua cemento", "ACI 211", "agregados", "asentamiento", "f'cr", "dosificación"],
+    "body": "## Pasos (método ACI 211, resumido)\n1. **Resistencia requerida (f'cr)**: mayor que f'c para cubrir la variabilidad (por ejemplo, f'c + 8,3 MPa si no hay historial de ensayos, para f'c entre 21 y 35 MPa).\n2. **Asentamiento** según el elemento y el método de colocación.\n3. **Tamaño máximo del agregado** según las dimensiones del elemento y la separación del refuerzo.\n4. **Agua de mezclado** según el asentamiento y el agregado.\n5. **Relación agua/cemento (a/c)** según la resistencia y la exposición (la durabilidad puede exigir una a/c menor).\n6. **Cemento** = agua / (a/c).\n7. **Agregado grueso** por volumen según el módulo de finura de la arena.\n8. **Agregado fino** por diferencia de volúmenes.\n9. **Corrección por humedad y absorción** de los agregados.\n\n## Mezclas de prueba\nSiempre se validan con mezclas de prueba y ensayos de laboratorio antes de la obra.\n\n## Aditivos\nPlastificantes y superplastificantes (reducen el agua), acelerantes, retardantes, incorporadores de aire y adiciones minerales (ceniza volante, escoria, microsílice)."
+  },
+  {
+    "slug": "acero-de-refuerzo",
+    "category": "materiales",
+    "title": "Acero de refuerzo: grados, figurado y control",
+    "summary": "Barras corrugadas, grados de acero, despiece, ganchos, traslapos y control de recibo en obra.",
+    "tags": ["acero de refuerzo", "varilla", "barra corrugada", "grado 60", "figurado", "despiece", "traslapo", "malla electrosoldada"],
+    "body": "## Material\n- Barras corrugadas de grado 60 (fy ≈ 420 MPa) son las más usadas; existen grados soldables (ASTM A706) para zonas sísmicas exigentes.\n- **Mallas electrosoldadas** para losas, muros y pisos.\n- Diámetros en octavos de pulgada (n.º 3 = 3/8″ ≈ 9,5 mm; n.º 4 = 1/2″ ≈ 12,7 mm; n.º 5 = 5/8″ ≈ 15,9 mm) o en milímetros.\n\n## Despiece y figurado\nCartillas con la forma, la longitud, la cantidad y la ubicación de cada barra; ganchos estándar de 90°, 135° y 180°; diámetros mínimos de doblado para no fisurar la barra.\n\n## Colocación\nSeparadores (\"panelas\") para garantizar el recubrimiento, amarre firme, traslapos en las zonas permitidas y longitud de desarrollo suficiente. No se deben calentar las barras para doblarlas.\n\n## Control de recibo\nCertificados de calidad por colada, ensayos de tracción y doblado cuando lo exija la especificación, almacenamiento elevado y protegido del barro y de la oxidación excesiva."
+  },
+  {
+    "slug": "durabilidad-del-concreto",
+    "category": "materiales",
+    "title": "Durabilidad del concreto",
+    "summary": "Carbonatación, cloruros, sulfatos y reacción álcali-agregado; cómo diseñar para la vida útil.",
+    "tags": ["durabilidad", "carbonatación", "cloruros", "sulfatos", "corrosión", "recubrimiento", "relación agua cemento", "vida útil"],
+    "body": "## Mecanismos de deterioro\n- **Carbonatación**: el CO₂ baja el pH del concreto y despasiva el acero, que se corroe.\n- **Cloruros** (ambiente marino, sales): corrosión por picaduras, rápida y peligrosa.\n- **Sulfatos** (suelos, aguas residuales): expansión y desintegración de la pasta.\n- **Reacción álcali-agregado**: expansión por agregados reactivos.\n- **Ciclos de congelamiento y deshielo**, abrasión y ataque ácido.\n\n## Diseño para la durabilidad\n- Clasificar la **exposición** del elemento (ACI 318 tiene clases F, S, W y C).\n- **Baja relación a/c** y resistencia mínima según la exposición.\n- **Recubrimiento** suficiente y bien controlado (es la primera barrera).\n- Cementos resistentes a sulfatos o con adiciones; incorporador de aire para heladas.\n- Buen **curado**, compactación y control de fisuras.\n- Protección adicional: selladores, inhibidores, acero galvanizado o inoxidable en casos críticos."
+  },
+  {
+    "slug": "agregados-para-construccion",
+    "category": "materiales",
+    "title": "Agregados para concreto y vías",
+    "summary": "Arena y grava: granulometría, limpieza, desgaste, forma y ensayos de aceptación.",
+    "tags": ["agregados", "arena", "grava", "granulometría", "módulo de finura", "desgaste Los Ángeles", "equivalente de arena"],
+    "body": "## Funciones\nOcupan cerca del 60–75 % del volumen del concreto y forman el esqueleto de las capas granulares de pavimentos.\n\n## Propiedades y ensayos\n- **Granulometría** (tamizado) y **módulo de finura** de la arena (≈ 2,3–3,1 para concreto).\n- **Limpieza**: contenido de finos (pasa n.º 200), equivalente de arena, impurezas orgánicas, terrones de arcilla.\n- **Resistencia al desgaste**: máquina de Los Ángeles (límite habitual del orden de 40–50 % para concreto y menor para capas de rodadura).\n- **Solidez** frente a sulfatos, forma (índices de aplanamiento y alargamiento) y caras fracturadas en bases.\n- **Densidad y absorción**, para el diseño de mezclas.\n\n## Buenas prácticas\nFuentes con licencia ambiental, acopios separados por tamaño sobre superficie limpia, protección contra la contaminación y control de la humedad para corregir el agua de la mezcla."
+  },
+  {
+    "slug": "economia-circular-construccion",
+    "category": "sostenibilidad",
+    "title": "Economía circular y huella de carbono en construcción",
+    "summary": "Carbono incorporado, análisis de ciclo de vida, reutilización y materiales de menor impacto.",
+    "tags": ["economía circular", "huella de carbono", "carbono incorporado", "ACV", "ciclo de vida", "cemento", "reciclaje", "EPD"],
+    "body": "## Carbono incorporado y operacional\n- **Operacional**: energía usada durante la vida del edificio.\n- **Incorporado**: emisiones de fabricar, transportar, construir, mantener y demoler. En edificios eficientes puede ser la mitad o más del total en su ciclo de vida.\n\n## Dónde está el carbono\nEl cemento (y por tanto el concreto), el acero, el aluminio y el vidrio concentran buena parte de las emisiones.\n\n## Estrategias\n- **Construir menos y mejor**: reutilizar edificaciones existentes, optimizar las estructuras.\n- **Concretos con menos clínker** (adiciones, cementos compuestos) y resistencias ajustadas a lo necesario.\n- **Materiales biobasados**: madera certificada, guadua, tierra.\n- **Diseño para desmontaje** y reutilización de componentes.\n- **Agregados reciclados** de RCD.\n- **Declaraciones ambientales de producto (EPD)** para comparar materiales y **análisis de ciclo de vida (ACV)** del proyecto."
+  },
+  {
+    "slug": "certificaciones-edge-leed-casa",
+    "category": "sostenibilidad",
+    "title": "Certificaciones de construcción sostenible",
+    "summary": "LEED, EDGE, CASA Colombia y otras: qué evalúan y cómo empezar desde el diseño.",
+    "tags": ["LEED", "EDGE", "CASA Colombia", "BREEAM", "certificación", "construcción sostenible", "eficiencia energética", "agua"],
+    "body": "## Principales sistemas\n- **LEED** (USGBC): puntos en sitio, agua, energía, materiales, calidad del ambiente interior e innovación. Niveles: certificado, plata, oro y platino.\n- **EDGE** (IFC, Banco Mundial): exige al menos un 20 % de ahorro en energía, agua y energía incorporada en materiales frente a una línea base. Es más simple y económico, muy usado en vivienda.\n- **CASA Colombia** (Consejo Colombiano de Construcción Sostenible): adaptada a la vivienda en el contexto local.\n- **BREEAM**, **WELL** (salud y bienestar) y otros.\n\n## Cómo empezar\nDefinir la meta en la fase de concepto, hacer simulaciones energéticas tempranas, priorizar estrategias pasivas (orientación, sombreamiento, ventilación), especificar equipos y aparatos eficientes y documentar desde el inicio lo que pide el sistema de certificación."
+  },
+  {
+    "slug": "renovacion-urbana",
+    "category": "urbanismo",
+    "title": "Renovación urbana y densificación",
+    "summary": "Instrumentos de renovación, cargas y beneficios, espacio público y vivienda en procesos de densificación.",
+    "tags": ["renovación urbana", "densificación", "plan parcial", "cargas y beneficios", "espacio público", "plusvalía", "vivienda"],
+    "body": "## Qué es\nTransformar zonas urbanas deterioradas o subutilizadas para aprovechar mejor el suelo servido (con redes, transporte y equipamientos), en lugar de expandir la ciudad.\n\n## Instrumentos frecuentes (en Colombia y en otros países con figuras similares)\n- **Planes parciales** de renovación, con un reparto equitativo de **cargas y beneficios** entre los propietarios.\n- Cesiones obligatorias para espacio público, vías y equipamientos.\n- **Participación en plusvalías** y transferencias de derechos de construcción.\n- Gestión asociada y, cuando procede, adquisición predial por motivos de utilidad pública.\n\n## Claves de diseño\nCapacidad de las redes de acueducto, alcantarillado y energía; movilidad (priorizando transporte público y modos activos); espacio público suficiente y de calidad; mezcla de usos; vivienda para distintos ingresos y protección de los habitantes originales frente al desplazamiento."
+  },
+  {
+    "slug": "gestion-del-riesgo-urbano",
+    "category": "urbanismo",
+    "title": "Gestión del riesgo de desastres en el territorio",
+    "summary": "Amenaza, vulnerabilidad y riesgo; estudios de detalle, zonas de alto riesgo y medidas de mitigación.",
+    "tags": ["gestión del riesgo", "amenaza", "vulnerabilidad", "inundación", "remoción en masa", "sismo", "POT", "estudios de detalle"],
+    "body": "## Conceptos\n- **Amenaza**: probabilidad de que ocurra un fenómeno peligroso (sismo, inundación, deslizamiento, avenida torrencial).\n- **Vulnerabilidad**: susceptibilidad de las personas y los bienes a sufrir daño.\n- **Riesgo** = amenaza × vulnerabilidad × exposición.\n\n## En el ordenamiento territorial\nLos planes de ordenamiento identifican zonas de amenaza alta, media y baja, y zonas de **riesgo no mitigable** (donde no se debe construir). En zonas con condición de riesgo, se exigen **estudios de detalle** antes de licenciar.\n\n## Medidas\n- **Estructurales**: obras de drenaje, estabilización de taludes, diques, reforzamiento sísmico.\n- **No estructurales**: normativa, sistemas de alerta temprana, educación, planes de emergencia, seguros, reasentamiento de familias en zonas no mitigables.\n\n## Para el proyecto\nConsultar los mapas oficiales de amenazas del municipio, las rondas hídricas y los requisitos de estudios antes de comprar o diseñar."
+  },
+  {
+    "slug": "energia-solar-fotovoltaica",
+    "category": "instalaciones",
+    "title": "Energía solar fotovoltaica en edificaciones",
+    "summary": "Componentes de un sistema fotovoltaico, dimensionamiento básico, conexión a la red y mantenimiento.",
+    "tags": ["energía solar", "fotovoltaica", "paneles solares", "inversor", "autogeneración", "kWp", "HSP", "net metering"],
+    "body": "## Componentes\nMódulos fotovoltaicos, estructura de soporte, **inversor** (de cadena o microinversores), protecciones, medidor bidireccional y, en sistemas aislados, **baterías** con su regulador.\n\n## Dimensionamiento básico\n- Consumo mensual (kWh) de las facturas.\n- **Horas solares pico (HSP)** del sitio (≈ 3,5–5,5 en buena parte de Colombia, según la región).\n- Potencia aproximada: kWp ≈ consumo diario (kWh) / (HSP × eficiencia del sistema ≈ 0,75–0,8).\n- Ejemplo: 300 kWh/mes ≈ 10 kWh/día; con 4,5 HSP → ≈ 10 / (4,5 × 0,78) ≈ 2,8 kWp (unos 5–6 paneles de 500–550 W).\n\n## Aspectos de diseño\nOrientación e inclinación (en latitudes bajas, inclinación pequeña pero suficiente para autolimpieza), sombras, capacidad estructural de la cubierta, impermeabilización de los anclajes y trámite de conexión con el operador de red según la regulación de autogeneración.\n\n## Mantenimiento\nLimpieza periódica de los módulos, revisión de conexiones y monitoreo de la producción."
+  },
+  {
+    "slug": "red-contra-incendio-edificios",
+    "category": "instalaciones",
+    "title": "Red contra incendio en edificaciones",
+    "summary": "Extintores, gabinetes, rociadores, bomba contra incendio, detección y alarma según el uso.",
+    "tags": ["red contra incendio", "rociadores", "sprinklers", "gabinete", "bomba contra incendio", "NFPA", "detección", "alarma"],
+    "body": "## Componentes según el uso y la altura\n- **Extintores** portátiles adecuados al tipo de fuego (A, B, C, K).\n- **Sistema de detección y alarma**: detectores de humo y calor, pulsadores, sirenas y luces estroboscópicas.\n- **Gabinetes y mangueras** (sistemas de tubería vertical clase I, II o III).\n- **Rociadores automáticos (sprinklers)**: controlan o extinguen el fuego en su etapa inicial; son la medida más eficaz en edificaciones altas, comerciales e industriales.\n- **Bomba contra incendio** certificada (listada), con su bomba jockey y su tanque de reserva exclusiva.\n- **Conexión de bomberos (siamesa)**.\n\n## Diseño\nSegún la norma nacional (en Colombia, el Título J y el K de la NSR-10, que remiten a NFPA 13, 14, 20 y 72, entre otras): clasificación del riesgo, densidad de diseño, área de operación, duración de la reserva de agua y cálculo hidráulico.\n\n## Coordinación\nRutas de evacuación, compartimentación, sellado de pasos de instalaciones, escaleras presurizadas en edificios altos y mantenimiento con pruebas periódicas."
+  }
+]

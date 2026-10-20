@@ -29,6 +29,16 @@ CIVIA AI está dividido en tres repositorios que se clonan lado a lado:
 - Si cambias un endpoint de **CIVIA-BACKEND**, actualiza el cliente en `CIVIA-FRONTEND/web/js`.
   El contrato vivo está en `http://localhost:8080/api/docs` (OpenAPI).
 
+## Aportar a la biblioteca
+
+1. Elige la categoría (`categories.json`) y el archivo de artículos que le corresponde.
+2. Cada artículo lleva `slug` único en minúsculas con guiones, `category`, `title`, `summary`,
+   `tags` y un `body` en Markdown con secciones `##` (cada sección se indexa por separado).
+3. Valores orientativos con su contexto ("según la norma local"); nunca inventes artículos de norma.
+4. Un artículo o un grupo pequeño de términos del glosario por commit:
+   `docs(library): add article on …` / `docs(glossary): add …`.
+5. Agrega a `LibrarySearchTest` una pregunta típica que deba encontrar el artículo.
+
 ## Calidad
 
 - **IA:** `./mvnw verify` (pruebas de seguridad del LLM, biblioteca, planos y modelos).

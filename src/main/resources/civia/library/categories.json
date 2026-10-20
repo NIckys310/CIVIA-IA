@@ -11,5 +11,11 @@
   {"id": "bim", "name": "BIM y modelado 3D", "icon": "cube", "description": "Modelado, formatos, niveles de detalle y flujo digital."},
   {"id": "urbanismo", "name": "Urbanismo y paisaje", "icon": "map", "description": "Ciudad, normas urbanísticas, espacio público y paisaje."},
   {"id": "gestion", "name": "Gestión, costos y obra", "icon": "clipboard", "description": "Fases del proyecto, presupuesto, cronograma y supervisión."},
-  {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."}
+  {"id": "interiores", "name": "Interiorismo, luz y acústica", "icon": "lamp", "description": "Iluminación, color, acústica y mobiliario."},
+  {"id": "geotecnia", "name": "Geotecnia y suelos", "icon": "mountain", "description": "Exploración del subsuelo, mecánica de suelos, taludes y obras de contención."},
+  {"id": "hidraulica", "name": "Hidráulica y saneamiento", "icon": "drop", "description": "Acueductos, alcantarillados, drenaje urbano, hidrología y tratamiento de aguas."},
+  {"id": "vias", "name": "Vías y transporte", "icon": "road", "description": "Diseño geométrico, pavimentos, drenaje vial, tránsito y movilidad."},
+  {"id": "topografia", "name": "Topografía y geomática", "icon": "target", "description": "Levantamientos, nivelación, GNSS, drones, replanteo y cartografía."},
+  {"id": "puentes", "name": "Puentes y obras especiales", "icon": "bridge", "description": "Tipologías de puentes, cargas, apoyos, túneles y obras hidráulicas mayores."},
+  {"id": "seguridad", "name": "Seguridad y salud en obra", "icon": "helmet", "description": "Prevención de riesgos, trabajo en alturas, excavaciones y gestión ambiental de obra."}
 ]
