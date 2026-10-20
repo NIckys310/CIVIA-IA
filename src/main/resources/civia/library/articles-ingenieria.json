@@ -334,5 +334,13 @@
     "summary": "Carga muerta, carga viva vehicular, impacto, frenado, viento, sismo, temperatura y combinaciones.",
     "tags": ["cargas", "carga viva", "camión de diseño", "impacto", "AASHTO LRFD", "CCP-14", "sismo", "combinaciones"],
     "body": "## Cargas permanentes\nPeso propio de la estructura, superficie de rodadura, barandas, bordillos y redes que cruzan el puente.\n\n## Cargas vehiculares\n- **Camión de diseño** y **carga de carril** según la norma (AASHTO LRFD HL-93; en Colombia, la CCP-14 define el camión CC-14).\n- **Incremento dinámico (impacto)**, típicamente 33 % sobre el camión.\n- **Factor de presencia múltiple** según el número de carriles cargados.\n- **Fuerza de frenado** y **fuerza centrífuga** en puentes curvos.\n- Carga peatonal en andenes.\n\n## Otras acciones\nViento, sismo, temperatura (uniforme y gradiente), retracción y flujo plástico del concreto, asentamientos de apoyos, presión del agua y empuje de palizadas, impacto de embarcaciones o vehículos contra las pilas, y empuje de tierras en los estribos.\n\n## Diseño por estados límite (LRFD)\nResistencia, servicio, fatiga y evento extremo, cada uno con sus factores de carga y de resistencia."
+  },
+  {
+    "slug": "socavacion-en-puentes",
+    "category": "puentes",
+    "title": "Socavación en puentes",
+    "summary": "Socavación general, por contracción y local en pilas y estribos; causas de falla y protección.",
+    "tags": ["socavación", "pila", "estribo", "cauce", "enrocado", "hidráulica de puentes", "falla de puentes", "protección"],
+    "body": "## Por qué importa\nLa socavación es una de las principales causas de colapso de puentes en el mundo: el río remueve el material que soporta las pilas y los estribos durante las crecientes.\n\n## Componentes\n- **Degradación general** del lecho a largo plazo.\n- **Socavación por contracción**: el puente estrecha el cauce y la velocidad aumenta.\n- **Socavación local** alrededor de pilas y estribos por los vórtices de herradura (método HEC-18, Laursen, CSU, entre otros).\n\n## Diseño\n- Estudio hidrológico (crecientes de 100 a 500 años según la importancia) e hidráulico (HEC-RAS).\n- Cimentaciones profundas por debajo de la socavación total esperada, con margen.\n- Pilas alineadas con el flujo y de forma hidrodinámica.\n\n## Protección y mantenimiento\nEnrocados, colchacretos o bolsacretos, gaviones, espigones y control de la extracción de material del río. Inspección después de cada creciente importante."
   }
 ]
