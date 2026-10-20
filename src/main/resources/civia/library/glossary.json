@@ -222,5 +222,7 @@
   {"term": "Nudo", "category": "estructuras", "definition": "Zona de intersección entre vigas y columnas."},
   {"term": "Pandeo", "category": "estructuras", "definition": "Inestabilidad lateral de un elemento esbelto sometido a compresión."},
   {"term": "Punzonamiento", "category": "estructuras", "definition": "Falla por cortante de una losa alrededor de una columna o carga concentrada."},
-  {"term": "Rótula plástica", "category": "estructuras", "definition": "Zona de un elemento que fluye y gira disipando energía en un sismo."}
+  {"term": "Rótula plástica", "category": "estructuras", "definition": "Zona de un elemento que fluye y gira disipando energía en un sismo."},
+  {"term": "Retracción", "category": "estructuras", "definition": "Disminución de volumen del concreto al perder agua, que puede producir fisuras."},
+  {"term": "Arriostramiento", "category": "estructuras", "definition": "Elementos diagonales que rigidizan una estructura frente a cargas laterales."}
 ]
