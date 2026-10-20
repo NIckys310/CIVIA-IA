@@ -662,5 +662,13 @@
     "summary": "Carbonatación, cloruros, sulfatos y reacción álcali-agregado; cómo diseñar para la vida útil.",
     "tags": ["durabilidad", "carbonatación", "cloruros", "sulfatos", "corrosión", "recubrimiento", "relación agua cemento", "vida útil"],
     "body": "## Mecanismos de deterioro\n- **Carbonatación**: el CO₂ baja el pH del concreto y despasiva el acero, que se corroe.\n- **Cloruros** (ambiente marino, sales): corrosión por picaduras, rápida y peligrosa.\n- **Sulfatos** (suelos, aguas residuales): expansión y desintegración de la pasta.\n- **Reacción álcali-agregado**: expansión por agregados reactivos.\n- **Ciclos de congelamiento y deshielo**, abrasión y ataque ácido.\n\n## Diseño para la durabilidad\n- Clasificar la **exposición** del elemento (ACI 318 tiene clases F, S, W y C).\n- **Baja relación a/c** y resistencia mínima según la exposición.\n- **Recubrimiento** suficiente y bien controlado (es la primera barrera).\n- Cementos resistentes a sulfatos o con adiciones; incorporador de aire para heladas.\n- Buen **curado**, compactación y control de fisuras.\n- Protección adicional: selladores, inhibidores, acero galvanizado o inoxidable en casos críticos."
+  },
+  {
+    "slug": "agregados-para-construccion",
+    "category": "materiales",
+    "title": "Agregados para concreto y vías",
+    "summary": "Arena y grava: granulometría, limpieza, desgaste, forma y ensayos de aceptación.",
+    "tags": ["agregados", "arena", "grava", "granulometría", "módulo de finura", "desgaste Los Ángeles", "equivalente de arena"],
+    "body": "## Funciones\nOcupan cerca del 60–75 % del volumen del concreto y forman el esqueleto de las capas granulares de pavimentos.\n\n## Propiedades y ensayos\n- **Granulometría** (tamizado) y **módulo de finura** de la arena (≈ 2,3–3,1 para concreto).\n- **Limpieza**: contenido de finos (pasa n.º 200), equivalente de arena, impurezas orgánicas, terrones de arcilla.\n- **Resistencia al desgaste**: máquina de Los Ángeles (límite habitual del orden de 40–50 % para concreto y menor para capas de rodadura).\n- **Solidez** frente a sulfatos, forma (índices de aplanamiento y alargamiento) y caras fracturadas en bases.\n- **Densidad y absorción**, para el diseño de mezclas.\n\n## Buenas prácticas\nFuentes con licencia ambiental, acopios separados por tamaño sobre superficie limpia, protección contra la contaminación y control de la humedad para corregir el agua de la mezcla."
   }
 ]
