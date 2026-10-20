@@ -590,5 +590,13 @@
     "summary": "Registro diario de obra, actas de inicio, de recibo parcial y de liquidación, e informes de avance.",
     "tags": ["bitácora", "libro de obra", "acta de inicio", "acta de recibo", "liquidación", "informe de avance", "interventoría"],
     "body": "## Bitácora (libro de obra)\nRegistro diario y cronológico: clima, personal y equipos, actividades ejecutadas, ensayos, instrucciones de la interventoría, novedades, accidentes y visitas. Es la memoria oficial de la obra y es útil ante reclamaciones.\n\n## Actas\n- **Acta de inicio**: fecha de comienzo y estado del sitio.\n- **Actas de vecindad**: estado de las construcciones vecinas antes de empezar.\n- **Actas de comité**: compromisos con responsables y fechas.\n- **Actas parciales de obra**: cantidades ejecutadas para el pago.\n- **Acta de recibo final** y **acta de liquidación**: balance final del contrato.\n\n## Informes de avance\nAvance físico y financiero frente a lo programado, curva S, registro fotográfico, ensayos de calidad, SST y ambiental, riesgos y acciones.\n\nEn CIVIA, la bitácora del proyecto y la cámara de obra con metadatos ayudan a mantener este registro organizado."
+  },
+  {
+    "slug": "planificacion-lean-construction",
+    "category": "gestion",
+    "title": "Lean Construction y Last Planner",
+    "summary": "Principios de la construcción sin pérdidas y el sistema del Último Planificador para cumplir compromisos.",
+    "tags": ["lean construction", "last planner", "último planificador", "PPC", "restricciones", "planificación", "productividad"],
+    "body": "## Idea central\nReducir pérdidas (esperas, reprocesos, transporte innecesario, inventarios) y hacer que el trabajo fluya de forma confiable.\n\n## Sistema del Último Planificador (Last Planner System)\n1. **Plan maestro**: hitos generales.\n2. **Planificación por fases (pull)**: se planea hacia atrás desde cada hito con los equipos que ejecutan.\n3. **Planificación intermedia (lookahead)** de 4–6 semanas: se identifican y liberan **restricciones** (diseños, materiales, permisos, equipos, frentes de trabajo).\n4. **Plan semanal**: solo tareas sin restricciones, comprometidas por quienes las ejecutan.\n5. **Aprendizaje**: se mide el **PPC** (porcentaje de plan cumplido) y se analizan las causas de no cumplimiento.\n\n## Otras herramientas\nTrenes de actividades (sectorización), 5S, gestión visual, primera ejecución controlada y mejora continua."
   }
 ]
