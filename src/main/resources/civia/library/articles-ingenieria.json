@@ -54,5 +54,13 @@
     "summary": "Muros de gravedad, voladizo, contrafuertes, gaviones y tierra armada; empuje activo, pasivo y verificaciones.",
     "tags": ["muro de contención", "empuje activo", "Rankine", "Coulomb", "volcamiento", "deslizamiento", "gaviones", "tierra armada"],
     "body": "## Tipos\n- **Gravedad**: concreto ciclópeo o mampostería; resiste por peso propio. Alturas bajas.\n- **Voladizo (cantiléver)**: concreto reforzado en forma de L o T invertida. Habitual hasta 6–8 m.\n- **Con contrafuertes**: para alturas mayores.\n- **Gaviones**: cajas de malla con piedra; flexibles y drenantes.\n- **Tierra armada / suelo reforzado**: refuerzos (tiras o geomallas) dentro del relleno.\n- **Pantallas y muros anclados**: para excavaciones profundas.\n\n## Empujes\n- **Activo** (Ka): el muro se aleja del suelo. Rankine: Ka = tan²(45° − φ/2).\n- **En reposo** (K0 ≈ 1 − sen φ): el muro no se mueve, por ejemplo en muros de sótano rígidos.\n- **Pasivo** (Kp): el muro empuja contra el suelo; se usa con prudencia.\nEmpuje total activo en suelo granular seco: Ea = ½·Ka·γ·H².\n\n## Verificaciones\nVolcamiento (FS ≥ 2), deslizamiento (FS ≥ 1,5), capacidad portante bajo la zapata, estabilidad global y diseño estructural del muro.\n\n## Drenaje\nEl agua retenida puede duplicar el empuje: llorones (barbacanas), filtro granular o geotextil y tubería perforada en la base."
+  },
+  {
+    "slug": "licuacion-de-suelos",
+    "category": "geotecnia",
+    "title": "Licuación de suelos",
+    "summary": "Qué es la licuación, qué suelos la sufren, cómo se evalúa y qué medidas la mitigan.",
+    "tags": ["licuación", "sismo", "arena suelta", "nivel freático", "SPT", "mejoramiento de suelos", "compactación dinámica"],
+    "body": "## Qué es\nDurante un sismo, una arena suelta y saturada tiende a compactarse; el agua no alcanza a salir, la presión de poros sube y el suelo pierde casi toda su resistencia. Se comporta como un líquido: edificios que se inclinan, tuberías que flotan, volcanes de arena.\n\n## Suelos susceptibles\nArenas finas y limosas, sueltas, saturadas, jóvenes (rellenos, depósitos aluviales), con nivel freático a poca profundidad (habitualmente en los primeros 15–20 m).\n\n## Evaluación\nSe compara el esfuerzo cíclico que produce el sismo (CSR) con la resistencia cíclica del suelo (CRR), obtenida de SPT, CPT o velocidad de onda de corte. Factor de seguridad = CRR / CSR.\n\n## Mitigación\n- Densificación: vibrocompactación, compactación dinámica, columnas de grava.\n- Drenaje para disipar la presión de poros (drenes de grava).\n- Inyecciones o mezcla profunda con cemento.\n- Cimentaciones profundas que lleguen por debajo del estrato licuable, considerando la pérdida de soporte lateral."
   }
 ]
