@@ -142,5 +142,7 @@
   {"term": "Proctor", "category": "geotecnia", "definition": "Ensayo de compactación que determina la densidad seca máxima y la humedad óptima de un suelo."},
   {"term": "Recalce", "category": "geotecnia", "definition": "Refuerzo o profundización de la cimentación de una construcción existente."},
   {"term": "Soil nailing", "category": "geotecnia", "definition": "Técnica de estabilización de taludes y excavaciones con barras inyectadas y una pantalla de concreto lanzado."},
-  {"term": "Tablestaca", "category": "geotecnia", "definition": "Elemento laminar, generalmente metálico, que se hinca de forma continua para contener suelo o agua."}
+  {"term": "Tablestaca", "category": "geotecnia", "definition": "Elemento laminar, generalmente metálico, que se hinca de forma continua para contener suelo o agua."},
+  {"term": "Acometida", "category": "hidraulica", "definition": "Conexión entre la red pública y la instalación interna de un predio."},
+  {"term": "Aducción", "category": "hidraulica", "definition": "Conducto que lleva el agua cruda desde la captación hasta el desarenador o la planta."}
 ]
