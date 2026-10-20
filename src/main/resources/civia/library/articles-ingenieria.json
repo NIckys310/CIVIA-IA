@@ -14,5 +14,13 @@
     "summary": "Cómo leer los símbolos GW, SP, CL, MH, etc., y qué dicen sobre el comportamiento del suelo.",
     "tags": ["SUCS", "USCS", "AASHTO", "granulometría", "límites de Atterberg", "arcilla", "limo", "arena", "grava"],
     "body": "## Sistema Unificado (SUCS / USCS)\nSe basa en la granulometría y en los límites de Atterberg.\n- **Gruesos** (más del 50 % retenido en el tamiz n.º 200): gravas **G** y arenas **S**.\n  - Segunda letra: **W** bien gradada, **P** mal gradada, **M** con finos limosos, **C** con finos arcillosos.\n- **Finos** (50 % o más pasa el n.º 200): limos **M**, arcillas **C**, orgánicos **O**.\n  - Segunda letra: **L** baja plasticidad (LL < 50), **H** alta plasticidad (LL ≥ 50).\n- **Pt**: turba, inadecuada para cimentar.\n\n## Lectura práctica\n| Símbolo | Comportamiento general |\n|---|---|\n| GW, SW | Buen drenaje y buena capacidad portante |\n| SM, SC | Variable, sensibles al agua |\n| CL | Arcilla de baja plasticidad, compresible |\n| CH | Arcilla expansiva o muy compresible: cuidado con cambios de humedad |\n| MH, OH, Pt | Problemáticos, requieren estudio especial |\n\n## AASHTO\nUsado en vías: grupos A-1 a A-7 y el **índice de grupo**. A-1 y A-2 son buenos para subrasante; A-6 y A-7 son pobres."
+  },
+  {
+    "slug": "capacidad-portante",
+    "category": "geotecnia",
+    "title": "Capacidad portante del suelo",
+    "summary": "Diferencia entre capacidad última y admisible, factor de seguridad y por qué el asentamiento suele mandar.",
+    "tags": ["capacidad portante", "Terzaghi", "Meyerhof", "factor de seguridad", "presión admisible", "zapata"],
+    "body": "## Conceptos\n- **Capacidad última (qu)**: presión que produce la falla por corte del suelo.\n- **Capacidad admisible (qadm)**: qu / FS. El factor de seguridad suele estar entre 2,5 y 3 para cargas de servicio.\n- **Presión de contacto**: carga de la estructura dividida por el área de la cimentación. Debe ser ≤ qadm.\n\n## Expresión de Terzaghi (cimentación corrida)\nqu = c·Nc + q·Nq + 0,5·γ·B·Nγ\n- c: cohesión; q: sobrecarga a nivel de desplante (γ·Df); B: ancho; Nc, Nq, Nγ: factores que dependen del ángulo de fricción φ.\n- Meyerhof y Hansen agregan factores de forma, profundidad e inclinación.\n\n## Ejemplo orientativo\nZapata cuadrada con carga de servicio de 600 kN y qadm = 150 kPa: área = 600 / 150 = 4,0 m² → lado ≈ 2,0 m.\n\n## Ojo\nEn arcillas blandas y suelos sueltos, el **asentamiento** suele limitar antes que la falla por corte. El estudio de suelos debe dar ambos criterios."
   }
 ]
