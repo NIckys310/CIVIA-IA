@@ -214,5 +214,13 @@
     "summary": "Volumen, velocidad y densidad; TPD, hora pico, nivel de servicio y capacidad.",
     "tags": ["tránsito", "TPD", "aforo", "nivel de servicio", "capacidad", "hora pico", "factor de hora pico", "HCM"],
     "body": "## Variables básicas\n- **Volumen (q)**: vehículos por unidad de tiempo.\n- **Velocidad (v)**: media temporal o espacial.\n- **Densidad (k)**: vehículos por kilómetro. Relación fundamental: q = k·v.\n\n## Volúmenes de diseño\n- **TPD (tránsito promedio diario)**: anual, mensual o semanal, a partir de aforos y factores de expansión.\n- **VHD (volumen horario de diseño)**: suele estar entre la 30.ª hora más cargada del año y un porcentaje del TPD.\n- **Factor de hora pico (FHP)** = volumen horario / (4 × volumen del cuarto de hora máximo).\n- **Composición**: autos, buses, camiones (C2, C3, C3-S2…) y motos, con equivalencias en vehículos ligeros.\n\n## Capacidad y nivel de servicio\nEl Highway Capacity Manual (HCM) define niveles de servicio de **A** (flujo libre) a **F** (congestión) según la densidad, la demora o la velocidad, para autopistas, vías de dos carriles e intersecciones semaforizadas o no semaforizadas."
+  },
+  {
+    "slug": "intersecciones-y-glorietas",
+    "category": "vias",
+    "title": "Intersecciones y glorietas",
+    "summary": "Tipos de intersección, puntos de conflicto, semaforización básica y diseño de glorietas modernas.",
+    "tags": ["intersección", "glorieta", "rotonda", "semáforo", "puntos de conflicto", "canalización", "intercambiador"],
+    "body": "## Puntos de conflicto\nUna intersección de cuatro ramales a nivel tiene 32 puntos de conflicto (16 de cruce, 8 de divergencia y 8 de convergencia). Una glorieta moderna los reduce a 8 y elimina los de cruce, los más graves.\n\n## Tipos\n- **A nivel**: simple, canalizada, con carriles de giro, semaforizada.\n- **Glorietas**: de un carril (alta seguridad) o multicarril.\n- **A desnivel**: intercambiadores (trébol, diamante, direccional) cuando el volumen lo justifica.\n\n## Glorieta moderna\nPrioridad para quien circula dentro del anillo, entradas con deflexión para bajar la velocidad, isla central visible, isletas partidoras y pasos peatonales retirados de la línea de ceda el paso.\n\n## Semaforización\nCiclo, fases, verdes efectivos, entreverde (amarillo y todo rojo) y coordinación entre semáforos. El método de Webster da un ciclo óptimo aproximado: C0 = (1,5·L + 5) / (1 − Y)."
   }
 ]
