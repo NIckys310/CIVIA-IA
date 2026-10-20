@@ -342,5 +342,13 @@
     "summary": "Socavación general, por contracción y local en pilas y estribos; causas de falla y protección.",
     "tags": ["socavación", "pila", "estribo", "cauce", "enrocado", "hidráulica de puentes", "falla de puentes", "protección"],
     "body": "## Por qué importa\nLa socavación es una de las principales causas de colapso de puentes en el mundo: el río remueve el material que soporta las pilas y los estribos durante las crecientes.\n\n## Componentes\n- **Degradación general** del lecho a largo plazo.\n- **Socavación por contracción**: el puente estrecha el cauce y la velocidad aumenta.\n- **Socavación local** alrededor de pilas y estribos por los vórtices de herradura (método HEC-18, Laursen, CSU, entre otros).\n\n## Diseño\n- Estudio hidrológico (crecientes de 100 a 500 años según la importancia) e hidráulico (HEC-RAS).\n- Cimentaciones profundas por debajo de la socavación total esperada, con margen.\n- Pilas alineadas con el flujo y de forma hidrodinámica.\n\n## Protección y mantenimiento\nEnrocados, colchacretos o bolsacretos, gaviones, espigones y control de la extracción de material del río. Inspección después de cada creciente importante."
+  },
+  {
+    "slug": "apoyos-y-juntas-de-puentes",
+    "category": "puentes",
+    "title": "Apoyos y juntas de expansión",
+    "summary": "Función de los apoyos, tipos (elastoméricos, de disco, péndulo), juntas de dilatación y su mantenimiento.",
+    "tags": ["apoyo elastomérico", "neopreno", "junta de expansión", "dilatación", "aislador sísmico", "puente", "mantenimiento"],
+    "body": "## Apoyos\nTransmiten las cargas del tablero a la subestructura y permiten o restringen giros y desplazamientos por temperatura, retracción, frenado y sismo.\n- **Elastoméricos (neopreno zunchado)**: los más comunes en luces cortas y medias.\n- **De disco o de olla (pot)**: cargas altas, con placas deslizantes de PTFE.\n- **Aisladores sísmicos**: elastoméricos con núcleo de plomo o péndulos friccionantes; reducen las fuerzas sísmicas.\n- **Topes sísmicos** y longitudes mínimas de apoyo para evitar que el tablero caiga.\n\n## Juntas de expansión\nAbsorben el movimiento del tablero: de compresión de neopreno, de dientes, modulares (para movimientos grandes) y continuas tipo asfalto modificado.\n\n## Mantenimiento\nLas juntas que filtran agua deterioran los apoyos y los cabezales. Conviene inspeccionarlas, limpiarlas y reemplazar sellos a tiempo; revisar que los apoyos no estén aplastados, desplazados o agrietados."
   }
 ]
