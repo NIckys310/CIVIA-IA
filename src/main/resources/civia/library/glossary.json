@@ -130,5 +130,7 @@
   {"term": "Cohesión", "category": "geotecnia", "definition": "Componente de la resistencia al corte de un suelo que no depende del esfuerzo normal; típica de arcillas."},
   {"term": "Consolidación", "category": "geotecnia", "definition": "Disminución lenta de volumen de un suelo saturado al expulsar agua bajo carga."},
   {"term": "Coeficiente de balasto", "category": "geotecnia", "definition": "Relación entre la presión aplicada sobre el suelo y el asentamiento que produce; se usa para modelar losas y vigas sobre terreno."},
-  {"term": "Esfuerzo efectivo", "category": "geotecnia", "definition": "Esfuerzo que soporta el esqueleto de partículas del suelo: esfuerzo total menos presión de poros."}
+  {"term": "Esfuerzo efectivo", "category": "geotecnia", "definition": "Esfuerzo que soporta el esqueleto de partículas del suelo: esfuerzo total menos presión de poros."},
+  {"term": "Gavión", "category": "geotecnia", "definition": "Caja de malla metálica rellena de piedra usada en muros, protección de cauces y control de erosión."},
+  {"term": "Geotextil", "category": "geotecnia", "definition": "Tela permeable sintética usada para separar, filtrar, drenar o reforzar suelos."}
 ]
