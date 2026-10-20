@@ -53,4 +53,14 @@ class LibrarySearchTest {
             assertFalse(KB.articlesIn(id).isEmpty(), id);
         }
     }
+
+    @Test
+    void articlesAreWellFormed() {
+        KB.articles().forEach(a -> {
+            assertTrue(a.slug().matches("[a-z0-9]+(-[a-z0-9]+)*"), "slug inválido: " + a.slug());
+            assertFalse(a.summary().isBlank(), a.slug());
+            assertFalse(a.tags().isEmpty(), a.slug());
+            assertTrue(a.body().contains("## "), "sin secciones: " + a.slug());
+        });
+    }
 }
