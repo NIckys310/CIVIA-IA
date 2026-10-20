@@ -678,5 +678,13 @@
     "summary": "Carbono incorporado, análisis de ciclo de vida, reutilización y materiales de menor impacto.",
     "tags": ["economía circular", "huella de carbono", "carbono incorporado", "ACV", "ciclo de vida", "cemento", "reciclaje", "EPD"],
     "body": "## Carbono incorporado y operacional\n- **Operacional**: energía usada durante la vida del edificio.\n- **Incorporado**: emisiones de fabricar, transportar, construir, mantener y demoler. En edificios eficientes puede ser la mitad o más del total en su ciclo de vida.\n\n## Dónde está el carbono\nEl cemento (y por tanto el concreto), el acero, el aluminio y el vidrio concentran buena parte de las emisiones.\n\n## Estrategias\n- **Construir menos y mejor**: reutilizar edificaciones existentes, optimizar las estructuras.\n- **Concretos con menos clínker** (adiciones, cementos compuestos) y resistencias ajustadas a lo necesario.\n- **Materiales biobasados**: madera certificada, guadua, tierra.\n- **Diseño para desmontaje** y reutilización de componentes.\n- **Agregados reciclados** de RCD.\n- **Declaraciones ambientales de producto (EPD)** para comparar materiales y **análisis de ciclo de vida (ACV)** del proyecto."
+  },
+  {
+    "slug": "certificaciones-edge-leed-casa",
+    "category": "sostenibilidad",
+    "title": "Certificaciones de construcción sostenible",
+    "summary": "LEED, EDGE, CASA Colombia y otras: qué evalúan y cómo empezar desde el diseño.",
+    "tags": ["LEED", "EDGE", "CASA Colombia", "BREEAM", "certificación", "construcción sostenible", "eficiencia energética", "agua"],
+    "body": "## Principales sistemas\n- **LEED** (USGBC): puntos en sitio, agua, energía, materiales, calidad del ambiente interior e innovación. Niveles: certificado, plata, oro y platino.\n- **EDGE** (IFC, Banco Mundial): exige al menos un 20 % de ahorro en energía, agua y energía incorporada en materiales frente a una línea base. Es más simple y económico, muy usado en vivienda.\n- **CASA Colombia** (Consejo Colombiano de Construcción Sostenible): adaptada a la vivienda en el contexto local.\n- **BREEAM**, **WELL** (salud y bienestar) y otros.\n\n## Cómo empezar\nDefinir la meta en la fase de concepto, hacer simulaciones energéticas tempranas, priorizar estrategias pasivas (orientación, sombreamiento, ventilación), especificar equipos y aparatos eficientes y documentar desde el inicio lo que pide el sistema de certificación."
   }
 ]
