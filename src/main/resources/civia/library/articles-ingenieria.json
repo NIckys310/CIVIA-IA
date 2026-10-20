@@ -174,5 +174,13 @@
     "summary": "Distancia de visibilidad de parada y de adelantamiento, y cómo condicionan curvas y cruces.",
     "tags": ["visibilidad", "distancia de parada", "adelantamiento", "tiempo de reacción", "curva vertical", "intersección"],
     "body": "## Distancia de visibilidad de parada\nDp = 0,278·V·t + V² / (254·(f ± p))\n- V: velocidad (km/h); t: tiempo de percepción y reacción (≈ 2,5 s); f: coeficiente de fricción longitudinal; p: pendiente (+ en subida, − en bajada).\n- Ejemplo orientativo: a 60 km/h en plano, del orden de 75–85 m.\n\n## Distancia de adelantamiento\nMucho mayor (cientos de metros). En vías de dos carriles se debe garantizar en un porcentaje del tramo y señalizar las zonas donde no se puede adelantar.\n\n## Dónde importa\n- **Curvas verticales convexas**: su longitud debe permitir ver un obstáculo a la distancia de parada.\n- **Curvas horizontales**: el despeje lateral (taludes, vegetación, edificaciones) define la visibilidad interior.\n- **Intersecciones**: triángulos de visibilidad libres de obstáculos."
+  },
+  {
+    "slug": "pavimentos-flexibles",
+    "category": "vias",
+    "title": "Pavimentos flexibles (asfálticos)",
+    "summary": "Capas de un pavimento asfáltico, tránsito de diseño en ejes equivalentes y métodos de diseño.",
+    "tags": ["pavimento flexible", "asfalto", "mezcla asfáltica", "base granular", "subbase", "ESAL", "AASHTO 93", "CBR"],
+    "body": "## Estructura típica\nCarpeta asfáltica → base granular → subbase granular → subrasante (mejorada si hace falta). Las cargas se reparten de forma progresiva hasta llegar a la subrasante con esfuerzos tolerables.\n\n## Datos de diseño\n- **Tránsito**: número de ejes equivalentes de 8,2 t (ESAL) en el periodo de diseño (10–20 años).\n- **Subrasante**: CBR o módulo resiliente (Mr ≈ 10·CBR en MPa como correlación orientativa para suelos finos).\n- **Materiales**: coeficientes estructurales de cada capa.\n- **Drenaje y clima**.\n\n## Métodos\n- **AASHTO 93**: número estructural SN = a1·D1 + a2·m2·D2 + a3·m3·D3.\n- **Mecanístico-empíricos** (MEPDG, métodos racionales): verifican la fatiga de la carpeta y la deformación de la subrasante.\n- Catálogos nacionales para vías de bajo tránsito.\n\n## Fallas comunes\nPiel de cocodrilo (fatiga), ahuellamiento, baches, desprendimientos, exudación y fisuras térmicas o reflejadas. Casi siempre hay detrás un problema de **agua** o de **subdiseño**."
   }
 ]
