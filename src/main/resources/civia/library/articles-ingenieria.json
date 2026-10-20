@@ -534,5 +534,13 @@
     "summary": "Madera contralaminada (CLT), madera laminada encolada (glulam), protección contra fuego y humedad.",
     "tags": ["madera", "CLT", "glulam", "madera laminada", "madera contralaminada", "construcción en madera", "fuego", "humedad"],
     "body": "## Productos de ingeniería\n- **Glulam (madera laminada encolada)**: vigas y columnas de grandes luces y formas curvas.\n- **CLT (madera contralaminada)**: paneles de capas cruzadas, para muros y losas de edificios de varios pisos.\n- **LVL** y otros tableros estructurales.\n\n## Ventajas\nLiviana (reduce cimentación y fuerzas sísmicas), prefabricada y precisa, rápida de montar, con carbono almacenado en la estructura.\n\n## Fuego\nLa madera maciza se carboniza a una velocidad conocida (del orden de 0,6–0,8 mm/min) y la capa carbonizada protege el núcleo. Se diseña con secciones sobredimensionadas o con encapsulado (placas de yeso) para alcanzar la resistencia al fuego exigida.\n\n## Humedad y durabilidad\nProteger durante el montaje, mantener la madera seca en servicio, separar del suelo, buenos detalles de fachada y cubierta, y tratamientos cuando haya riesgo biológico.\n\n## Conexiones\nTornillos autoperforantes, placas metálicas y herrajes; su diseño define buena parte del comportamiento sísmico."
+  },
+  {
+    "slug": "guadua-estructural",
+    "category": "estructuras",
+    "title": "Guadua y bambú estructural",
+    "summary": "Propiedades de la guadua, preservación, uniones y normativa para construir con bambú.",
+    "tags": ["guadua", "bambú", "construcción sostenible", "uniones", "preservación", "NSR-10 título G", "bahareque"],
+    "body": "## Material\nLa *Guadua angustifolia* es un bambú de rápido crecimiento (madura en 4–6 años), con buena relación resistencia/peso. Se usa en vivienda, cubiertas, puentes peatonales y estructuras de grandes luces.\n\n## Selección y preservación\n- Culmos maduros, rectos, sin fisuras ni ataque de insectos.\n- **Preservación** (inmersión en sales de boro, por ejemplo) y secado controlado.\n- Protección por diseño: aleros amplios, sobrecimientos que la separen del suelo y nada de contacto con el agua.\n\n## Uniones\nEs el punto crítico: los entrenudos huecos no aguantan aplastamiento. Se usan pernos con relleno de mortero en el canuto, abrazaderas, pasadores y uniones de boca de pescado.\n\n## Normativa\nEn Colombia, la NSR-10 (Título G) y la NTC 5525 regulan el diseño con guadua; existen normas ISO para bambú estructural (ISO 22156).\n\n## Bahareque encementado\nSistema de muros con estructura de guadua o madera, malla y mortero; es tradicional en la región cafetera y está reconocido en la normativa sismorresistente colombiana para viviendas de uno y dos pisos."
   }
 ]
