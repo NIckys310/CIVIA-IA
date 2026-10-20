@@ -710,5 +710,13 @@
     "summary": "Componentes de un sistema fotovoltaico, dimensionamiento básico, conexión a la red y mantenimiento.",
     "tags": ["energía solar", "fotovoltaica", "paneles solares", "inversor", "autogeneración", "kWp", "HSP", "net metering"],
     "body": "## Componentes\nMódulos fotovoltaicos, estructura de soporte, **inversor** (de cadena o microinversores), protecciones, medidor bidireccional y, en sistemas aislados, **baterías** con su regulador.\n\n## Dimensionamiento básico\n- Consumo mensual (kWh) de las facturas.\n- **Horas solares pico (HSP)** del sitio (≈ 3,5–5,5 en buena parte de Colombia, según la región).\n- Potencia aproximada: kWp ≈ consumo diario (kWh) / (HSP × eficiencia del sistema ≈ 0,75–0,8).\n- Ejemplo: 300 kWh/mes ≈ 10 kWh/día; con 4,5 HSP → ≈ 10 / (4,5 × 0,78) ≈ 2,8 kWp (unos 5–6 paneles de 500–550 W).\n\n## Aspectos de diseño\nOrientación e inclinación (en latitudes bajas, inclinación pequeña pero suficiente para autolimpieza), sombras, capacidad estructural de la cubierta, impermeabilización de los anclajes y trámite de conexión con el operador de red según la regulación de autogeneración.\n\n## Mantenimiento\nLimpieza periódica de los módulos, revisión de conexiones y monitoreo de la producción."
+  },
+  {
+    "slug": "red-contra-incendio-edificios",
+    "category": "instalaciones",
+    "title": "Red contra incendio en edificaciones",
+    "summary": "Extintores, gabinetes, rociadores, bomba contra incendio, detección y alarma según el uso.",
+    "tags": ["red contra incendio", "rociadores", "sprinklers", "gabinete", "bomba contra incendio", "NFPA", "detección", "alarma"],
+    "body": "## Componentes según el uso y la altura\n- **Extintores** portátiles adecuados al tipo de fuego (A, B, C, K).\n- **Sistema de detección y alarma**: detectores de humo y calor, pulsadores, sirenas y luces estroboscópicas.\n- **Gabinetes y mangueras** (sistemas de tubería vertical clase I, II o III).\n- **Rociadores automáticos (sprinklers)**: controlan o extinguen el fuego en su etapa inicial; son la medida más eficaz en edificaciones altas, comerciales e industriales.\n- **Bomba contra incendio** certificada (listada), con su bomba jockey y su tanque de reserva exclusiva.\n- **Conexión de bomberos (siamesa)**.\n\n## Diseño\nSegún la norma nacional (en Colombia, el Título J y el K de la NSR-10, que remiten a NFPA 13, 14, 20 y 72, entre otras): clasificación del riesgo, densidad de diseño, área de operación, duración de la reserva de agua y cálculo hidráulico.\n\n## Coordinación\nRutas de evacuación, compartimentación, sellado de pasos de instalaciones, escaleras presurizadas en edificios altos y mantenimiento con pruebas periódicas."
   }
 ]
