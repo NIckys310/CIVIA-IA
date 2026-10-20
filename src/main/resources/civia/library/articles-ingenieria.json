@@ -526,5 +526,13 @@
     "summary": "Vivienda en altura con muros vaciados en formaleta metálica o de aluminio: ventajas, límites y cuidados.",
     "tags": ["muros de concreto", "sistema industrializado", "formaleta de aluminio", "vivienda", "muros estructurales", "malla electrosoldada"],
     "body": "## En qué consiste\nMuros y losas de concreto vaciados de forma monolítica con formaletas metálicas o de aluminio. Es muy usado en vivienda de interés social y en vivienda media en altura.\n\n## Ventajas\nVelocidad (un piso cada pocos días por frente de obra), alta rigidez lateral ante el sismo, poco desperdicio y acabados que requieren poca preparación.\n\n## Limitaciones\n- **Poca flexibilidad**: los muros no se pueden demoler en reformas; conviene que el propietario lo sepa.\n- Espesores delgados (≈ 10–15 cm): exigen un buen control del vaciado y del vibrado.\n- Desempeño térmico y acústico que puede requerir mejoras.\n- Las normas recientes han endurecido los requisitos de espesor, de cuantía y de elementos de borde en edificios altos.\n\n## Cuidados constructivos\nConcreto fluido o autocompactante con la resistencia temprana adecuada para desencofrar, recubrimientos, ubicación de las instalaciones embebidas sin debilitar el muro, curado y control de la fisuración por retracción."
+  },
+  {
+    "slug": "madera-estructural-clt",
+    "category": "estructuras",
+    "title": "Construcción en madera: CLT y madera laminada",
+    "summary": "Madera contralaminada (CLT), madera laminada encolada (glulam), protección contra fuego y humedad.",
+    "tags": ["madera", "CLT", "glulam", "madera laminada", "madera contralaminada", "construcción en madera", "fuego", "humedad"],
+    "body": "## Productos de ingeniería\n- **Glulam (madera laminada encolada)**: vigas y columnas de grandes luces y formas curvas.\n- **CLT (madera contralaminada)**: paneles de capas cruzadas, para muros y losas de edificios de varios pisos.\n- **LVL** y otros tableros estructurales.\n\n## Ventajas\nLiviana (reduce cimentación y fuerzas sísmicas), prefabricada y precisa, rápida de montar, con carbono almacenado en la estructura.\n\n## Fuego\nLa madera maciza se carboniza a una velocidad conocida (del orden de 0,6–0,8 mm/min) y la capa carbonizada protege el núcleo. Se diseña con secciones sobredimensionadas o con encapsulado (placas de yeso) para alcanzar la resistencia al fuego exigida.\n\n## Humedad y durabilidad\nProteger durante el montaje, mantener la madera seca en servicio, separar del suelo, buenos detalles de fachada y cubierta, y tratamientos cuando haya riesgo biológico.\n\n## Conexiones\nTornillos autoperforantes, placas metálicas y herrajes; su diseño define buena parte del comportamiento sísmico."
   }
 ]
