@@ -232,5 +232,7 @@
   {"term": "Concreto lanzado", "category": "materiales", "definition": "Concreto proyectado a alta velocidad sobre una superficie (shotcrete)."},
   {"term": "Curado", "category": "materiales", "definition": "Mantenimiento de la humedad y la temperatura del concreto para que hidrate correctamente."},
   {"term": "f'c", "category": "materiales", "definition": "Resistencia especificada a la compresión del concreto a los 28 días."},
-  {"term": "Formaleta", "category": "materiales", "definition": "Molde temporal que da forma al concreto mientras endurece (encofrado)."}
+  {"term": "Formaleta", "category": "materiales", "definition": "Molde temporal que da forma al concreto mientras endurece (encofrado)."},
+  {"term": "Módulo de finura", "category": "materiales", "definition": "Índice de la granulometría de un agregado fino."},
+  {"term": "Relación agua/cemento", "category": "materiales", "definition": "Cociente entre el peso del agua y el del cemento de una mezcla; gobierna resistencia y durabilidad."}
 ]
