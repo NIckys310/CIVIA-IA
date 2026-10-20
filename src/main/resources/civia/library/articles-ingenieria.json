@@ -1,2 +1,10 @@
 [
+  {
+    "slug": "estudio-de-suelos",
+    "category": "geotecnia",
+    "title": "Estudio de suelos: qué incluye y cuándo pedirlo",
+    "summary": "Alcance de un estudio geotécnico, número de sondeos, ensayos y entregables para diseñar cimentaciones.",
+    "tags": ["estudio de suelos", "geotecnia", "sondeo", "perforación", "SPT", "cimentación", "capacidad portante"],
+    "body": "## Para qué sirve\nEl estudio de suelos describe el subsuelo y entrega los parámetros para diseñar la cimentación, las excavaciones y los muros: tipo de suelo, nivel freático, capacidad portante, asentamientos esperados y recomendaciones constructivas.\n\n## Contenido típico\n- **Exploración**: sondeos o apiques con su localización y profundidad.\n- **Ensayos de campo**: SPT, CPT, veleta, densidad in situ.\n- **Ensayos de laboratorio**: humedad, límites de Atterberg, granulometría, peso unitario, compresión inconfinada, consolidación, corte directo o triaxial.\n- **Perfil estratigráfico** y nivel freático.\n- **Parámetros de diseño**: cohesión, ángulo de fricción, módulo de deformación, coeficiente de balasto.\n- **Recomendaciones**: tipo y profundidad de cimentación, capacidad admisible, asentamientos, excavaciones, drenaje, agresividad química y parámetros sísmicos del sitio.\n\n## Número y profundidad de sondeos (orientativo)\nDepende de la norma local y de la categoría de la obra. Como referencia: al menos 3 sondeos por edificación, y que lleguen por debajo del nivel donde la carga ya no afecta al suelo (con frecuencia 1,5 a 2 veces el ancho de la cimentación bajo su base, o hasta roca). Normas como la NSR-10 (Título H) fijan mínimos según la categoría de la unidad de construcción.\n\n> El estudio lo firma un ingeniero geotecnista. No se reemplaza con valores de tablas."
+  }
 ]
