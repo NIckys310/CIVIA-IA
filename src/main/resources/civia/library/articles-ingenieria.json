@@ -638,5 +638,13 @@
     "summary": "Captura de edificaciones existentes con escáner láser o fotogrametría y modelado BIM a partir de nubes de puntos.",
     "tags": ["escáner láser", "nube de puntos", "Scan to BIM", "levantamiento", "as-built", "LiDAR", "rehabilitación", "patrimonio"],
     "body": "## Captura\n- **Escáner láser terrestre (TLS)**: millones de puntos con precisión milimétrica desde varias estaciones que luego se registran (unen).\n- **Escáneres móviles o de mano (SLAM)**: más rápidos, algo menos precisos.\n- **Fotogrametría** con cámara o con dron para fachadas y cubiertas.\n\n## Scan-to-BIM\n1. Registro y limpieza de la nube de puntos.\n2. Definición del **nivel de detalle** necesario (no todo hay que modelarlo).\n3. Modelado de muros, losas, vanos, estructura e instalaciones visibles sobre la nube.\n4. Control de la desviación entre el modelo y la nube.\n\n## Usos\nRehabilitación y reforzamiento de edificaciones existentes, patrimonio, verificación de lo construido contra el diseño, control de deformaciones y planeación de ampliaciones.\n\nEn CIVIA, el modelo resultante se puede exportar a glTF/GLB y revisar en el visor 3D del proyecto."
+  },
+  {
+    "slug": "diseno-de-mezclas-de-concreto",
+    "category": "materiales",
+    "title": "Diseño de mezclas de concreto",
+    "summary": "Relación agua/cemento, resistencia requerida, asentamiento, agregados y ajuste en obra.",
+    "tags": ["diseño de mezclas", "relación agua cemento", "ACI 211", "agregados", "asentamiento", "f'cr", "dosificación"],
+    "body": "## Pasos (método ACI 211, resumido)\n1. **Resistencia requerida (f'cr)**: mayor que f'c para cubrir la variabilidad (por ejemplo, f'c + 8,3 MPa si no hay historial de ensayos, para f'c entre 21 y 35 MPa).\n2. **Asentamiento** según el elemento y el método de colocación.\n3. **Tamaño máximo del agregado** según las dimensiones del elemento y la separación del refuerzo.\n4. **Agua de mezclado** según el asentamiento y el agregado.\n5. **Relación agua/cemento (a/c)** según la resistencia y la exposición (la durabilidad puede exigir una a/c menor).\n6. **Cemento** = agua / (a/c).\n7. **Agregado grueso** por volumen según el módulo de finura de la arena.\n8. **Agregado fino** por diferencia de volúmenes.\n9. **Corrección por humedad y absorción** de los agregados.\n\n## Mezclas de prueba\nSiempre se validan con mezclas de prueba y ensayos de laboratorio antes de la obra.\n\n## Aditivos\nPlastificantes y superplastificantes (reducen el agua), acelerantes, retardantes, incorporadores de aire y adiciones minerales (ceniza volante, escoria, microsílice)."
   }
 ]
