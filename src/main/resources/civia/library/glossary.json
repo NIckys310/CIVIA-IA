@@ -226,5 +226,7 @@
   {"term": "Retracción", "category": "estructuras", "definition": "Disminución de volumen del concreto al perder agua, que puede producir fisuras."},
   {"term": "Arriostramiento", "category": "estructuras", "definition": "Elementos diagonales que rigidizan una estructura frente a cargas laterales."},
   {"term": "Asentamiento (slump)", "category": "materiales", "definition": "Medida de la consistencia del concreto fresco con el cono de Abrams."},
-  {"term": "Carbonatación", "category": "materiales", "definition": "Reacción del CO₂ con el concreto que reduce su pH y puede despasivar el acero."}
+  {"term": "Carbonatación", "category": "materiales", "definition": "Reacción del CO₂ con el concreto que reduce su pH y puede despasivar el acero."},
+  {"term": "Clínker", "category": "materiales", "definition": "Producto principal de la fabricación del cemento, obtenido al calcinar caliza y arcilla."},
+  {"term": "Concreto autocompactante", "category": "materiales", "definition": "Concreto muy fluido que llena la formaleta sin necesidad de vibrado."}
 ]
