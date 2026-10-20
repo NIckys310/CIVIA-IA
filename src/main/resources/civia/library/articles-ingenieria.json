@@ -382,5 +382,13 @@
     "summary": "Muelles, rompeolas, protección costera y acciones del oleaje y las mareas.",
     "tags": ["muelle", "rompeolas", "escollera", "oleaje", "marea", "puerto", "protección costera", "erosión costera"],
     "body": "## Acciones marinas\nOleaje (altura significativa, periodo, dirección), mareas, corrientes, viento, tsunamis, atraque y amarre de buques, y un ambiente muy agresivo con el acero y el concreto (cloruros).\n\n## Obras\n- **Rompeolas y escolleras**: protegen la dársena; de enrocado con mantos de cubos o elementos prefabricados (tetrápodos, Accropode®), o verticales tipo cajón.\n- **Muelles**: sobre pilotes (abiertos), de gravedad (bloques, cajones) o de tablestacas.\n- **Protección costera**: espolones, rompeolas exentos, revestimientos y alimentación artificial de playas.\n\n## Durabilidad\nConcretos de baja relación agua/cemento, recubrimientos mayores, inhibidores o protección catódica del acero y diseño para inspección y reemplazo de defensas.\n\n## Estudios previos\nBatimetría, clima de oleaje, modelación numérica y, en obras importantes, modelos físicos a escala."
+  },
+  {
+    "slug": "prefabricados-y-preesforzado",
+    "category": "puentes",
+    "title": "Concreto preesforzado y prefabricado",
+    "summary": "Pretensado y postensado, pérdidas de preesfuerzo, ventajas y usos en puentes y edificios.",
+    "tags": ["preesforzado", "pretensado", "postensado", "torones", "pérdidas", "viga prefabricada", "losa postensada"],
+    "body": "## Principio\nSe introduce una compresión en el concreto con cables de acero de alta resistencia (torones), de modo que, bajo carga, la tracción se reduzca o desaparezca. Permite luces mayores, secciones más esbeltas y menos fisuración.\n\n## Tipos\n- **Pretensado**: los torones se tensan antes de vaciar el concreto, en planta; se transfiere por adherencia. Típico en vigas prefabricadas de puentes y en losas alveolares.\n- **Postensado**: los cables van en ductos y se tensan después de que el concreto alcanza resistencia; luego se inyecta lechada (adherido) o se usan torones engrasados (no adherido). Usado en losas de edificios, puentes en voladizos sucesivos y tanques.\n\n## Pérdidas de preesfuerzo\nInmediatas (acortamiento elástico, fricción, acuñamiento de anclajes) y diferidas (retracción, flujo plástico del concreto y relajación del acero). En conjunto suelen sumar del orden del 15–25 %.\n\n## Cuidados\nControl de la resistencia del concreto antes del tensado, protocolos de tensionamiento (fuerza y alargamiento medidos), protección contra la corrosión y seguridad del personal durante el tensado."
   }
 ]
