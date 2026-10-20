@@ -630,5 +630,13 @@
     "summary": "Del modelo BIM al gemelo digital: datos de sensores, mantenimiento y gestión del activo construido.",
     "tags": ["gemelo digital", "operación y mantenimiento", "facility management", "sensores", "IoT", "COBie", "gestión de activos"],
     "body": "## Qué es\nUna réplica digital de un activo construido que se mantiene **actualizada con datos reales** (sensores, inspecciones, órdenes de trabajo) y sirve para tomar decisiones.\n\n## Del BIM al gemelo\n1. Modelo **as-built** fiel a lo construido.\n2. Información de los equipos para operación (fabricante, garantías, manuales, frecuencias de mantenimiento), por ejemplo con **COBie**.\n3. Conexión con sistemas de gestión del edificio (BMS), sensores IoT y software de mantenimiento.\n\n## Usos\nMantenimiento preventivo y predictivo, eficiencia energética, gestión de espacios, monitoreo estructural de puentes y presas, simulaciones de emergencia y planeación de reformas.\n\n## Clave\nDefinir desde el diseño qué información necesita quien va a operar el activo: un gemelo con datos que nadie usa no aporta valor."
+  },
+  {
+    "slug": "levantamiento-scan-to-bim",
+    "category": "bim",
+    "title": "Escaneo láser y Scan-to-BIM",
+    "summary": "Captura de edificaciones existentes con escáner láser o fotogrametría y modelado BIM a partir de nubes de puntos.",
+    "tags": ["escáner láser", "nube de puntos", "Scan to BIM", "levantamiento", "as-built", "LiDAR", "rehabilitación", "patrimonio"],
+    "body": "## Captura\n- **Escáner láser terrestre (TLS)**: millones de puntos con precisión milimétrica desde varias estaciones que luego se registran (unen).\n- **Escáneres móviles o de mano (SLAM)**: más rápidos, algo menos precisos.\n- **Fotogrametría** con cámara o con dron para fachadas y cubiertas.\n\n## Scan-to-BIM\n1. Registro y limpieza de la nube de puntos.\n2. Definición del **nivel de detalle** necesario (no todo hay que modelarlo).\n3. Modelado de muros, losas, vanos, estructura e instalaciones visibles sobre la nube.\n4. Control de la desviación entre el modelo y la nube.\n\n## Usos\nRehabilitación y reforzamiento de edificaciones existentes, patrimonio, verificación de lo construido contra el diseño, control de deformaciones y planeación de ampliaciones.\n\nEn CIVIA, el modelo resultante se puede exportar a glTF/GLB y revisar en el visor 3D del proyecto."
   }
 ]
