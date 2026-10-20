@@ -150,5 +150,7 @@
   {"term": "Coeficiente de escorrentía", "category": "hidraulica", "definition": "Fracción de la lluvia que se convierte en escorrentía superficial."},
   {"term": "Cota clave", "category": "hidraulica", "definition": "Nivel de la parte superior interna de una tubería."},
   {"term": "Cota batea", "category": "hidraulica", "definition": "Nivel del punto más bajo interno de una tubería o canal."},
-  {"term": "DBO", "category": "hidraulica", "definition": "Demanda bioquímica de oxígeno: oxígeno que consumen los microorganismos al degradar la materia orgánica del agua."}
+  {"term": "DBO", "category": "hidraulica", "definition": "Demanda bioquímica de oxígeno: oxígeno que consumen los microorganismos al degradar la materia orgánica del agua."},
+  {"term": "Desarenador", "category": "hidraulica", "definition": "Estructura que retiene las arenas del agua captada por sedimentación."},
+  {"term": "Disipador de energía", "category": "hidraulica", "definition": "Estructura que reduce la velocidad del agua para evitar erosión, como los tanques amortiguadores."}
 ]
