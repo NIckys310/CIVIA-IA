@@ -260,5 +260,7 @@
   {"term": "Techo verde", "category": "sostenibilidad", "definition": "Cubierta con vegetación que retiene agua, aísla y reduce la isla de calor."},
   {"term": "Hidroneumático", "category": "instalaciones", "definition": "Equipo de bombeo con tanque de presión que mantiene la presión de una red."},
   {"term": "Inversor", "category": "instalaciones", "definition": "Equipo que convierte la corriente continua de los paneles solares en corriente alterna."},
-  {"term": "Rociador", "category": "instalaciones", "definition": "Dispositivo automático que descarga agua al detectar calor de un incendio (sprinkler)."}
+  {"term": "Rociador", "category": "instalaciones", "definition": "Dispositivo automático que descarga agua al detectar calor de un incendio (sprinkler)."},
+  {"term": "Siamesa", "category": "instalaciones", "definition": "Conexión exterior que permite a los bomberos inyectar agua a la red contra incendio."},
+  {"term": "Plan parcial", "category": "urbanismo", "definition": "Instrumento que desarrolla el plan de ordenamiento en áreas determinadas."}
 ]
