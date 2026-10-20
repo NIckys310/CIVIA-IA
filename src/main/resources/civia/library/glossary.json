@@ -182,5 +182,7 @@
   {"term": "BM", "category": "topografia", "definition": "Punto de referencia de cota conocida (bench mark) usado para nivelaciones."},
   {"term": "Datum", "category": "topografia", "definition": "Sistema de referencia geodésico al que se refieren las coordenadas y alturas."},
   {"term": "Equidistancia", "category": "topografia", "definition": "Diferencia constante de altura entre curvas de nivel consecutivas."},
-  {"term": "Geoide", "category": "topografia", "definition": "Superficie equipotencial del campo gravitatorio que se aproxima al nivel medio del mar."}
+  {"term": "Geoide", "category": "topografia", "definition": "Superficie equipotencial del campo gravitatorio que se aproxima al nivel medio del mar."},
+  {"term": "GSD", "category": "topografia", "definition": "Distancia de muestreo en el terreno: tamaño que representa cada píxel de una imagen aérea."},
+  {"term": "Mojón", "category": "topografia", "definition": "Marca física permanente que materializa un punto topográfico o un vértice de lindero."}
 ]
