@@ -614,5 +614,13 @@
     "summary": "Vinculación del modelo con el cronograma y el presupuesto; simulaciones constructivas y cantidades.",
     "tags": ["BIM 4D", "BIM 5D", "cronograma", "simulación constructiva", "cantidades", "presupuesto", "Synchro", "Navisworks"],
     "body": "## BIM 4D (tiempo)\nCada elemento del modelo se vincula con una actividad del cronograma. Permite simular la secuencia constructiva, detectar conflictos de espacio y logística (grúas, acopios, accesos) y comunicar el plan de obra.\n\n## BIM 5D (costo)\nLas cantidades se extraen del modelo (m³ de concreto, m² de muro, kg de acero, unidades) y se asocian a precios unitarios para obtener el presupuesto, que se actualiza cuando cambia el diseño.\n\n## Requisitos\n- Modelos con el **nivel de información** adecuado (LOD/LOI) y una clasificación consistente (por ejemplo, Uniformat, OmniClass o una propia).\n- Reglas de modelado: un muro por material y por nivel, elementos separados por etapa constructiva.\n\n## Beneficios\nCantidades trazables, menos errores de medición y mejores decisiones al comparar alternativas de diseño por su costo y su plazo."
+  },
+  {
+    "slug": "plan-de-ejecucion-bim",
+    "category": "bim",
+    "title": "Plan de ejecución BIM (BEP)",
+    "summary": "Qué define un BEP: usos BIM, roles, niveles de información, entregables, software y entorno común de datos.",
+    "tags": ["BEP", "plan de ejecución BIM", "ISO 19650", "CDE", "entorno común de datos", "LOD", "roles", "nomenclatura"],
+    "body": "## Contenido de un BEP\n- **Objetivos y usos BIM**: coordinación, cantidades, 4D, operación y mantenimiento.\n- **Roles y responsabilidades**: coordinador BIM, modeladores por disciplina, gestor de información.\n- **Niveles de información** requeridos en cada fase.\n- **Software, versiones y formatos** de intercambio (IFC, BCF).\n- **Entorno común de datos (CDE)**: dónde viven los modelos y los documentos, y con qué estados (en progreso, compartido, publicado, archivado).\n- **Nomenclatura** de archivos, sistema de coordenadas y unidades.\n- **Calendario de entregas** y procedimiento de control de calidad de los modelos.\n\n## Marco de referencia\nLa serie **ISO 19650** organiza la gestión de la información en el ciclo de vida del activo. Varios países tienen estrategias BIM nacionales para la obra pública."
   }
 ]
