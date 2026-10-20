@@ -278,5 +278,13 @@
     "summary": "Planeación de vuelo, puntos de control, productos (ortofoto, nube de puntos, MDT) y precisión.",
     "tags": ["dron", "fotogrametría", "ortofoto", "nube de puntos", "LiDAR", "GSD", "puntos de control", "modelo digital de terreno"],
     "body": "## Productos\n- **Ortofotomosaico**: imagen corregida geométricamente, apta para medir.\n- **Nube de puntos** densa.\n- **MDS** (modelo digital de superficie: incluye vegetación y edificaciones) y **MDT** (solo terreno).\n- **Curvas de nivel** y modelos 3D texturizados.\n\n## Planeación del vuelo\n- **GSD** (tamaño del píxel en el terreno): depende de la altura de vuelo, la cámara y la lente. Un GSD de 2–3 cm es habitual en obra.\n- **Traslapo**: ≈ 75–80 % longitudinal y 65–70 % lateral.\n- **Puntos de control (GCP)** medidos con GNSS RTK y **puntos de chequeo** independientes para verificar la precisión.\n\n## LiDAR\nMide distancias con láser y puede atravesar parcialmente la vegetación: es mejor que la fotogrametría para obtener el MDT bajo bosque.\n\n## Usos en ingeniería\nCálculo de volúmenes de corte y relleno, seguimiento del avance de obra, inspección de taludes y estructuras, estudios de rutas y catastro.\n\n> Los vuelos deben cumplir la regulación aeronáutica local."
+  },
+  {
+    "slug": "replanteo-de-obra",
+    "category": "topografia",
+    "title": "Replanteo de obra",
+    "summary": "Cómo se trasladan al terreno los ejes, niveles y elementos del proyecto, con controles de precisión.",
+    "tags": ["replanteo", "ejes", "niveletas", "estacas", "cota", "trazado", "control topográfico", "obra"],
+    "body": "## Qué es\nEs lo contrario del levantamiento: llevar al terreno lo que está en los planos (ejes, bordes de excavación, columnas, niveles de piso, rasantes de vías y redes).\n\n## Procedimiento típico en edificación\n1. Verificar linderos y puntos de referencia del lote.\n2. Trazar los **ejes principales** con estación total o GNSS.\n3. Materializar los ejes fuera de la zona de excavación con **niveletas** (caballetes) o referencias en muros vecinos.\n4. Transferir **cotas** desde un BM de obra protegido.\n5. Comprobar diagonales y distancias entre ejes antes de excavar y antes de fundir.\n\n## En obras lineales\nAbscisado, estacas en el eje cada 10–20 m (más densas en las curvas), chaflanes de corte y relleno y control de la rasante por capas.\n\n## Tolerancias\nLas fija la especificación (por ejemplo, ±1 cm en ejes de estructura y ±2 cm en niveles de pavimento). Todo replanteo debe quedar registrado en la bitácora de obra."
   }
 ]
