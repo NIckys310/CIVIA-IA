@@ -174,5 +174,7 @@
   {"term": "Gálibo", "category": "vias", "definition": "Altura o ancho libre mínimo que debe dejarse para el paso de vehículos."},
   {"term": "Imprimación", "category": "vias", "definition": "Riego de asfalto líquido sobre una base granular para impermeabilizarla y mejorar la adherencia con la carpeta."},
   {"term": "Nivel de servicio", "category": "vias", "definition": "Medida cualitativa de las condiciones de operación del tránsito, de A (libre) a F (congestión)."},
-  {"term": "Rasante", "category": "vias", "definition": "Línea que define el perfil longitudinal del eje de una vía terminada."}
+  {"term": "Rasante", "category": "vias", "definition": "Línea que define el perfil longitudinal del eje de una vía terminada."},
+  {"term": "Subbase", "category": "vias", "definition": "Capa granular entre la subrasante y la base de un pavimento."},
+  {"term": "Subrasante", "category": "vias", "definition": "Suelo de soporte sobre el que se construye la estructura del pavimento."}
 ]
