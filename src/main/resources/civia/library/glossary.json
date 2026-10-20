@@ -218,5 +218,7 @@
   {"term": "Espectro de diseño", "category": "estructuras", "definition": "Gráfica de la aceleración sísmica de diseño en función del periodo de la estructura."},
   {"term": "Flujo plástico", "category": "estructuras", "definition": "Deformación diferida del concreto bajo carga sostenida en el tiempo."},
   {"term": "Longitud de desarrollo", "category": "estructuras", "definition": "Longitud de anclaje que necesita una barra para transmitir su fuerza al concreto."},
-  {"term": "Momento flector", "category": "estructuras", "definition": "Esfuerzo interno que tiende a curvar un elemento estructural."}
+  {"term": "Momento flector", "category": "estructuras", "definition": "Esfuerzo interno que tiende a curvar un elemento estructural."},
+  {"term": "Nudo", "category": "estructuras", "definition": "Zona de intersección entre vigas y columnas."},
+  {"term": "Pandeo", "category": "estructuras", "definition": "Inestabilidad lateral de un elemento esbelto sometido a compresión."}
 ]
