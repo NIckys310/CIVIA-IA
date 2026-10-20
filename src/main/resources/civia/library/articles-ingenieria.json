@@ -158,5 +158,13 @@
     "summary": "Sobrepresiones por el cierre brusco de válvulas o la parada de bombas, fórmula de Joukowsky y protección.",
     "tags": ["golpe de ariete", "transitorio hidráulico", "Joukowsky", "celeridad", "válvula", "bomba", "cámara de aire"],
     "body": "## Qué es\nCambio brusco de velocidad en una tubería a presión que genera una onda de sobrepresión y depresión. Puede reventar tuberías, colapsarlas por vacío o dañar bombas y válvulas.\n\n## Magnitud (cierre instantáneo)\nΔH = a·ΔV / g (Joukowsky).\n- **a**: celeridad de la onda; depende del material y de la relación diámetro/espesor. Orientativamente ≈ 300–500 m/s en PVC y PEAD y ≈ 1000–1300 m/s en acero y hierro dúctil.\n- Ejemplo: a = 1000 m/s y ΔV = 1,5 m/s → ΔH ≈ 153 m de sobrepresión.\n\n## Cierre rápido o lento\nTiempo crítico: Tc = 2L/a. Si la válvula cierra en un tiempo menor que Tc, la sobrepresión es la de Joukowsky; si cierra más despacio, se reduce (fórmula de Michaud).\n\n## Protección\nCierre lento de válvulas, volantes de inercia en bombas, cámaras de aire o tanques hidroneumáticos, chimeneas de equilibrio, válvulas de alivio y ventosas, y tuberías con clase de presión suficiente. En conducciones importantes se hace un análisis de transitorios con software."
+  },
+  {
+    "slug": "diseno-geometrico-de-vias",
+    "category": "vias",
+    "title": "Diseño geométrico de vías",
+    "summary": "Velocidad de diseño, alineamiento horizontal y vertical, sección transversal y coordinación entre ellos.",
+    "tags": ["diseño geométrico", "velocidad de diseño", "alineamiento", "curva horizontal", "peralte", "rasante", "sección transversal"],
+    "body": "## Velocidad de diseño\nEs el parámetro que gobierna radios, pendientes, distancias de visibilidad y anchos. Se elige según la categoría de la vía (primaria, secundaria, terciaria, urbana) y el tipo de terreno (plano, ondulado, montañoso, escarpado).\n\n## Alineamiento horizontal\nTangentes, curvas circulares y curvas de transición (clotoides). Radio mínimo: R = V² / (127·(e + f)), con V en km/h, e = peralte y f = fricción lateral.\n\n## Alineamiento vertical\nPendientes máximas según la velocidad y el terreno, y curvas verticales parabólicas convexas y cóncavas, dimensionadas por visibilidad y comodidad (parámetro K = L / A).\n\n## Sección transversal\nCalzada (carriles de 3,0–3,65 m), bermas, cunetas, taludes, separadores, andenes y ciclorrutas. Bombeo de la calzada ≈ 2 % para evacuar el agua.\n\n## Coordinación\nConviene evitar curvas horizontales cerradas justo después de una cima y buscar que las curvas horizontales y verticales coincidan. Los manuales nacionales (en Colombia, el Manual de Diseño Geométrico del INVÍAS) fijan los valores."
   }
 ]
