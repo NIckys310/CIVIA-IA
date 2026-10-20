@@ -558,5 +558,13 @@
     "summary": "Por qué vibran los entrepisos livianos, frecuencias recomendadas y medidas de control.",
     "tags": ["vibraciones", "entrepiso", "frecuencia natural", "confort", "pasarela", "steel deck", "amortiguamiento"],
     "body": "## El problema\nEntrepisos largos y livianos (estructuras metálicas, losas postensadas delgadas, pasarelas peatonales, madera) pueden cumplir en resistencia y deflexión, pero vibrar de forma molesta al caminar, saltar o por máquinas.\n\n## Parámetros\n- **Frecuencia natural** del entrepiso: muchas guías recomiendan superar ≈ 3–5 Hz en oficinas y viviendas, y valores mayores en gimnasios o salas de baile.\n- **Aceleración pico** comparada con límites de percepción (guías como AISC Design Guide 11, SCI P354 o las de pasarelas de Sétra).\n- **Amortiguamiento**: aumenta con los muros divisorios, cielos rasos y mobiliario.\n\n## Control\nAumentar la rigidez (más peralte), aumentar la masa, reducir la luz, sumar elementos no estructurales que amortiguan o instalar amortiguadores de masa sintonizada en casos especiales (pasarelas y voladizos).\n\n## Equipos sensibles\nLaboratorios y quirófanos con equipos de precisión tienen criterios mucho más estrictos (curvas VC)."
+  },
+  {
+    "slug": "analisis-de-precios-unitarios",
+    "category": "gestion",
+    "title": "Análisis de precios unitarios (APU)",
+    "summary": "Cómo se arma un APU: materiales, mano de obra, equipo, transporte, desperdicios y AIU.",
+    "tags": ["APU", "precio unitario", "presupuesto", "rendimiento", "mano de obra", "AIU", "desperdicio", "cantidades de obra"],
+    "body": "## Estructura de un APU\nPara cada actividad (por ejemplo, \"m² de muro en bloque de 15 cm\"):\n1. **Materiales**: cantidad por unidad × precio, más **desperdicio** (3–10 % según el material).\n2. **Mano de obra**: costo de la cuadrilla por día (con prestaciones sociales) / **rendimiento** (unidades por día).\n3. **Equipo y herramienta**: alquiler o depreciación; la herramienta menor suele tomarse como un % de la mano de obra.\n4. **Transporte**, cuando no está incluido en el precio de los materiales.\nCosto directo = suma de los anteriores.\n\n## AIU\n- **Administración**: personal de dirección, oficina, pólizas, servicios.\n- **Imprevistos**: riesgo no previsto.\n- **Utilidad**: ganancia del constructor.\nEl AIU se aplica sobre el costo directo total (con frecuencia entre 20 % y 35 % en conjunto, según el tipo de contrato y de obra).\n\n## Buenas prácticas\nUsar rendimientos medidos en obras propias, cotizaciones actualizadas, especificar con precisión qué incluye cada ítem y revisar las cantidades contra los planos (o extraerlas del modelo BIM)."
   }
 ]
