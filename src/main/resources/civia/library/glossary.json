@@ -190,5 +190,7 @@
   {"term": "Poligonal", "category": "topografia", "definition": "Serie de líneas enlazadas cuyas longitudes y ángulos se miden para determinar coordenadas."},
   {"term": "RTK", "category": "topografia", "definition": "Posicionamiento GNSS cinemático en tiempo real con precisión centimétrica."},
   {"term": "Taquimetría", "category": "topografia", "definition": "Método de levantamiento que determina simultáneamente la posición y la altura de los puntos."},
-  {"term": "UTM", "category": "topografia", "definition": "Sistema de proyección Universal Transversa de Mercator que divide la Tierra en husos de 6°."}
+  {"term": "UTM", "category": "topografia", "definition": "Sistema de proyección Universal Transversa de Mercator que divide la Tierra en husos de 6°."},
+  {"term": "Vértice geodésico", "category": "topografia", "definition": "Punto con coordenadas oficiales de alta precisión materializado en el terreno."},
+  {"term": "Atirantado", "category": "puentes", "definition": "Puente cuyo tablero cuelga de cables rectos anclados a torres o pilonos."}
 ]
