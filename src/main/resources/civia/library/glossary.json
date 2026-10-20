@@ -254,5 +254,7 @@
   {"term": "COBie", "category": "bim", "definition": "Formato para entregar información de equipos y espacios para la operación y el mantenimiento."},
   {"term": "Modelo federado", "category": "bim", "definition": "Unión de los modelos de varias disciplinas para revisarlos juntos."},
   {"term": "ACV", "category": "sostenibilidad", "definition": "Análisis de ciclo de vida: evaluación de los impactos ambientales de un producto o edificio de principio a fin."},
-  {"term": "Carbono incorporado", "category": "sostenibilidad", "definition": "Emisiones asociadas a la fabricación, transporte, construcción y fin de vida de los materiales."}
+  {"term": "Carbono incorporado", "category": "sostenibilidad", "definition": "Emisiones asociadas a la fabricación, transporte, construcción y fin de vida de los materiales."},
+  {"term": "EPD", "category": "sostenibilidad", "definition": "Declaración ambiental de producto que reporta los impactos de un material según su ciclo de vida."},
+  {"term": "SUDS", "category": "sostenibilidad", "definition": "Sistemas urbanos de drenaje sostenible que imitan el ciclo natural del agua."}
 ]
