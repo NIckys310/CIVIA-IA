@@ -152,5 +152,7 @@
   {"term": "Cota batea", "category": "hidraulica", "definition": "Nivel del punto más bajo interno de una tubería o canal."},
   {"term": "DBO", "category": "hidraulica", "definition": "Demanda bioquímica de oxígeno: oxígeno que consumen los microorganismos al degradar la materia orgánica del agua."},
   {"term": "Desarenador", "category": "hidraulica", "definition": "Estructura que retiene las arenas del agua captada por sedimentación."},
-  {"term": "Disipador de energía", "category": "hidraulica", "definition": "Estructura que reduce la velocidad del agua para evitar erosión, como los tanques amortiguadores."}
+  {"term": "Disipador de energía", "category": "hidraulica", "definition": "Estructura que reduce la velocidad del agua para evitar erosión, como los tanques amortiguadores."},
+  {"term": "Dotación", "category": "hidraulica", "definition": "Cantidad de agua asignada por habitante y por día para el diseño de un acueducto."},
+  {"term": "Hidrograma", "category": "hidraulica", "definition": "Gráfica del caudal en función del tiempo en un punto de un cauce."}
 ]
