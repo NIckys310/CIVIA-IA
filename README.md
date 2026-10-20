@@ -23,7 +23,7 @@ IA → interpreta · Normativa → establece criterios · Profesional → valida
 | `assistant` | **CIVIA Copilot** (`ArchitectAssistant`): conversa como un experto en ingeniería civil y responde cualquier pregunta, cita la biblioteca, usa el contexto del proyecto, entrega el texto a medida que se genera y cae al motor local si Claude no está disponible. `ProjectAdvisor`: qué le falta al proyecto. |
 | `plans` | `PlanAnalyzer`: PDF (PDFBox: texto, páginas, formato de papel), imágenes (resolución, contraste), DXF (entidades, capas, unidades) y DWG. 8–16 verificaciones con recomendaciones; con Claude, lectura visual del plano. |
 | `models` | `ModelAnalyzer`: revisa un modelo 3D a partir de sus estadísticas (unidades, escala, peso, componentes que faltan). `MassingAdvisor`: volumetría máxima según lote, índices y retiros. |
-| `library` | `KnowledgeBase`: 19 categorías, 144 artículos y 270 términos de ingeniería civil y arquitectura en español (geotecnia, hidráulica, vías, topografía, puentes, seguridad en obra, estructuras, BIM, gestión…), búsqueda BM25 con normalización para español. Admite artículos del estudio. |
+| `library` | `KnowledgeBase`: 19 categorías, 144 artículos y 265 términos de ingeniería civil y arquitectura en español (geotecnia, hidráulica, vías, topografía, puentes, seguridad en obra, estructuras, BIM, gestión…), búsqueda BM25 con normalización para español. Admite artículos del estudio. |
 | `safety` | `UntrustedContent` (anti *prompt injection*), `Citations` (citas válidas), `PrudentLanguage` (sin veredictos). |
 
 ## Uso
