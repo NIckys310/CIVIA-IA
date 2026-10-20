@@ -286,5 +286,13 @@
     "summary": "Cómo se trasladan al terreno los ejes, niveles y elementos del proyecto, con controles de precisión.",
     "tags": ["replanteo", "ejes", "niveletas", "estacas", "cota", "trazado", "control topográfico", "obra"],
     "body": "## Qué es\nEs lo contrario del levantamiento: llevar al terreno lo que está en los planos (ejes, bordes de excavación, columnas, niveles de piso, rasantes de vías y redes).\n\n## Procedimiento típico en edificación\n1. Verificar linderos y puntos de referencia del lote.\n2. Trazar los **ejes principales** con estación total o GNSS.\n3. Materializar los ejes fuera de la zona de excavación con **niveletas** (caballetes) o referencias en muros vecinos.\n4. Transferir **cotas** desde un BM de obra protegido.\n5. Comprobar diagonales y distancias entre ejes antes de excavar y antes de fundir.\n\n## En obras lineales\nAbscisado, estacas en el eje cada 10–20 m (más densas en las curvas), chaflanes de corte y relleno y control de la rasante por capas.\n\n## Tolerancias\nLas fija la especificación (por ejemplo, ±1 cm en ejes de estructura y ±2 cm en niveles de pavimento). Todo replanteo debe quedar registrado en la bitácora de obra."
+  },
+  {
+    "slug": "movimiento-de-tierras",
+    "category": "topografia",
+    "title": "Movimiento de tierras y cubicación",
+    "summary": "Cálculo de volúmenes de corte y relleno, factores de expansión y diagrama de masas.",
+    "tags": ["movimiento de tierras", "corte", "relleno", "volumen", "cubicación", "diagrama de masas", "abundamiento", "compactación"],
+    "body": "## Cálculo de volúmenes\n- **Secciones transversales**: áreas de corte y relleno cada cierta distancia y volumen por **áreas medias**: V = (A1 + A2)/2 · L (o prismoidal para mayor precisión).\n- **Cuadrícula**: diferencia de cotas en cada celda × área.\n- **Superficies (TIN)**: diferencia entre el modelo del terreno y el del diseño, con software (Civil 3D, por ejemplo) o a partir de nubes de puntos de dron.\n\n## Factores de volumen\n- **Abundamiento (expansión)**: el material excavado ocupa más volumen suelto que en el banco (arcillas ≈ 20–40 %, roca fracturada ≈ 50–70 %). Importa para el transporte.\n- **Compactación (contracción)**: el relleno compactado ocupa menos que en el banco (≈ 5–15 %).\n\n## Diagrama de masas\nCurva de volúmenes acumulados a lo largo de una vía. Permite compensar cortes con rellenos, definir distancias de acarreo y ubicar préstamos y botaderos al menor costo."
   }
 ]
