@@ -124,5 +124,7 @@
   {"term": "Viga de amarre", "category": "estructuras", "definition": "Viga que une cimentaciones o remata muros para que trabajen en conjunto."},
   {"term": "Voladizo", "category": "estructuras", "definition": "Elemento que sobresale de su apoyo sin soporte en el extremo."},
   {"term": "Zapata", "category": "estructuras", "definition": "Cimentación superficial que reparte la carga de una columna o muro sobre el suelo."},
-  {"term": "Zonificación", "category": "diseno", "definition": "Organización del proyecto por zonas según su función (social, privada, servicio)."}
+  {"term": "Zonificación", "category": "diseno", "definition": "Organización del proyecto por zonas según su función (social, privada, servicio)."},
+  {"term": "Ángulo de fricción interna", "category": "geotecnia", "definition": "Parámetro de resistencia al corte de un suelo que representa la fricción entre sus partículas; en arenas suele estar entre 28° y 40°."},
+  {"term": "Apique", "category": "geotecnia", "definition": "Excavación manual a cielo abierto para observar y muestrear el suelo a poca profundidad."}
 ]
