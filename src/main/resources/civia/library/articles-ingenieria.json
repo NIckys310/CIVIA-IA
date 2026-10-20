@@ -326,5 +326,13 @@
     "summary": "Puentes de vigas, losa, arco, pórtico, atirantados y colgantes; rangos de luz y criterios de elección.",
     "tags": ["puente", "viga", "arco", "atirantado", "colgante", "voladizos sucesivos", "luz", "tipología"],
     "body": "## Tipos y rangos de luz orientativos\n| Tipología | Luces habituales |\n|---|---|\n| Losa maciza o aligerada | Hasta 15–20 m |\n| Vigas de concreto reforzado | 10–25 m |\n| Vigas preesforzadas (I, cajón) | 20–50 m |\n| Vigas metálicas / mixtas | 20–100 m |\n| Voladizos sucesivos (cajón) | 60–250 m |\n| Arco | 50–500 m |\n| Atirantado | 150–1100 m |\n| Colgante | 400 m a más de 2000 m |\n\n## Criterios de elección\nLuz y gálibo requeridos, condiciones de cimentación y del cauce, sismicidad, proceso constructivo posible (andamios, lanzamiento, voladizos, izaje), plazo, mantenimiento, costo y estética.\n\n## Partes\n- **Superestructura**: tablero, vigas, diafragmas, barandas.\n- **Apoyos**: elastoméricos, de neopreno zunchado, deslizantes o aisladores sísmicos.\n- **Subestructura**: estribos y pilas.\n- **Cimentación**: zapatas, pilotes o caissons."
+  },
+  {
+    "slug": "cargas-en-puentes",
+    "category": "puentes",
+    "title": "Cargas en puentes",
+    "summary": "Carga muerta, carga viva vehicular, impacto, frenado, viento, sismo, temperatura y combinaciones.",
+    "tags": ["cargas", "carga viva", "camión de diseño", "impacto", "AASHTO LRFD", "CCP-14", "sismo", "combinaciones"],
+    "body": "## Cargas permanentes\nPeso propio de la estructura, superficie de rodadura, barandas, bordillos y redes que cruzan el puente.\n\n## Cargas vehiculares\n- **Camión de diseño** y **carga de carril** según la norma (AASHTO LRFD HL-93; en Colombia, la CCP-14 define el camión CC-14).\n- **Incremento dinámico (impacto)**, típicamente 33 % sobre el camión.\n- **Factor de presencia múltiple** según el número de carriles cargados.\n- **Fuerza de frenado** y **fuerza centrífuga** en puentes curvos.\n- Carga peatonal en andenes.\n\n## Otras acciones\nViento, sismo, temperatura (uniforme y gradiente), retracción y flujo plástico del concreto, asentamientos de apoyos, presión del agua y empuje de palizadas, impacto de embarcaciones o vehículos contra las pilas, y empuje de tierras en los estribos.\n\n## Diseño por estados límite (LRFD)\nResistencia, servicio, fatiga y evento extremo, cada uno con sus factores de carga y de resistencia."
   }
 ]
