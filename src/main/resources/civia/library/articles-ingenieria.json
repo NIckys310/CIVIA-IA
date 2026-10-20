@@ -366,5 +366,13 @@
     "summary": "Excavación por perforación y voladura, NATM, tuneladoras (TBM), sostenimiento y revestimiento.",
     "tags": ["túnel", "NATM", "TBM", "tuneladora", "sostenimiento", "concreto lanzado", "pernos", "cerchas", "revestimiento"],
     "body": "## Métodos de excavación\n- **Perforación y voladura**: roca de dureza media a alta; ciclos de perforar, cargar, volar, ventilar y desescombrar.\n- **Excavación mecánica** con rozadoras o excavadoras en rocas blandas y suelos.\n- **Tuneladoras (TBM)**: de roca (abiertas) o de escudo (EPB, hidroescudo) en suelos bajo el nivel freático; colocan anillos de dovelas prefabricadas.\n- **Falso túnel / cut and cover**: excavación a cielo abierto y relleno posterior, en metros urbanos poco profundos.\n\n## Nuevo Método Austriaco (NATM)\nAprovecha la capacidad portante del macizo: sostenimiento flexible inmediato (concreto lanzado, pernos, cerchas) y **instrumentación** (convergencias) para ajustar el diseño durante la obra.\n\n## Clasificación del macizo\nRMR (Bieniawski) y sistema Q (Barton) orientan el tipo de sostenimiento.\n\n## Otros aspectos\nVentilación, drenaje e impermeabilización, revestimiento definitivo, iluminación, sistemas contra incendio y rutas de evacuación en túneles viales."
+  },
+  {
+    "slug": "presas-y-embalses",
+    "category": "puentes",
+    "title": "Presas y embalses",
+    "summary": "Tipos de presas, componentes, cargas, vertederos y seguridad de presas.",
+    "tags": ["presa", "embalse", "vertedero", "presa de gravedad", "presa de tierra", "CFRD", "seguridad de presas", "desarenador"],
+    "body": "## Tipos\n- **De concreto**: gravedad (resiste por peso), arco (transmite el empuje a las laderas), contrafuertes y concreto compactado con rodillo (CCR).\n- **De materiales sueltos**: tierra homogénea o zonificada, enrocado con núcleo impermeable o con cara de concreto (CFRD).\n\n## Componentes\nCuerpo de la presa, **vertedero** (para las crecientes de diseño, incluso la creciente máxima probable en presas de alto riesgo), descarga de fondo, toma, desviación del río durante la construcción y galerías de inspección.\n\n## Cargas y verificaciones\nPresión hidrostática, subpresión, sismo, presión de sedimentos, oleaje. Se verifica la estabilidad al deslizamiento, al volcamiento y a la tubificación (en presas de tierra), y la infiltración a través del cuerpo y de la cimentación.\n\n## Seguridad de presas\nInstrumentación (piezómetros, medidores de filtración, inclinómetros, control topográfico), inspecciones periódicas, planes de acción ante emergencias y estudios de rotura de presa para delimitar zonas de inundación aguas abajo."
   }
 ]
