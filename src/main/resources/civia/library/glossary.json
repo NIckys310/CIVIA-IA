@@ -202,5 +202,7 @@
   {"term": "Vertedero", "category": "puentes", "definition": "Estructura que permite evacuar los excesos de agua de un embalse o canal."},
   {"term": "Voladizos sucesivos", "category": "puentes", "definition": "Método constructivo de puentes que avanza simétricamente desde las pilas por segmentos."},
   {"term": "ATS", "category": "seguridad", "definition": "Análisis de trabajo seguro: identificación de los pasos, peligros y controles de una tarea antes de hacerla."},
-  {"term": "Arnés de cuerpo completo", "category": "seguridad", "definition": "Equipo que distribuye las fuerzas de una caída en muslos, pelvis, pecho y hombros."}
+  {"term": "Arnés de cuerpo completo", "category": "seguridad", "definition": "Equipo que distribuye las fuerzas de una caída en muslos, pelvis, pecho y hombros."},
+  {"term": "EPP", "category": "seguridad", "definition": "Elementos de protección personal: casco, gafas, guantes, botas, arnés y similares."},
+  {"term": "Entibado", "category": "seguridad", "definition": "Estructura provisional que sostiene las paredes de una excavación."}
 ]
