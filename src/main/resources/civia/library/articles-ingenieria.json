@@ -310,5 +310,13 @@
     "summary": "Datos vectoriales y ráster, capas temáticas y análisis espaciales útiles en proyectos de ingeniería.",
     "tags": ["SIG", "GIS", "QGIS", "ArcGIS", "ráster", "vector", "análisis espacial", "cartografía", "catastro"],
     "body": "## Qué es un SIG\nUn sistema que almacena, analiza y representa información georreferenciada. Ejemplos: QGIS (libre) y ArcGIS.\n\n## Tipos de datos\n- **Vectoriales**: puntos (postes, pozos), líneas (redes, vías) y polígonos (predios, cuencas), con su tabla de atributos.\n- **Ráster**: imágenes satelitales, ortofotos, MDT y mapas de amenaza.\n\n## Análisis útiles\n- Áreas de influencia (buffers) alrededor de redes o fuentes de agua.\n- Superposición de capas (amenazas, usos del suelo, restricciones ambientales).\n- Delimitación de cuencas y redes de drenaje a partir del MDT.\n- Rutas óptimas y redes de servicios.\n- Inventario y gestión de activos (pavimentos, redes de acueducto).\n\n## Buenas prácticas\nUsar el mismo sistema de referencia en todas las capas, documentar los metadatos (fuente, fecha, escala) y versionar los datos."
+  },
+  {
+    "slug": "levantamiento-catastral",
+    "category": "topografia",
+    "title": "Levantamiento de predios y linderos",
+    "summary": "Cómo se levanta un predio, cuadro de áreas, linderos, servidumbres y relación con el catastro y la escritura.",
+    "tags": ["predio", "lindero", "catastro", "escritura", "área", "servidumbre", "levantamiento predial", "cabida"],
+    "body": "## Objetivo\nDeterminar la forma, el área y los linderos reales de un lote, y compararlos con lo que dicen la escritura (títulos) y el catastro.\n\n## Procedimiento\n1. Revisar los títulos, el plano catastral y el certificado de tradición.\n2. Ubicar los mojones, cercas, muros y construcciones existentes.\n3. Medir con estación total o GNSS, vinculado al sistema oficial de coordenadas.\n4. Calcular el área (por coordenadas: fórmula del área de Gauss) y elaborar el **cuadro de coordenadas** de los vértices.\n5. Identificar **servidumbres**, afectaciones viales, rondas hídricas y redes que crucen el predio.\n\n## Diferencias de área\nSon frecuentes entre la escritura, el catastro y la realidad. Se resuelven con los procedimientos legales de aclaración o actualización de cabida y linderos, con la firma de un profesional habilitado.\n\n## Por qué importa\nLicencias de construcción, compraventas, englobes y desenglobes, y diseño: el proyecto debe respetar los aislamientos medidos desde los linderos reales."
   }
 ]
