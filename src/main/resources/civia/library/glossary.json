@@ -198,5 +198,7 @@
   {"term": "Pila", "category": "puentes", "definition": "Apoyo intermedio de un puente."},
   {"term": "Pilono", "category": "puentes", "definition": "Torre de un puente atirantado o colgante que sostiene los cables."},
   {"term": "Tablero", "category": "puentes", "definition": "Estructura del puente que recibe directamente el tránsito."},
-  {"term": "Torón", "category": "puentes", "definition": "Cable de acero de alta resistencia formado por varios alambres trenzados, usado en preesforzado."}
+  {"term": "Torón", "category": "puentes", "definition": "Cable de acero de alta resistencia formado por varios alambres trenzados, usado en preesforzado."},
+  {"term": "Vertedero", "category": "puentes", "definition": "Estructura que permite evacuar los excesos de agua de un embalse o canal."},
+  {"term": "Voladizos sucesivos", "category": "puentes", "definition": "Método constructivo de puentes que avanza simétricamente desde las pilas por segmentos."}
 ]
