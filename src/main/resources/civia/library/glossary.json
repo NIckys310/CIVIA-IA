@@ -140,5 +140,7 @@
   {"term": "Micropilote", "category": "geotecnia", "definition": "Pilote de diámetro pequeño (generalmente menor de 300 mm) perforado e inyectado, útil en recalces y sitios de acceso difícil."},
   {"term": "Presión de poros", "category": "geotecnia", "definition": "Presión del agua en los vacíos del suelo."},
   {"term": "Proctor", "category": "geotecnia", "definition": "Ensayo de compactación que determina la densidad seca máxima y la humedad óptima de un suelo."},
-  {"term": "Recalce", "category": "geotecnia", "definition": "Refuerzo o profundización de la cimentación de una construcción existente."}
+  {"term": "Recalce", "category": "geotecnia", "definition": "Refuerzo o profundización de la cimentación de una construcción existente."},
+  {"term": "Soil nailing", "category": "geotecnia", "definition": "Técnica de estabilización de taludes y excavaciones con barras inyectadas y una pantalla de concreto lanzado."},
+  {"term": "Tablestaca", "category": "geotecnia", "definition": "Elemento laminar, generalmente metálico, que se hinca de forma continua para contener suelo o agua."}
 ]
