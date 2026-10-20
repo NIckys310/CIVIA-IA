@@ -70,5 +70,13 @@
     "summary": "Arcillas que se hinchan y suelos que colapsan al mojarse: cómo identificarlos y cómo construir sobre ellos.",
     "tags": ["suelo expansivo", "arcilla expansiva", "montmorillonita", "suelo colapsable", "loess", "humedad", "fisuras"],
     "body": "## Suelos expansivos\nArcillas con minerales como la montmorillonita que aumentan de volumen al humedecerse y se contraen al secarse. Producen fisuras en muros y pisos, levantamiento de losas y daños en tuberías.\n\n**Indicios**: índice de plasticidad alto (IP > 25–35), límite líquido alto (CH), grietas en época seca, ensayos de expansión libre y de presión de expansión.\n\n## Medidas\n- Mantener la humedad estable: andenes perimetrales, drenaje, evitar jardines con riego pegados a los muros.\n- Cimentar por debajo de la zona activa (pilotes o pilas con fuste aislado).\n- Losas estructurales separadas del suelo o con vacío.\n- Reemplazo parcial o estabilización con cal.\n\n## Suelos colapsables\nSuelos de baja densidad (loess, algunos rellenos y suelos residuales) que pierden volumen bruscamente al saturarse bajo carga. Se evalúan con el ensayo de colapso en el edómetro. Se mitigan con compactación, prehumedecimiento controlado, reemplazo o cimentación profunda."
+  },
+  {
+    "slug": "exploracion-geotecnica-spt",
+    "category": "geotecnia",
+    "title": "Ensayo SPT y otros ensayos de campo",
+    "summary": "Cómo se hace el ensayo de penetración estándar, cómo se corrige el número N y qué otros ensayos complementan.",
+    "tags": ["SPT", "N60", "CPT", "penetración estándar", "veleta", "presiómetro", "ensayo de campo", "sondeo"],
+    "body": "## SPT (Standard Penetration Test)\nSe hinca un muestreador partido con un martillo de 63,5 kg que cae 76 cm. Se cuentan los golpes en tres tramos de 15 cm; **N** es la suma de los dos últimos.\n- Se corrige por energía del martillo (N60), sobrecarga, longitud de varillas y diámetro del sondeo.\n- Permite estimar densidad relativa y ángulo de fricción en arenas, y consistencia en arcillas, con correlaciones empíricas.\n\n## Lectura orientativa en arenas (N60)\n| N | Compacidad |\n|---|---|\n| 0–4 | Muy suelta |\n| 4–10 | Suelta |\n| 10–30 | Media |\n| 30–50 | Densa |\n| > 50 | Muy densa |\n\n## Otros ensayos\n- **CPT / CPTu**: cono con medición continua de punta, fricción y presión de poros; perfil muy detallado.\n- **Veleta de campo**: resistencia no drenada de arcillas blandas.\n- **Presiómetro y dilatómetro**: parámetros de deformación.\n- **Geofísica** (MASW, refracción sísmica, resistividad): velocidad de onda de corte (Vs30) para la clasificación sísmica del sitio."
   }
 ]
