@@ -256,5 +256,7 @@
   {"term": "ACV", "category": "sostenibilidad", "definition": "Análisis de ciclo de vida: evaluación de los impactos ambientales de un producto o edificio de principio a fin."},
   {"term": "Carbono incorporado", "category": "sostenibilidad", "definition": "Emisiones asociadas a la fabricación, transporte, construcción y fin de vida de los materiales."},
   {"term": "EPD", "category": "sostenibilidad", "definition": "Declaración ambiental de producto que reporta los impactos de un material según su ciclo de vida."},
-  {"term": "SUDS", "category": "sostenibilidad", "definition": "Sistemas urbanos de drenaje sostenible que imitan el ciclo natural del agua."}
+  {"term": "SUDS", "category": "sostenibilidad", "definition": "Sistemas urbanos de drenaje sostenible que imitan el ciclo natural del agua."},
+  {"term": "Techo verde", "category": "sostenibilidad", "definition": "Cubierta con vegetación que retiene agua, aísla y reduce la isla de calor."},
+  {"term": "Hidroneumático", "category": "instalaciones", "definition": "Equipo de bombeo con tanque de presión que mantiene la presión de una red."}
 ]
