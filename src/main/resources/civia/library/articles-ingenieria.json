@@ -654,5 +654,13 @@
     "summary": "Barras corrugadas, grados de acero, despiece, ganchos, traslapos y control de recibo en obra.",
     "tags": ["acero de refuerzo", "varilla", "barra corrugada", "grado 60", "figurado", "despiece", "traslapo", "malla electrosoldada"],
     "body": "## Material\n- Barras corrugadas de grado 60 (fy ≈ 420 MPa) son las más usadas; existen grados soldables (ASTM A706) para zonas sísmicas exigentes.\n- **Mallas electrosoldadas** para losas, muros y pisos.\n- Diámetros en octavos de pulgada (n.º 3 = 3/8″ ≈ 9,5 mm; n.º 4 = 1/2″ ≈ 12,7 mm; n.º 5 = 5/8″ ≈ 15,9 mm) o en milímetros.\n\n## Despiece y figurado\nCartillas con la forma, la longitud, la cantidad y la ubicación de cada barra; ganchos estándar de 90°, 135° y 180°; diámetros mínimos de doblado para no fisurar la barra.\n\n## Colocación\nSeparadores (\"panelas\") para garantizar el recubrimiento, amarre firme, traslapos en las zonas permitidas y longitud de desarrollo suficiente. No se deben calentar las barras para doblarlas.\n\n## Control de recibo\nCertificados de calidad por colada, ensayos de tracción y doblado cuando lo exija la especificación, almacenamiento elevado y protegido del barro y de la oxidación excesiva."
+  },
+  {
+    "slug": "durabilidad-del-concreto",
+    "category": "materiales",
+    "title": "Durabilidad del concreto",
+    "summary": "Carbonatación, cloruros, sulfatos y reacción álcali-agregado; cómo diseñar para la vida útil.",
+    "tags": ["durabilidad", "carbonatación", "cloruros", "sulfatos", "corrosión", "recubrimiento", "relación agua cemento", "vida útil"],
+    "body": "## Mecanismos de deterioro\n- **Carbonatación**: el CO₂ baja el pH del concreto y despasiva el acero, que se corroe.\n- **Cloruros** (ambiente marino, sales): corrosión por picaduras, rápida y peligrosa.\n- **Sulfatos** (suelos, aguas residuales): expansión y desintegración de la pasta.\n- **Reacción álcali-agregado**: expansión por agregados reactivos.\n- **Ciclos de congelamiento y deshielo**, abrasión y ataque ácido.\n\n## Diseño para la durabilidad\n- Clasificar la **exposición** del elemento (ACI 318 tiene clases F, S, W y C).\n- **Baja relación a/c** y resistencia mínima según la exposición.\n- **Recubrimiento** suficiente y bien controlado (es la primera barrera).\n- Cementos resistentes a sulfatos o con adiciones; incorporador de aire para heladas.\n- Buen **curado**, compactación y control de fisuras.\n- Protección adicional: selladores, inhibidores, acero galvanizado o inoxidable en casos críticos."
   }
 ]
