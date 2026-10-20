@@ -542,5 +542,13 @@
     "summary": "Propiedades de la guadua, preservación, uniones y normativa para construir con bambú.",
     "tags": ["guadua", "bambú", "construcción sostenible", "uniones", "preservación", "NSR-10 título G", "bahareque"],
     "body": "## Material\nLa *Guadua angustifolia* es un bambú de rápido crecimiento (madura en 4–6 años), con buena relación resistencia/peso. Se usa en vivienda, cubiertas, puentes peatonales y estructuras de grandes luces.\n\n## Selección y preservación\n- Culmos maduros, rectos, sin fisuras ni ataque de insectos.\n- **Preservación** (inmersión en sales de boro, por ejemplo) y secado controlado.\n- Protección por diseño: aleros amplios, sobrecimientos que la separen del suelo y nada de contacto con el agua.\n\n## Uniones\nEs el punto crítico: los entrenudos huecos no aguantan aplastamiento. Se usan pernos con relleno de mortero en el canuto, abrazaderas, pasadores y uniones de boca de pescado.\n\n## Normativa\nEn Colombia, la NSR-10 (Título G) y la NTC 5525 regulan el diseño con guadua; existen normas ISO para bambú estructural (ISO 22156).\n\n## Bahareque encementado\nSistema de muros con estructura de guadua o madera, malla y mortero; es tradicional en la región cafetera y está reconocido en la normativa sismorresistente colombiana para viviendas de uno y dos pisos."
+  },
+  {
+    "slug": "mamposteria-estructural-diseno",
+    "category": "estructuras",
+    "title": "Mampostería estructural y confinada",
+    "summary": "Diferencias entre mampostería confinada, reforzada y no reforzada; densidad de muros y buenas prácticas.",
+    "tags": ["mampostería confinada", "mampostería reforzada", "bloque", "ladrillo", "densidad de muros", "viga de amarre", "columneta"],
+    "body": "## Sistemas\n- **Confinada**: muros de ladrillo o bloque rodeados por columnetas y vigas de amarre de concreto reforzado. Muy usada en vivienda de 1 a 3 pisos.\n- **Reforzada (integral)**: bloques de perforación vertical con barras y grout en las celdas; permite edificios de mayor altura.\n- **No reforzada**: no se permite en zonas de amenaza sísmica intermedia o alta para estructuras nuevas.\n\n## Densidad de muros\nEn cada dirección principal debe haber suficiente longitud de muros estructurales respecto al área de la planta. Las normas para vivienda (por ejemplo, el Título E de la NSR-10) dan reglas simplificadas.\n\n## Buenas prácticas\n- Muros continuos de la cimentación a la cubierta, alineados en planta y en altura.\n- Plantas simples y simétricas; evitar grandes aberturas cerca de las esquinas.\n- Vigas de amarre en cimentación, entrepisos y cubierta; columnetas en los extremos de los muros y en las intersecciones.\n- Morteros con la dosificación especificada y juntas llenas."
   }
 ]
