@@ -350,5 +350,13 @@
     "summary": "Función de los apoyos, tipos (elastoméricos, de disco, péndulo), juntas de dilatación y su mantenimiento.",
     "tags": ["apoyo elastomérico", "neopreno", "junta de expansión", "dilatación", "aislador sísmico", "puente", "mantenimiento"],
     "body": "## Apoyos\nTransmiten las cargas del tablero a la subestructura y permiten o restringen giros y desplazamientos por temperatura, retracción, frenado y sismo.\n- **Elastoméricos (neopreno zunchado)**: los más comunes en luces cortas y medias.\n- **De disco o de olla (pot)**: cargas altas, con placas deslizantes de PTFE.\n- **Aisladores sísmicos**: elastoméricos con núcleo de plomo o péndulos friccionantes; reducen las fuerzas sísmicas.\n- **Topes sísmicos** y longitudes mínimas de apoyo para evitar que el tablero caiga.\n\n## Juntas de expansión\nAbsorben el movimiento del tablero: de compresión de neopreno, de dientes, modulares (para movimientos grandes) y continuas tipo asfalto modificado.\n\n## Mantenimiento\nLas juntas que filtran agua deterioran los apoyos y los cabezales. Conviene inspeccionarlas, limpiarlas y reemplazar sellos a tiempo; revisar que los apoyos no estén aplastados, desplazados o agrietados."
+  },
+  {
+    "slug": "inspeccion-de-puentes",
+    "category": "puentes",
+    "title": "Inspección y mantenimiento de puentes",
+    "summary": "Tipos de inspección, daños frecuentes, calificación de la condición y gestión del inventario.",
+    "tags": ["inspección", "mantenimiento", "patología", "corrosión", "fisuras", "SIPUCOL", "gestión de puentes", "monitoreo"],
+    "body": "## Tipos de inspección\n- **Rutinaria**: visual y periódica (anual o bienal).\n- **Principal o detallada**: con acceso cercano a todos los elementos, cada pocos años.\n- **Especial**: después de sismos, crecientes, impactos o cuando se detectan daños graves.\n\n## Daños frecuentes\nFisuras y desprendimientos del concreto, corrosión del acero de refuerzo o de los perfiles, socavación, juntas dañadas, apoyos deteriorados, barandas golpeadas, drenajes taponados y deformaciones visibles.\n\n## Calificación y gestión\nCada elemento se califica (por ejemplo, de 0 a 5) y se priorizan las intervenciones en un sistema de gestión (en Colombia, SIPUCOL del INVÍAS). Se registran fotografías, croquis y mediciones.\n\n## Monitoreo\nPara puentes críticos: sensores de deformación, inclinómetros, acelerómetros y medición de vibraciones, que permiten detectar cambios en el comportamiento.\n\n> Las decisiones sobre la capacidad de carga o el cierre de un puente las toma un ingeniero especialista."
   }
 ]
