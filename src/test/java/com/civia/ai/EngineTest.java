@@ -46,6 +46,13 @@ class EngineTest {
     }
 
     @Test
+    void localAnswersIncludeTheFirstSectionsWhenTheIntroIsShort() {
+        var answer = ai.assistant().ask("¿Qué es la licuación de suelos?", List.of(), null, List.of());
+        assertTrue(answer.text().contains("#### Qué es"), answer.text());
+        assertTrue(answer.text().contains("presión de poros"), answer.text());
+    }
+
+    @Test
     void assistantIncludesProjectRecommendations() {
         var ctx = new ArchitectAssistant.ProjectContext("Casa", List.of(Recommendation.high("Sube los planos", "Sin planos", "upload-plan")));
         var answer = ai.assistant().ask("¿Qué le falta a mi proyecto?", List.of(), ctx, List.of());
