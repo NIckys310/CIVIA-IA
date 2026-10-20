@@ -302,5 +302,13 @@
     "summary": "Cómo leer curvas de nivel, equidistancia, pendientes y uso de TIN y ráster en proyectos.",
     "tags": ["curvas de nivel", "equidistancia", "pendiente", "MDT", "TIN", "ráster", "perfil", "topografía"],
     "body": "## Curvas de nivel\nLíneas que unen puntos de igual cota. La **equidistancia** es la diferencia de altura entre curvas consecutivas (0,25–1 m en proyectos urbanos y 2–10 m en estudios regionales).\n- Curvas juntas: pendiente fuerte. Separadas: terreno suave.\n- Curvas en V que apuntan hacia arriba: cauces. En V hacia abajo: filos o divisorias.\n- Nunca se cruzan (salvo en voladizos o cuevas).\n\n## Pendiente\nPendiente (%) = (diferencia de cota / distancia horizontal) × 100.\n\n## Modelos digitales\n- **TIN**: red de triángulos sobre los puntos medidos; respeta las líneas de quiebre (bordes de vía, cauces).\n- **Ráster (grilla)**: celdas con cota, cómodo para análisis SIG (pendientes, cuencas, visibilidad).\n\n## Usos\nImplantación de proyectos, diseño de rasantes y plataformas, delimitación de cuencas, perfiles, cálculo de volúmenes y análisis de amenazas por inundación o remoción en masa."
+  },
+  {
+    "slug": "sig-en-ingenieria",
+    "category": "topografia",
+    "title": "Sistemas de información geográfica (SIG)",
+    "summary": "Datos vectoriales y ráster, capas temáticas y análisis espaciales útiles en proyectos de ingeniería.",
+    "tags": ["SIG", "GIS", "QGIS", "ArcGIS", "ráster", "vector", "análisis espacial", "cartografía", "catastro"],
+    "body": "## Qué es un SIG\nUn sistema que almacena, analiza y representa información georreferenciada. Ejemplos: QGIS (libre) y ArcGIS.\n\n## Tipos de datos\n- **Vectoriales**: puntos (postes, pozos), líneas (redes, vías) y polígonos (predios, cuencas), con su tabla de atributos.\n- **Ráster**: imágenes satelitales, ortofotos, MDT y mapas de amenaza.\n\n## Análisis útiles\n- Áreas de influencia (buffers) alrededor de redes o fuentes de agua.\n- Superposición de capas (amenazas, usos del suelo, restricciones ambientales).\n- Delimitación de cuencas y redes de drenaje a partir del MDT.\n- Rutas óptimas y redes de servicios.\n- Inventario y gestión de activos (pavimentos, redes de acueducto).\n\n## Buenas prácticas\nUsar el mismo sistema de referencia en todas las capas, documentar los metadatos (fuente, fecha, escala) y versionar los datos."
   }
 ]
