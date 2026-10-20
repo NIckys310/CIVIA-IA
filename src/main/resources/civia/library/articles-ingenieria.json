@@ -166,5 +166,13 @@
     "summary": "Velocidad de diseño, alineamiento horizontal y vertical, sección transversal y coordinación entre ellos.",
     "tags": ["diseño geométrico", "velocidad de diseño", "alineamiento", "curva horizontal", "peralte", "rasante", "sección transversal"],
     "body": "## Velocidad de diseño\nEs el parámetro que gobierna radios, pendientes, distancias de visibilidad y anchos. Se elige según la categoría de la vía (primaria, secundaria, terciaria, urbana) y el tipo de terreno (plano, ondulado, montañoso, escarpado).\n\n## Alineamiento horizontal\nTangentes, curvas circulares y curvas de transición (clotoides). Radio mínimo: R = V² / (127·(e + f)), con V en km/h, e = peralte y f = fricción lateral.\n\n## Alineamiento vertical\nPendientes máximas según la velocidad y el terreno, y curvas verticales parabólicas convexas y cóncavas, dimensionadas por visibilidad y comodidad (parámetro K = L / A).\n\n## Sección transversal\nCalzada (carriles de 3,0–3,65 m), bermas, cunetas, taludes, separadores, andenes y ciclorrutas. Bombeo de la calzada ≈ 2 % para evacuar el agua.\n\n## Coordinación\nConviene evitar curvas horizontales cerradas justo después de una cima y buscar que las curvas horizontales y verticales coincidan. Los manuales nacionales (en Colombia, el Manual de Diseño Geométrico del INVÍAS) fijan los valores."
+  },
+  {
+    "slug": "distancias-de-visibilidad",
+    "category": "vias",
+    "title": "Distancias de visibilidad",
+    "summary": "Distancia de visibilidad de parada y de adelantamiento, y cómo condicionan curvas y cruces.",
+    "tags": ["visibilidad", "distancia de parada", "adelantamiento", "tiempo de reacción", "curva vertical", "intersección"],
+    "body": "## Distancia de visibilidad de parada\nDp = 0,278·V·t + V² / (254·(f ± p))\n- V: velocidad (km/h); t: tiempo de percepción y reacción (≈ 2,5 s); f: coeficiente de fricción longitudinal; p: pendiente (+ en subida, − en bajada).\n- Ejemplo orientativo: a 60 km/h en plano, del orden de 75–85 m.\n\n## Distancia de adelantamiento\nMucho mayor (cientos de metros). En vías de dos carriles se debe garantizar en un porcentaje del tramo y señalizar las zonas donde no se puede adelantar.\n\n## Dónde importa\n- **Curvas verticales convexas**: su longitud debe permitir ver un obstáculo a la distancia de parada.\n- **Curvas horizontales**: el despeje lateral (taludes, vegetación, edificaciones) define la visibilidad interior.\n- **Intersecciones**: triángulos de visibilidad libres de obstáculos."
   }
 ]
