@@ -294,5 +294,13 @@
     "summary": "Cálculo de volúmenes de corte y relleno, factores de expansión y diagrama de masas.",
     "tags": ["movimiento de tierras", "corte", "relleno", "volumen", "cubicación", "diagrama de masas", "abundamiento", "compactación"],
     "body": "## Cálculo de volúmenes\n- **Secciones transversales**: áreas de corte y relleno cada cierta distancia y volumen por **áreas medias**: V = (A1 + A2)/2 · L (o prismoidal para mayor precisión).\n- **Cuadrícula**: diferencia de cotas en cada celda × área.\n- **Superficies (TIN)**: diferencia entre el modelo del terreno y el del diseño, con software (Civil 3D, por ejemplo) o a partir de nubes de puntos de dron.\n\n## Factores de volumen\n- **Abundamiento (expansión)**: el material excavado ocupa más volumen suelto que en el banco (arcillas ≈ 20–40 %, roca fracturada ≈ 50–70 %). Importa para el transporte.\n- **Compactación (contracción)**: el relleno compactado ocupa menos que en el banco (≈ 5–15 %).\n\n## Diagrama de masas\nCurva de volúmenes acumulados a lo largo de una vía. Permite compensar cortes con rellenos, definir distancias de acarreo y ubicar préstamos y botaderos al menor costo."
+  },
+  {
+    "slug": "curvas-de-nivel-y-mdt",
+    "category": "topografia",
+    "title": "Curvas de nivel y modelos digitales de terreno",
+    "summary": "Cómo leer curvas de nivel, equidistancia, pendientes y uso de TIN y ráster en proyectos.",
+    "tags": ["curvas de nivel", "equidistancia", "pendiente", "MDT", "TIN", "ráster", "perfil", "topografía"],
+    "body": "## Curvas de nivel\nLíneas que unen puntos de igual cota. La **equidistancia** es la diferencia de altura entre curvas consecutivas (0,25–1 m en proyectos urbanos y 2–10 m en estudios regionales).\n- Curvas juntas: pendiente fuerte. Separadas: terreno suave.\n- Curvas en V que apuntan hacia arriba: cauces. En V hacia abajo: filos o divisorias.\n- Nunca se cruzan (salvo en voladizos o cuevas).\n\n## Pendiente\nPendiente (%) = (diferencia de cota / distancia horizontal) × 100.\n\n## Modelos digitales\n- **TIN**: red de triángulos sobre los puntos medidos; respeta las líneas de quiebre (bordes de vía, cauces).\n- **Ráster (grilla)**: celdas con cota, cómodo para análisis SIG (pendientes, cuencas, visibilidad).\n\n## Usos\nImplantación de proyectos, diseño de rasantes y plataformas, delimitación de cuencas, perfiles, cálculo de volúmenes y análisis de amenazas por inundación o remoción en masa."
   }
 ]
