@@ -422,5 +422,13 @@
     "summary": "Riesgo de derrumbes, taludes seguros, entibados, accesos y controles en excavaciones.",
     "tags": ["excavación", "zanja", "entibado", "derrumbe", "talud", "tablestaca", "espacio confinado", "redes enterradas"],
     "body": "## Riesgos\nDerrumbe de paredes (un metro cúbico de tierra pesa del orden de 1,5–2 toneladas), caída de personas o equipos al interior, inundación, atmósferas peligrosas, daño a redes enterradas e inestabilidad de construcciones vecinas.\n\n## Controles\n- **Antes**: consultar planos de redes, hacer apiques de verificación, estudio de suelos y diseño del sistema de soporte.\n- **Taludes** con inclinación segura según el tipo de suelo, o **entibados** (de madera, metálicos, cajas de zanja, tablestacas, pantallas).\n- Material excavado y equipos a una distancia mínima del borde (con frecuencia ≥ 0,6–1,0 m o la mitad de la profundidad).\n- **Escaleras de acceso** cada cierta distancia en zanjas profundas.\n- **Barreras y señalización** perimetral, iluminación nocturna.\n- **Bombeo** y control del agua.\n- Inspección diaria por una persona competente, y después de lluvias.\n\n## Espacios confinados\nPozos, tanques y zanjas profundas pueden acumular gases o tener poco oxígeno: medir la atmósfera, ventilar, tener vigía y permiso de trabajo."
+  },
+  {
+    "slug": "riesgo-electrico-en-obra",
+    "category": "seguridad",
+    "title": "Riesgo eléctrico en obra",
+    "summary": "Instalaciones provisionales seguras, distancias a líneas energizadas y bloqueo y etiquetado.",
+    "tags": ["riesgo eléctrico", "instalación provisional", "puesta a tierra", "diferencial", "líneas de alta tensión", "LOTO", "RETIE"],
+    "body": "## Instalaciones provisionales\n- Tableros con protección contra la intemperie, interruptores diferenciales (≈ 30 mA) y **puesta a tierra**.\n- Cables con aislamiento en buen estado, elevados o protegidos del tránsito de vehículos y del agua.\n- Tomas industriales con clavijas adecuadas; nada de empalmes improvisados.\n\n## Líneas energizadas\nRespetar las **distancias mínimas de seguridad** a las redes aéreas (aumentan con la tensión) al operar grúas, volquetas con platón levantado, andamios o varillas largas. Si no se puede, coordinar con el operador de la red para desenergizar o aislar.\n\n## Bloqueo y etiquetado (LOTO)\nAntes de intervenir equipos: desenergizar, bloquear con candado personal, etiquetar, verificar la ausencia de tensión y poner a tierra cuando aplique.\n\n## Personal\nSolo personal calificado interviene circuitos. Se usan herramientas aisladas y EPP dieléctrico, y se cumple el reglamento eléctrico local (en Colombia, el RETIE)."
   }
 ]
