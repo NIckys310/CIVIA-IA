@@ -566,5 +566,13 @@
     "summary": "Cómo se arma un APU: materiales, mano de obra, equipo, transporte, desperdicios y AIU.",
     "tags": ["APU", "precio unitario", "presupuesto", "rendimiento", "mano de obra", "AIU", "desperdicio", "cantidades de obra"],
     "body": "## Estructura de un APU\nPara cada actividad (por ejemplo, \"m² de muro en bloque de 15 cm\"):\n1. **Materiales**: cantidad por unidad × precio, más **desperdicio** (3–10 % según el material).\n2. **Mano de obra**: costo de la cuadrilla por día (con prestaciones sociales) / **rendimiento** (unidades por día).\n3. **Equipo y herramienta**: alquiler o depreciación; la herramienta menor suele tomarse como un % de la mano de obra.\n4. **Transporte**, cuando no está incluido en el precio de los materiales.\nCosto directo = suma de los anteriores.\n\n## AIU\n- **Administración**: personal de dirección, oficina, pólizas, servicios.\n- **Imprevistos**: riesgo no previsto.\n- **Utilidad**: ganancia del constructor.\nEl AIU se aplica sobre el costo directo total (con frecuencia entre 20 % y 35 % en conjunto, según el tipo de contrato y de obra).\n\n## Buenas prácticas\nUsar rendimientos medidos en obras propias, cotizaciones actualizadas, especificar con precisión qué incluye cada ítem y revisar las cantidades contra los planos (o extraerlas del modelo BIM)."
+  },
+  {
+    "slug": "control-de-costos-y-valor-ganado",
+    "category": "gestion",
+    "title": "Control de costos y valor ganado",
+    "summary": "Seguimiento del presupuesto con valor planeado, valor ganado y costo real; índices CPI y SPI.",
+    "tags": ["valor ganado", "EVM", "CPI", "SPI", "costo real", "control de costos", "flujo de caja", "curva S"],
+    "body": "## Variables\n- **PV (valor planeado)**: costo presupuestado del trabajo programado a la fecha.\n- **EV (valor ganado)**: costo presupuestado del trabajo **realmente ejecutado**.\n- **AC (costo real)**: lo que realmente se ha gastado.\n\n## Índices\n- **CPI** = EV / AC. Menor que 1: se gasta más de lo presupuestado por lo ejecutado.\n- **SPI** = EV / PV. Menor que 1: la obra va atrasada.\n- **Variación de costo** CV = EV − AC; **variación de cronograma** SV = EV − PV.\n\n## Pronóstico\nEstimado al terminar: EAC ≈ BAC / CPI (si la tendencia se mantiene), donde BAC es el presupuesto total.\n\n## Ejemplo\nPV = 500 M, EV = 450 M, AC = 520 M → CPI = 0,87 (sobrecosto) y SPI = 0,90 (atraso). Con BAC = 2000 M, EAC ≈ 2300 M.\n\n## En la práctica\nActualizar cada semana o cada mes con mediciones reales de cantidades, comparar contra la curva S y tomar decisiones a tiempo (recursos, secuencia, alcance)."
   }
 ]
