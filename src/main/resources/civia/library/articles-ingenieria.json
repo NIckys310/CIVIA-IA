@@ -374,5 +374,13 @@
     "summary": "Tipos de presas, componentes, cargas, vertederos y seguridad de presas.",
     "tags": ["presa", "embalse", "vertedero", "presa de gravedad", "presa de tierra", "CFRD", "seguridad de presas", "desarenador"],
     "body": "## Tipos\n- **De concreto**: gravedad (resiste por peso), arco (transmite el empuje a las laderas), contrafuertes y concreto compactado con rodillo (CCR).\n- **De materiales sueltos**: tierra homogénea o zonificada, enrocado con núcleo impermeable o con cara de concreto (CFRD).\n\n## Componentes\nCuerpo de la presa, **vertedero** (para las crecientes de diseño, incluso la creciente máxima probable en presas de alto riesgo), descarga de fondo, toma, desviación del río durante la construcción y galerías de inspección.\n\n## Cargas y verificaciones\nPresión hidrostática, subpresión, sismo, presión de sedimentos, oleaje. Se verifica la estabilidad al deslizamiento, al volcamiento y a la tubificación (en presas de tierra), y la infiltración a través del cuerpo y de la cimentación.\n\n## Seguridad de presas\nInstrumentación (piezómetros, medidores de filtración, inclinómetros, control topográfico), inspecciones periódicas, planes de acción ante emergencias y estudios de rotura de presa para delimitar zonas de inundación aguas abajo."
+  },
+  {
+    "slug": "estructuras-portuarias-y-costeras",
+    "category": "puentes",
+    "title": "Obras portuarias y costeras",
+    "summary": "Muelles, rompeolas, protección costera y acciones del oleaje y las mareas.",
+    "tags": ["muelle", "rompeolas", "escollera", "oleaje", "marea", "puerto", "protección costera", "erosión costera"],
+    "body": "## Acciones marinas\nOleaje (altura significativa, periodo, dirección), mareas, corrientes, viento, tsunamis, atraque y amarre de buques, y un ambiente muy agresivo con el acero y el concreto (cloruros).\n\n## Obras\n- **Rompeolas y escolleras**: protegen la dársena; de enrocado con mantos de cubos o elementos prefabricados (tetrápodos, Accropode®), o verticales tipo cajón.\n- **Muelles**: sobre pilotes (abiertos), de gravedad (bloques, cajones) o de tablestacas.\n- **Protección costera**: espolones, rompeolas exentos, revestimientos y alimentación artificial de playas.\n\n## Durabilidad\nConcretos de baja relación agua/cemento, recubrimientos mayores, inhibidores o protección catódica del acero y diseño para inspección y reemplazo de defensas.\n\n## Estudios previos\nBatimetría, clima de oleaje, modelación numérica y, en obras importantes, modelos físicos a escala."
   }
 ]
