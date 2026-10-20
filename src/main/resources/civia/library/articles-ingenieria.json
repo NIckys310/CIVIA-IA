@@ -606,5 +606,13 @@
     "summary": "Modelos de arquitectura, estructura y MEP, detección de interferencias y flujo de coordinación.",
     "tags": ["BIM", "coordinación", "interferencias", "clash detection", "MEP", "Navisworks", "modelo federado", "BCF"],
     "body": "## Modelos por disciplina\nArquitectura, estructura, hidrosanitario, eléctrico, mecánico (HVAC), red contra incendio y urbanismo. Cada equipo trabaja su modelo con el mismo origen de coordenadas y los mismos niveles.\n\n## Modelo federado\nSe reúnen los modelos (en IFC o en formatos nativos) para revisarlos juntos en herramientas como Navisworks, Solibri, BIMcollab o visores web.\n\n## Detección de interferencias\n- **Duras**: elementos que ocupan el mismo espacio (un tubo que atraviesa una viga).\n- **Blandas**: incumplimientos de holguras de mantenimiento o de aislamiento.\n- **De flujo de trabajo**: secuencias constructivas imposibles.\n\n## Flujo de coordinación\nReuniones periódicas, asignación de cada interferencia a un responsable mediante incidencias **BCF**, actualización de los modelos y verificación. El resultado: menos sorpresas y reprocesos en obra."
+  },
+  {
+    "slug": "bim-4d-5d",
+    "category": "bim",
+    "title": "BIM 4D y 5D: tiempo y costo",
+    "summary": "Vinculación del modelo con el cronograma y el presupuesto; simulaciones constructivas y cantidades.",
+    "tags": ["BIM 4D", "BIM 5D", "cronograma", "simulación constructiva", "cantidades", "presupuesto", "Synchro", "Navisworks"],
+    "body": "## BIM 4D (tiempo)\nCada elemento del modelo se vincula con una actividad del cronograma. Permite simular la secuencia constructiva, detectar conflictos de espacio y logística (grúas, acopios, accesos) y comunicar el plan de obra.\n\n## BIM 5D (costo)\nLas cantidades se extraen del modelo (m³ de concreto, m² de muro, kg de acero, unidades) y se asocian a precios unitarios para obtener el presupuesto, que se actualiza cuando cambia el diseño.\n\n## Requisitos\n- Modelos con el **nivel de información** adecuado (LOD/LOI) y una clasificación consistente (por ejemplo, Uniformat, OmniClass o una propia).\n- Reglas de modelado: un muro por material y por nivel, elementos separados por etapa constructiva.\n\n## Beneficios\nCantidades trazables, menos errores de medición y mejores decisiones al comparar alternativas de diseño por su costo y su plazo."
   }
 ]
