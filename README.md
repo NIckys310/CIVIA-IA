@@ -19,11 +19,11 @@ IA → interpreta · Normativa → establece criterios · Profesional → valida
 
 | Paquete | Qué hace |
 |---|---|
-| `llm` | `ClaudeProvider` (SDK oficial de Anthropic para Java, modelo `claude-opus-5-5`, PDF e imágenes, respaldo automático ante rechazos). Se activa con `ANTHROPIC_API_KEY`. |
-| `assistant` | **CIVIA Copilot** (`ArchitectAssistant`): responde con citas de la biblioteca, usa el contexto del proyecto y cae al motor local si Claude no está disponible. `ProjectAdvisor`: qué le falta al proyecto. |
+| `llm` | `ClaudeProvider` (SDK oficial de Anthropic para Java, modelo `claude-opus-5-5`, PDF e imágenes, respaldo automático ante rechazos, respuestas en streaming). Se activa con `ANTHROPIC_API_KEY`; `CIVIA_AI_EFFORT` (`low`…`max`, por defecto `high`) ajusta la profundidad de razonamiento. |
+| `assistant` | **CIVIA Copilot** (`ArchitectAssistant`): conversa como un experto en ingeniería civil y responde cualquier pregunta, cita la biblioteca, usa el contexto del proyecto, entrega el texto a medida que se genera y cae al motor local si Claude no está disponible. `ProjectAdvisor`: qué le falta al proyecto. |
 | `plans` | `PlanAnalyzer`: PDF (PDFBox: texto, páginas, formato de papel), imágenes (resolución, contraste), DXF (entidades, capas, unidades) y DWG. 8–16 verificaciones con recomendaciones; con Claude, lectura visual del plano. |
 | `models` | `ModelAnalyzer`: revisa un modelo 3D a partir de sus estadísticas (unidades, escala, peso, componentes que faltan). `MassingAdvisor`: volumetría máxima según lote, índices y retiros. |
-| `library` | `KnowledgeBase`: 13 categorías, 51 artículos y 130 términos de arquitectura en español, búsqueda BM25 con normalización para español. Admite artículos del estudio. |
+| `library` | `KnowledgeBase`: 19 categorías, 144 artículos y 265 términos de ingeniería civil y arquitectura en español (geotecnia, hidráulica, vías, topografía, puentes, seguridad en obra, estructuras, BIM, gestión…), búsqueda BM25 con normalización para español. Admite artículos del estudio. |
 | `safety` | `UntrustedContent` (anti *prompt injection*), `Citations` (citas válidas), `PrudentLanguage` (sin veredictos). |
 
 ## Uso
@@ -31,6 +31,8 @@ IA → interpreta · Normativa → establece criterios · Profesional → valida
 ```java
 CiviaAi ai = CiviaAi.create(System.getenv("ANTHROPIC_API_KEY"), "claude-opus-5-5");
 var answer = ai.assistant().ask("¿Cómo calculo una escalera?", List.of(), null, List.of());
+// En streaming: cada fragmento llega a medida que Claude lo escribe.
+ai.assistant().ask("¿Qué es la licuación?", List.of(), null, List.of(), System.out::print);
 var report = ai.plans().analyze(new PlanAnalyzer.PlanInput("A-101.pdf", "application/pdf", bytes, null));
 ```
 

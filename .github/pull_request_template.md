@@ -8,3 +8,4 @@
 - [ ] Autorización revisada: ¿un usuario de otra organización puede acceder a esto?
 - [ ] Textos de la interfaz en lenguaje prudente ("posible inconsistencia", nunca "es seguro/inseguro")
 - [ ] Docs/ADR actualizados si hay una decisión nueva
+- [ ] Biblioteca: artículos con fuente o valor orientativo y prueba de búsqueda

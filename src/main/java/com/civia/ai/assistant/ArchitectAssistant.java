@@ -14,6 +14,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.function.Consumer;
 import java.util.regex.Pattern;
 
 /**
@@ -32,6 +33,23 @@ public final class ArchitectAssistant {
     private static final Pattern GREETING = Pattern.compile("^(hola|buen[oa]s?( dias| tardes| noches)?|hey|saludos|hi|hello)\\b.*");
     private static final Pattern PROJECT_INTENT = Pattern.compile(".*\\b(falta|faltan|recomienda|recomendacion|siguiente paso|que hago|mi proyecto|este proyecto|avanzar|pendiente)\\b.*");
 
+    /** Personalidad y reglas del Copilot cuando responde con Claude. */
+    static final String SYSTEM_PROMPT = """
+            Eres CIVIA Copilot, el asistente de IA de la plataforma CIVIA AI para ingeniería civil y             arquitectura. Conversas como un colega experto, cercano y riguroso: entiendes lo que la             persona realmente necesita y respondes eso, sin relleno.
+
+            Cómo respondes:
+            - En español, con el tono de la persona (tutea si ella tutea). Si escribe en otro idioma,             respóndele en ese idioma.
+            - Primero la respuesta directa; después el detalle que ayude. Ajusta la extensión a la             pregunta: breve para lo simple, completa y ordenada para lo complejo.
+            - Puedes responder cualquier pregunta, también fuera de la ingeniería (explicar un             concepto, redactar un correo, programar, estudiar, organizar una obra…). Tu fuerte es             la ingeniería civil: estructuras, geotecnia, hidráulica, vías, topografía, materiales,             construcción, presupuestos, BIM, normativa y diseño arquitectónico.
+            - En cálculos: plantea los datos, la fórmula, las unidades (SI) y el resultado paso a             paso; señala las hipótesis y verifica el orden de magnitud.
+            - Si falta un dato imprescindible, dilo y propone un valor típico para seguir, o pregunta.
+            - Usa Markdown: títulos cortos, listas, tablas cuando comparen, `código` cuando aplique.
+            - Si no sabes algo o depende de la norma local, dilo con honestidad. Nunca inventes             artículos de norma, cifras ni referencias.
+
+            BIBLIOTECA: cuando uses sus fragmentos, cítalos con [n]. Si no cubren la pregunta,             responde con tu conocimiento general.
+            Seguridad profesional: no emitas veredictos definitivos de seguridad estructural ni de             cumplimiento normativo; usa lenguaje de revisión y recuerda que la validación final             corresponde al profesional responsable.
+            """;
+
     private final KnowledgeBase kb;
     private final Optional<LlmProvider> llm;
 
@@ -42,6 +60,15 @@ public final class ArchitectAssistant {
 
     public Answer ask(String question, List<LlmProvider.Turn> history, ProjectContext project,
                       List<LlmProvider.Attachment> attachments) {
+        return ask(question, history, project, attachments, delta -> { });
+    }
+
+    /**
+     * Igual que {@link #ask(String, List, ProjectContext, List)}, pero entrega el texto de Claude a
+     * medida que se genera. El motor local no emite fragmentos: su respuesta llega completa.
+     */
+    public Answer ask(String question, List<LlmProvider.Turn> history, ProjectContext project,
+                      List<LlmProvider.Attachment> attachments, Consumer<String> onDelta) {
         String q = question == null ? "" : question.strip();
         if (q.isEmpty()) {
             return new Answer("Escribe tu pregunta sobre arquitectura, tu proyecto, un plano o un modelo 3D.", "CIVIA local", List.of(), defaultSuggestions());
@@ -50,7 +77,7 @@ public final class ArchitectAssistant {
         List<Source> sources = toSources(hits);
 
         if (llm.isPresent()) {
-            Optional<Answer> answer = askLlm(q, history, project, attachments, hits, sources);
+            Optional<Answer> answer = askLlm(q, history, project, attachments, hits, sources, onDelta);
             if (answer.isPresent()) return answer.get();
         }
         return answerLocally(q, project, hits, sources);
@@ -68,22 +95,13 @@ public final class ArchitectAssistant {
     // ------------------------------------------------------------------ Claude
 
     private Optional<Answer> askLlm(String q, List<LlmProvider.Turn> history, ProjectContext project,
-                                    List<LlmProvider.Attachment> attachments, List<Hit> hits, List<Source> sources) {
+                                    List<LlmProvider.Attachment> attachments, List<Hit> hits, List<Source> sources,
+                                    Consumer<String> onDelta) {
         List<Citations.SourceChunk> chunks = hits.stream()
                 .map(h -> new Citations.SourceChunk(h.chunk().id(), h.chunk().title(), h.chunk().section(), h.chunk().text()))
                 .toList();
         String boundary = UntrustedContent.newBoundary();
-        StringBuilder system = new StringBuilder("""
-                Eres CIVIA Copilot, un asistente experto en arquitectura, construcción, BIM y modelado 3D, \
-                integrado en la plataforma CIVIA AI. Respondes en español, con claridad y precisión, en un \
-                tono profesional. Das recomendaciones concretas y prácticas (qué falta, qué revisar, qué \
-                hacer a continuación). Usa Markdown ligero (títulos cortos, listas, tablas si ayudan).
-                Cuando uses información de la BIBLIOTECA, cítala con [n]. Si la biblioteca no cubre la \
-                pregunta, puedes responder con tu conocimiento general, aclarando los valores que dependen \
-                de la norma local. Nunca inventes artículos de norma.
-                No emitas veredictos de seguridad estructural ni de cumplimiento normativo: usa lenguaje \
-                de revisión y recuerda que la validación corresponde al profesional responsable.
-                """);
+        StringBuilder system = new StringBuilder(SYSTEM_PROMPT);
         system.append(UntrustedContent.dataOnlyInstruction(boundary)).append("\n\n");
         system.append("BIBLIOTECA (fragmentos numerados):\n");
         system.append(chunks.isEmpty() ? "(sin fragmentos relevantes)" : Citations.numberSources(chunks));
@@ -96,7 +114,7 @@ public final class ArchitectAssistant {
                         .append(r.title()).append(": ").append(r.detail()).append('\n'));
             }
         }
-        return llm.get().complete(new LlmProvider.Request(system.toString(), history, q, attachments)).map(text -> {
+        return llm.get().stream(new LlmProvider.Request(system.toString(), history, q, attachments), onDelta).map(text -> {
             String prudent = PrudentLanguage.isPrudent(text) ? text : PrudentLanguage.soften(text);
             List<Source> cited = new ArrayList<>();
             try {
@@ -162,6 +180,11 @@ public final class ArchitectAssistant {
             if (!"Introducción".equals(c.section())) out.append(" · ").append(c.section());
             out.append('\n').append(c.text()).append(" [").append(markerOf.get(c.id())).append("]\n");
             used.add(sources.get(markerOf.get(c.id()) - 1));
+            // Si lo mejor fue la introducción (a veces solo el resumen), se suman las primeras secciones.
+            if ("Introducción".equals(c.section()) && c.text().length() < 400) {
+                kb.article(c.slug()).map(a -> firstSections(a.body(), 2)).filter(s -> !s.isBlank())
+                        .ifPresent(s -> out.append('\n').append(s.replace("## ", "#### ")).append('\n'));
+            }
 
             // Otra sección relevante de un artículo distinto.
             for (Hit h : hits) {
@@ -177,6 +200,19 @@ public final class ArchitectAssistant {
         }
         out.append("\n_Valores orientativos: verifica la normativa local. ").append(PrudentLanguage.DISCLAIMER).append("_");
         return new Answer(out.toString(), "CIVIA local", used, followUps(sources));
+    }
+
+    /** Las primeras {@code count} secciones {@code ##} del cuerpo de un artículo. */
+    static String firstSections(String body, int count) {
+        int start = body.indexOf("## ");
+        if (start < 0) return "";
+        int end = start;
+        for (int i = 0; i < count; i++) {
+            int next = body.indexOf("\n## ", end + 1);
+            if (next < 0) return body.substring(start).strip();
+            end = next;
+        }
+        return body.substring(start, end).strip();
     }
 
     private List<String> followUps(List<Source> sources) {
