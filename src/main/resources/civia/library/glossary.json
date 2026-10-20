@@ -210,5 +210,7 @@
   {"term": "LOTO", "category": "seguridad", "definition": "Bloqueo y etiquetado: procedimiento para aislar fuentes de energía antes de intervenir un equipo."},
   {"term": "Permiso de trabajo", "category": "seguridad", "definition": "Autorización escrita para ejecutar tareas de alto riesgo con controles verificados."},
   {"term": "RCD", "category": "seguridad", "definition": "Residuos de construcción y demolición."},
-  {"term": "Rodapié", "category": "seguridad", "definition": "Tabla en la base de una baranda que impide la caída de objetos."}
+  {"term": "Rodapié", "category": "seguridad", "definition": "Tabla en la base de una baranda que impide la caída de objetos."},
+  {"term": "Cortante basal", "category": "estructuras", "definition": "Fuerza horizontal total que un sismo induce en la base de una estructura."},
+  {"term": "Cuantía", "category": "estructuras", "definition": "Relación entre el área de acero de refuerzo y el área de concreto de una sección."}
 ]
