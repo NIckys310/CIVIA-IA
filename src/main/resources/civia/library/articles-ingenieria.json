@@ -262,5 +262,13 @@
     "summary": "Medición de ángulos y distancias, radiación, poligonales y control de calidad del levantamiento.",
     "tags": ["estación total", "poligonal", "radiación", "ángulo horizontal", "distancia", "prisma", "levantamiento", "compensación"],
     "body": "## Qué mide\nÁngulos horizontales y verticales y distancias electrónicas (con prisma o sin él). Con esas medidas calcula coordenadas X, Y, Z.\n\n## Métodos\n- **Radiación**: desde una estación se miden muchos puntos de detalle.\n- **Poligonal**: secuencia de estaciones enlazadas. Puede ser cerrada o apoyada en dos puntos conocidos. Se calcula el error de cierre angular y lineal y se **compensa** (método de la brújula o de Crandall, o mínimos cuadrados).\n- **Intersección y resección**: ubicar la estación o un punto a partir de puntos conocidos.\n\n## Precisión relativa\nCierre lineal / perímetro. Orientativamente 1:5 000 a 1:10 000 para levantamientos urbanos y 1:20 000 o mejor para control.\n\n## Flujo de trabajo\nReconocimiento → puntos de control → poligonal → detalles (bordes, construcciones, redes, árboles) → cálculo y compensación → dibujo en CAD o BIM con capas y codificación."
+  },
+  {
+    "slug": "gnss-gps",
+    "category": "topografia",
+    "title": "GNSS (GPS) en topografía",
+    "summary": "Métodos de posicionamiento satelital: autónomo, estático, RTK y PPK, y sus precisiones.",
+    "tags": ["GNSS", "GPS", "RTK", "PPK", "estático", "base", "rover", "precisión", "geodesia", "CORS"],
+    "body": "## Constelaciones\nGPS (EE. UU.), GLONASS (Rusia), Galileo (UE) y BeiDou (China). Los receptores multiconstelación mejoran la disponibilidad.\n\n## Métodos y precisión orientativa\n| Método | Precisión típica | Uso |\n|---|---|---|\n| Autónomo (navegador) | 2–5 m | Ubicación general |\n| DGPS / SBAS | 0,5–1 m | SIG, inventarios |\n| Estático (postproceso) | mm a 1 cm | Puntos de control, redes geodésicas |\n| RTK (tiempo real) | 1–3 cm | Levantamientos y replanteo |\n| PPK (postproceso cinemático) | 1–3 cm | Drones y móviles |\n\n## Buenas prácticas\n- Cielo despejado y evitar multitrayectoria (edificios, árboles, superficies metálicas).\n- Vincular a la red geodésica nacional o a estaciones permanentes (CORS).\n- Revisar PDOP, número de satélites y tiempo de ocupación.\n- Las alturas GNSS son elipsoidales: convertirlas con el modelo de geoide si se necesitan cotas sobre el nivel del mar."
   }
 ]
