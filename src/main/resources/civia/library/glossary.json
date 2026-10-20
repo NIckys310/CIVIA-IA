@@ -136,5 +136,7 @@
   {"term": "Geomalla", "category": "geotecnia", "definition": "Malla polimérica de alta resistencia a tracción que refuerza suelos y capas granulares."},
   {"term": "Índice de plasticidad", "category": "geotecnia", "definition": "Diferencia entre el límite líquido y el límite plástico de un suelo fino; indica su rango de comportamiento plástico."},
   {"term": "Límite líquido", "category": "geotecnia", "definition": "Contenido de humedad a partir del cual un suelo fino se comporta como líquido."},
-  {"term": "Límite plástico", "category": "geotecnia", "definition": "Contenido de humedad por debajo del cual un suelo fino deja de comportarse plásticamente."}
+  {"term": "Límite plástico", "category": "geotecnia", "definition": "Contenido de humedad por debajo del cual un suelo fino deja de comportarse plásticamente."},
+  {"term": "Micropilote", "category": "geotecnia", "definition": "Pilote de diámetro pequeño (generalmente menor de 300 mm) perforado e inyectado, útil en recalces y sitios de acceso difícil."},
+  {"term": "Presión de poros", "category": "geotecnia", "definition": "Presión del agua en los vacíos del suelo."}
 ]
