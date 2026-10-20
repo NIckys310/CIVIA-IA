@@ -236,5 +236,7 @@
   {"term": "Módulo de finura", "category": "materiales", "definition": "Índice de la granulometría de un agregado fino."},
   {"term": "Relación agua/cemento", "category": "materiales", "definition": "Cociente entre el peso del agua y el del cemento de una mezcla; gobierna resistencia y durabilidad."},
   {"term": "Segregación", "category": "materiales", "definition": "Separación de los componentes del concreto fresco que produce zonas débiles."},
-  {"term": "Vibrado", "category": "materiales", "definition": "Compactación del concreto fresco para eliminar el aire atrapado."}
+  {"term": "Vibrado", "category": "materiales", "definition": "Compactación del concreto fresco para eliminar el aire atrapado."},
+  {"term": "AIU", "category": "gestion", "definition": "Administración, imprevistos y utilidad: porcentaje que se suma al costo directo de una obra."},
+  {"term": "Anticipo", "category": "gestion", "definition": "Pago adelantado al contratista para iniciar la obra, que se amortiza en las actas."}
 ]
