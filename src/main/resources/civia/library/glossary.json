@@ -244,5 +244,7 @@
   {"term": "Orden de cambio", "category": "gestion", "definition": "Documento que formaliza una modificación del alcance, el precio o el plazo de un contrato."},
   {"term": "PPC", "category": "gestion", "definition": "Porcentaje de plan cumplido: indicador del Last Planner System."},
   {"term": "Rendimiento", "category": "gestion", "definition": "Cantidad de obra que ejecuta una cuadrilla por unidad de tiempo."},
-  {"term": "Ruta crítica", "category": "gestion", "definition": "Secuencia de actividades que determina la duración mínima del proyecto."}
+  {"term": "Ruta crítica", "category": "gestion", "definition": "Secuencia de actividades que determina la duración mínima del proyecto."},
+  {"term": "SPI", "category": "gestion", "definition": "Índice de desempeño del cronograma: valor ganado dividido por valor planeado."},
+  {"term": "Valor ganado", "category": "gestion", "definition": "Costo presupuestado del trabajo realmente ejecutado a una fecha."}
 ]
