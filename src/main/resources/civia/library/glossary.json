@@ -230,5 +230,7 @@
   {"term": "Clínker", "category": "materiales", "definition": "Producto principal de la fabricación del cemento, obtenido al calcinar caliza y arcilla."},
   {"term": "Concreto autocompactante", "category": "materiales", "definition": "Concreto muy fluido que llena la formaleta sin necesidad de vibrado."},
   {"term": "Concreto lanzado", "category": "materiales", "definition": "Concreto proyectado a alta velocidad sobre una superficie (shotcrete)."},
-  {"term": "Curado", "category": "materiales", "definition": "Mantenimiento de la humedad y la temperatura del concreto para que hidrate correctamente."}
+  {"term": "Curado", "category": "materiales", "definition": "Mantenimiento de la humedad y la temperatura del concreto para que hidrate correctamente."},
+  {"term": "f'c", "category": "materiales", "definition": "Resistencia especificada a la compresión del concreto a los 28 días."},
+  {"term": "Formaleta", "category": "materiales", "definition": "Molde temporal que da forma al concreto mientras endurece (encofrado)."}
 ]
