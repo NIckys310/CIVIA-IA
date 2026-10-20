@@ -30,9 +30,9 @@ class EngineTest {
     @Test
     void libraryLoadsAndSearchFindsStairs() {
         KnowledgeBase kb = ai.library();
-        assertTrue(kb.categories().size() >= 13);
-        assertTrue(kb.articles().size() >= 50);
-        assertTrue(kb.terms().size() >= 120);
+        assertTrue(kb.categories().size() >= 19);
+        assertTrue(kb.articles().size() >= 140);
+        assertTrue(kb.terms().size() >= 260);
         assertEquals("escaleras", kb.searchArticles("¿Cómo calculo la huella y contrahuella de una escalera?", 1).get(0).slug());
         assertEquals("normativa-urbanistica", kb.searchArticles("índice de ocupación del lote", 1).get(0).slug());
     }
