@@ -78,5 +78,13 @@
     "summary": "Cómo se hace el ensayo de penetración estándar, cómo se corrige el número N y qué otros ensayos complementan.",
     "tags": ["SPT", "N60", "CPT", "penetración estándar", "veleta", "presiómetro", "ensayo de campo", "sondeo"],
     "body": "## SPT (Standard Penetration Test)\nSe hinca un muestreador partido con un martillo de 63,5 kg que cae 76 cm. Se cuentan los golpes en tres tramos de 15 cm; **N** es la suma de los dos últimos.\n- Se corrige por energía del martillo (N60), sobrecarga, longitud de varillas y diámetro del sondeo.\n- Permite estimar densidad relativa y ángulo de fricción en arenas, y consistencia en arcillas, con correlaciones empíricas.\n\n## Lectura orientativa en arenas (N60)\n| N | Compacidad |\n|---|---|\n| 0–4 | Muy suelta |\n| 4–10 | Suelta |\n| 10–30 | Media |\n| 30–50 | Densa |\n| > 50 | Muy densa |\n\n## Otros ensayos\n- **CPT / CPTu**: cono con medición continua de punta, fricción y presión de poros; perfil muy detallado.\n- **Veleta de campo**: resistencia no drenada de arcillas blandas.\n- **Presiómetro y dilatómetro**: parámetros de deformación.\n- **Geofísica** (MASW, refracción sísmica, resistividad): velocidad de onda de corte (Vs30) para la clasificación sísmica del sitio."
+  },
+  {
+    "slug": "hidraulica-de-tuberias",
+    "category": "hidraulica",
+    "title": "Hidráulica de tuberías a presión",
+    "summary": "Ecuación de energía, pérdidas por fricción (Darcy-Weisbach, Hazen-Williams) y pérdidas locales.",
+    "tags": ["tuberías", "presión", "Darcy-Weisbach", "Hazen-Williams", "pérdidas", "Bernoulli", "caudal", "velocidad"],
+    "body": "## Ecuación de energía\nz1 + P1/γ + V1²/2g = z2 + P2/γ + V2²/2g + hf + hm\n- z: cota; P/γ: altura de presión; V²/2g: altura de velocidad; hf: pérdidas por fricción; hm: pérdidas locales.\n\n## Pérdidas por fricción\n- **Darcy-Weisbach**: hf = f·(L/D)·V²/2g. El factor f se obtiene con Colebrook-White o el diagrama de Moody (depende de Reynolds y de la rugosidad relativa).\n- **Hazen-Williams** (agua, flujo turbulento): V = 0,849·C·R^0,63·S^0,54 (SI). C ≈ 150 para PVC y PEAD, 130–140 para hierro dúctil nuevo, 100 para hierro viejo.\n\n## Pérdidas locales\nhm = K·V²/2g. K típicos: codo de 90° ≈ 0,3–0,9; válvula de compuerta abierta ≈ 0,2; entrada ≈ 0,5; salida = 1,0.\n\n## Criterios de diseño (orientativos)\n- Velocidad en redes de distribución: 0,5 a 2,0 m/s (por debajo hay sedimentación y por encima, golpe de ariete y ruido).\n- Presiones de servicio en redes urbanas: usualmente entre 15 y 50–60 m.c.a., según la norma local (en Colombia, la Resolución 0330 de 2017)."
   }
 ]
