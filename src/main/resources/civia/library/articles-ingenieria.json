@@ -126,5 +126,13 @@
     "summary": "Flujo uniforme y crítico, número de Froude, secciones óptimas, resalto hidráulico y revestimientos.",
     "tags": ["canal", "flujo uniforme", "Manning", "número de Froude", "flujo crítico", "resalto hidráulico", "sección hidráulica óptima"],
     "body": "## Flujo uniforme\nSe calcula con Manning: Q = (1/n)·A·R^(2/3)·S^(1/2). La profundidad que lo cumple es la **profundidad normal**.\n\n## Régimen de flujo\n- **Número de Froude**: Fr = V / √(g·D), con D = A/T (profundidad hidráulica).\n- Fr < 1: subcrítico (lento); Fr = 1: crítico; Fr > 1: supercrítico (rápido).\n- Conviene evitar diseños con Fr entre 0,8 y 1,2: el flujo es inestable y ondulado.\n\n## Resalto hidráulico\nPaso brusco de supercrítico a subcrítico con gran disipación de energía. Relación de profundidades conjugadas: y2/y1 = ½·(√(1 + 8·Fr1²) − 1). Se aprovecha en los disipadores al pie de rápidas y vertederos.\n\n## Diseño\n- Sección óptima: la que conduce el caudal con el menor perímetro mojado (en trapecios, la semi-hexagonal).\n- Borde libre de un 20–30 % de la profundidad o según la norma.\n- Velocidad máxima según el revestimiento (tierra ≈ 0,6–1,0 m/s; concreto ≈ 3–6 m/s)."
+  },
+  {
+    "slug": "tratamiento-de-agua-potable",
+    "category": "hidraulica",
+    "title": "Tratamiento de agua potable",
+    "summary": "Procesos de una planta convencional: coagulación, floculación, sedimentación, filtración y desinfección.",
+    "tags": ["potabilización", "coagulación", "floculación", "sedimentación", "filtración", "desinfección", "cloro", "turbiedad"],
+    "body": "## Tren de tratamiento convencional\n1. **Captación y desarenado**: retira arenas y sólidos gruesos.\n2. **Coagulación (mezcla rápida)**: un coagulante (sulfato de aluminio, cloruro férrico o PAC) desestabiliza las partículas. La dosis se define con el **ensayo de jarras**.\n3. **Floculación (mezcla lenta)**: las partículas se aglomeran en flóculos. Gradientes de velocidad decrecientes.\n4. **Sedimentación**: los flóculos decantan; los sedimentadores de alta tasa usan placas o tubos.\n5. **Filtración**: lechos de arena y antracita. Se lavan a contracorriente.\n6. **Desinfección**: cloro (con un residual en la red), ozono o radiación UV.\n7. Ajuste de pH y, en algunos casos, fluoración.\n\n## Calidad\nSe controlan turbiedad, color, pH, cloro residual, coliformes y los parámetros fisicoquímicos que exige la norma de agua potable de cada país.\n\n## Alternativas\nFiltración en múltiples etapas (FiME) para comunidades pequeñas, membranas (ultrafiltración, ósmosis inversa) para fuentes difíciles o desalinización."
   }
 ]
