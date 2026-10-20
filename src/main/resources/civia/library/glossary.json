@@ -158,5 +158,7 @@
   {"term": "Número de Froude", "category": "hidraulica", "definition": "Relación adimensional entre las fuerzas de inercia y las de gravedad que define si el flujo es subcrítico o supercrítico."},
   {"term": "Número de Reynolds", "category": "hidraulica", "definition": "Relación adimensional entre las fuerzas de inercia y las viscosas que define si el flujo es laminar o turbulento."},
   {"term": "Periodo de retorno", "category": "hidraulica", "definition": "Tiempo promedio entre eventos que igualan o superan una magnitud dada."},
-  {"term": "Pozo de inspección", "category": "hidraulica", "definition": "Estructura vertical de acceso a una red de alcantarillado para limpieza e inspección."}
+  {"term": "Pozo de inspección", "category": "hidraulica", "definition": "Estructura vertical de acceso a una red de alcantarillado para limpieza e inspección."},
+  {"term": "Ronda hídrica", "category": "hidraulica", "definition": "Franja paralela a un cuerpo de agua protegida por razones ambientales y de riesgo."},
+  {"term": "Sumidero", "category": "hidraulica", "definition": "Estructura que capta la escorrentía de las vías hacia el alcantarillado pluvial."}
 ]
