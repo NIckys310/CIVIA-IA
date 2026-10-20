@@ -206,5 +206,7 @@
   {"term": "EPP", "category": "seguridad", "definition": "Elementos de protección personal: casco, gafas, guantes, botas, arnés y similares."},
   {"term": "Entibado", "category": "seguridad", "definition": "Estructura provisional que sostiene las paredes de una excavación."},
   {"term": "Espacio confinado", "category": "seguridad", "definition": "Lugar con entradas limitadas, no diseñado para permanencia continua, con posible atmósfera peligrosa."},
-  {"term": "Línea de vida", "category": "seguridad", "definition": "Cable o cuerda anclada a la que se conecta el trabajador para protegerse contra caídas."}
+  {"term": "Línea de vida", "category": "seguridad", "definition": "Cable o cuerda anclada a la que se conecta el trabajador para protegerse contra caídas."},
+  {"term": "LOTO", "category": "seguridad", "definition": "Bloqueo y etiquetado: procedimiento para aislar fuentes de energía antes de intervenir un equipo."},
+  {"term": "Permiso de trabajo", "category": "seguridad", "definition": "Autorización escrita para ejecutar tareas de alto riesgo con controles verificados."}
 ]
