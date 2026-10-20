@@ -598,5 +598,13 @@
     "summary": "Principios de la construcción sin pérdidas y el sistema del Último Planificador para cumplir compromisos.",
     "tags": ["lean construction", "last planner", "último planificador", "PPC", "restricciones", "planificación", "productividad"],
     "body": "## Idea central\nReducir pérdidas (esperas, reprocesos, transporte innecesario, inventarios) y hacer que el trabajo fluya de forma confiable.\n\n## Sistema del Último Planificador (Last Planner System)\n1. **Plan maestro**: hitos generales.\n2. **Planificación por fases (pull)**: se planea hacia atrás desde cada hito con los equipos que ejecutan.\n3. **Planificación intermedia (lookahead)** de 4–6 semanas: se identifican y liberan **restricciones** (diseños, materiales, permisos, equipos, frentes de trabajo).\n4. **Plan semanal**: solo tareas sin restricciones, comprometidas por quienes las ejecutan.\n5. **Aprendizaje**: se mide el **PPC** (porcentaje de plan cumplido) y se analizan las causas de no cumplimiento.\n\n## Otras herramientas\nTrenes de actividades (sectorización), 5S, gestión visual, primera ejecución controlada y mejora continua."
+  },
+  {
+    "slug": "bim-modelado-por-disciplinas",
+    "category": "bim",
+    "title": "Modelado BIM por disciplinas y coordinación",
+    "summary": "Modelos de arquitectura, estructura y MEP, detección de interferencias y flujo de coordinación.",
+    "tags": ["BIM", "coordinación", "interferencias", "clash detection", "MEP", "Navisworks", "modelo federado", "BCF"],
+    "body": "## Modelos por disciplina\nArquitectura, estructura, hidrosanitario, eléctrico, mecánico (HVAC), red contra incendio y urbanismo. Cada equipo trabaja su modelo con el mismo origen de coordenadas y los mismos niveles.\n\n## Modelo federado\nSe reúnen los modelos (en IFC o en formatos nativos) para revisarlos juntos en herramientas como Navisworks, Solibri, BIMcollab o visores web.\n\n## Detección de interferencias\n- **Duras**: elementos que ocupan el mismo espacio (un tubo que atraviesa una viga).\n- **Blandas**: incumplimientos de holguras de mantenimiento o de aislamiento.\n- **De flujo de trabajo**: secuencias constructivas imposibles.\n\n## Flujo de coordinación\nReuniones periódicas, asignación de cada interferencia a un responsable mediante incidencias **BCF**, actualización de los modelos y verificación. El resultado: menos sorpresas y reprocesos en obra."
   }
 ]
