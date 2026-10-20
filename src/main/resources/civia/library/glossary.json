@@ -172,5 +172,7 @@
   {"term": "Clotoide", "category": "vias", "definition": "Curva de transición cuyo radio varía gradualmente, usada entre tangentes y curvas circulares."},
   {"term": "ESAL", "category": "vias", "definition": "Número de ejes equivalentes de 8,2 toneladas usado para expresar el tránsito de diseño de un pavimento."},
   {"term": "Gálibo", "category": "vias", "definition": "Altura o ancho libre mínimo que debe dejarse para el paso de vehículos."},
-  {"term": "Imprimación", "category": "vias", "definition": "Riego de asfalto líquido sobre una base granular para impermeabilizarla y mejorar la adherencia con la carpeta."}
+  {"term": "Imprimación", "category": "vias", "definition": "Riego de asfalto líquido sobre una base granular para impermeabilizarla y mejorar la adherencia con la carpeta."},
+  {"term": "Nivel de servicio", "category": "vias", "definition": "Medida cualitativa de las condiciones de operación del tránsito, de A (libre) a F (congestión)."},
+  {"term": "Rasante", "category": "vias", "definition": "Línea que define el perfil longitudinal del eje de una vía terminada."}
 ]
