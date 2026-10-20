@@ -694,5 +694,13 @@
     "summary": "Instrumentos de renovación, cargas y beneficios, espacio público y vivienda en procesos de densificación.",
     "tags": ["renovación urbana", "densificación", "plan parcial", "cargas y beneficios", "espacio público", "plusvalía", "vivienda"],
     "body": "## Qué es\nTransformar zonas urbanas deterioradas o subutilizadas para aprovechar mejor el suelo servido (con redes, transporte y equipamientos), en lugar de expandir la ciudad.\n\n## Instrumentos frecuentes (en Colombia y en otros países con figuras similares)\n- **Planes parciales** de renovación, con un reparto equitativo de **cargas y beneficios** entre los propietarios.\n- Cesiones obligatorias para espacio público, vías y equipamientos.\n- **Participación en plusvalías** y transferencias de derechos de construcción.\n- Gestión asociada y, cuando procede, adquisición predial por motivos de utilidad pública.\n\n## Claves de diseño\nCapacidad de las redes de acueducto, alcantarillado y energía; movilidad (priorizando transporte público y modos activos); espacio público suficiente y de calidad; mezcla de usos; vivienda para distintos ingresos y protección de los habitantes originales frente al desplazamiento."
+  },
+  {
+    "slug": "gestion-del-riesgo-urbano",
+    "category": "urbanismo",
+    "title": "Gestión del riesgo de desastres en el territorio",
+    "summary": "Amenaza, vulnerabilidad y riesgo; estudios de detalle, zonas de alto riesgo y medidas de mitigación.",
+    "tags": ["gestión del riesgo", "amenaza", "vulnerabilidad", "inundación", "remoción en masa", "sismo", "POT", "estudios de detalle"],
+    "body": "## Conceptos\n- **Amenaza**: probabilidad de que ocurra un fenómeno peligroso (sismo, inundación, deslizamiento, avenida torrencial).\n- **Vulnerabilidad**: susceptibilidad de las personas y los bienes a sufrir daño.\n- **Riesgo** = amenaza × vulnerabilidad × exposición.\n\n## En el ordenamiento territorial\nLos planes de ordenamiento identifican zonas de amenaza alta, media y baja, y zonas de **riesgo no mitigable** (donde no se debe construir). En zonas con condición de riesgo, se exigen **estudios de detalle** antes de licenciar.\n\n## Medidas\n- **Estructurales**: obras de drenaje, estabilización de taludes, diques, reforzamiento sísmico.\n- **No estructurales**: normativa, sistemas de alerta temprana, educación, planes de emergencia, seguros, reasentamiento de familias en zonas no mitigables.\n\n## Para el proyecto\nConsultar los mapas oficiales de amenazas del municipio, las rondas hídricas y los requisitos de estudios antes de comprar o diseñar."
   }
 ]
