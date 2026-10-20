@@ -110,5 +110,13 @@
     "summary": "Caudal pico con el método racional, curvas IDF, coeficientes de escorrentía, sumideros y SUDS.",
     "tags": ["drenaje pluvial", "método racional", "IDF", "escorrentía", "sumidero", "tiempo de concentración", "SUDS"],
     "body": "## Método racional\nQ = C·i·A / 360 (Q en m³/s, i en mm/h, A en hectáreas).\n- **C**: coeficiente de escorrentía (cubiertas y pavimentos 0,75–0,95; zonas verdes 0,10–0,35).\n- **i**: intensidad de lluvia para una duración igual al **tiempo de concentración**, tomada de la curva IDF (intensidad-duración-frecuencia) de la estación.\n- Se aplica a cuencas pequeñas (orientativamente menos de 2–3 km²). Para cuencas mayores se usan hidrogramas unitarios o modelos como HEC-HMS o SWMM.\n\n## Periodo de retorno (orientativo)\nRedes menores: 2 a 5 años; colectores principales: 10 a 25 años; canales y estructuras mayores: 50 a 100 años, según el riesgo.\n\n## Elementos\nSumideros (de rejilla o de ventana), cunetas, colectores, canales, estructuras de disipación y descargas.\n\n## Drenaje sostenible (SUDS)\nPavimentos permeables, zanjas de infiltración, cubiertas verdes, jardines de lluvia y tanques de tormenta: reducen el pico de caudal y mejoran la calidad del agua."
+  },
+  {
+    "slug": "hidrologia-basica",
+    "category": "hidraulica",
+    "title": "Hidrología básica para ingenieros",
+    "summary": "Ciclo hidrológico, cuencas, tiempo de concentración, hidrogramas y análisis de frecuencias.",
+    "tags": ["hidrología", "cuenca", "tiempo de concentración", "hidrograma", "periodo de retorno", "Gumbel", "precipitación"],
+    "body": "## Cuenca hidrográfica\nÁrea que drena a un punto. Parámetros: área, perímetro, longitud del cauce principal, pendiente, forma (índice de compacidad) y uso del suelo.\n\n## Tiempo de concentración\nTiempo que tarda el agua en llegar desde el punto más lejano de la cuenca hasta la salida. Fórmulas empíricas: Kirpich, California Culverts Practice, Témez o la del SCS. Conviene comparar varias y justificar la elegida.\n\n## Caudales de crecida\n- **Racional**: cuencas pequeñas.\n- **Número de curva (SCS-CN)**: precipitación efectiva según el tipo de suelo y su cobertura.\n- **Hidrograma unitario** (Snyder, SCS) y modelos lluvia-escorrentía.\n\n## Análisis de frecuencias\nCon series de máximos anuales se ajustan distribuciones (Gumbel, Log-Pearson III, GEV) para estimar el valor de un periodo de retorno T. Probabilidad de que se presente al menos una vez en n años: P = 1 − (1 − 1/T)^n. Ejemplo: T = 100 años y n = 50 años → P ≈ 39,5 %."
   }
 ]
