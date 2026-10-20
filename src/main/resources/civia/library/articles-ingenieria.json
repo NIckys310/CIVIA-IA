@@ -486,5 +486,13 @@
     "summary": "Cargas muertas, vivas, de viento y sismo; combinaciones por resistencia (LRFD) y por servicio.",
     "tags": ["cargas", "carga muerta", "carga viva", "combinaciones", "LRFD", "factores de carga", "NSR-10", "ASCE 7"],
     "body": "## Tipos de carga\n- **Muerta (D)**: peso propio, acabados, muros divisorios, instalaciones fijas.\n- **Viva (L)**: uso y ocupación. Valores orientativos de las normas: vivienda ≈ 1,8 kN/m², oficinas ≈ 2,0 kN/m², escaleras y corredores públicos ≈ 3,0–5,0 kN/m², bodegas mayores.\n- **Viva de cubierta (Lr)**, **granizo**, **lluvia**, **viento (W)**, **sismo (E)**, **empuje de tierra (H)**, **temperatura (T)**.\n\n## Combinaciones por resistencia (ejemplos de la familia ACI / ASCE 7 / NSR-10)\n- 1,4D\n- 1,2D + 1,6L + 0,5Lr\n- 1,2D + 1,0E + 1,0L\n- 0,9D + 1,0E (revisión de volcamiento y tracciones)\nLos factores exactos los define la norma aplicable.\n\n## Servicio\nSe combinan cargas sin mayorar para revisar deflexiones, vibraciones, fisuración y asentamientos.\n\n## Avalúo de cargas\nCalcular la carga por metro cuadrado de cada tipo de piso (losa + acabados + cielo + muros) es el primer paso del predimensionamiento y del modelo estructural."
+  },
+  {
+    "slug": "analisis-sismico-basico",
+    "category": "estructuras",
+    "title": "Análisis sísmico: conceptos básicos",
+    "summary": "Espectro de diseño, cortante basal, periodo, deriva, coeficiente de capacidad de disipación y métodos de análisis.",
+    "tags": ["sismo", "espectro", "cortante basal", "deriva", "periodo fundamental", "R", "análisis modal", "fuerza horizontal equivalente"],
+    "body": "## Espectro de diseño\nDa la aceleración espectral Sa en función del periodo de la estructura, según la amenaza sísmica de la zona, el tipo de suelo (perfiles A–F, según Vs30) y la importancia de la edificación.\n\n## Cortante basal (fuerza horizontal equivalente)\nVs = Sa·g·M, distribuido en altura según la masa y la altura de cada piso. El **periodo aproximado** depende del sistema y la altura (por ejemplo, Ta = Ct·h^α).\n\n## Capacidad de disipación de energía\nLas fuerzas elásticas se reducen con el coeficiente **R** según el sistema estructural y el nivel de detallado (DES, DMO, DMI en la NSR-10). A mayor R, más exigente es el detallado dúctil.\n\n## Derivas\nDesplazamiento relativo entre pisos dividido por la altura de piso. Límite típico ≈ 1 % de la altura (en NSR-10 para concreto y acero). Si no se cumple, hay que rigidizar.\n\n## Métodos\nFuerza horizontal equivalente (estructuras regulares), análisis modal espectral (lo habitual con software) y análisis no lineales (pushover, tiempo-historia) en casos especiales."
   }
 ]
