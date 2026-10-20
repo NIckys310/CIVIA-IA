@@ -148,5 +148,7 @@
   {"term": "Borde libre", "category": "hidraulica", "definition": "Altura adicional entre el nivel máximo del agua y la corona de un canal, tanque o presa."},
   {"term": "Caudal", "category": "hidraulica", "definition": "Volumen de agua que pasa por una sección en la unidad de tiempo; se expresa en L/s o m³/s."},
   {"term": "Coeficiente de escorrentía", "category": "hidraulica", "definition": "Fracción de la lluvia que se convierte en escorrentía superficial."},
-  {"term": "Cota clave", "category": "hidraulica", "definition": "Nivel de la parte superior interna de una tubería."}
+  {"term": "Cota clave", "category": "hidraulica", "definition": "Nivel de la parte superior interna de una tubería."},
+  {"term": "Cota batea", "category": "hidraulica", "definition": "Nivel del punto más bajo interno de una tubería o canal."},
+  {"term": "DBO", "category": "hidraulica", "definition": "Demanda bioquímica de oxígeno: oxígeno que consumen los microorganismos al degradar la materia orgánica del agua."}
 ]
