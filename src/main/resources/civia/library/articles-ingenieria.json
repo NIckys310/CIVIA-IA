@@ -246,5 +246,13 @@
     "summary": "Planimetría y altimetría, sistemas de coordenadas, errores y tolerancias en levantamientos.",
     "tags": ["topografía", "planimetría", "altimetría", "coordenadas", "levantamiento", "error", "tolerancia", "poligonal"],
     "body": "## Qué hace la topografía\nMide y representa el terreno: posición horizontal (**planimetría**), alturas (**altimetría**) y su combinación en planos con curvas de nivel y modelos digitales.\n\n## Sistemas de referencia\n- **Coordenadas geográficas** (latitud, longitud) sobre un elipsoide (WGS84, GRS80).\n- **Proyecciones planas**: UTM, Transversa de Mercator local u origen nacional (en Colombia, MAGNA-SIRGAS / Origen Nacional).\n- **Alturas**: elipsoidales (GNSS) y ortométricas (sobre el nivel medio del mar). Se relacionan con el modelo de geoide: H = h − N.\n\n## Errores\n- **Groseros**: equivocaciones; se detectan con comprobaciones.\n- **Sistemáticos**: instrumento descalibrado, temperatura, curvatura; se corrigen.\n- **Aleatorios**: inevitables; se reducen con repetición y se compensan.\n\n## Buenas prácticas\nCerrar las poligonales, partir de puntos de control certificados (vértices geodésicos), materializar mojones y documentar la precisión alcanzada frente a la tolerancia exigida."
+  },
+  {
+    "slug": "nivelacion",
+    "category": "topografia",
+    "title": "Nivelación geométrica y trigonométrica",
+    "summary": "Cómo se determinan diferencias de altura con nivel y con estación total, cierres y tolerancias.",
+    "tags": ["nivelación", "nivel", "mira", "cota", "BM", "cierre altimétrico", "nivelación trigonométrica", "nivel digital"],
+    "body": "## Nivelación geométrica\nCon un nivel y una mira: Δh = lectura atrás − lectura adelante. Se encadenan tramos desde un punto de cota conocida (BM) y se vuelve a él o a otro BM para comprobar el cierre.\n- **Distancias iguales** atrás y adelante para anular el error de colimación y la curvatura.\n- Tolerancia de cierre típica: e = k·√K (K en kilómetros), con k entre 4 y 12 mm según el orden de la nivelación.\n\n## Nivelación trigonométrica\nCon estación total: Δh = D·cos(z) + altura del instrumento − altura del prisma, donde z es el ángulo cenital. Para distancias largas se corrige por curvatura y refracción.\n\n## Aplicaciones\nPerfiles longitudinales y secciones transversales de vías y redes, control de pendientes de alcantarillado, asentamientos de estructuras y replanteo de niveles de piso.\n\n## Niveles digitales y láser\nLos digitales leen miras de código de barras con alta precisión; los láser rotatorios facilitan la nivelación de obra (pisos, excavaciones)."
   }
 ]
