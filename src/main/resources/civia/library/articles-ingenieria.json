@@ -238,5 +238,13 @@
     "summary": "Señales verticales, demarcación horizontal, dispositivos de contención y auditorías de seguridad vial.",
     "tags": ["señalización", "demarcación", "señal vertical", "barrera de contención", "seguridad vial", "auditoría", "visión cero"],
     "body": "## Señalización vertical\n- **Reglamentarias**: imponen obligaciones o prohibiciones (PARE, velocidad máxima).\n- **Preventivas**: advierten peligros (curva, cruce, zona escolar).\n- **Informativas**: orientan (destinos, servicios).\nDeben ser visibles, legibles de noche (retrorreflectivas) y ubicarse a distancias coherentes con la velocidad.\n\n## Demarcación horizontal\nLíneas de borde y de carril, línea central continua donde no se puede adelantar, pasos peatonales, flechas y tachas reflectivas.\n\n## Dispositivos de contención\nBarreras metálicas, de concreto (tipo New Jersey) o de cable, terminales absorbentes de energía y atenuadores de impacto, ubicados según la severidad del obstáculo o del desnivel lateral.\n\n## Gestión de la seguridad\n- **Auditorías de seguridad vial** en diseño, construcción y operación.\n- **Enfoque de sistema seguro / Visión cero**: las personas cometen errores; la vía debe perdonarlos.\n- Señalización temporal de obra según el plan de manejo de tránsito.\n\nLos manuales nacionales de señalización definen formas, colores y dimensiones."
+  },
+  {
+    "slug": "fundamentos-de-topografia",
+    "category": "topografia",
+    "title": "Fundamentos de topografía",
+    "summary": "Planimetría y altimetría, sistemas de coordenadas, errores y tolerancias en levantamientos.",
+    "tags": ["topografía", "planimetría", "altimetría", "coordenadas", "levantamiento", "error", "tolerancia", "poligonal"],
+    "body": "## Qué hace la topografía\nMide y representa el terreno: posición horizontal (**planimetría**), alturas (**altimetría**) y su combinación en planos con curvas de nivel y modelos digitales.\n\n## Sistemas de referencia\n- **Coordenadas geográficas** (latitud, longitud) sobre un elipsoide (WGS84, GRS80).\n- **Proyecciones planas**: UTM, Transversa de Mercator local u origen nacional (en Colombia, MAGNA-SIRGAS / Origen Nacional).\n- **Alturas**: elipsoidales (GNSS) y ortométricas (sobre el nivel medio del mar). Se relacionan con el modelo de geoide: H = h − N.\n\n## Errores\n- **Groseros**: equivocaciones; se detectan con comprobaciones.\n- **Sistemáticos**: instrumento descalibrado, temperatura, curvatura; se corrigen.\n- **Aleatorios**: inevitables; se reducen con repetición y se compensan.\n\n## Buenas prácticas\nCerrar las poligonales, partir de puntos de control certificados (vértices geodésicos), materializar mojones y documentar la precisión alcanzada frente a la tolerancia exigida."
   }
 ]
