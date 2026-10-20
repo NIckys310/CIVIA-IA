@@ -622,5 +622,13 @@
     "summary": "Qué define un BEP: usos BIM, roles, niveles de información, entregables, software y entorno común de datos.",
     "tags": ["BEP", "plan de ejecución BIM", "ISO 19650", "CDE", "entorno común de datos", "LOD", "roles", "nomenclatura"],
     "body": "## Contenido de un BEP\n- **Objetivos y usos BIM**: coordinación, cantidades, 4D, operación y mantenimiento.\n- **Roles y responsabilidades**: coordinador BIM, modeladores por disciplina, gestor de información.\n- **Niveles de información** requeridos en cada fase.\n- **Software, versiones y formatos** de intercambio (IFC, BCF).\n- **Entorno común de datos (CDE)**: dónde viven los modelos y los documentos, y con qué estados (en progreso, compartido, publicado, archivado).\n- **Nomenclatura** de archivos, sistema de coordenadas y unidades.\n- **Calendario de entregas** y procedimiento de control de calidad de los modelos.\n\n## Marco de referencia\nLa serie **ISO 19650** organiza la gestión de la información en el ciclo de vida del activo. Varios países tienen estrategias BIM nacionales para la obra pública."
+  },
+  {
+    "slug": "gemelos-digitales",
+    "category": "bim",
+    "title": "Gemelos digitales y operación de activos",
+    "summary": "Del modelo BIM al gemelo digital: datos de sensores, mantenimiento y gestión del activo construido.",
+    "tags": ["gemelo digital", "operación y mantenimiento", "facility management", "sensores", "IoT", "COBie", "gestión de activos"],
+    "body": "## Qué es\nUna réplica digital de un activo construido que se mantiene **actualizada con datos reales** (sensores, inspecciones, órdenes de trabajo) y sirve para tomar decisiones.\n\n## Del BIM al gemelo\n1. Modelo **as-built** fiel a lo construido.\n2. Información de los equipos para operación (fabricante, garantías, manuales, frecuencias de mantenimiento), por ejemplo con **COBie**.\n3. Conexión con sistemas de gestión del edificio (BMS), sensores IoT y software de mantenimiento.\n\n## Usos\nMantenimiento preventivo y predictivo, eficiencia energética, gestión de espacios, monitoreo estructural de puentes y presas, simulaciones de emergencia y planeación de reformas.\n\n## Clave\nDefinir desde el diseño qué información necesita quien va a operar el activo: un gemelo con datos que nadie usa no aporta valor."
   }
 ]
