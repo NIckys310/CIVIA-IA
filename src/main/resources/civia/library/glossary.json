@@ -238,5 +238,7 @@
   {"term": "Segregación", "category": "materiales", "definition": "Separación de los componentes del concreto fresco que produce zonas débiles."},
   {"term": "Vibrado", "category": "materiales", "definition": "Compactación del concreto fresco para eliminar el aire atrapado."},
   {"term": "AIU", "category": "gestion", "definition": "Administración, imprevistos y utilidad: porcentaje que se suma al costo directo de una obra."},
-  {"term": "Anticipo", "category": "gestion", "definition": "Pago adelantado al contratista para iniciar la obra, que se amortiza en las actas."}
+  {"term": "Anticipo", "category": "gestion", "definition": "Pago adelantado al contratista para iniciar la obra, que se amortiza en las actas."},
+  {"term": "CPI", "category": "gestion", "definition": "Índice de desempeño del costo: valor ganado dividido por costo real."},
+  {"term": "Lookahead", "category": "gestion", "definition": "Planificación intermedia de varias semanas que identifica y libera restricciones."}
 ]
