@@ -39,3 +39,15 @@ Pregunta / archivo ──▶ motor local (siempre) ──▶ ¿Claude disponible
 Contenido propio en `src/main/resources/civia/library/*.json` (categorías, artículos con secciones
 `##`, glosario). Para ampliarla, agrega artículos al JSON o desde la interfaz ("Aportar un
 artículo"). Los valores son orientativos y siempre remiten a la normativa local.
+
+Archivos de artículos: `articles-diseno.json` (historia, diseño, programa), `articles-tecnica.json`
+(estructuras, materiales, instalaciones, normativa, sostenibilidad), `articles-practica.json`
+(planos, BIM, urbanismo, gestión, interiores) y `articles-ingenieria.json` (geotecnia, hidráulica,
+vías, topografía, puentes, seguridad en obra y complementos de ingeniería civil).
+
+## Copilot con Claude
+
+Con `ANTHROPIC_API_KEY`, el Copilot conversa como un experto: responde cualquier pregunta, con
+prioridad en ingeniería civil, plantea los cálculos paso a paso y cita la biblioteca cuando la usa.
+`LlmProvider.stream` entrega el texto a medida que se genera; la respuesta final pasa por
+`PrudentLanguage` y la verificación de citas antes de guardarse.
