@@ -518,5 +518,13 @@
     "summary": "Losas macizas, aligeradas, reticulares, postensadas, steel deck y prefabricadas: ventajas y luces.",
     "tags": ["losa", "entrepiso", "losa aligerada", "losa reticular", "steel deck", "losa postensada", "placa fácil", "luces"],
     "body": "## Comparación orientativa\n| Sistema | Luces típicas | Notas |\n|---|---|---|\n| Losa maciza en una dirección | 3–5 m | Sencilla, pesada |\n| Losa maciza en dos direcciones | 4–7 m | Paneles casi cuadrados |\n| Aligerada (nervada) en una dirección | 4–8 m | Con casetones o bloques, muy común |\n| Reticular (casetones en dos direcciones) | 7–12 m | Plafón con retícula vista o cielo raso |\n| Losa plana con ábacos | 6–9 m | Sin vigas descolgadas; revisar punzonamiento |\n| Postensada | 8–12 m o más | Espesores menores y menos deflexión |\n| Steel deck (lámina colaborante) | 2–4 m entre vigas metálicas | Rápida, sin formaleta |\n| Prefabricada (alveolar, viguetas) | 4–15 m | Velocidad de obra |\n\n## Criterios\nLuz y modulación, cargas, altura libre disponible, instalaciones que deben pasar, sistema sismorresistente (diafragma rígido), velocidad de obra, peso y costo.\n\n## Atención\nEl punzonamiento en losas planas sin vigas, las aberturas grandes cerca de columnas y las vibraciones en luces largas con poca masa."
+  },
+  {
+    "slug": "muros-de-concreto-vivienda",
+    "category": "estructuras",
+    "title": "Sistema de muros de concreto vaciados (industrializado)",
+    "summary": "Vivienda en altura con muros vaciados en formaleta metálica o de aluminio: ventajas, límites y cuidados.",
+    "tags": ["muros de concreto", "sistema industrializado", "formaleta de aluminio", "vivienda", "muros estructurales", "malla electrosoldada"],
+    "body": "## En qué consiste\nMuros y losas de concreto vaciados de forma monolítica con formaletas metálicas o de aluminio. Es muy usado en vivienda de interés social y en vivienda media en altura.\n\n## Ventajas\nVelocidad (un piso cada pocos días por frente de obra), alta rigidez lateral ante el sismo, poco desperdicio y acabados que requieren poca preparación.\n\n## Limitaciones\n- **Poca flexibilidad**: los muros no se pueden demoler en reformas; conviene que el propietario lo sepa.\n- Espesores delgados (≈ 10–15 cm): exigen un buen control del vaciado y del vibrado.\n- Desempeño térmico y acústico que puede requerir mejoras.\n- Las normas recientes han endurecido los requisitos de espesor, de cuantía y de elementos de borde en edificios altos.\n\n## Cuidados constructivos\nConcreto fluido o autocompactante con la resistencia temprana adecuada para desencofrar, recubrimientos, ubicación de las instalaciones embebidas sin debilitar el muro, curado y control de la fisuración por retracción."
   }
 ]
