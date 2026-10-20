@@ -138,5 +138,7 @@
   {"term": "Límite líquido", "category": "geotecnia", "definition": "Contenido de humedad a partir del cual un suelo fino se comporta como líquido."},
   {"term": "Límite plástico", "category": "geotecnia", "definition": "Contenido de humedad por debajo del cual un suelo fino deja de comportarse plásticamente."},
   {"term": "Micropilote", "category": "geotecnia", "definition": "Pilote de diámetro pequeño (generalmente menor de 300 mm) perforado e inyectado, útil en recalces y sitios de acceso difícil."},
-  {"term": "Presión de poros", "category": "geotecnia", "definition": "Presión del agua en los vacíos del suelo."}
+  {"term": "Presión de poros", "category": "geotecnia", "definition": "Presión del agua en los vacíos del suelo."},
+  {"term": "Proctor", "category": "geotecnia", "definition": "Ensayo de compactación que determina la densidad seca máxima y la humedad óptima de un suelo."},
+  {"term": "Recalce", "category": "geotecnia", "definition": "Refuerzo o profundización de la cimentación de una construcción existente."}
 ]
