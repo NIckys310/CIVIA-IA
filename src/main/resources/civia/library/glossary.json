@@ -178,5 +178,7 @@
   {"term": "Subbase", "category": "vias", "definition": "Capa granular entre la subrasante y la base de un pavimento."},
   {"term": "Subrasante", "category": "vias", "definition": "Suelo de soporte sobre el que se construye la estructura del pavimento."},
   {"term": "TPD", "category": "vias", "definition": "Tránsito promedio diario: número de vehículos que pasan por una vía en un día, promediado."},
-  {"term": "Azimut", "category": "topografia", "definition": "Ángulo horizontal medido en sentido horario desde el norte hasta una dirección."}
+  {"term": "Azimut", "category": "topografia", "definition": "Ángulo horizontal medido en sentido horario desde el norte hasta una dirección."},
+  {"term": "BM", "category": "topografia", "definition": "Punto de referencia de cota conocida (bench mark) usado para nivelaciones."},
+  {"term": "Datum", "category": "topografia", "definition": "Sistema de referencia geodésico al que se refieren las coordenadas y alturas."}
 ]
