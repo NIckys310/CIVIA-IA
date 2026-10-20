@@ -582,5 +582,13 @@
     "summary": "Precio global, precios unitarios, administración delegada, llave en mano y riesgos de cada modalidad.",
     "tags": ["contrato", "precio global", "precios unitarios", "administración delegada", "llave en mano", "EPC", "pólizas", "interventoría"],
     "body": "## Modalidades\n| Tipo | Cómo se paga | Riesgo principal para |\n|---|---|---|\n| Precio global (suma fija) | Valor fijo por el alcance definido | Contratista (cantidades y precios) |\n| Precios unitarios | Cantidad ejecutada × precio unitario | Contratante (cantidades) |\n| Administración delegada | Costos reales + honorario (%) | Contratante |\n| Llave en mano / EPC | Diseño + construcción + puesta en marcha | Contratista |\n| Costo más honorario con precio máximo | Costos reales con un tope | Compartido |\n\n## Documentos clave\nPliego o términos de referencia, planos y especificaciones, presupuesto y cronograma, forma de pago y anticipo, **pólizas** (cumplimiento, buen manejo del anticipo, salarios, estabilidad de la obra, responsabilidad civil), multas y cláusula penal, y mecanismos de solución de controversias.\n\n## Gestión de cambios\nToda obra adicional o cambio de alcance debe quedar documentado (orden de cambio con precio y plazo) antes de ejecutarse."
+  },
+  {
+    "slug": "bitacora-y-actas-de-obra",
+    "category": "gestion",
+    "title": "Bitácora, informes y actas de obra",
+    "summary": "Registro diario de obra, actas de inicio, de recibo parcial y de liquidación, e informes de avance.",
+    "tags": ["bitácora", "libro de obra", "acta de inicio", "acta de recibo", "liquidación", "informe de avance", "interventoría"],
+    "body": "## Bitácora (libro de obra)\nRegistro diario y cronológico: clima, personal y equipos, actividades ejecutadas, ensayos, instrucciones de la interventoría, novedades, accidentes y visitas. Es la memoria oficial de la obra y es útil ante reclamaciones.\n\n## Actas\n- **Acta de inicio**: fecha de comienzo y estado del sitio.\n- **Actas de vecindad**: estado de las construcciones vecinas antes de empezar.\n- **Actas de comité**: compromisos con responsables y fechas.\n- **Actas parciales de obra**: cantidades ejecutadas para el pago.\n- **Acta de recibo final** y **acta de liquidación**: balance final del contrato.\n\n## Informes de avance\nAvance físico y financiero frente a lo programado, curva S, registro fotográfico, ensayos de calidad, SST y ambiental, riesgos y acciones.\n\nEn CIVIA, la bitácora del proyecto y la cámara de obra con metadatos ayudan a mantener este registro organizado."
   }
 ]
