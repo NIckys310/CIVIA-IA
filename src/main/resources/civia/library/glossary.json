@@ -162,5 +162,7 @@
   {"term": "Ronda hídrica", "category": "hidraulica", "definition": "Franja paralela a un cuerpo de agua protegida por razones ambientales y de riesgo."},
   {"term": "Sumidero", "category": "hidraulica", "definition": "Estructura que capta la escorrentía de las vías hacia el alcantarillado pluvial."},
   {"term": "Tiempo de concentración", "category": "hidraulica", "definition": "Tiempo que tarda el agua en llegar desde el punto más alejado de la cuenca hasta su salida."},
-  {"term": "Ventosa", "category": "hidraulica", "definition": "Válvula que expulsa o admite aire en los puntos altos de una tubería a presión."}
+  {"term": "Ventosa", "category": "hidraulica", "definition": "Válvula que expulsa o admite aire en los puntos altos de una tubería a presión."},
+  {"term": "Abscisa", "category": "vias", "definition": "Distancia acumulada medida a lo largo del eje de una vía desde su origen, por ejemplo K2+350."},
+  {"term": "Berma", "category": "vias", "definition": "Franja lateral pavimentada o afirmada contigua a la calzada."}
 ]
