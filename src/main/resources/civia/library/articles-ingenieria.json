@@ -318,5 +318,13 @@
     "summary": "Cómo se levanta un predio, cuadro de áreas, linderos, servidumbres y relación con el catastro y la escritura.",
     "tags": ["predio", "lindero", "catastro", "escritura", "área", "servidumbre", "levantamiento predial", "cabida"],
     "body": "## Objetivo\nDeterminar la forma, el área y los linderos reales de un lote, y compararlos con lo que dicen la escritura (títulos) y el catastro.\n\n## Procedimiento\n1. Revisar los títulos, el plano catastral y el certificado de tradición.\n2. Ubicar los mojones, cercas, muros y construcciones existentes.\n3. Medir con estación total o GNSS, vinculado al sistema oficial de coordenadas.\n4. Calcular el área (por coordenadas: fórmula del área de Gauss) y elaborar el **cuadro de coordenadas** de los vértices.\n5. Identificar **servidumbres**, afectaciones viales, rondas hídricas y redes que crucen el predio.\n\n## Diferencias de área\nSon frecuentes entre la escritura, el catastro y la realidad. Se resuelven con los procedimientos legales de aclaración o actualización de cabida y linderos, con la firma de un profesional habilitado.\n\n## Por qué importa\nLicencias de construcción, compraventas, englobes y desenglobes, y diseño: el proyecto debe respetar los aislamientos medidos desde los linderos reales."
+  },
+  {
+    "slug": "tipologias-de-puentes",
+    "category": "puentes",
+    "title": "Tipologías de puentes",
+    "summary": "Puentes de vigas, losa, arco, pórtico, atirantados y colgantes; rangos de luz y criterios de elección.",
+    "tags": ["puente", "viga", "arco", "atirantado", "colgante", "voladizos sucesivos", "luz", "tipología"],
+    "body": "## Tipos y rangos de luz orientativos\n| Tipología | Luces habituales |\n|---|---|\n| Losa maciza o aligerada | Hasta 15–20 m |\n| Vigas de concreto reforzado | 10–25 m |\n| Vigas preesforzadas (I, cajón) | 20–50 m |\n| Vigas metálicas / mixtas | 20–100 m |\n| Voladizos sucesivos (cajón) | 60–250 m |\n| Arco | 50–500 m |\n| Atirantado | 150–1100 m |\n| Colgante | 400 m a más de 2000 m |\n\n## Criterios de elección\nLuz y gálibo requeridos, condiciones de cimentación y del cauce, sismicidad, proceso constructivo posible (andamios, lanzamiento, voladizos, izaje), plazo, mantenimiento, costo y estética.\n\n## Partes\n- **Superestructura**: tablero, vigas, diafragmas, barandas.\n- **Apoyos**: elastoméricos, de neopreno zunchado, deslizantes o aisladores sísmicos.\n- **Subestructura**: estribos y pilas.\n- **Cimentación**: zapatas, pilotes o caissons."
   }
 ]
