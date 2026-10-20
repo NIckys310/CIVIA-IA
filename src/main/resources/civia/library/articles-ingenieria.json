@@ -22,5 +22,13 @@
     "summary": "Diferencia entre capacidad última y admisible, factor de seguridad y por qué el asentamiento suele mandar.",
     "tags": ["capacidad portante", "Terzaghi", "Meyerhof", "factor de seguridad", "presión admisible", "zapata"],
     "body": "## Conceptos\n- **Capacidad última (qu)**: presión que produce la falla por corte del suelo.\n- **Capacidad admisible (qadm)**: qu / FS. El factor de seguridad suele estar entre 2,5 y 3 para cargas de servicio.\n- **Presión de contacto**: carga de la estructura dividida por el área de la cimentación. Debe ser ≤ qadm.\n\n## Expresión de Terzaghi (cimentación corrida)\nqu = c·Nc + q·Nq + 0,5·γ·B·Nγ\n- c: cohesión; q: sobrecarga a nivel de desplante (γ·Df); B: ancho; Nc, Nq, Nγ: factores que dependen del ángulo de fricción φ.\n- Meyerhof y Hansen agregan factores de forma, profundidad e inclinación.\n\n## Ejemplo orientativo\nZapata cuadrada con carga de servicio de 600 kN y qadm = 150 kPa: área = 600 / 150 = 4,0 m² → lado ≈ 2,0 m.\n\n## Ojo\nEn arcillas blandas y suelos sueltos, el **asentamiento** suele limitar antes que la falla por corte. El estudio de suelos debe dar ambos criterios."
+  },
+  {
+    "slug": "asentamientos",
+    "category": "geotecnia",
+    "title": "Asentamientos y consolidación",
+    "summary": "Asentamiento inmediato, por consolidación primaria y secundaria; límites diferenciales tolerables.",
+    "tags": ["asentamiento", "consolidación", "arcilla", "asentamiento diferencial", "distorsión angular", "precarga"],
+    "body": "## Tipos\n- **Inmediato (elástico)**: ocurre al aplicar la carga. Dominante en arenas.\n- **Consolidación primaria**: expulsión lenta del agua en arcillas saturadas; puede tardar meses o años.\n- **Consolidación secundaria (creep)**: reacomodo del esqueleto del suelo después de la primaria.\n\n## Consolidación primaria (arcilla normalmente consolidada)\nS = Cc·H / (1 + e0) · log((σ'0 + Δσ) / σ'0)\n- Cc: índice de compresión; H: espesor del estrato; e0: relación de vacíos inicial; σ'0: esfuerzo efectivo inicial; Δσ: incremento por la carga.\n\n## Asentamiento diferencial\nMás dañino que el total. Se controla con la **distorsión angular** (diferencia de asentamiento / distancia entre apoyos). Valores orientativos: 1/500 para evitar fisuras en muros de mampostería; 1/300 suele ser el límite para daños arquitectónicos; 1/150 se asocia a daño estructural.\n\n## Mitigación\nLosas de cimentación, pilotes, precarga con drenes verticales, mejoramiento del suelo o juntas que separen cuerpos con cargas muy distintas."
   }
 ]
