@@ -184,5 +184,7 @@
   {"term": "Equidistancia", "category": "topografia", "definition": "Diferencia constante de altura entre curvas de nivel consecutivas."},
   {"term": "Geoide", "category": "topografia", "definition": "Superficie equipotencial del campo gravitatorio que se aproxima al nivel medio del mar."},
   {"term": "GSD", "category": "topografia", "definition": "Distancia de muestreo en el terreno: tamaño que representa cada píxel de una imagen aérea."},
-  {"term": "Mojón", "category": "topografia", "definition": "Marca física permanente que materializa un punto topográfico o un vértice de lindero."}
+  {"term": "Mojón", "category": "topografia", "definition": "Marca física permanente que materializa un punto topográfico o un vértice de lindero."},
+  {"term": "Nube de puntos", "category": "topografia", "definition": "Conjunto de puntos 3D capturados por escáner láser o fotogrametría que representa una superficie."},
+  {"term": "Ortofoto", "category": "topografia", "definition": "Fotografía aérea corregida geométricamente, con escala uniforme, sobre la que se puede medir."}
 ]
