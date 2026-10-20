@@ -254,5 +254,13 @@
     "summary": "Cómo se determinan diferencias de altura con nivel y con estación total, cierres y tolerancias.",
     "tags": ["nivelación", "nivel", "mira", "cota", "BM", "cierre altimétrico", "nivelación trigonométrica", "nivel digital"],
     "body": "## Nivelación geométrica\nCon un nivel y una mira: Δh = lectura atrás − lectura adelante. Se encadenan tramos desde un punto de cota conocida (BM) y se vuelve a él o a otro BM para comprobar el cierre.\n- **Distancias iguales** atrás y adelante para anular el error de colimación y la curvatura.\n- Tolerancia de cierre típica: e = k·√K (K en kilómetros), con k entre 4 y 12 mm según el orden de la nivelación.\n\n## Nivelación trigonométrica\nCon estación total: Δh = D·cos(z) + altura del instrumento − altura del prisma, donde z es el ángulo cenital. Para distancias largas se corrige por curvatura y refracción.\n\n## Aplicaciones\nPerfiles longitudinales y secciones transversales de vías y redes, control de pendientes de alcantarillado, asentamientos de estructuras y replanteo de niveles de piso.\n\n## Niveles digitales y láser\nLos digitales leen miras de código de barras con alta precisión; los láser rotatorios facilitan la nivelación de obra (pisos, excavaciones)."
+  },
+  {
+    "slug": "estacion-total",
+    "category": "topografia",
+    "title": "Estación total y levantamiento planimétrico",
+    "summary": "Medición de ángulos y distancias, radiación, poligonales y control de calidad del levantamiento.",
+    "tags": ["estación total", "poligonal", "radiación", "ángulo horizontal", "distancia", "prisma", "levantamiento", "compensación"],
+    "body": "## Qué mide\nÁngulos horizontales y verticales y distancias electrónicas (con prisma o sin él). Con esas medidas calcula coordenadas X, Y, Z.\n\n## Métodos\n- **Radiación**: desde una estación se miden muchos puntos de detalle.\n- **Poligonal**: secuencia de estaciones enlazadas. Puede ser cerrada o apoyada en dos puntos conocidos. Se calcula el error de cierre angular y lineal y se **compensa** (método de la brújula o de Crandall, o mínimos cuadrados).\n- **Intersección y resección**: ubicar la estación o un punto a partir de puntos conocidos.\n\n## Precisión relativa\nCierre lineal / perímetro. Orientativamente 1:5 000 a 1:10 000 para levantamientos urbanos y 1:20 000 o mejor para control.\n\n## Flujo de trabajo\nReconocimiento → puntos de control → poligonal → detalles (bordes, construcciones, redes, árboles) → cálculo y compensación → dibujo en CAD o BIM con capas y codificación."
   }
 ]
