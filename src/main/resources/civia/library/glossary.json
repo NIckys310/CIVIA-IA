@@ -262,5 +262,6 @@
   {"term": "Inversor", "category": "instalaciones", "definition": "Equipo que convierte la corriente continua de los paneles solares en corriente alterna."},
   {"term": "Rociador", "category": "instalaciones", "definition": "Dispositivo automático que descarga agua al detectar calor de un incendio (sprinkler)."},
   {"term": "Siamesa", "category": "instalaciones", "definition": "Conexión exterior que permite a los bomberos inyectar agua a la red contra incendio."},
-  {"term": "Plan parcial", "category": "urbanismo", "definition": "Instrumento que desarrolla el plan de ordenamiento en áreas determinadas."}
+  {"term": "Plan parcial", "category": "urbanismo", "definition": "Instrumento que desarrolla el plan de ordenamiento en áreas determinadas."},
+  {"term": "Plusvalía", "category": "urbanismo", "definition": "Aumento del valor del suelo por decisiones públicas, del que el Estado puede participar."}
 ]
