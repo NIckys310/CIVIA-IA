@@ -182,5 +182,13 @@
     "summary": "Capas de un pavimento asfáltico, tránsito de diseño en ejes equivalentes y métodos de diseño.",
     "tags": ["pavimento flexible", "asfalto", "mezcla asfáltica", "base granular", "subbase", "ESAL", "AASHTO 93", "CBR"],
     "body": "## Estructura típica\nCarpeta asfáltica → base granular → subbase granular → subrasante (mejorada si hace falta). Las cargas se reparten de forma progresiva hasta llegar a la subrasante con esfuerzos tolerables.\n\n## Datos de diseño\n- **Tránsito**: número de ejes equivalentes de 8,2 t (ESAL) en el periodo de diseño (10–20 años).\n- **Subrasante**: CBR o módulo resiliente (Mr ≈ 10·CBR en MPa como correlación orientativa para suelos finos).\n- **Materiales**: coeficientes estructurales de cada capa.\n- **Drenaje y clima**.\n\n## Métodos\n- **AASHTO 93**: número estructural SN = a1·D1 + a2·m2·D2 + a3·m3·D3.\n- **Mecanístico-empíricos** (MEPDG, métodos racionales): verifican la fatiga de la carpeta y la deformación de la subrasante.\n- Catálogos nacionales para vías de bajo tránsito.\n\n## Fallas comunes\nPiel de cocodrilo (fatiga), ahuellamiento, baches, desprendimientos, exudación y fisuras térmicas o reflejadas. Casi siempre hay detrás un problema de **agua** o de **subdiseño**."
+  },
+  {
+    "slug": "pavimentos-rigidos",
+    "category": "vias",
+    "title": "Pavimentos rígidos (concreto)",
+    "summary": "Losas de concreto, juntas, pasadores, módulo de rotura y criterios de diseño.",
+    "tags": ["pavimento rígido", "concreto hidráulico", "losa", "juntas", "pasadores", "dovelas", "módulo de rotura", "PCA"],
+    "body": "## Cómo trabaja\nLa losa de concreto reparte la carga por flexión en un área amplia. La subrasante recibe esfuerzos bajos, pero la losa es sensible a la erosión de la base y al alabeo térmico.\n\n## Elementos\n- **Losa**: espesores habituales de 15–30 cm según el tránsito.\n- **Base o subbase** granular o tratada con cemento, contra el bombeo de finos.\n- **Juntas**: transversales de contracción (cada 3,5–5 m), longitudinales, de construcción y de expansión.\n- **Pasadores (dovelas)** en juntas transversales para transferir carga; **barras de anclaje** en las longitudinales.\n\n## Parámetros de diseño\nMódulo de rotura del concreto (MR ≈ 4,0–5,0 MPa), módulo de reacción de la subrasante k, tránsito y transferencia de carga. Métodos: PCA (fatiga y erosión), AASHTO 93 rígido y métodos mecanicistas.\n\n## Construcción\nCurado temprano, aserrado de juntas a tiempo (antes de que aparezcan fisuras aleatorias) y sellado de juntas."
   }
 ]
