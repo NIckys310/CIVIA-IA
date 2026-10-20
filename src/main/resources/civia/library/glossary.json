@@ -168,5 +168,7 @@
   {"term": "Bombeo", "category": "vias", "definition": "Pendiente transversal de la calzada en tangente para evacuar el agua."},
   {"term": "Calzada", "category": "vias", "definition": "Parte de la vía destinada a la circulación de vehículos."},
   {"term": "Carpeta asfáltica", "category": "vias", "definition": "Capa superior de un pavimento flexible hecha con mezcla asfáltica."},
-  {"term": "CBR", "category": "vias", "definition": "Relación de soporte de California: ensayo que mide la capacidad de soporte de un suelo o material granular."}
+  {"term": "CBR", "category": "vias", "definition": "Relación de soporte de California: ensayo que mide la capacidad de soporte de un suelo o material granular."},
+  {"term": "Clotoide", "category": "vias", "definition": "Curva de transición cuyo radio varía gradualmente, usada entre tangentes y curvas circulares."},
+  {"term": "ESAL", "category": "vias", "definition": "Número de ejes equivalentes de 8,2 toneladas usado para expresar el tránsito de diseño de un pavimento."}
 ]
