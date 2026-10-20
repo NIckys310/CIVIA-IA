@@ -228,5 +228,7 @@
   {"term": "Asentamiento (slump)", "category": "materiales", "definition": "Medida de la consistencia del concreto fresco con el cono de Abrams."},
   {"term": "Carbonatación", "category": "materiales", "definition": "Reacción del CO₂ con el concreto que reduce su pH y puede despasivar el acero."},
   {"term": "Clínker", "category": "materiales", "definition": "Producto principal de la fabricación del cemento, obtenido al calcinar caliza y arcilla."},
-  {"term": "Concreto autocompactante", "category": "materiales", "definition": "Concreto muy fluido que llena la formaleta sin necesidad de vibrado."}
+  {"term": "Concreto autocompactante", "category": "materiales", "definition": "Concreto muy fluido que llena la formaleta sin necesidad de vibrado."},
+  {"term": "Concreto lanzado", "category": "materiales", "definition": "Concreto proyectado a alta velocidad sobre una superficie (shotcrete)."},
+  {"term": "Curado", "category": "materiales", "definition": "Mantenimiento de la humedad y la temperatura del concreto para que hidrate correctamente."}
 ]
