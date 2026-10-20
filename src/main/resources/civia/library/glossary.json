@@ -146,5 +146,7 @@
   {"term": "Acometida", "category": "hidraulica", "definition": "Conexión entre la red pública y la instalación interna de un predio."},
   {"term": "Aducción", "category": "hidraulica", "definition": "Conducto que lleva el agua cruda desde la captación hasta el desarenador o la planta."},
   {"term": "Borde libre", "category": "hidraulica", "definition": "Altura adicional entre el nivel máximo del agua y la corona de un canal, tanque o presa."},
-  {"term": "Caudal", "category": "hidraulica", "definition": "Volumen de agua que pasa por una sección en la unidad de tiempo; se expresa en L/s o m³/s."}
+  {"term": "Caudal", "category": "hidraulica", "definition": "Volumen de agua que pasa por una sección en la unidad de tiempo; se expresa en L/s o m³/s."},
+  {"term": "Coeficiente de escorrentía", "category": "hidraulica", "definition": "Fracción de la lluvia que se convierte en escorrentía superficial."},
+  {"term": "Cota clave", "category": "hidraulica", "definition": "Nivel de la parte superior interna de una tubería."}
 ]
