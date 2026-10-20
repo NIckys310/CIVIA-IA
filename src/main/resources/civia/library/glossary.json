@@ -196,5 +196,7 @@
   {"term": "Dovela", "category": "puentes", "definition": "Segmento prefabricado o vaciado que forma un arco, un túnel o un puente construido por tramos."},
   {"term": "Losa de aproximación", "category": "puentes", "definition": "Losa que une el terraplén con el tablero para suavizar la transición."},
   {"term": "Pila", "category": "puentes", "definition": "Apoyo intermedio de un puente."},
-  {"term": "Pilono", "category": "puentes", "definition": "Torre de un puente atirantado o colgante que sostiene los cables."}
+  {"term": "Pilono", "category": "puentes", "definition": "Torre de un puente atirantado o colgante que sostiene los cables."},
+  {"term": "Tablero", "category": "puentes", "definition": "Estructura del puente que recibe directamente el tránsito."},
+  {"term": "Torón", "category": "puentes", "definition": "Cable de acero de alta resistencia formado por varios alambres trenzados, usado en preesforzado."}
 ]
