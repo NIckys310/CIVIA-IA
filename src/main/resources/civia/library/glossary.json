@@ -216,5 +216,7 @@
   {"term": "Deriva", "category": "estructuras", "definition": "Desplazamiento horizontal relativo entre dos pisos consecutivos, dividido por la altura de piso."},
   {"term": "Diagrama de interacción", "category": "estructuras", "definition": "Curva que representa las combinaciones de carga axial y momento que resiste una sección."},
   {"term": "Espectro de diseño", "category": "estructuras", "definition": "Gráfica de la aceleración sísmica de diseño en función del periodo de la estructura."},
-  {"term": "Flujo plástico", "category": "estructuras", "definition": "Deformación diferida del concreto bajo carga sostenida en el tiempo."}
+  {"term": "Flujo plástico", "category": "estructuras", "definition": "Deformación diferida del concreto bajo carga sostenida en el tiempo."},
+  {"term": "Longitud de desarrollo", "category": "estructuras", "definition": "Longitud de anclaje que necesita una barra para transmitir su fuerza al concreto."},
+  {"term": "Momento flector", "category": "estructuras", "definition": "Esfuerzo interno que tiende a curvar un elemento estructural."}
 ]
