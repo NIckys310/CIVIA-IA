@@ -246,5 +246,7 @@
   {"term": "Rendimiento", "category": "gestion", "definition": "Cantidad de obra que ejecuta una cuadrilla por unidad de tiempo."},
   {"term": "Ruta crítica", "category": "gestion", "definition": "Secuencia de actividades que determina la duración mínima del proyecto."},
   {"term": "SPI", "category": "gestion", "definition": "Índice de desempeño del cronograma: valor ganado dividido por valor planeado."},
-  {"term": "Valor ganado", "category": "gestion", "definition": "Costo presupuestado del trabajo realmente ejecutado a una fecha."}
+  {"term": "Valor ganado", "category": "gestion", "definition": "Costo presupuestado del trabajo realmente ejecutado a una fecha."},
+  {"term": "BCF", "category": "bim", "definition": "Formato abierto para comunicar incidencias y comentarios sobre modelos BIM."},
+  {"term": "BEP", "category": "bim", "definition": "Plan de ejecución BIM que define usos, roles, entregables y estándares de un proyecto."}
 ]
