@@ -200,5 +200,7 @@
   {"term": "Tablero", "category": "puentes", "definition": "Estructura del puente que recibe directamente el tránsito."},
   {"term": "Torón", "category": "puentes", "definition": "Cable de acero de alta resistencia formado por varios alambres trenzados, usado en preesforzado."},
   {"term": "Vertedero", "category": "puentes", "definition": "Estructura que permite evacuar los excesos de agua de un embalse o canal."},
-  {"term": "Voladizos sucesivos", "category": "puentes", "definition": "Método constructivo de puentes que avanza simétricamente desde las pilas por segmentos."}
+  {"term": "Voladizos sucesivos", "category": "puentes", "definition": "Método constructivo de puentes que avanza simétricamente desde las pilas por segmentos."},
+  {"term": "ATS", "category": "seguridad", "definition": "Análisis de trabajo seguro: identificación de los pasos, peligros y controles de una tarea antes de hacerla."},
+  {"term": "Arnés de cuerpo completo", "category": "seguridad", "definition": "Equipo que distribuye las fuerzas de una caída en muslos, pelvis, pecho y hombros."}
 ]
