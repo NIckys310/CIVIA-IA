@@ -702,5 +702,13 @@
     "summary": "Amenaza, vulnerabilidad y riesgo; estudios de detalle, zonas de alto riesgo y medidas de mitigación.",
     "tags": ["gestión del riesgo", "amenaza", "vulnerabilidad", "inundación", "remoción en masa", "sismo", "POT", "estudios de detalle"],
     "body": "## Conceptos\n- **Amenaza**: probabilidad de que ocurra un fenómeno peligroso (sismo, inundación, deslizamiento, avenida torrencial).\n- **Vulnerabilidad**: susceptibilidad de las personas y los bienes a sufrir daño.\n- **Riesgo** = amenaza × vulnerabilidad × exposición.\n\n## En el ordenamiento territorial\nLos planes de ordenamiento identifican zonas de amenaza alta, media y baja, y zonas de **riesgo no mitigable** (donde no se debe construir). En zonas con condición de riesgo, se exigen **estudios de detalle** antes de licenciar.\n\n## Medidas\n- **Estructurales**: obras de drenaje, estabilización de taludes, diques, reforzamiento sísmico.\n- **No estructurales**: normativa, sistemas de alerta temprana, educación, planes de emergencia, seguros, reasentamiento de familias en zonas no mitigables.\n\n## Para el proyecto\nConsultar los mapas oficiales de amenazas del municipio, las rondas hídricas y los requisitos de estudios antes de comprar o diseñar."
+  },
+  {
+    "slug": "energia-solar-fotovoltaica",
+    "category": "instalaciones",
+    "title": "Energía solar fotovoltaica en edificaciones",
+    "summary": "Componentes de un sistema fotovoltaico, dimensionamiento básico, conexión a la red y mantenimiento.",
+    "tags": ["energía solar", "fotovoltaica", "paneles solares", "inversor", "autogeneración", "kWp", "HSP", "net metering"],
+    "body": "## Componentes\nMódulos fotovoltaicos, estructura de soporte, **inversor** (de cadena o microinversores), protecciones, medidor bidireccional y, en sistemas aislados, **baterías** con su regulador.\n\n## Dimensionamiento básico\n- Consumo mensual (kWh) de las facturas.\n- **Horas solares pico (HSP)** del sitio (≈ 3,5–5,5 en buena parte de Colombia, según la región).\n- Potencia aproximada: kWp ≈ consumo diario (kWh) / (HSP × eficiencia del sistema ≈ 0,75–0,8).\n- Ejemplo: 300 kWh/mes ≈ 10 kWh/día; con 4,5 HSP → ≈ 10 / (4,5 × 0,78) ≈ 2,8 kWp (unos 5–6 paneles de 500–550 W).\n\n## Aspectos de diseño\nOrientación e inclinación (en latitudes bajas, inclinación pequeña pero suficiente para autolimpieza), sombras, capacidad estructural de la cubierta, impermeabilización de los anclajes y trámite de conexión con el operador de red según la regulación de autogeneración.\n\n## Mantenimiento\nLimpieza periódica de los módulos, revisión de conexiones y monitoreo de la producción."
   }
 ]
