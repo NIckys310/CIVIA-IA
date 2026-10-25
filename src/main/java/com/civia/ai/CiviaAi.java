@@ -4,6 +4,8 @@ import com.civia.ai.assistant.ArchitectAssistant;
 import com.civia.ai.assistant.ProjectAdvisor;
 import com.civia.ai.library.KnowledgeBase;
 import com.civia.ai.llm.ClaudeProvider;
+import com.civia.ai.llm.FallbackProvider;
+import com.civia.ai.llm.OpenAiCompatibleProvider;
 import com.civia.ai.llm.LlmProvider;
 import com.civia.ai.models.MassingAdvisor;
 import com.civia.ai.models.ModelAnalyzer;
@@ -12,8 +14,11 @@ import java.util.Collection;
 import java.util.Optional;
 
 /**
- * Punto de entrada de la capa de IA. Sin {@code ANTHROPIC_API_KEY} todo funciona con el motor
- * local; con la clave, el asistente y los analizadores usan Claude y caen al motor local si falla.
+ * Punto de entrada de la capa de IA. Sin claves todo funciona con el motor local. Con claves, el
+ * asistente y los analizadores usan los proveedores configurados en este orden y caen al
+ * siguiente (y por último al motor local) si uno falla o agota su cuota:
+ * Claude ({@code ANTHROPIC_API_KEY}) → Groq ({@code GROQ_API_KEY}) → Cerebras
+ * ({@code CEREBRAS_API_KEY}) → OpenRouter ({@code OPENROUTER_API_KEY}).
  */
 public final class CiviaAi {
 
@@ -33,9 +38,14 @@ public final class CiviaAi {
         this.modelAnalyzer = new ModelAnalyzer(llm);
     }
 
-    /** Configuración desde el entorno: {@code ANTHROPIC_API_KEY} y {@code CIVIA_AI_MODEL}. */
+    /** Configuración desde el entorno (ver la descripción de la clase). */
     public static CiviaAi create(String apiKey, String model) {
-        return new CiviaAi(ClaudeProvider.fromEnvironment(apiKey, model).map(p -> p));
+        java.util.List<LlmProvider> chain = new java.util.ArrayList<>();
+        ClaudeProvider.fromEnvironment(apiKey, model).ifPresent(chain::add);
+        OpenAiCompatibleProvider.groq().ifPresent(chain::add);
+        OpenAiCompatibleProvider.cerebras().ifPresent(chain::add);
+        OpenAiCompatibleProvider.openRouter().ifPresent(chain::add);
+        return new CiviaAi(FallbackProvider.of(chain));
     }
 
     public String engineName() {
