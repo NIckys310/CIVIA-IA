@@ -74,11 +74,13 @@ public final class OpenAiCompatibleProvider implements LlmProvider {
         String key = System.getenv(keyVar);
         if (key == null || key.isBlank()) return Optional.empty();
         String model = Optional.ofNullable(System.getenv(modelVar)).filter(s -> !s.isBlank()).orElse(defaultModel);
-        int maxTokens = parseInt(System.getenv("CIVIA_LLM_MAX_TOKENS"), 2_048);
-        return Optional.of(new OpenAiCompatibleProvider(label, baseUrl, key.strip(), model, maxTokens, effort(System.getenv("CIVIA_AI_EFFORT"))));
+        int maxTokens = parseInt(System.getenv("CIVIA_LLM_MAX_TOKENS"), 3_072);
+        // Variable propia (no CIVIA_AI_EFFORT, que es de Claude): en los planes gratuitos el razonamiento
+        // cuenta para el límite de tokens por minuto y, si es muy alto, puede dejar la respuesta vacía.
+        return Optional.of(new OpenAiCompatibleProvider(label, baseUrl, key.strip(), model, maxTokens, effort(System.getenv("CIVIA_LLM_EFFORT"))));
     }
 
-    /** Los modelos gpt-oss aceptan low, medium o high; xhigh y max se tratan como high. */
+    /** Los modelos gpt-oss aceptan low, medium (por defecto) o high; xhigh y max se tratan como high. */
     static String effort(String value) {
         if (value == null || value.isBlank()) return "medium";
         return switch (value.strip().toLowerCase()) {
