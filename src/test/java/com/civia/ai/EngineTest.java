@@ -116,6 +116,31 @@ class EngineTest {
     }
 
     @Test
+    void massingHonoursRequestedFloorsWithoutLimit() {
+        var p = ai.massing().propose(new MassingAdvisor.MassingInput(20, 30, 0.6, 4, 3, 3, 0, 2.9, 0, 120));
+        assertEquals(120, p.floors());
+        assertTrue(p.exceedsNorm());
+        assertTrue(p.normFloors() < 120);
+        assertTrue(p.notes().stream().anyMatch(n -> n.title().contains("exceso")));
+        assertTrue(p.notes().stream().anyMatch(n -> n.title().contains("altura")));
+    }
+
+    @Test
+    void massingWithoutRequestedFloorsUsesNorm() {
+        var p = ai.massing().propose(new MassingAdvisor.MassingInput(20, 30, 0.6, 4, 3, 3, 0, 2.9, 0, 0));
+        assertEquals(p.normFloors(), p.floors());
+        assertFalse(p.exceedsNorm());
+        var capped = ai.massing().propose(new MassingAdvisor.MassingInput(20, 30, 0.6, 4, 3, 3, 0, 2.9, 3, 0));
+        assertEquals(3, capped.floors());
+    }
+
+    @Test
+    void massingClampsOnlyAtTechnicalCeiling() {
+        var p = ai.massing().propose(new MassingAdvisor.MassingInput(20, 30, 0.6, 4, 3, 3, 0, 2.9, 0, 5000));
+        assertEquals(MassingAdvisor.MAX_FLOORS, p.floors());
+    }
+
+    @Test
     void projectAdvisorAsksForPlans() {
         var recs = ai.projects().review(new ProjectAdvisor.ProjectSnapshot("Casa", "vivienda", "diseño", null, 2, null,
                 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, List.of()));
