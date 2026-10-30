@@ -138,7 +138,7 @@ public final class EngineeringCalculators {
                 Value.of("Límite de deflexión", limit, "mm", 1),
                 Value.of("Esfuerzo de flexión", sigma, "MPa", 2),
                 Value.of("Peralte mínimo ACI", hMin, "m", 2),
-                Value.of("Inercia", I * 1e8, "cm⁴ ×10⁴", 2)),
+                Value.of("Inercia", I * 1e8, "cm⁴", 0)),
                 steps, warnings, "ACI 318-19 tabla 9.3.1.1 · resistencia de materiales (Gere)");
     }
 
