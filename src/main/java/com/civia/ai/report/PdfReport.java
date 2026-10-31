@@ -66,7 +66,8 @@ public final class PdfReport {
 
     /** Título de sección con una línea dorada debajo. */
     public PdfReport heading(String text) {
-        ensure(46);
+        // Un título nunca queda solo al pie de la página: necesita espacio para algo de contenido.
+        ensure(130);
         y -= 18;
         write(bold, 13.5f, INK, MARGIN, y, clean(text));
         y -= 7;
