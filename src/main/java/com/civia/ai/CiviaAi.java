@@ -2,6 +2,7 @@ package com.civia.ai;
 
 import com.civia.ai.assistant.ArchitectAssistant;
 import com.civia.ai.assistant.ProjectAdvisor;
+import com.civia.ai.calc.EngineeringCalculators;
 import com.civia.ai.library.KnowledgeBase;
 import com.civia.ai.llm.ClaudeProvider;
 import com.civia.ai.llm.FallbackProvider;
@@ -29,6 +30,7 @@ public final class CiviaAi {
     private final ModelAnalyzer modelAnalyzer;
     private final MassingAdvisor massingAdvisor = new MassingAdvisor();
     private final ProjectAdvisor projectAdvisor = new ProjectAdvisor();
+    private final EngineeringCalculators calculators = new EngineeringCalculators();
 
     public CiviaAi(Optional<LlmProvider> llm) {
         this.llm = llm;
@@ -81,6 +83,11 @@ public final class CiviaAi {
 
     public MassingAdvisor massing() {
         return massingAdvisor;
+    }
+
+    /** Calculadoras de ingeniería civil (predimensionamiento con pasos y avisos). */
+    public EngineeringCalculators calculators() {
+        return calculators;
     }
 
     public ProjectAdvisor projects() {
