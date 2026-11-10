@@ -13,6 +13,22 @@ import org.junit.jupiter.api.Test;
 /** Valores verificados a mano con las fórmulas de cada calculadora. */
 class EngineeringCalculatorsTest {
 
+    @Test
+    void seismicSpectrumMatchesThePublishedExample() {
+        Result r = new EngineeringCalculators().run("sismo-nsr10", Map.of("Aa", 0.15, "Av", 0.20, "Fa", 1.5, "Fv", 2.0, "I", 1.25, "sistema", 1.0, "h", 12.0, "W", 1000.0));
+        assertEquals(0.853, value(r, "Período corto Tc"), 0.001);
+        assertEquals(4.8, value(r, "Período largo TL"), 0.001);
+        assertEquals(0.703, value(r, "Aceleración espectral Sa"), 0.001);
+        assertEquals(703, value(r, "Cortante basal Vs"), 1);
+    }
+
+    @Test
+    void seismicSpectrumDecaysAfterTheShortPeriod() {
+        Result r = new EngineeringCalculators().run("sismo-nsr10", Map.of("Aa", 0.25, "Av", 0.25, "Fa", 1.2, "Fv", 1.6, "I", 1.0, "sistema", 1.0, "h", 60.0, "W", 1000.0));
+        double period = value(r, "Período aproximado Ta");
+        assertEquals(1.2 * 0.25 * 1.6 / period, value(r, "Aceleración espectral Sa"), 0.001);
+    }
+
     private final EngineeringCalculators calc = new EngineeringCalculators();
 
     private static double value(Result r, String label) {
@@ -21,7 +37,7 @@ class EngineeringCalculatorsTest {
 
     @Test
     void catalogListsTenCalculatorsWithFields() {
-        assertEquals(10, calc.catalog().size());
+        assertEquals(11, calc.catalog().size());
         calc.catalog().forEach(d -> assertFalse(d.fields().isEmpty(), d.id()));
     }
 
