@@ -38,6 +38,7 @@ public final class EngineeringCalculators {
         register(columnDefinition(), this::column);
         register(footingDefinition(), this::footing);
         register(slabDefinition(), this::slab);
+        register(seismicDefinition(), this::seismic);
         register(stairDefinition(), this::stair);
         register(rationalDefinition(), this::rational);
         register(manningDefinition(), this::manning);
@@ -254,6 +255,66 @@ public final class EngineeringCalculators {
                 Value.main("Espesor mínimo", hRounded, "m", 2),
                 Value.of("Peso propio", weight, "kN/m²", 2)),
                 steps, warnings, "ACI 318-19 tabla 7.3.1.1 · NSR-10 C.9.5");
+    }
+
+    // ------------------------------------------------------------------ sismo NSR-10
+
+    private static final double[][] PERIOD_COEFFICIENTS = {{0.047, 0.9}, {0.072, 0.8}, {0.073, 0.75}, {0.049, 0.75}};
+
+    private static Definition seismicDefinition() {
+        return new Definition("sismo-nsr10", "Estructuras", "Espectro sísmico y cortante basal (NSR-10)",
+                "Espectro elástico de diseño, período aproximado y fuerza horizontal equivalente según el Título A.", "target", List.of(
+                number("Aa", "Coeficiente Aa", "", 0.25, 0.05, 0.50, 0.05, "Apéndice A-4 de la NSR-10, según el municipio"),
+                number("Av", "Coeficiente Av", "", 0.25, 0.05, 0.50, 0.05, "Apéndice A-4 de la NSR-10, según el municipio"),
+                number("Fa", "Coeficiente de sitio Fa", "", 1.2, 0.8, 2.5, 0.05, "Tabla A.2.4-3, según perfil de suelo y Aa"),
+                number("Fv", "Coeficiente de sitio Fv", "", 1.6, 0.8, 3.5, 0.05, "Tabla A.2.4-4, según perfil de suelo y Av"),
+                choice("I", "Grupo de uso (coeficiente I)", 1, "Tabla A.2.5-1",
+                        new Option(1, "I · normal (1,00)"), new Option(1.1, "II · ocupación especial (1,10)"),
+                        new Option(1.25, "III · atención a la comunidad (1,25)"), new Option(1.5, "IV · indispensable (1,50)")),
+                choice("sistema", "Sistema estructural", 1, "Define Ct y α de la tabla A.4.2-1",
+                        new Option(1, "Pórticos de concreto a momento"), new Option(2, "Pórticos de acero a momento"),
+                        new Option(3, "Pórticos de acero con diagonales excéntricas"), new Option(4, "Otros sistemas")),
+                number("h", "Altura de la edificación", "m", 15, 2, 300, 0.5, "Desde la base hasta la cubierta"),
+                number("W", "Peso sísmico total", "kN", 10000, 10, 5000000, 10, "Carga muerta más las fracciones que indica la norma")));
+    }
+
+    private Result seismic(Map<String, Double> in) {
+        double Aa = in.get("Aa"), Av = in.get("Av"), Fa = in.get("Fa"), Fv = in.get("Fv"), I = in.get("I"), h = in.get("h"), W = in.get("W");
+        double[] coefficients = PERIOD_COEFFICIENTS[(int) Math.round(in.get("sistema")) - 1];
+        double Ta = coefficients[0] * Math.pow(h, coefficients[1]);
+        double Tc = 0.48 * Av * Fv / (Aa * Fa);
+        double TL = 2.4 * Fv;
+        double plateau = 2.5 * Aa * Fa * I;
+        String branch;
+        double Sa;
+        if (Ta <= Tc) {
+            Sa = plateau;
+            branch = "T ≤ Tc: Sa = 2,5·Aa·Fa·I";
+        } else if (Ta <= TL) {
+            Sa = 1.2 * Av * Fv * I / Ta;
+            branch = "Tc < T ≤ TL: Sa = 1,2·Av·Fv·I / T";
+        } else {
+            Sa = 1.2 * Av * Fv * TL * I / (Ta * Ta);
+            branch = "T > TL: Sa = 1,2·Av·Fv·TL·I / T²";
+        }
+        double Vs = Sa * W;
+        List<String> steps = List.of(
+                "Período aproximado: Ta = Ct·h^α = " + fmt3(coefficients[0]) + " × " + fmt(h) + "^" + fmt(coefficients[1]) + " = " + fmt3(Ta) + " s",
+                "Tc = 0,48·Av·Fv / (Aa·Fa) = " + fmt3(Tc) + " s",
+                "TL = 2,4·Fv = " + fmt(TL) + " s",
+                branch + " = " + fmt3(Sa) + " g",
+                "Cortante basal: Vs = Sa·W = " + fmt(Vs) + " kN");
+        List<String> warnings = new ArrayList<>();
+        warnings.add("Confirma Aa, Av, Fa, Fv y los coeficientes de la tabla A.4.2-1 en la NSR-10 vigente para tu municipio y perfil de suelo.");
+        warnings.add("Es la demanda elástica: no incluye el coeficiente de capacidad de disipación R ni el análisis de derivas.");
+        return new Result("sismo-nsr10", "Espectro sísmico y cortante basal (NSR-10)", in, List.of(
+                Value.main("Aceleración espectral Sa", Sa, "g", 3),
+                Value.main("Cortante basal Vs", Vs, "kN", 0),
+                Value.of("Período aproximado Ta", Ta, "s", 3),
+                Value.of("Período corto Tc", Tc, "s", 3),
+                Value.of("Período largo TL", TL, "s", 2),
+                Value.of("Meseta del espectro", plateau, "g", 3)),
+                steps, warnings, "NSR-10 Título A, A.2.6 y A.4.2");
     }
 
     // ------------------------------------------------------------------ escalera
